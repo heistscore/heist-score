@@ -1,2561 +1,2926 @@
 {
   "season": 2026,
-  "updated_at": "2026-02-13T05:11:56.757Z",
+  "updated_at": "2026-02-13T05:53:36.872Z",
   "teams": [
     {
       "team": "Abilene Christian",
       "ORpct": 32.2493,
       "DRpct": 30.8362,
       "DefTOpct": 23.3316,
-      "OffTOpct": 20.4675
+      "OffTOpct": 20.4675,
+      "eFGpct": 47.1343
     },
     {
       "team": "Air Force",
       "ORpct": 22.0493,
       "DRpct": 31.3472,
       "DefTOpct": 15.6729,
-      "OffTOpct": 22.5764
+      "OffTOpct": 22.5764,
+      "eFGpct": 49.5029
     },
     {
       "team": "Akron",
       "ORpct": 33.882,
       "DRpct": 32.1951,
       "DefTOpct": 18.5132,
-      "OffTOpct": 15.4595
+      "OffTOpct": 15.4595,
+      "eFGpct": 58.4527
     },
     {
       "team": "Alabama",
       "ORpct": 31.4559,
       "DRpct": 32.7837,
       "DefTOpct": 12.4134,
-      "OffTOpct": 12.9651
+      "OffTOpct": 12.9651,
+      "eFGpct": 55.072
     },
     {
       "team": "Alabama A&M",
       "ORpct": 27.1233,
       "DRpct": 29.2308,
       "DefTOpct": 16.9646,
-      "OffTOpct": 17.1048
+      "OffTOpct": 17.1048,
+      "eFGpct": 47.5524
     },
     {
       "team": "Alabama St.",
       "ORpct": 32.2543,
       "DRpct": 33.8501,
       "DefTOpct": 19.4071,
-      "OffTOpct": 19.2855
+      "OffTOpct": 19.2855,
+      "eFGpct": 47.1636
     },
     {
       "team": "Albany",
       "ORpct": 31.4888,
       "DRpct": 33.5694,
       "DefTOpct": 16.1634,
-      "OffTOpct": 18.2181
+      "OffTOpct": 18.2181,
+      "eFGpct": 50.1171
     },
     {
       "team": "Alcorn St.",
       "ORpct": 27.4534,
       "DRpct": 37.1389,
       "DefTOpct": 18.1545,
-      "OffTOpct": 20.3456
+      "OffTOpct": 20.3456,
+      "eFGpct": 48.7934
     },
     {
       "team": "American",
       "ORpct": 26.6908,
       "DRpct": 30.563,
       "DefTOpct": 19.0726,
-      "OffTOpct": 16.5419
+      "OffTOpct": 16.5419,
+      "eFGpct": 51.2545
     },
     {
       "team": "Appalachian St.",
       "ORpct": 30.9795,
       "DRpct": 28.8154,
       "DefTOpct": 14.2905,
-      "OffTOpct": 15.1642
+      "OffTOpct": 15.1642,
+      "eFGpct": 50.0718
     },
     {
       "team": "Arizona",
       "ORpct": 39.4802,
       "DRpct": 25.6566,
       "DefTOpct": 17.8485,
-      "OffTOpct": 15.8022
+      "OffTOpct": 15.8022,
+      "eFGpct": 55.9612
     },
     {
       "team": "Arizona St.",
       "ORpct": 30.5492,
       "DRpct": 34.186,
       "DefTOpct": 19.1019,
-      "OffTOpct": 16.0119
+      "OffTOpct": 16.0119,
+      "eFGpct": 51.4576
     },
     {
       "team": "Arkansas",
       "ORpct": 32.4691,
       "DRpct": 31.573,
       "DefTOpct": 16.4691,
-      "OffTOpct": 12.9113
+      "OffTOpct": 12.9113,
+      "eFGpct": 56.6997
     },
     {
       "team": "Arkansas Pine Bluff",
       "ORpct": 27.5995,
       "DRpct": 34.8226,
       "DefTOpct": 15.9927,
-      "OffTOpct": 19.1286
+      "OffTOpct": 19.1286,
+      "eFGpct": 49.6462
     },
     {
       "team": "Arkansas St.",
       "ORpct": 37.8319,
       "DRpct": 26.6515,
       "DefTOpct": 15.538,
-      "OffTOpct": 19.6928
+      "OffTOpct": 19.6928,
+      "eFGpct": 51.2399
     },
     {
       "team": "Army",
       "ORpct": 29.3598,
       "DRpct": 27.9597,
       "DefTOpct": 15.0414,
-      "OffTOpct": 16.8002
+      "OffTOpct": 16.8002,
+      "eFGpct": 49.4456
     },
     {
       "team": "Auburn",
       "ORpct": 38.3079,
       "DRpct": 31.8348,
       "DefTOpct": 17.2212,
-      "OffTOpct": 14.3806
+      "OffTOpct": 14.3806,
+      "eFGpct": 52.7682
     },
     {
       "team": "Austin Peay",
       "ORpct": 28.7371,
       "DRpct": 29.7436,
       "DefTOpct": 19.3093,
-      "OffTOpct": 15.4345
+      "OffTOpct": 15.4345,
+      "eFGpct": 52.7905
     },
     {
       "team": "Ball St.",
       "ORpct": 27.2956,
       "DRpct": 32.1856,
       "DefTOpct": 19.1521,
-      "OffTOpct": 16.7145
+      "OffTOpct": 16.7145,
+      "eFGpct": 45.9723
     },
     {
       "team": "Baylor",
       "ORpct": 37.1827,
       "DRpct": 32.6241,
       "DefTOpct": 15.5625,
-      "OffTOpct": 16.6165
+      "OffTOpct": 16.6165,
+      "eFGpct": 54.396
     },
     {
       "team": "Bellarmine",
       "ORpct": 21.1094,
       "DRpct": 34.1823,
       "DefTOpct": 14.9561,
-      "OffTOpct": 16.0567
+      "OffTOpct": 16.0567,
+      "eFGpct": 59.1019
     },
     {
       "team": "Belmont",
       "ORpct": 29.3601,
       "DRpct": 29.8193,
       "DefTOpct": 17.5695,
-      "OffTOpct": 18.7118
+      "OffTOpct": 18.7118,
+      "eFGpct": 61.1148
     },
     {
       "team": "Bethune Cookman",
       "ORpct": 29.1415,
       "DRpct": 31.4554,
       "DefTOpct": 15.8145,
-      "OffTOpct": 18.4703
+      "OffTOpct": 18.4703,
+      "eFGpct": 50.0375
     },
     {
       "team": "Binghamton",
       "ORpct": 21.7096,
       "DRpct": 28.8832,
       "DefTOpct": 12.9197,
-      "OffTOpct": 19.2172
+      "OffTOpct": 19.2172,
+      "eFGpct": 47.5786
     },
     {
       "team": "Boise St.",
       "ORpct": 31.5202,
       "DRpct": 23.9612,
       "DefTOpct": 15.5601,
-      "OffTOpct": 16.6062
+      "OffTOpct": 16.6062,
+      "eFGpct": 51.8876
     },
     {
       "team": "Boston College",
       "ORpct": 27.4834,
       "DRpct": 28.6996,
       "DefTOpct": 15.394,
-      "OffTOpct": 15.4555
+      "OffTOpct": 15.4555,
+      "eFGpct": 46.8123
     },
     {
       "team": "Boston University",
       "ORpct": 27.4026,
       "DRpct": 27.0833,
       "DefTOpct": 13.3852,
-      "OffTOpct": 17.6057
+      "OffTOpct": 17.6057,
+      "eFGpct": 56.7965
     },
     {
       "team": "Bowling Green",
       "ORpct": 29.3493,
       "DRpct": 27.2363,
       "DefTOpct": 19.6842,
-      "OffTOpct": 17.4327
+      "OffTOpct": 17.4327,
+      "eFGpct": 52.0108
     },
     {
       "team": "Bradley",
       "ORpct": 27.115,
       "DRpct": 28.9044,
       "DefTOpct": 19.891,
-      "OffTOpct": 13.8322
+      "OffTOpct": 13.8322,
+      "eFGpct": 50.8005
     },
     {
       "team": "Brown",
       "ORpct": 28.9398,
       "DRpct": 29.2379,
       "DefTOpct": 18.2111,
-      "OffTOpct": 18.2885
+      "OffTOpct": 18.2885,
+      "eFGpct": 47.1749
     },
     {
       "team": "Bryant",
       "ORpct": 28.4289,
       "DRpct": 32.0102,
       "DefTOpct": 14.7344,
-      "OffTOpct": 20.6682
+      "OffTOpct": 20.6682,
+      "eFGpct": 46.1631
     },
     {
       "team": "Bucknell",
       "ORpct": 26.4151,
       "DRpct": 31.2352,
       "DefTOpct": 17.7656,
-      "OffTOpct": 19.18
+      "OffTOpct": 19.18,
+      "eFGpct": 47.7632
     },
     {
       "team": "Buffalo",
       "ORpct": 27.9627,
       "DRpct": 31.0026,
       "DefTOpct": 17.6097,
-      "OffTOpct": 16.265
+      "OffTOpct": 16.265,
+      "eFGpct": 55.6477
     },
     {
       "team": "Butler",
       "ORpct": 35.7778,
       "DRpct": 30.8952,
       "DefTOpct": 15.5271,
-      "OffTOpct": 16.1437
+      "OffTOpct": 16.1437,
+      "eFGpct": 51.7893
     },
     {
       "team": "BYU",
       "ORpct": 35.3972,
       "DRpct": 28.7625,
       "DefTOpct": 16.4131,
-      "OffTOpct": 14.7718
+      "OffTOpct": 14.7718,
+      "eFGpct": 55.6848
     },
     {
       "team": "Cal Baptist",
       "ORpct": 38.7378,
       "DRpct": 26.5033,
       "DefTOpct": 16.526,
-      "OffTOpct": 18.3363
+      "OffTOpct": 18.3363,
+      "eFGpct": 48.3085
     },
     {
       "team": "Cal Poly",
-      "ORpct": 30.2243,
-      "DRpct": 30.6604,
-      "DefTOpct": 16.6403,
-      "OffTOpct": 21.2563
+      "ORpct": 30.6397,
+      "DRpct": 30.5028,
+      "DefTOpct": 16.845,
+      "OffTOpct": 21.4787,
+      "eFGpct": 51.5007
     },
     {
       "team": "Cal St. Bakersfield",
       "ORpct": 32.2072,
       "DRpct": 36.3318,
       "DefTOpct": 18.132,
-      "OffTOpct": 19.643
+      "OffTOpct": 19.643,
+      "eFGpct": 45.3571
     },
     {
       "team": "Cal St. Fullerton",
-      "ORpct": 25.1131,
-      "DRpct": 29.4335,
-      "DefTOpct": 19.6462,
-      "OffTOpct": 15.4649
+      "ORpct": 25.3536,
+      "DRpct": 28.8783,
+      "DefTOpct": 19.6695,
+      "OffTOpct": 15.384,
+      "eFGpct": 50.7392
     },
     {
       "team": "California",
       "ORpct": 25.7353,
       "DRpct": 30.5463,
       "DefTOpct": 15.7374,
-      "OffTOpct": 15.2009
+      "OffTOpct": 15.2009,
+      "eFGpct": 52.7536
     },
     {
       "team": "Campbell",
       "ORpct": 32.5581,
       "DRpct": 31.2242,
       "DefTOpct": 17.335,
-      "OffTOpct": 18.1925
+      "OffTOpct": 18.1925,
+      "eFGpct": 50.4532
     },
     {
       "team": "Canisius",
       "ORpct": 29.7041,
       "DRpct": 30.4799,
       "DefTOpct": 16.6289,
-      "OffTOpct": 19.5938
+      "OffTOpct": 19.5938,
+      "eFGpct": 46.1923
     },
     {
       "team": "Central Arkansas",
       "ORpct": 28.2139,
       "DRpct": 26.99,
       "DefTOpct": 19.0755,
-      "OffTOpct": 15.6988
+      "OffTOpct": 15.6988,
+      "eFGpct": 53.3904
     },
     {
       "team": "Central Connecticut",
       "ORpct": 27.3504,
       "DRpct": 30.7792,
       "DefTOpct": 14.1293,
-      "OffTOpct": 16.4727
+      "OffTOpct": 16.4727,
+      "eFGpct": 52.3457
     },
     {
       "team": "Central Michigan",
       "ORpct": 28.836,
       "DRpct": 34.5157,
       "DefTOpct": 16.0013,
-      "OffTOpct": 17.8604
+      "OffTOpct": 17.8604,
+      "eFGpct": 50.7886
     },
     {
       "team": "Charleston",
       "ORpct": 29.7921,
       "DRpct": 31.3824,
       "DefTOpct": 14.1784,
-      "OffTOpct": 16.2937
+      "OffTOpct": 16.2937,
+      "eFGpct": 50.5237
     },
     {
       "team": "Charleston Southern",
       "ORpct": 30.8126,
       "DRpct": 29.6178,
       "DefTOpct": 12.716,
-      "OffTOpct": 18.899
+      "OffTOpct": 18.899,
+      "eFGpct": 53.3402
     },
     {
       "team": "Charlotte",
       "ORpct": 35.0267,
       "DRpct": 31.9641,
       "DefTOpct": 14.6353,
-      "OffTOpct": 18.4937
+      "OffTOpct": 18.4937,
+      "eFGpct": 53.115
     },
     {
       "team": "Chattanooga",
       "ORpct": 20.9396,
       "DRpct": 31.6121,
       "DefTOpct": 13.932,
-      "OffTOpct": 15.0285
+      "OffTOpct": 15.0285,
+      "eFGpct": 51.9261
     },
     {
       "team": "Chicago St.",
       "ORpct": 28.6192,
       "DRpct": 35.2713,
       "DefTOpct": 20.0271,
-      "OffTOpct": 16.1896
+      "OffTOpct": 16.1896,
+      "eFGpct": 45.066
     },
     {
       "team": "Cincinnati",
       "ORpct": 30.5494,
       "DRpct": 26.0967,
       "DefTOpct": 18.8064,
-      "OffTOpct": 17.7204
+      "OffTOpct": 17.7204,
+      "eFGpct": 49.8342
     },
     {
       "team": "Clemson",
       "ORpct": 29.2232,
       "DRpct": 25.0863,
       "DefTOpct": 17.7616,
-      "OffTOpct": 14.9318
+      "OffTOpct": 14.9318,
+      "eFGpct": 53.8599
     },
     {
       "team": "Cleveland St.",
       "ORpct": 28.8538,
       "DRpct": 38.1068,
       "DefTOpct": 14.5805,
-      "OffTOpct": 18.5626
+      "OffTOpct": 18.5626,
+      "eFGpct": 53.876
     },
     {
       "team": "Coastal Carolina",
       "ORpct": 26.3211,
       "DRpct": 27.5629,
       "DefTOpct": 12.641,
-      "OffTOpct": 15.596
+      "OffTOpct": 15.596,
+      "eFGpct": 48.212
     },
     {
       "team": "Colgate",
       "ORpct": 27.3183,
       "DRpct": 29.8329,
       "DefTOpct": 16.2702,
-      "OffTOpct": 15.1167
+      "OffTOpct": 15.1167,
+      "eFGpct": 53.3545
     },
     {
       "team": "Colorado",
       "ORpct": 30.5263,
       "DRpct": 29.8021,
       "DefTOpct": 15.5118,
-      "OffTOpct": 14.4242
+      "OffTOpct": 14.4242,
+      "eFGpct": 53.1187
     },
     {
       "team": "Colorado St.",
       "ORpct": 31.3901,
       "DRpct": 27.7333,
       "DefTOpct": 15.1867,
-      "OffTOpct": 18.728
+      "OffTOpct": 18.728,
+      "eFGpct": 57.702
     },
     {
       "team": "Columbia",
       "ORpct": 36.5672,
       "DRpct": 27.7778,
       "DefTOpct": 14.2096,
-      "OffTOpct": 19.8206
+      "OffTOpct": 19.8206,
+      "eFGpct": 54.2979
     },
     {
       "team": "Connecticut",
       "ORpct": 35.2509,
       "DRpct": 28.9444,
       "DefTOpct": 18.6585,
-      "OffTOpct": 16.4599
+      "OffTOpct": 16.4599,
+      "eFGpct": 56.288
     },
     {
       "team": "Coppin St.",
       "ORpct": 30.1734,
       "DRpct": 35.7513,
       "DefTOpct": 17.2967,
-      "OffTOpct": 22.6832
+      "OffTOpct": 22.6832,
+      "eFGpct": 45.4545
     },
     {
       "team": "Cornell",
       "ORpct": 29.6923,
       "DRpct": 30.3406,
       "DefTOpct": 15.6098,
-      "OffTOpct": 16.2542
+      "OffTOpct": 16.2542,
+      "eFGpct": 58.609
     },
     {
       "team": "Creighton",
       "ORpct": 28.6905,
       "DRpct": 31.5904,
       "DefTOpct": 14.2777,
-      "OffTOpct": 16.6768
+      "OffTOpct": 16.6768,
+      "eFGpct": 54.5085
     },
     {
       "team": "CSUN",
       "ORpct": 32.1016,
       "DRpct": 26.0417,
       "DefTOpct": 15.9638,
-      "OffTOpct": 18.0962
+      "OffTOpct": 18.0962,
+      "eFGpct": 52.1635
     },
     {
       "team": "Dartmouth",
       "ORpct": 25.4237,
       "DRpct": 30.7801,
       "DefTOpct": 13.7271,
-      "OffTOpct": 17.9741
+      "OffTOpct": 17.9741,
+      "eFGpct": 52.343
     },
     {
       "team": "Davidson",
       "ORpct": 29.726,
       "DRpct": 31.4246,
       "DefTOpct": 18.0339,
-      "OffTOpct": 16.2864
+      "OffTOpct": 16.2864,
+      "eFGpct": 53.9056
     },
     {
       "team": "Dayton",
       "ORpct": 26.8323,
       "DRpct": 31.1971,
       "DefTOpct": 22.4711,
-      "OffTOpct": 17.163
+      "OffTOpct": 17.163,
+      "eFGpct": 51.3636
     },
     {
       "team": "Delaware",
       "ORpct": 22.0144,
       "DRpct": 30.397,
       "DefTOpct": 14.2673,
-      "OffTOpct": 18.6881
+      "OffTOpct": 18.6881,
+      "eFGpct": 53.1146
     },
     {
       "team": "Delaware St.",
       "ORpct": 26.1765,
       "DRpct": 30.8642,
       "DefTOpct": 20.2647,
-      "OffTOpct": 19.7952
+      "OffTOpct": 19.7952,
+      "eFGpct": 42.3851
     },
     {
       "team": "Denver",
       "ORpct": 29.927,
       "DRpct": 33.6879,
       "DefTOpct": 12.7248,
-      "OffTOpct": 14.5767
+      "OffTOpct": 14.5767,
+      "eFGpct": 53.7612
     },
     {
       "team": "DePaul",
       "ORpct": 30.0358,
       "DRpct": 31.0795,
       "DefTOpct": 18.1689,
-      "OffTOpct": 17.7573
+      "OffTOpct": 17.7573,
+      "eFGpct": 50.9233
     },
     {
       "team": "Detroit Mercy",
       "ORpct": 34.4743,
       "DRpct": 31.3376,
       "DefTOpct": 13.9562,
-      "OffTOpct": 16.7345
+      "OffTOpct": 16.7345,
+      "eFGpct": 48.9424
     },
     {
       "team": "Drake",
       "ORpct": 26.6298,
       "DRpct": 29.49,
       "DefTOpct": 14.7683,
-      "OffTOpct": 14.4787
+      "OffTOpct": 14.4787,
+      "eFGpct": 51.9322
     },
     {
       "team": "Drexel",
       "ORpct": 31.0465,
       "DRpct": 31.2281,
       "DefTOpct": 16.7651,
-      "OffTOpct": 18.723
+      "OffTOpct": 18.723,
+      "eFGpct": 50.8256
     },
     {
       "team": "Duke",
       "ORpct": 37.0323,
       "DRpct": 25.1685,
       "DefTOpct": 19.2365,
-      "OffTOpct": 16.2442
+      "OffTOpct": 16.2442,
+      "eFGpct": 57.3729
     },
     {
       "team": "Duquesne",
       "ORpct": 30.092,
       "DRpct": 29.3967,
       "DefTOpct": 17.8737,
-      "OffTOpct": 17.8737
+      "OffTOpct": 17.8737,
+      "eFGpct": 54.3077
     },
     {
       "team": "East Carolina",
       "ORpct": 32.5175,
       "DRpct": 32.5926,
       "DefTOpct": 16.6495,
-      "OffTOpct": 16.9624
+      "OffTOpct": 16.9624,
+      "eFGpct": 45.2539
     },
     {
       "team": "East Tennessee St.",
       "ORpct": 28.8564,
       "DRpct": 26.8414,
       "DefTOpct": 19.4137,
-      "OffTOpct": 14.8859
+      "OffTOpct": 14.8859,
+      "eFGpct": 55.0885
     },
     {
       "team": "East Texas A&M",
       "ORpct": 25.4651,
       "DRpct": 32.6531,
       "DefTOpct": 17.5108,
-      "OffTOpct": 19.7221
+      "OffTOpct": 19.7221,
+      "eFGpct": 48.7463
     },
     {
       "team": "Eastern Illinois",
       "ORpct": 26.5487,
       "DRpct": 35.2332,
       "DefTOpct": 19.4646,
-      "OffTOpct": 19.2712
+      "OffTOpct": 19.2712,
+      "eFGpct": 45.4941
     },
     {
       "team": "Eastern Kentucky",
       "ORpct": 33.0726,
       "DRpct": 31.7343,
       "DefTOpct": 15.0589,
-      "OffTOpct": 17.3895
+      "OffTOpct": 17.3895,
+      "eFGpct": 51.5943
     },
     {
       "team": "Eastern Michigan",
       "ORpct": 28.8095,
       "DRpct": 29.2453,
       "DefTOpct": 16.3708,
-      "OffTOpct": 17.4581
+      "OffTOpct": 17.4581,
+      "eFGpct": 50.0357
     },
     {
       "team": "Eastern Washington",
       "ORpct": 31.3358,
       "DRpct": 32.3963,
       "DefTOpct": 16.6988,
-      "OffTOpct": 18.0705
+      "OffTOpct": 18.0705,
+      "eFGpct": 52.0937
     },
     {
       "team": "Elon",
       "ORpct": 33.1375,
       "DRpct": 33.5656,
       "DefTOpct": 16.2557,
-      "OffTOpct": 15.7776
+      "OffTOpct": 15.7776,
+      "eFGpct": 53.677
     },
     {
       "team": "Evansville",
       "ORpct": 23.2274,
       "DRpct": 30.303,
       "DefTOpct": 16.2246,
-      "OffTOpct": 19.4573
+      "OffTOpct": 19.4573,
+      "eFGpct": 49.0099
     },
     {
       "team": "Fairfield",
       "ORpct": 35.6334,
       "DRpct": 29.0739,
       "DefTOpct": 16.0991,
-      "OffTOpct": 14.7922
+      "OffTOpct": 14.7922,
+      "eFGpct": 49.1094
     },
     {
       "team": "Fairleigh Dickinson",
       "ORpct": 30.9724,
       "DRpct": 28.5521,
       "DefTOpct": 16.4206,
-      "OffTOpct": 17.8166
+      "OffTOpct": 17.8166,
+      "eFGpct": 47.3235
     },
     {
       "team": "FIU",
       "ORpct": 32.1883,
       "DRpct": 35.8134,
       "DefTOpct": 19.677,
-      "OffTOpct": 16.9405
+      "OffTOpct": 16.9405,
+      "eFGpct": 50.234
     },
     {
       "team": "Florida",
       "ORpct": 42.7015,
       "DRpct": 23.8248,
       "DefTOpct": 15.4438,
-      "OffTOpct": 16.1901
+      "OffTOpct": 16.1901,
+      "eFGpct": 52.694
     },
     {
       "team": "Florida A&M",
       "ORpct": 29.5292,
       "DRpct": 32.3263,
       "DefTOpct": 19.5467,
-      "OffTOpct": 22.5701
+      "OffTOpct": 22.5701,
+      "eFGpct": 49.4165
     },
     {
       "team": "Florida Atlantic",
       "ORpct": 33.134,
       "DRpct": 28.1959,
       "DefTOpct": 16.2883,
-      "OffTOpct": 17.9838
+      "OffTOpct": 17.9838,
+      "eFGpct": 52.7305
     },
     {
       "team": "Florida Gulf Coast",
       "ORpct": 31.3817,
       "DRpct": 29.7719,
       "DefTOpct": 16.3629,
-      "OffTOpct": 16.8338
+      "OffTOpct": 16.8338,
+      "eFGpct": 52.7702
     },
     {
       "team": "Florida St.",
       "ORpct": 31.8841,
       "DRpct": 32.9466,
       "DefTOpct": 19.6922,
-      "OffTOpct": 15.7311
+      "OffTOpct": 15.7311,
+      "eFGpct": 49.7416
     },
     {
       "team": "Fordham",
       "ORpct": 36.051,
       "DRpct": 26.9333,
       "DefTOpct": 16.6265,
-      "OffTOpct": 17.1196
+      "OffTOpct": 17.1196,
+      "eFGpct": 48.6301
     },
     {
       "team": "Fresno St.",
       "ORpct": 28.3733,
       "DRpct": 30.3813,
       "DefTOpct": 19.3318,
-      "OffTOpct": 19.0839
+      "OffTOpct": 19.0839,
+      "eFGpct": 50.0383
     },
     {
       "team": "Furman",
       "ORpct": 30.8387,
       "DRpct": 28.7209,
       "DefTOpct": 13.8937,
-      "OffTOpct": 18.5676
+      "OffTOpct": 18.5676,
+      "eFGpct": 54.4318
     },
     {
       "team": "Gardner Webb",
       "ORpct": 23.962,
       "DRpct": 36.6751,
       "DefTOpct": 14.5585,
-      "OffTOpct": 20.9202
+      "OffTOpct": 20.9202,
+      "eFGpct": 47.0521
     },
     {
       "team": "George Mason",
       "ORpct": 31.593,
       "DRpct": 28.223,
       "DefTOpct": 16.5312,
-      "OffTOpct": 15.8344
+      "OffTOpct": 15.8344,
+      "eFGpct": 53.3074
     },
     {
       "team": "George Washington",
       "ORpct": 36.5362,
       "DRpct": 29.2014,
       "DefTOpct": 17.7466,
-      "OffTOpct": 17.8641
+      "OffTOpct": 17.8641,
+      "eFGpct": 54.9522
     },
     {
       "team": "Georgetown",
       "ORpct": 32.4675,
       "DRpct": 30.7958,
       "DefTOpct": 16.3332,
-      "OffTOpct": 14.7487
+      "OffTOpct": 14.7487,
+      "eFGpct": 49.3959
     },
     {
       "team": "Georgia",
       "ORpct": 36.0478,
       "DRpct": 35.3422,
       "DefTOpct": 19.4972,
-      "OffTOpct": 14.5412
+      "OffTOpct": 14.5412,
+      "eFGpct": 53.2878
     },
     {
       "team": "Georgia Southern",
       "ORpct": 29.0598,
       "DRpct": 35.8295,
       "DefTOpct": 18.9594,
-      "OffTOpct": 14.7207
+      "OffTOpct": 14.7207,
+      "eFGpct": 49.4908
     },
     {
       "team": "Georgia St.",
       "ORpct": 27.525,
       "DRpct": 33.3333,
       "DefTOpct": 16.8514,
-      "OffTOpct": 16.4903
+      "OffTOpct": 16.4903,
+      "eFGpct": 44.8052
     },
     {
       "team": "Georgia Tech",
       "ORpct": 30.838,
       "DRpct": 29.4845,
       "DefTOpct": 15.2162,
-      "OffTOpct": 18.1595
+      "OffTOpct": 18.1595,
+      "eFGpct": 50.332
     },
     {
       "team": "Gonzaga",
       "ORpct": 36.1632,
       "DRpct": 24.0286,
       "DefTOpct": 20.7758,
-      "OffTOpct": 13.8861
+      "OffTOpct": 13.8861,
+      "eFGpct": 56.5282
     },
     {
       "team": "Grambling St.",
       "ORpct": 30.1187,
       "DRpct": 33.2386,
       "DefTOpct": 20.5142,
-      "OffTOpct": 21.5538
+      "OffTOpct": 21.5538,
+      "eFGpct": 49.4075
     },
     {
       "team": "Grand Canyon",
       "ORpct": 31.9359,
       "DRpct": 26.5233,
       "DefTOpct": 18.1084,
-      "OffTOpct": 17.5088
+      "OffTOpct": 17.5088,
+      "eFGpct": 50
     },
     {
       "team": "Green Bay",
       "ORpct": 26.0108,
       "DRpct": 29.4045,
       "DefTOpct": 13.5424,
-      "OffTOpct": 16.4094
+      "OffTOpct": 16.4094,
+      "eFGpct": 54.6118
     },
     {
       "team": "Hampton",
       "ORpct": 33.7278,
       "DRpct": 29.9738,
       "DefTOpct": 17.9013,
-      "OffTOpct": 17.5735
+      "OffTOpct": 17.5735,
+      "eFGpct": 45.669
     },
     {
       "team": "Harvard",
       "ORpct": 26.1146,
       "DRpct": 28.866,
       "DefTOpct": 17.2509,
-      "OffTOpct": 16.956
+      "OffTOpct": 16.956,
+      "eFGpct": 54.2179
     },
     {
       "team": "Hawaii",
       "ORpct": 32.4476,
       "DRpct": 25.9352,
       "DefTOpct": 17.118,
-      "OffTOpct": 19.2823
+      "OffTOpct": 19.2823,
+      "eFGpct": 52.9194
     },
     {
       "team": "High Point",
       "ORpct": 31.7386,
       "DRpct": 31.8681,
       "DefTOpct": 23.3816,
-      "OffTOpct": 12.5363
+      "OffTOpct": 12.5363,
+      "eFGpct": 54.8739
     },
     {
       "team": "Hofstra",
       "ORpct": 35.0356,
       "DRpct": 30.6488,
       "DefTOpct": 15.1949,
-      "OffTOpct": 16.508
+      "OffTOpct": 16.508,
+      "eFGpct": 51.2703
     },
     {
       "team": "Holy Cross",
       "ORpct": 22.2785,
       "DRpct": 27.4839,
       "DefTOpct": 14.4654,
-      "OffTOpct": 15.8612
+      "OffTOpct": 15.8612,
+      "eFGpct": 49.505
     },
     {
       "team": "Houston",
       "ORpct": 37.2526,
       "DRpct": 31.5085,
       "DefTOpct": 22.5587,
-      "OffTOpct": 12.2756
+      "OffTOpct": 12.2756,
+      "eFGpct": 52.6263
     },
     {
       "team": "Houston Christian",
       "ORpct": 31.0847,
       "DRpct": 32.6733,
       "DefTOpct": 17.6538,
-      "OffTOpct": 19.2709
+      "OffTOpct": 19.2709,
+      "eFGpct": 50.4105
     },
     {
       "team": "Howard",
       "ORpct": 34.7765,
       "DRpct": 32.7824,
       "DefTOpct": 21.3255,
-      "OffTOpct": 20.3655
+      "OffTOpct": 20.3655,
+      "eFGpct": 48.4215
     },
     {
       "team": "Idaho",
       "ORpct": 27.1574,
       "DRpct": 25.776,
       "DefTOpct": 15.6952,
-      "OffTOpct": 15.2393
+      "OffTOpct": 15.2393,
+      "eFGpct": 51.3534
     },
     {
       "team": "Idaho St.",
       "ORpct": 33.0986,
       "DRpct": 29.7721,
       "DefTOpct": 15.1778,
-      "OffTOpct": 17.4675
+      "OffTOpct": 17.4675,
+      "eFGpct": 52.8823
     },
     {
       "team": "Illinois",
       "ORpct": 38.79,
       "DRpct": 26.7913,
       "DefTOpct": 11.2536,
-      "OffTOpct": 13.9926
+      "OffTOpct": 13.9926,
+      "eFGpct": 55.9228
     },
     {
       "team": "Illinois Chicago",
       "ORpct": 36.6667,
       "DRpct": 34.058,
       "DefTOpct": 20.2704,
-      "OffTOpct": 17.8134
+      "OffTOpct": 17.8134,
+      "eFGpct": 48.0742
     },
     {
       "team": "Illinois St.",
       "ORpct": 28.8256,
       "DRpct": 24.2081,
       "DefTOpct": 16.6124,
-      "OffTOpct": 15.9712
+      "OffTOpct": 15.9712,
+      "eFGpct": 54.0096
     },
     {
       "team": "Incarnate Word",
       "ORpct": 32.4742,
       "DRpct": 32.0532,
       "DefTOpct": 16.2358,
-      "OffTOpct": 17.7429
+      "OffTOpct": 17.7429,
+      "eFGpct": 49.681
     },
     {
       "team": "Indiana",
       "ORpct": 28.5354,
       "DRpct": 28.9562,
       "DefTOpct": 15.7078,
-      "OffTOpct": 14.7804
+      "OffTOpct": 14.7804,
+      "eFGpct": 56.2413
     },
     {
       "team": "Indiana St.",
       "ORpct": 25.5114,
       "DRpct": 32.0269,
       "DefTOpct": 15.0426,
-      "OffTOpct": 19.0539
+      "OffTOpct": 19.0539,
+      "eFGpct": 52.7279
     },
     {
       "team": "Iona",
       "ORpct": 26.4278,
       "DRpct": 32.7253,
       "DefTOpct": 16.9427,
-      "OffTOpct": 16.5421
+      "OffTOpct": 16.5421,
+      "eFGpct": 51.8048
     },
     {
       "team": "Iowa",
       "ORpct": 31.4869,
       "DRpct": 29.6348,
       "DefTOpct": 21.8012,
-      "OffTOpct": 15.1632
+      "OffTOpct": 15.1632,
+      "eFGpct": 58.082
     },
     {
       "team": "Iowa St.",
       "ORpct": 37.6123,
       "DRpct": 28.2927,
       "DefTOpct": 22.4385,
-      "OffTOpct": 15.9844
+      "OffTOpct": 15.9844,
+      "eFGpct": 58.3045
     },
     {
       "team": "IU Indy",
       "ORpct": 28.999,
       "DRpct": 37.037,
       "DefTOpct": 19.9351,
-      "OffTOpct": 15.6936
+      "OffTOpct": 15.6936,
+      "eFGpct": 51.7962
     },
     {
       "team": "Jackson St.",
       "ORpct": 26.9441,
       "DRpct": 37.7828,
       "DefTOpct": 15.2508,
-      "OffTOpct": 19.6579
+      "OffTOpct": 19.6579,
+      "eFGpct": 45.8511
     },
     {
       "team": "Jacksonville",
       "ORpct": 30.3861,
       "DRpct": 29.3405,
       "DefTOpct": 15.379,
-      "OffTOpct": 18.3414
+      "OffTOpct": 18.3414,
+      "eFGpct": 49.2895
     },
     {
       "team": "Jacksonville St.",
       "ORpct": 30.6931,
       "DRpct": 29.2818,
       "DefTOpct": 16.3512,
-      "OffTOpct": 18.2323
+      "OffTOpct": 18.2323,
+      "eFGpct": 49.7746
     },
     {
       "team": "James Madison",
       "ORpct": 30.7167,
       "DRpct": 30.6941,
       "DefTOpct": 12.899,
-      "OffTOpct": 17.6918
+      "OffTOpct": 17.6918,
+      "eFGpct": 52.8441
     },
     {
       "team": "Kansas",
       "ORpct": 28.6439,
       "DRpct": 29.6333,
       "DefTOpct": 13.8817,
-      "OffTOpct": 15.0941
+      "OffTOpct": 15.0941,
+      "eFGpct": 53.8873
     },
     {
       "team": "Kansas City",
       "ORpct": 28.5714,
       "DRpct": 35.9008,
       "DefTOpct": 16.4519,
-      "OffTOpct": 19.0562
+      "OffTOpct": 19.0562,
+      "eFGpct": 46.1191
     },
     {
       "team": "Kansas St.",
       "ORpct": 31.4185,
       "DRpct": 33.7237,
       "DefTOpct": 17.145,
-      "OffTOpct": 17.145
+      "OffTOpct": 17.145,
+      "eFGpct": 53.8561
     },
     {
       "team": "Kennesaw St.",
       "ORpct": 36.2319,
       "DRpct": 30.6533,
       "DefTOpct": 15.6403,
-      "OffTOpct": 17.0563
+      "OffTOpct": 17.0563,
+      "eFGpct": 49.8086
     },
     {
       "team": "Kent St.",
       "ORpct": 36.6313,
       "DRpct": 29.9882,
       "DefTOpct": 16.0242,
-      "OffTOpct": 18.9483
+      "OffTOpct": 18.9483,
+      "eFGpct": 51.919
     },
     {
       "team": "Kentucky",
       "ORpct": 33.9713,
       "DRpct": 28.9444,
       "DefTOpct": 16.0296,
-      "OffTOpct": 14.5834
+      "OffTOpct": 14.5834,
+      "eFGpct": 53.982
     },
     {
       "team": "La Salle",
       "ORpct": 33.1781,
       "DRpct": 31.8182,
       "DefTOpct": 17.1466,
-      "OffTOpct": 18.5386
+      "OffTOpct": 18.5386,
+      "eFGpct": 45.3869
     },
     {
       "team": "Lafayette",
       "ORpct": 26.6085,
       "DRpct": 30.0236,
       "DefTOpct": 15.6081,
-      "OffTOpct": 15.6081
+      "OffTOpct": 15.6081,
+      "eFGpct": 47.9267
     },
     {
       "team": "Lamar",
       "ORpct": 35.9036,
       "DRpct": 28.5714,
       "DefTOpct": 17.3207,
-      "OffTOpct": 17.5831
+      "OffTOpct": 17.5831,
+      "eFGpct": 48.9439
     },
     {
       "team": "Le Moyne",
       "ORpct": 26.2639,
       "DRpct": 30.6538,
       "DefTOpct": 15.413,
-      "OffTOpct": 19.7425
+      "OffTOpct": 19.7425,
+      "eFGpct": 52.7077
     },
     {
       "team": "Lehigh",
       "ORpct": 21.6687,
       "DRpct": 33.3731,
       "DefTOpct": 16.9224,
-      "OffTOpct": 17.8724
+      "OffTOpct": 17.8724,
+      "eFGpct": 52.4705
     },
     {
       "team": "Liberty",
       "ORpct": 19.281,
       "DRpct": 32.1678,
       "DefTOpct": 17.8162,
-      "OffTOpct": 13.3622
+      "OffTOpct": 13.3622,
+      "eFGpct": 60.0352
     },
     {
       "team": "Lindenwood",
       "ORpct": 33.7169,
       "DRpct": 32.3632,
       "DefTOpct": 18.8424,
-      "OffTOpct": 19.2571
+      "OffTOpct": 19.2571,
+      "eFGpct": 48.9613
     },
     {
       "team": "Lipscomb",
       "ORpct": 25.8907,
       "DRpct": 30.1998,
       "DefTOpct": 18.0282,
-      "OffTOpct": 16.1673
+      "OffTOpct": 16.1673,
+      "eFGpct": 53.951
     },
     {
       "team": "Little Rock",
       "ORpct": 31.4793,
       "DRpct": 35.0063,
       "DefTOpct": 19.6967,
-      "OffTOpct": 19.0812
+      "OffTOpct": 19.0812,
+      "eFGpct": 49.3933
     },
     {
       "team": "LIU",
       "ORpct": 35.6401,
       "DRpct": 32.3896,
       "DefTOpct": 18.8679,
-      "OffTOpct": 19.618
+      "OffTOpct": 19.618,
+      "eFGpct": 51.9113
     },
     {
       "team": "Long Beach St.",
-      "ORpct": 26.9531,
-      "DRpct": 28.5714,
-      "DefTOpct": 18.0523,
-      "OffTOpct": 17.601
+      "ORpct": 26.4484,
+      "DRpct": 28.7088,
+      "DefTOpct": 17.8435,
+      "OffTOpct": 17.7205,
+      "eFGpct": 50.7407
     },
     {
       "team": "Longwood",
       "ORpct": 33.7349,
       "DRpct": 28.0941,
       "DefTOpct": 19.556,
-      "OffTOpct": 19.4967
+      "OffTOpct": 19.4967,
+      "eFGpct": 49.927
     },
     {
       "team": "Louisiana",
       "ORpct": 27.8802,
       "DRpct": 31.5723,
       "DefTOpct": 17.8516,
-      "OffTOpct": 17.973
+      "OffTOpct": 17.973,
+      "eFGpct": 47.8799
     },
     {
       "team": "Louisiana Monroe",
       "ORpct": 24.6085,
       "DRpct": 35.6977,
       "DefTOpct": 16.0994,
-      "OffTOpct": 17.9525
+      "OffTOpct": 17.9525,
+      "eFGpct": 47.4045
     },
     {
       "team": "Louisiana Tech",
       "ORpct": 35.9296,
       "DRpct": 30.7383,
       "DefTOpct": 17.4165,
-      "OffTOpct": 17.852
+      "OffTOpct": 17.852,
+      "eFGpct": 45.5474
     },
     {
       "team": "Louisville",
       "ORpct": 33.7237,
       "DRpct": 26.6451,
       "DefTOpct": 17.1526,
-      "OffTOpct": 15.9357
+      "OffTOpct": 15.9357,
+      "eFGpct": 56.5057
     },
     {
       "team": "Loyola Chicago",
       "ORpct": 32.907,
       "DRpct": 30.8982,
       "DefTOpct": 12.6525,
-      "OffTOpct": 19.8565
+      "OffTOpct": 19.8565,
+      "eFGpct": 49.4573
     },
     {
       "team": "Loyola Marymount",
       "ORpct": 26.7637,
       "DRpct": 32.4607,
       "DefTOpct": 16.5694,
-      "OffTOpct": 18.1711
+      "OffTOpct": 18.1711,
+      "eFGpct": 51.6247
     },
     {
       "team": "Loyola MD",
       "ORpct": 27.9258,
       "DRpct": 29.8507,
       "DefTOpct": 16.0674,
-      "OffTOpct": 16.8468
+      "OffTOpct": 16.8468,
+      "eFGpct": 50.4202
     },
     {
       "team": "LSU",
       "ORpct": 33.9196,
       "DRpct": 30.9813,
       "DefTOpct": 14.9447,
-      "OffTOpct": 15.8378
+      "OffTOpct": 15.8378,
+      "eFGpct": 53.267
     },
     {
       "team": "Maine",
       "ORpct": 20.8955,
       "DRpct": 36.0195,
       "DefTOpct": 19.0605,
-      "OffTOpct": 19.4307
+      "OffTOpct": 19.4307,
+      "eFGpct": 49.2754
     },
     {
       "team": "Manhattan",
       "ORpct": 28.2418,
       "DRpct": 37.6682,
       "DefTOpct": 16.263,
-      "OffTOpct": 15.401
+      "OffTOpct": 15.401,
+      "eFGpct": 48.1195
     },
     {
       "team": "Marist",
       "ORpct": 28.1955,
       "DRpct": 27.6817,
       "DefTOpct": 19.6874,
-      "OffTOpct": 17.2576
+      "OffTOpct": 17.2576,
+      "eFGpct": 50.2553
     },
     {
       "team": "Marquette",
       "ORpct": 30.5408,
       "DRpct": 34.2075,
       "DefTOpct": 19.2188,
-      "OffTOpct": 16.025
+      "OffTOpct": 16.025,
+      "eFGpct": 50.0326
     },
     {
       "team": "Marshall",
       "ORpct": 32.9384,
       "DRpct": 32.8664,
       "DefTOpct": 16.9143,
-      "OffTOpct": 17.3874
+      "OffTOpct": 17.3874,
+      "eFGpct": 54.2408
     },
     {
       "team": "Maryland",
       "ORpct": 32.9885,
       "DRpct": 31.3676,
       "DefTOpct": 16.1588,
-      "OffTOpct": 18.4759
+      "OffTOpct": 18.4759,
+      "eFGpct": 48.607
     },
     {
       "team": "Maryland Eastern Shore",
       "ORpct": 30.4521,
       "DRpct": 32.8496,
       "DefTOpct": 17.0556,
-      "OffTOpct": 23.0052
+      "OffTOpct": 23.0052,
+      "eFGpct": 47.2808
     },
     {
       "team": "Massachusetts",
       "ORpct": 33.4107,
       "DRpct": 26.5509,
       "DefTOpct": 17.9463,
-      "OffTOpct": 17.8892
+      "OffTOpct": 17.8892,
+      "eFGpct": 52.7341
     },
     {
       "team": "McNeese",
       "ORpct": 36.2113,
       "DRpct": 36.6925,
       "DefTOpct": 24.5279,
-      "OffTOpct": 14.964
+      "OffTOpct": 14.964,
+      "eFGpct": 51.236
     },
     {
       "team": "Memphis",
       "ORpct": 35.4214,
       "DRpct": 34.7238,
       "DefTOpct": 20.0711,
-      "OffTOpct": 19.8966
+      "OffTOpct": 19.8966,
+      "eFGpct": 49.4182
     },
     {
       "team": "Mercer",
       "ORpct": 33.7709,
       "DRpct": 32.1812,
       "DefTOpct": 17.3726,
-      "OffTOpct": 15.2088
+      "OffTOpct": 15.2088,
+      "eFGpct": 51.5681
     },
     {
       "team": "Mercyhurst",
       "ORpct": 26.8949,
       "DRpct": 32.0203,
       "DefTOpct": 19.605,
-      "OffTOpct": 15.0758
+      "OffTOpct": 15.0758,
+      "eFGpct": 48.6142
     },
     {
       "team": "Merrimack",
       "ORpct": 25.0591,
       "DRpct": 40.374,
       "DefTOpct": 19.6163,
-      "OffTOpct": 15.5023
+      "OffTOpct": 15.5023,
+      "eFGpct": 49.8183
     },
     {
       "team": "Miami FL",
       "ORpct": 36.6286,
       "DRpct": 25.5814,
       "DefTOpct": 18.6367,
-      "OffTOpct": 16.1597
+      "OffTOpct": 16.1597,
+      "eFGpct": 56.4147
     },
     {
       "team": "Miami OH",
       "ORpct": 26.1868,
       "DRpct": 28.2552,
       "DefTOpct": 18.5467,
-      "OffTOpct": 15.2044
+      "OffTOpct": 15.2044,
+      "eFGpct": 60.0568
     },
     {
       "team": "Michigan",
       "ORpct": 36.8146,
       "DRpct": 27.8054,
       "DefTOpct": 16.567,
-      "OffTOpct": 16.6233
+      "OffTOpct": 16.6233,
+      "eFGpct": 58.5121
     },
     {
       "team": "Michigan St.",
       "ORpct": 39.3524,
       "DRpct": 22.0944,
       "DefTOpct": 15.6236,
-      "OffTOpct": 17.6534
+      "OffTOpct": 17.6534,
+      "eFGpct": 53.4703
     },
     {
       "team": "Middle Tennessee",
       "ORpct": 29.8667,
       "DRpct": 28.4354,
       "DefTOpct": 14.4524,
-      "OffTOpct": 17.1753
+      "OffTOpct": 17.1753,
+      "eFGpct": 51.5152
     },
     {
       "team": "Milwaukee",
       "ORpct": 33.3671,
       "DRpct": 29.8957,
       "DefTOpct": 15.8698,
-      "OffTOpct": 15.3169
+      "OffTOpct": 15.3169,
+      "eFGpct": 49.5336
     },
     {
       "team": "Minnesota",
       "ORpct": 28.8462,
       "DRpct": 29.7634,
       "DefTOpct": 17.2394,
-      "OffTOpct": 16.4063
+      "OffTOpct": 16.4063,
+      "eFGpct": 53.3386
     },
     {
       "team": "Mississippi",
       "ORpct": 29.8824,
       "DRpct": 32.5231,
       "DefTOpct": 16.9075,
-      "OffTOpct": 14.3252
+      "OffTOpct": 14.3252,
+      "eFGpct": 50.0351
     },
     {
       "team": "Mississippi St.",
       "ORpct": 31.2771,
       "DRpct": 29.5671,
       "DefTOpct": 13.0453,
-      "OffTOpct": 16.22
+      "OffTOpct": 16.22,
+      "eFGpct": 50.132
     },
     {
       "team": "Mississippi Valley St.",
       "ORpct": 26.408,
       "DRpct": 36,
       "DefTOpct": 16.6545,
-      "OffTOpct": 22.3084
+      "OffTOpct": 22.3084,
+      "eFGpct": 44.7348
     },
     {
       "team": "Missouri",
       "ORpct": 36.7296,
       "DRpct": 30.0585,
       "DefTOpct": 16.5221,
-      "OffTOpct": 18.0296
+      "OffTOpct": 18.0296,
+      "eFGpct": 55.8039
     },
     {
       "team": "Missouri St.",
       "ORpct": 32.9268,
       "DRpct": 32.9496,
       "DefTOpct": 18.2726,
-      "OffTOpct": 17.7147
+      "OffTOpct": 17.7147,
+      "eFGpct": 50.128
     },
     {
       "team": "Monmouth",
       "ORpct": 31.2057,
       "DRpct": 33.177,
       "DefTOpct": 19.9272,
-      "OffTOpct": 16.6974
+      "OffTOpct": 16.6974,
+      "eFGpct": 48.9598
     },
     {
       "team": "Montana",
       "ORpct": 22.6115,
       "DRpct": 30.203,
       "DefTOpct": 15.3358,
-      "OffTOpct": 20.2245
+      "OffTOpct": 20.2245,
+      "eFGpct": 56.5466
     },
     {
       "team": "Montana St.",
       "ORpct": 28.1709,
       "DRpct": 29.2958,
       "DefTOpct": 16.2019,
-      "OffTOpct": 15.2646
+      "OffTOpct": 15.2646,
+      "eFGpct": 52.1807
     },
     {
       "team": "Morehead St.",
       "ORpct": 36.0799,
       "DRpct": 36.6983,
       "DefTOpct": 15.9347,
-      "OffTOpct": 18.6865
+      "OffTOpct": 18.6865,
+      "eFGpct": 48.4151
     },
     {
       "team": "Morgan St.",
       "ORpct": 30.2041,
       "DRpct": 34.4932,
       "DefTOpct": 16.7694,
-      "OffTOpct": 18.4748
+      "OffTOpct": 18.4748,
+      "eFGpct": 45.6655
     },
     {
       "team": "Mount St. Mary's",
       "ORpct": 31.0469,
       "DRpct": 29.1892,
       "DefTOpct": 14.686,
-      "OffTOpct": 22.6117
+      "OffTOpct": 22.6117,
+      "eFGpct": 50.517
     },
     {
       "team": "Murray St.",
       "ORpct": 33.7909,
       "DRpct": 31.5684,
       "DefTOpct": 15.6922,
-      "OffTOpct": 16.6123
+      "OffTOpct": 16.6123,
+      "eFGpct": 54.8603
     },
     {
       "team": "N.C. State",
       "ORpct": 27.6224,
       "DRpct": 28.1111,
       "DefTOpct": 19.1322,
-      "OffTOpct": 13.5216
+      "OffTOpct": 13.5216,
+      "eFGpct": 56.5574
     },
     {
       "team": "Navy",
       "ORpct": 30.9896,
       "DRpct": 26.4085,
       "DefTOpct": 18.0814,
-      "OffTOpct": 17.3908
+      "OffTOpct": 17.3908,
+      "eFGpct": 52.5934
     },
     {
       "team": "Nebraska",
       "ORpct": 25.4027,
       "DRpct": 27.8523,
       "DefTOpct": 18.9368,
-      "OffTOpct": 13.2315
+      "OffTOpct": 13.2315,
+      "eFGpct": 56.263
     },
     {
       "team": "Nebraska Omaha",
       "ORpct": 27.0235,
       "DRpct": 29.1718,
       "DefTOpct": 14.2241,
-      "OffTOpct": 16.7305
+      "OffTOpct": 16.7305,
+      "eFGpct": 52.8137
     },
     {
       "team": "Nevada",
       "ORpct": 32.1176,
       "DRpct": 28.3088,
       "DefTOpct": 17.1842,
-      "OffTOpct": 13.586
+      "OffTOpct": 13.586,
+      "eFGpct": 50.2542
     },
     {
       "team": "New Hampshire",
       "ORpct": 25.599,
       "DRpct": 28.7324,
       "DefTOpct": 15.9775,
-      "OffTOpct": 16.9417
+      "OffTOpct": 16.9417,
+      "eFGpct": 46.8977
     },
     {
       "team": "New Haven",
       "ORpct": 22.1113,
       "DRpct": 27.9137,
       "DefTOpct": 17.0565,
-      "OffTOpct": 19.0631
+      "OffTOpct": 19.0631,
+      "eFGpct": 48.4431
     },
     {
       "team": "New Mexico",
       "ORpct": 28.9505,
       "DRpct": 28.238,
       "DefTOpct": 19.5396,
-      "OffTOpct": 15.5375
+      "OffTOpct": 15.5375,
+      "eFGpct": 53.6662
     },
     {
       "team": "New Mexico St.",
       "ORpct": 33.1135,
       "DRpct": 30.4348,
       "DefTOpct": 15.2216,
-      "OffTOpct": 15.5739
+      "OffTOpct": 15.5739,
+      "eFGpct": 50
     },
     {
       "team": "New Orleans",
       "ORpct": 34.565,
       "DRpct": 34.8361,
       "DefTOpct": 14.5738,
-      "OffTOpct": 21.0199
+      "OffTOpct": 21.0199,
+      "eFGpct": 50.3579
     },
     {
       "team": "Niagara",
       "ORpct": 24.8322,
       "DRpct": 32.7801,
       "DefTOpct": 16.7836,
-      "OffTOpct": 18.6408
+      "OffTOpct": 18.6408,
+      "eFGpct": 49.5507
     },
     {
       "team": "Nicholls",
       "ORpct": 27.0953,
       "DRpct": 35.1049,
       "DefTOpct": 21.6351,
-      "OffTOpct": 17.1278
+      "OffTOpct": 17.1278,
+      "eFGpct": 50.5789
     },
     {
       "team": "NJIT",
       "ORpct": 26.1589,
       "DRpct": 32.4703,
       "DefTOpct": 15.5262,
-      "OffTOpct": 16.8055
+      "OffTOpct": 16.8055,
+      "eFGpct": 47.3482
     },
     {
       "team": "Norfolk St.",
       "ORpct": 31.3752,
       "DRpct": 32.7143,
       "DefTOpct": 18.6815,
-      "OffTOpct": 19.5057
+      "OffTOpct": 19.5057,
+      "eFGpct": 47.8916
     },
     {
       "team": "North Alabama",
       "ORpct": 30.1423,
       "DRpct": 33.3791,
       "DefTOpct": 14.5355,
-      "OffTOpct": 17.1409
+      "OffTOpct": 17.1409,
+      "eFGpct": 48.1737
     },
     {
       "team": "North Carolina",
       "ORpct": 32.6481,
       "DRpct": 28.2051,
       "DefTOpct": 13.7882,
-      "OffTOpct": 13.6683
+      "OffTOpct": 13.6683,
+      "eFGpct": 54.8924
     },
     {
       "team": "North Carolina A&T",
       "ORpct": 31.9001,
       "DRpct": 27.1895,
       "DefTOpct": 14.4085,
-      "OffTOpct": 18.8471
+      "OffTOpct": 18.8471,
+      "eFGpct": 49.2766
     },
     {
       "team": "North Carolina Central",
       "ORpct": 28.3892,
       "DRpct": 38.3701,
       "DefTOpct": 19.4513,
-      "OffTOpct": 18.3798
+      "OffTOpct": 18.3798,
+      "eFGpct": 46.4688
     },
     {
       "team": "North Dakota",
       "ORpct": 28.754,
       "DRpct": 32.327,
       "DefTOpct": 19.7903,
-      "OffTOpct": 13.9159
+      "OffTOpct": 13.9159,
+      "eFGpct": 49.0698
     },
     {
       "team": "North Dakota St.",
       "ORpct": 34.3826,
       "DRpct": 28.1541,
       "DefTOpct": 19.4295,
-      "OffTOpct": 15.6689
+      "OffTOpct": 15.6689,
+      "eFGpct": 52.7719
     },
     {
       "team": "North Florida",
       "ORpct": 25.0298,
       "DRpct": 38.0137,
       "DefTOpct": 12.2016,
-      "OffTOpct": 18.3595
+      "OffTOpct": 18.3595,
+      "eFGpct": 54.1124
     },
     {
       "team": "North Texas",
       "ORpct": 34.3373,
       "DRpct": 34.0996,
       "DefTOpct": 22.1669,
-      "OffTOpct": 18.3006
+      "OffTOpct": 18.3006,
+      "eFGpct": 46.1391
     },
     {
       "team": "Northeastern",
       "ORpct": 27.327,
       "DRpct": 32.4607,
       "DefTOpct": 17.7036,
-      "OffTOpct": 16.6342
+      "OffTOpct": 16.6342,
+      "eFGpct": 52.6573
     },
     {
       "team": "Northern Arizona",
       "ORpct": 23.765,
       "DRpct": 33.1063,
       "DefTOpct": 16.8788,
-      "OffTOpct": 16.0183
+      "OffTOpct": 16.0183,
+      "eFGpct": 51.7886
     },
     {
       "team": "Northern Colorado",
       "ORpct": 28.4016,
       "DRpct": 24.5721,
       "DefTOpct": 12.433,
-      "OffTOpct": 16.3752
+      "OffTOpct": 16.3752,
+      "eFGpct": 56.1615
     },
     {
       "team": "Northern Illinois",
       "ORpct": 32.6232,
       "DRpct": 30.8148,
       "DefTOpct": 17.2773,
-      "OffTOpct": 22.0765
+      "OffTOpct": 22.0765,
+      "eFGpct": 48.1261
     },
     {
       "team": "Northern Iowa",
       "ORpct": 21.7073,
       "DRpct": 25.1476,
       "DefTOpct": 17.6657,
-      "OffTOpct": 14.5555
+      "OffTOpct": 14.5555,
+      "eFGpct": 51.9579
     },
     {
       "team": "Northern Kentucky",
       "ORpct": 31.9026,
       "DRpct": 33.2071,
       "DefTOpct": 19.2947,
-      "OffTOpct": 16.5467
+      "OffTOpct": 16.5467,
+      "eFGpct": 52.8747
     },
     {
       "team": "Northwestern",
       "ORpct": 27.8375,
       "DRpct": 34.2197,
       "DefTOpct": 16.2121,
-      "OffTOpct": 12.3975
+      "OffTOpct": 12.3975,
+      "eFGpct": 51.1325
     },
     {
       "team": "Northwestern St.",
       "ORpct": 25.5968,
       "DRpct": 33.2432,
       "DefTOpct": 16.9343,
-      "OffTOpct": 18.4382
+      "OffTOpct": 18.4382,
+      "eFGpct": 49.3432
     },
     {
       "team": "Notre Dame",
       "ORpct": 31.7768,
       "DRpct": 26.3398,
       "DefTOpct": 14.0499,
-      "OffTOpct": 17.0732
+      "OffTOpct": 17.0732,
+      "eFGpct": 52.4121
     },
     {
       "team": "Oakland",
       "ORpct": 30.7345,
       "DRpct": 34.5652,
       "DefTOpct": 15.0643,
-      "OffTOpct": 14.6738
+      "OffTOpct": 14.6738,
+      "eFGpct": 52.6974
     },
     {
       "team": "Ohio",
       "ORpct": 29.1202,
       "DRpct": 33.3333,
       "DefTOpct": 17.0628,
-      "OffTOpct": 16.5735
+      "OffTOpct": 16.5735,
+      "eFGpct": 51.2445
     },
     {
       "team": "Ohio St.",
       "ORpct": 32.8859,
       "DRpct": 31.1991,
       "DefTOpct": 15.9564,
-      "OffTOpct": 15.5317
+      "OffTOpct": 15.5317,
+      "eFGpct": 55.7359
     },
     {
       "team": "Oklahoma",
       "ORpct": 33.3333,
       "DRpct": 31.5068,
       "DefTOpct": 15.294,
-      "OffTOpct": 14.4608
+      "OffTOpct": 14.4608,
+      "eFGpct": 54.2059
     },
     {
       "team": "Oklahoma St.",
       "ORpct": 30.4795,
       "DRpct": 30.131,
       "DefTOpct": 17.1148,
-      "OffTOpct": 16.6179
+      "OffTOpct": 16.6179,
+      "eFGpct": 52.787
     },
     {
       "team": "Old Dominion",
       "ORpct": 25.5365,
       "DRpct": 29.8324,
       "DefTOpct": 14.4728,
-      "OffTOpct": 15.3773
+      "OffTOpct": 15.3773,
+      "eFGpct": 49.1374
     },
     {
       "team": "Oral Roberts",
       "ORpct": 27.4699,
       "DRpct": 33.2481,
       "DefTOpct": 14.6403,
-      "OffTOpct": 18.5028
+      "OffTOpct": 18.5028,
+      "eFGpct": 47.8491
     },
     {
       "team": "Oregon",
       "ORpct": 34.1578,
       "DRpct": 31.4746,
       "DefTOpct": 15.7689,
-      "OffTOpct": 17.8176
+      "OffTOpct": 17.8176,
+      "eFGpct": 49.4942
     },
     {
       "team": "Oregon St.",
       "ORpct": 25.848,
       "DRpct": 32.8025,
       "DefTOpct": 15.3545,
-      "OffTOpct": 17.619
+      "OffTOpct": 17.619,
+      "eFGpct": 50.4954
     },
     {
       "team": "Pacific",
       "ORpct": 35.4037,
       "DRpct": 23.7826,
       "DefTOpct": 15.8064,
-      "OffTOpct": 20.2369
+      "OffTOpct": 20.2369,
+      "eFGpct": 53.3716
     },
     {
       "team": "Penn",
       "ORpct": 31.2155,
       "DRpct": 30.7803,
       "DefTOpct": 16.0736,
-      "OffTOpct": 15.9281
+      "OffTOpct": 15.9281,
+      "eFGpct": 50.6388
     },
     {
       "team": "Penn St.",
       "ORpct": 27.2397,
       "DRpct": 31.6754,
       "DefTOpct": 18.1913,
-      "OffTOpct": 14.4824
+      "OffTOpct": 14.4824,
+      "eFGpct": 53.069
     },
     {
       "team": "Pepperdine",
       "ORpct": 27.23,
       "DRpct": 34.0741,
       "DefTOpct": 16.9728,
-      "OffTOpct": 18.8853
+      "OffTOpct": 18.8853,
+      "eFGpct": 46.0835
     },
     {
       "team": "Pittsburgh",
       "ORpct": 34.2252,
       "DRpct": 28.3715,
       "DefTOpct": 16.7984,
-      "OffTOpct": 17.3501
+      "OffTOpct": 17.3501,
+      "eFGpct": 50.3097
     },
     {
       "team": "Portland",
       "ORpct": 28.5185,
       "DRpct": 32.417,
       "DefTOpct": 17.775,
-      "OffTOpct": 19.4733
+      "OffTOpct": 19.4733,
+      "eFGpct": 50.7719
     },
     {
       "team": "Portland St.",
       "ORpct": 31.7507,
       "DRpct": 27.802,
       "DefTOpct": 18.0839,
-      "OffTOpct": 18.5162
+      "OffTOpct": 18.5162,
+      "eFGpct": 52.1891
     },
     {
       "team": "Prairie View A&M",
       "ORpct": 25.2618,
       "DRpct": 37,
       "DefTOpct": 19.9409,
-      "OffTOpct": 16.2972
+      "OffTOpct": 16.2972,
+      "eFGpct": 47.2153
     },
     {
       "team": "Presbyterian",
       "ORpct": 34.4043,
       "DRpct": 30.5304,
       "DefTOpct": 15.5272,
-      "OffTOpct": 19.7858
+      "OffTOpct": 19.7858,
+      "eFGpct": 50.4831
     },
     {
       "team": "Princeton",
       "ORpct": 27.3203,
       "DRpct": 28.4153,
       "DefTOpct": 14.5223,
-      "OffTOpct": 16.5278
+      "OffTOpct": 16.5278,
+      "eFGpct": 49.0947
     },
     {
       "team": "Providence",
       "ORpct": 32.5986,
       "DRpct": 31.3492,
       "DefTOpct": 13.4304,
-      "OffTOpct": 16.2018
+      "OffTOpct": 16.2018,
+      "eFGpct": 55.5626
     },
     {
       "team": "Purdue",
       "ORpct": 35.9684,
       "DRpct": 26.1185,
       "DefTOpct": 16.5579,
-      "OffTOpct": 14.1393
+      "OffTOpct": 14.1393,
+      "eFGpct": 57.8694
     },
     {
       "team": "Purdue Fort Wayne",
       "ORpct": 22.18,
       "DRpct": 36.0054,
       "DefTOpct": 19.6694,
-      "OffTOpct": 14.4832
+      "OffTOpct": 14.4832,
+      "eFGpct": 52.3686
     },
     {
       "team": "Queens",
       "ORpct": 32.0377,
       "DRpct": 32.7037,
       "DefTOpct": 14.8846,
-      "OffTOpct": 14.8846
+      "OffTOpct": 14.8846,
+      "eFGpct": 56.0784
     },
     {
       "team": "Quinnipiac",
       "ORpct": 33.0347,
       "DRpct": 32.7314,
       "DefTOpct": 18.0691,
-      "OffTOpct": 16.2058
+      "OffTOpct": 16.2058,
+      "eFGpct": 49.2903
     },
     {
       "team": "Radford",
       "ORpct": 29.5954,
       "DRpct": 32.5871,
       "DefTOpct": 18.4018,
-      "OffTOpct": 17.1632
+      "OffTOpct": 17.1632,
+      "eFGpct": 51.4079
     },
     {
       "team": "Rhode Island",
       "ORpct": 32.9114,
       "DRpct": 31.3237,
       "DefTOpct": 21.5791,
-      "OffTOpct": 19.0071
+      "OffTOpct": 19.0071,
+      "eFGpct": 51.8349
     },
     {
       "team": "Rice",
       "ORpct": 35.5482,
       "DRpct": 35.1648,
       "DefTOpct": 16.3116,
-      "OffTOpct": 17.9682
+      "OffTOpct": 17.9682,
+      "eFGpct": 48.4727
     },
     {
       "team": "Richmond",
       "ORpct": 26.9608,
       "DRpct": 31.1927,
       "DefTOpct": 17.5055,
-      "OffTOpct": 15.1594
+      "OffTOpct": 15.1594,
+      "eFGpct": 53.3862
     },
     {
       "team": "Rider",
       "ORpct": 34.0071,
       "DRpct": 33.7856,
       "DefTOpct": 13.4514,
-      "OffTOpct": 18.121
+      "OffTOpct": 18.121,
+      "eFGpct": 42.8515
     },
     {
       "team": "Robert Morris",
       "ORpct": 37.5729,
       "DRpct": 28.436,
       "DefTOpct": 15.7212,
-      "OffTOpct": 18.713
+      "OffTOpct": 18.713,
+      "eFGpct": 54.3057
     },
     {
       "team": "Rutgers",
       "ORpct": 32.5056,
       "DRpct": 33.6218,
       "DefTOpct": 16.428,
-      "OffTOpct": 15.8081
+      "OffTOpct": 15.8081,
+      "eFGpct": 46.7453
     },
     {
       "team": "Sacramento St.",
       "ORpct": 26.7166,
       "DRpct": 33.3333,
       "DefTOpct": 16.7708,
-      "OffTOpct": 14.8857
+      "OffTOpct": 14.8857,
+      "eFGpct": 47.098
     },
     {
       "team": "Sacred Heart",
       "ORpct": 28.8155,
       "DRpct": 30.257,
       "DefTOpct": 15.3658,
-      "OffTOpct": 17.9653
+      "OffTOpct": 17.9653,
+      "eFGpct": 52.0506
     },
     {
       "team": "Saint Francis",
       "ORpct": 27.0809,
       "DRpct": 34.072,
       "DefTOpct": 19.239,
-      "OffTOpct": 18.1941
+      "OffTOpct": 18.1941,
+      "eFGpct": 47.9547
     },
     {
       "team": "Saint Joseph's",
       "ORpct": 32.533,
       "DRpct": 31.8807,
       "DefTOpct": 15.6261,
-      "OffTOpct": 17.7054
+      "OffTOpct": 17.7054,
+      "eFGpct": 48.6192
     },
     {
       "team": "Saint Louis",
       "ORpct": 32.6116,
       "DRpct": 26.3874,
       "DefTOpct": 16.1046,
-      "OffTOpct": 16.7011
+      "OffTOpct": 16.7011,
+      "eFGpct": 61.0594
     },
     {
       "team": "Saint Mary's",
       "ORpct": 37,
       "DRpct": 24.377,
       "DefTOpct": 15.1172,
-      "OffTOpct": 16.7969
+      "OffTOpct": 16.7969,
+      "eFGpct": 53.277
     },
     {
       "team": "Saint Peter's",
       "ORpct": 37.2796,
       "DRpct": 33.6232,
       "DefTOpct": 20.4342,
-      "OffTOpct": 16.9086
+      "OffTOpct": 16.9086,
+      "eFGpct": 45.5393
     },
     {
       "team": "Sam Houston St.",
       "ORpct": 34.8624,
       "DRpct": 31.385,
       "DefTOpct": 17.0541,
-      "OffTOpct": 17.1879
+      "OffTOpct": 17.1879,
+      "eFGpct": 52.5019
     },
     {
       "team": "Samford",
       "ORpct": 25.5491,
       "DRpct": 26.6745,
       "DefTOpct": 12.9299,
-      "OffTOpct": 12.9903
+      "OffTOpct": 12.9903,
+      "eFGpct": 51.9537
     },
     {
       "team": "San Diego",
       "ORpct": 28.6511,
       "DRpct": 36.2745,
       "DefTOpct": 19.7527,
-      "OffTOpct": 17.5958
+      "OffTOpct": 17.5958,
+      "eFGpct": 50.7596
     },
     {
       "team": "San Diego St.",
       "ORpct": 29.5105,
       "DRpct": 30.4403,
       "DefTOpct": 21.59,
-      "OffTOpct": 17.526
+      "OffTOpct": 17.526,
+      "eFGpct": 53.6413
     },
     {
       "team": "San Francisco",
       "ORpct": 32.0132,
       "DRpct": 28.4632,
       "DefTOpct": 13.5398,
-      "OffTOpct": 15.7773
+      "OffTOpct": 15.7773,
+      "eFGpct": 50.6766
     },
     {
       "team": "San Jose St.",
       "ORpct": 29.7129,
       "DRpct": 36.1233,
       "DefTOpct": 17.8402,
-      "OffTOpct": 16.4526
+      "OffTOpct": 16.4526,
+      "eFGpct": 47.7395
     },
     {
       "team": "Santa Clara",
       "ORpct": 37.1303,
       "DRpct": 31.0668,
       "DefTOpct": 20.9885,
-      "OffTOpct": 16.1786
+      "OffTOpct": 16.1786,
+      "eFGpct": 55.0656
     },
     {
       "team": "Seattle",
       "ORpct": 24.7299,
       "DRpct": 32.9312,
       "DefTOpct": 20.8171,
-      "OffTOpct": 17.4672
+      "OffTOpct": 17.4672,
+      "eFGpct": 49.7455
     },
     {
       "team": "Seton Hall",
       "ORpct": 36.4045,
       "DRpct": 31.4727,
       "DefTOpct": 22.5369,
-      "OffTOpct": 16.3198
+      "OffTOpct": 16.3198,
+      "eFGpct": 47.9364
     },
     {
       "team": "Siena",
       "ORpct": 32.8698,
       "DRpct": 28.5539,
       "DefTOpct": 18.4202,
-      "OffTOpct": 15.8773
+      "OffTOpct": 15.8773,
+      "eFGpct": 51.7488
     },
     {
       "team": "SIUE",
       "ORpct": 30.5942,
       "DRpct": 32.6062,
       "DefTOpct": 16.9426,
-      "OffTOpct": 17.5993
+      "OffTOpct": 17.5993,
+      "eFGpct": 49.2302
     },
     {
       "team": "SMU",
       "ORpct": 35.0665,
       "DRpct": 31.3466,
       "DefTOpct": 17.5986,
-      "OffTOpct": 16.1608
+      "OffTOpct": 16.1608,
+      "eFGpct": 56.366
     },
     {
       "team": "South Alabama",
       "ORpct": 24.6719,
       "DRpct": 31.4961,
       "DefTOpct": 18.6593,
-      "OffTOpct": 13.3466
+      "OffTOpct": 13.3466,
+      "eFGpct": 52.0505
     },
     {
       "team": "South Carolina",
       "ORpct": 27.7094,
       "DRpct": 31.8236,
       "DefTOpct": 14.7765,
-      "OffTOpct": 14.4749
+      "OffTOpct": 14.4749,
+      "eFGpct": 51.0379
     },
     {
       "team": "South Carolina St.",
       "ORpct": 30.5665,
       "DRpct": 39.039,
       "DefTOpct": 17.8004,
-      "OffTOpct": 20.6997
+      "OffTOpct": 20.6997,
+      "eFGpct": 45.9391
     },
     {
       "team": "South Dakota",
       "ORpct": 30.3241,
       "DRpct": 30.4678,
       "DefTOpct": 16.5282,
-      "OffTOpct": 17.2098
+      "OffTOpct": 17.2098,
+      "eFGpct": 50.2803
     },
     {
       "team": "South Dakota St.",
       "ORpct": 29.0123,
       "DRpct": 26.799,
       "DefTOpct": 15.1717,
-      "OffTOpct": 16.1832
+      "OffTOpct": 16.1832,
+      "eFGpct": 51.8382
     },
     {
       "team": "South Florida",
       "ORpct": 37.963,
       "DRpct": 32.2513,
       "DefTOpct": 18.3966,
-      "OffTOpct": 15.7449
+      "OffTOpct": 15.7449,
+      "eFGpct": 51.5345
     },
     {
       "team": "Southeast Missouri",
       "ORpct": 29.5958,
       "DRpct": 27.8779,
       "DefTOpct": 19.0213,
-      "OffTOpct": 16.9833
+      "OffTOpct": 16.9833,
+      "eFGpct": 51.3109
     },
     {
       "team": "Southeastern Louisiana",
       "ORpct": 28.3175,
       "DRpct": 31.9896,
       "DefTOpct": 19.3861,
-      "OffTOpct": 18.8159
+      "OffTOpct": 18.8159,
+      "eFGpct": 46.4034
     },
     {
       "team": "Southern",
       "ORpct": 31.7676,
       "DRpct": 32.5352,
       "DefTOpct": 18.9367,
-      "OffTOpct": 16.9709
+      "OffTOpct": 16.9709,
+      "eFGpct": 47.9751
     },
     {
       "team": "Southern Illinois",
       "ORpct": 30.3333,
       "DRpct": 28.074,
       "DefTOpct": 18.6203,
-      "OffTOpct": 17.2783
+      "OffTOpct": 17.2783,
+      "eFGpct": 50.1659
     },
     {
       "team": "Southern Indiana",
       "ORpct": 30.1985,
       "DRpct": 33.7662,
       "DefTOpct": 16.8319,
-      "OffTOpct": 17.8257
+      "OffTOpct": 17.8257,
+      "eFGpct": 43.401
     },
     {
       "team": "Southern Miss",
       "ORpct": 31.1266,
       "DRpct": 27.7193,
       "DefTOpct": 17.5026,
-      "OffTOpct": 18.5355
+      "OffTOpct": 18.5355,
+      "eFGpct": 48.4643
     },
     {
       "team": "Southern Utah",
       "ORpct": 27.5731,
       "DRpct": 34.3672,
       "DefTOpct": 14.8719,
-      "OffTOpct": 20.2105
+      "OffTOpct": 20.2105,
+      "eFGpct": 49.3784
     },
     {
       "team": "St. Bonaventure",
       "ORpct": 34.8505,
       "DRpct": 30.3401,
       "DefTOpct": 18.2314,
-      "OffTOpct": 16.888
+      "OffTOpct": 16.888,
+      "eFGpct": 52.7959
     },
     {
       "team": "St. John's",
       "ORpct": 37.4429,
       "DRpct": 31.386,
       "DefTOpct": 19.8355,
-      "OffTOpct": 15.2226
+      "OffTOpct": 15.2226,
+      "eFGpct": 52.2177
     },
     {
       "team": "St. Thomas",
       "ORpct": 21.123,
       "DRpct": 28.4672,
       "DefTOpct": 17.8667,
-      "OffTOpct": 14.0803
+      "OffTOpct": 14.0803,
+      "eFGpct": 59.2862
     },
     {
       "team": "Stanford",
       "ORpct": 32.6966,
       "DRpct": 28.6608,
       "DefTOpct": 18.8927,
-      "OffTOpct": 15.995
+      "OffTOpct": 15.995,
+      "eFGpct": 50.5743
     },
     {
       "team": "Stephen F. Austin",
       "ORpct": 34.2857,
       "DRpct": 28.8199,
       "DefTOpct": 17.2547,
-      "OffTOpct": 14.6502
+      "OffTOpct": 14.6502,
+      "eFGpct": 52.5144
     },
     {
       "team": "Stetson",
       "ORpct": 26.4671,
       "DRpct": 31.9899,
       "DefTOpct": 15.2544,
-      "OffTOpct": 18.4021
+      "OffTOpct": 18.4021,
+      "eFGpct": 50.968
     },
     {
       "team": "Stonehill",
       "ORpct": 28.6564,
       "DRpct": 26.1682,
       "DefTOpct": 13.0498,
-      "OffTOpct": 21.066
+      "OffTOpct": 21.066,
+      "eFGpct": 46.6171
     },
     {
       "team": "Stony Brook",
       "ORpct": 28.4235,
       "DRpct": 31.8605,
       "DefTOpct": 16.5469,
-      "OffTOpct": 16.9807
+      "OffTOpct": 16.9807,
+      "eFGpct": 50.3929
     },
     {
       "team": "Syracuse",
       "ORpct": 29.9429,
       "DRpct": 32.9335,
       "DefTOpct": 18.7157,
-      "OffTOpct": 16.2546
+      "OffTOpct": 16.2546,
+      "eFGpct": 53.2877
     },
     {
       "team": "Tarleton St.",
       "ORpct": 31.4327,
       "DRpct": 34.3402,
       "DefTOpct": 24.3439,
-      "OffTOpct": 20.1132
+      "OffTOpct": 20.1132,
+      "eFGpct": 48.523
     },
     {
       "team": "TCU",
       "ORpct": 33.0166,
       "DRpct": 29.2534,
       "DefTOpct": 19.8231,
-      "OffTOpct": 16.1761
+      "OffTOpct": 16.1761,
+      "eFGpct": 51.5961
     },
     {
       "team": "Temple",
       "ORpct": 30.5838,
       "DRpct": 31.0167,
       "DefTOpct": 15.9747,
-      "OffTOpct": 13.5983
+      "OffTOpct": 13.5983,
+      "eFGpct": 50
     },
     {
       "team": "Tennessee",
       "ORpct": 44.7462,
       "DRpct": 27.9299,
       "DefTOpct": 16.6035,
-      "OffTOpct": 18.4017
+      "OffTOpct": 18.4017,
+      "eFGpct": 52.7835
     },
     {
       "team": "Tennessee Martin",
       "ORpct": 38.3562,
       "DRpct": 31.4924,
       "DefTOpct": 19.049,
-      "OffTOpct": 21.9194
+      "OffTOpct": 21.9194,
+      "eFGpct": 50.2385
     },
     {
       "team": "Tennessee St.",
       "ORpct": 33.7756,
       "DRpct": 31.1914,
       "DefTOpct": 19.652,
-      "OffTOpct": 16.472
+      "OffTOpct": 16.472,
+      "eFGpct": 49.5293
     },
     {
       "team": "Tennessee Tech",
       "ORpct": 32.1519,
       "DRpct": 32.4155,
       "DefTOpct": 15.5711,
-      "OffTOpct": 19.6854
+      "OffTOpct": 19.6854,
+      "eFGpct": 49.5038
     },
     {
       "team": "Texas",
       "ORpct": 37.4836,
       "DRpct": 27.4056,
       "DefTOpct": 14.4144,
-      "OffTOpct": 15.5474
+      "OffTOpct": 15.5474,
+      "eFGpct": 54.9811
     },
     {
       "team": "Texas A&M",
       "ORpct": 32.809,
       "DRpct": 31.7932,
       "DefTOpct": 19.1622,
-      "OffTOpct": 14.873
+      "OffTOpct": 14.873,
+      "eFGpct": 55.8387
     },
     {
       "team": "Texas A&M Corpus Chris",
       "ORpct": 30.8101,
       "DRpct": 29.0133,
       "DefTOpct": 20.0289,
-      "OffTOpct": 18.7683
+      "OffTOpct": 18.7683,
+      "eFGpct": 47.4739
     },
     {
       "team": "Texas Southern",
       "ORpct": 27.6748,
       "DRpct": 32.5109,
       "DefTOpct": 16.1966,
-      "OffTOpct": 18.8381
+      "OffTOpct": 18.8381,
+      "eFGpct": 49.1297
     },
     {
       "team": "Texas St.",
       "ORpct": 33.3333,
       "DRpct": 28.0285,
       "DefTOpct": 18.7446,
-      "OffTOpct": 19.0357
+      "OffTOpct": 19.0357,
+      "eFGpct": 49.2318
     },
     {
       "team": "Texas Tech",
       "ORpct": 33.7995,
       "DRpct": 28.9352,
       "DefTOpct": 15.8835,
-      "OffTOpct": 15.2819
+      "OffTOpct": 15.2819,
+      "eFGpct": 55.9039
     },
     {
       "team": "The Citadel",
       "ORpct": 28.3272,
       "DRpct": 30.8609,
       "DefTOpct": 14.053,
-      "OffTOpct": 17.2859
+      "OffTOpct": 17.2859,
+      "eFGpct": 48.8453
     },
     {
       "team": "Toledo",
       "ORpct": 29.798,
       "DRpct": 35.4798,
       "DefTOpct": 18.6684,
-      "OffTOpct": 15.1952
+      "OffTOpct": 15.1952,
+      "eFGpct": 53.1408
     },
     {
       "team": "Towson",
       "ORpct": 36.044,
       "DRpct": 26.799,
       "DefTOpct": 15.8985,
-      "OffTOpct": 16.3509
+      "OffTOpct": 16.3509,
+      "eFGpct": 45.8128
     },
     {
       "team": "Troy",
       "ORpct": 33.4083,
       "DRpct": 31.3212,
       "DefTOpct": 17.5869,
-      "OffTOpct": 16.4804
+      "OffTOpct": 16.4804,
+      "eFGpct": 51.927
     },
     {
       "team": "Tulane",
       "ORpct": 22.1649,
       "DRpct": 35.4878,
       "DefTOpct": 17.8026,
-      "OffTOpct": 15.5852
+      "OffTOpct": 15.5852,
+      "eFGpct": 50.1216
     },
     {
       "team": "Tulsa",
       "ORpct": 32.5613,
       "DRpct": 28.8599,
       "DefTOpct": 15.3482,
-      "OffTOpct": 15.7885
+      "OffTOpct": 15.7885,
+      "eFGpct": 57.1973
     },
     {
       "team": "UAB",
       "ORpct": 33.1942,
       "DRpct": 27.2216,
       "DefTOpct": 16.6385,
-      "OffTOpct": 12.6084
+      "OffTOpct": 12.6084,
+      "eFGpct": 48.2028
     },
     {
       "team": "UC Davis",
       "ORpct": 26.6667,
       "DRpct": 30.8767,
       "DefTOpct": 19.6164,
-      "OffTOpct": 18.272
+      "OffTOpct": 18.272,
+      "eFGpct": 52.4691
     },
     {
       "team": "UC Irvine",
-      "ORpct": 30.4455,
-      "DRpct": 32.2148,
-      "DefTOpct": 18.3589,
-      "OffTOpct": 17.2075
+      "ORpct": 30.2924,
+      "DRpct": 32.516,
+      "DefTOpct": 18.7476,
+      "OffTOpct": 17.4085,
+      "eFGpct": 48.3261
     },
     {
       "team": "UC Riverside",
       "ORpct": 28.024,
       "DRpct": 31.068,
       "DefTOpct": 15.5055,
-      "OffTOpct": 20.1808
+      "OffTOpct": 20.1808,
+      "eFGpct": 49.4139
     },
     {
       "team": "UC San Diego",
       "ORpct": 26.3473,
       "DRpct": 27.9652,
       "DefTOpct": 16.6852,
-      "OffTOpct": 16.7448
+      "OffTOpct": 16.7448,
+      "eFGpct": 53.0829
     },
     {
       "team": "UC Santa Barbara",
       "ORpct": 32.8276,
       "DRpct": 26.014,
       "DefTOpct": 18.4283,
-      "OffTOpct": 18.4927
+      "OffTOpct": 18.4927,
+      "eFGpct": 56.152
     },
     {
       "team": "UCF",
       "ORpct": 36.1179,
       "DRpct": 27.0166,
       "DefTOpct": 16.2143,
-      "OffTOpct": 16.0307
+      "OffTOpct": 16.0307,
+      "eFGpct": 53.9256
     },
     {
       "team": "UCLA",
       "ORpct": 31.4694,
       "DRpct": 31.8804,
       "DefTOpct": 18.9258,
-      "OffTOpct": 13.8542
+      "OffTOpct": 13.8542,
+      "eFGpct": 53.8075
     },
     {
       "team": "UMass Lowell",
       "ORpct": 32.419,
       "DRpct": 29.8851,
       "DefTOpct": 14.5027,
-      "OffTOpct": 19.4411
+      "OffTOpct": 19.4411,
+      "eFGpct": 50.1517
     },
     {
       "team": "UMBC",
       "ORpct": 23.4949,
       "DRpct": 26.2162,
       "DefTOpct": 14.8884,
-      "OffTOpct": 14.6767
+      "OffTOpct": 14.6767,
+      "eFGpct": 52.7919
     },
     {
       "team": "UNC Asheville",
       "ORpct": 29.5833,
       "DRpct": 31.3907,
       "DefTOpct": 15.515,
-      "OffTOpct": 17.7219
+      "OffTOpct": 17.7219,
+      "eFGpct": 51.7725
     },
     {
       "team": "UNC Greensboro",
       "ORpct": 28.6203,
       "DRpct": 29.6875,
       "DefTOpct": 13.3448,
-      "OffTOpct": 15.4487
+      "OffTOpct": 15.4487,
+      "eFGpct": 50.7625
     },
     {
       "team": "UNC Wilmington",
       "ORpct": 34.878,
       "DRpct": 26.9231,
       "DefTOpct": 15.0912,
-      "OffTOpct": 15.0912
+      "OffTOpct": 15.0912,
+      "eFGpct": 51.1459
     },
     {
       "team": "UNLV",
       "ORpct": 32.2304,
       "DRpct": 31.677,
       "DefTOpct": 17.9261,
-      "OffTOpct": 17.6243
+      "OffTOpct": 17.6243,
+      "eFGpct": 51.9703
     },
     {
       "team": "USC",
       "ORpct": 33.2918,
       "DRpct": 31.3131,
       "DefTOpct": 17.0236,
-      "OffTOpct": 17.4806
+      "OffTOpct": 17.4806,
+      "eFGpct": 51.9355
     },
     {
       "team": "USC Upstate",
       "ORpct": 28.5219,
       "DRpct": 32.1645,
       "DefTOpct": 16.1138,
-      "OffTOpct": 17.7744
+      "OffTOpct": 17.7744,
+      "eFGpct": 48.5359
     },
     {
       "team": "UT Arlington",
       "ORpct": 34.9719,
       "DRpct": 29.6149,
       "DefTOpct": 17.9423,
-      "OffTOpct": 21.4107
+      "OffTOpct": 21.4107,
+      "eFGpct": 48.9873
     },
     {
       "team": "UT Rio Grande Valley",
       "ORpct": 29.1275,
       "DRpct": 31.4251,
       "DefTOpct": 17.1588,
-      "OffTOpct": 18.4441
+      "OffTOpct": 18.4441,
+      "eFGpct": 54.311
     },
     {
       "team": "Utah",
       "ORpct": 28.8095,
       "DRpct": 32.5608,
       "DefTOpct": 14.11,
-      "OffTOpct": 16.0747
+      "OffTOpct": 16.0747,
+      "eFGpct": 52.4825
     },
     {
       "team": "Utah St.",
       "ORpct": 35.4533,
       "DRpct": 31.2578,
       "DefTOpct": 21.0325,
-      "OffTOpct": 16.106
+      "OffTOpct": 16.106,
+      "eFGpct": 57.7869
     },
     {
       "team": "Utah Tech",
       "ORpct": 29.3367,
       "DRpct": 34.3672,
       "DefTOpct": 17.7774,
-      "OffTOpct": 17.8393
+      "OffTOpct": 17.8393,
+      "eFGpct": 52.8003
     },
     {
       "team": "Utah Valley",
       "ORpct": 35.0072,
       "DRpct": 31.3253,
       "DefTOpct": 21.3392,
-      "OffTOpct": 21.0168
+      "OffTOpct": 21.0168,
+      "eFGpct": 55.8426
     },
     {
       "team": "UTEP",
       "ORpct": 27.6215,
       "DRpct": 33.4716,
       "DefTOpct": 18.6644,
-      "OffTOpct": 17.5022
+      "OffTOpct": 17.5022,
+      "eFGpct": 47.8226
     },
     {
       "team": "UTSA",
       "ORpct": 30.1136,
       "DRpct": 38.8957,
       "DefTOpct": 14.8869,
-      "OffTOpct": 18.5924
+      "OffTOpct": 18.5924,
+      "eFGpct": 44.0405
     },
     {
       "team": "Valparaiso",
       "ORpct": 32.3718,
       "DRpct": 30.1354,
       "DefTOpct": 16.895,
-      "OffTOpct": 15.8872
+      "OffTOpct": 15.8872,
+      "eFGpct": 46.573
     },
     {
       "team": "Vanderbilt",
       "ORpct": 30.7598,
       "DRpct": 29.0951,
       "DefTOpct": 18.3764,
-      "OffTOpct": 13.3803
+      "OffTOpct": 13.3803,
+      "eFGpct": 56.6241
     },
     {
       "team": "VCU",
       "ORpct": 33.912,
       "DRpct": 30.43,
       "DefTOpct": 17.4577,
-      "OffTOpct": 15.7517
+      "OffTOpct": 15.7517,
+      "eFGpct": 54.744
     },
     {
       "team": "Vermont",
       "ORpct": 26.7516,
       "DRpct": 22.5282,
       "DefTOpct": 14.4106,
-      "OffTOpct": 14.6011
+      "OffTOpct": 14.6011,
+      "eFGpct": 53.4712
     },
     {
       "team": "Villanova",
       "ORpct": 34.9941,
       "DRpct": 32.1078,
       "DefTOpct": 18.9734,
-      "OffTOpct": 15.5808
+      "OffTOpct": 15.5808,
+      "eFGpct": 54.4492
     },
     {
       "team": "Virginia",
       "ORpct": 39.8137,
       "DRpct": 28.9105,
       "DefTOpct": 16.1621,
-      "OffTOpct": 15.7948
+      "OffTOpct": 15.7948,
+      "eFGpct": 54.5732
     },
     {
       "team": "Virginia Tech",
       "ORpct": 31.7821,
       "DRpct": 32.5556,
       "DefTOpct": 18.1384,
-      "OffTOpct": 14.9176
+      "OffTOpct": 14.9176,
+      "eFGpct": 51.9029
     },
     {
       "team": "VMI",
       "ORpct": 26.2258,
       "DRpct": 38.8041,
       "DefTOpct": 16.73,
-      "OffTOpct": 16.2172
+      "OffTOpct": 16.2172,
+      "eFGpct": 47.4925
     },
     {
       "team": "Wagner",
       "ORpct": 31.6619,
       "DRpct": 30.6548,
       "DefTOpct": 15.2074,
-      "OffTOpct": 18.6534
+      "OffTOpct": 18.6534,
+      "eFGpct": 50.4394
     },
     {
       "team": "Wake Forest",
       "ORpct": 30.012,
       "DRpct": 33.2117,
       "DefTOpct": 19.6493,
-      "OffTOpct": 15.7079
+      "OffTOpct": 15.7079,
+      "eFGpct": 52.8649
     },
     {
       "team": "Washington",
       "ORpct": 35.2874,
       "DRpct": 28.3937,
       "DefTOpct": 14.6843,
-      "OffTOpct": 15.671
+      "OffTOpct": 15.671,
+      "eFGpct": 50.6498
     },
     {
       "team": "Washington St.",
       "ORpct": 29.7136,
       "DRpct": 27.2936,
       "DefTOpct": 14.5926,
-      "OffTOpct": 18.8813
+      "OffTOpct": 18.8813,
+      "eFGpct": 55.1395
     },
     {
       "team": "Weber St.",
       "ORpct": 32.2468,
       "DRpct": 28.202,
       "DefTOpct": 16.6989,
-      "OffTOpct": 15.8786
+      "OffTOpct": 15.8786,
+      "eFGpct": 51.7061
     },
     {
       "team": "West Georgia",
       "ORpct": 31.7714,
       "DRpct": 29.909,
       "DefTOpct": 15.213,
-      "OffTOpct": 15.6441
+      "OffTOpct": 15.6441,
+      "eFGpct": 48.7889
     },
     {
       "team": "West Virginia",
       "ORpct": 30.4833,
       "DRpct": 26.2963,
       "DefTOpct": 17.8701,
-      "OffTOpct": 17.225
+      "OffTOpct": 17.225,
+      "eFGpct": 51.8377
     },
     {
       "team": "Western Carolina",
       "ORpct": 34.126,
       "DRpct": 27.86,
       "DefTOpct": 14.784,
-      "OffTOpct": 17.5073
+      "OffTOpct": 17.5073,
+      "eFGpct": 50.1459
     },
     {
       "team": "Western Illinois",
       "ORpct": 27.867,
       "DRpct": 33.9332,
       "DefTOpct": 15.1323,
-      "OffTOpct": 17.4083
+      "OffTOpct": 17.4083,
+      "eFGpct": 43.9224
     },
     {
       "team": "Western Kentucky",
       "ORpct": 33.5845,
       "DRpct": 30.2071,
       "DefTOpct": 17.9153,
-      "OffTOpct": 14.6001
+      "OffTOpct": 14.6001,
+      "eFGpct": 45.0249
     },
     {
       "team": "Western Michigan",
       "ORpct": 31.465,
       "DRpct": 30.3069,
       "DefTOpct": 13.5495,
-      "OffTOpct": 17.5617
+      "OffTOpct": 17.5617,
+      "eFGpct": 50.3037
     },
     {
       "team": "Wichita St.",
       "ORpct": 38.3442,
       "DRpct": 29.6591,
       "DefTOpct": 16.9015,
-      "OffTOpct": 15.132
+      "OffTOpct": 15.132,
+      "eFGpct": 49.4932
     },
     {
       "team": "William & Mary",
       "ORpct": 26.8482,
       "DRpct": 31.8976,
       "DefTOpct": 19.3992,
-      "OffTOpct": 17.1654
+      "OffTOpct": 17.1654,
+      "eFGpct": 54.7672
     },
     {
       "team": "Winthrop",
       "ORpct": 33.9806,
       "DRpct": 28.9872,
       "DefTOpct": 17.1989,
-      "OffTOpct": 14.6336
+      "OffTOpct": 14.6336,
+      "eFGpct": 51.0877
     },
     {
       "team": "Wisconsin",
       "ORpct": 29.8595,
       "DRpct": 26.0613,
       "DefTOpct": 14.6324,
-      "OffTOpct": 13.2221
+      "OffTOpct": 13.2221,
+      "eFGpct": 53.7609
     },
     {
       "team": "Wofford",
       "ORpct": 29.8021,
       "DRpct": 29.9145,
       "DefTOpct": 15.2602,
-      "OffTOpct": 13.7463
+      "OffTOpct": 13.7463,
+      "eFGpct": 52.0906
     },
     {
       "team": "Wright St.",
       "ORpct": 32.9616,
       "DRpct": 30.2239,
       "DefTOpct": 17.062,
-      "OffTOpct": 16.1512
+      "OffTOpct": 16.1512,
+      "eFGpct": 53.574
     },
     {
       "team": "Wyoming",
       "ORpct": 34.6887,
       "DRpct": 26.6578,
       "DefTOpct": 16.7987,
-      "OffTOpct": 17.3714
+      "OffTOpct": 17.3714,
+      "eFGpct": 51.9202
     },
     {
       "team": "Xavier",
       "ORpct": 25.9783,
       "DRpct": 29.1018,
       "DefTOpct": 16.7386,
-      "OffTOpct": 14.1412
+      "OffTOpct": 14.1412,
+      "eFGpct": 50.9855
     },
     {
       "team": "Yale",
       "ORpct": 34.6154,
       "DRpct": 29.2035,
       "DefTOpct": 15.9552,
-      "OffTOpct": 14.2323
+      "OffTOpct": 14.2323,
+      "eFGpct": 56.8398
     },
     {
       "team": "Youngstown St.",
       "ORpct": 32.7742,
       "DRpct": 31.4094,
       "DefTOpct": 18.3496,
-      "OffTOpct": 19.4216
+      "OffTOpct": 19.4216,
+      "eFGpct": 54.3381
     }
   ]
 }

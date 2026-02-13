@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-02-13T05:11:56.818Z",
+  "updated_at": "2026-02-13T05:53:36.946Z",
   "teams": [
     {
       "team": "Abilene Christian",
-      "heist": 0.385218,
+      "heist": 0.385487,
       "ORpct": 32.2493,
       "DRpct": 30.8362,
       "DefTOpct": 23.3316,
@@ -11,7 +11,7 @@
     },
     {
       "team": "Air Force",
-      "heist": -1.326798,
+      "heist": -1.326062,
       "ORpct": 22.0493,
       "DRpct": 31.3472,
       "DefTOpct": 15.6729,
@@ -19,7 +19,7 @@
     },
     {
       "team": "Akron",
-      "heist": 0.675579,
+      "heist": 0.675413,
       "ORpct": 33.882,
       "DRpct": 32.1951,
       "DefTOpct": 18.5132,
@@ -27,7 +27,7 @@
     },
     {
       "team": "Alabama",
-      "heist": 0.196333,
+      "heist": 0.19607,
       "ORpct": 31.4559,
       "DRpct": 32.7837,
       "DefTOpct": 12.4134,
@@ -35,7 +35,7 @@
     },
     {
       "team": "Alabama A&M",
-      "heist": -0.362449,
+      "heist": -0.362282,
       "ORpct": 27.1233,
       "DRpct": 29.2308,
       "DefTOpct": 16.9646,
@@ -43,7 +43,7 @@
     },
     {
       "team": "Alabama St.",
-      "heist": 0.336515,
+      "heist": 0.336684,
       "ORpct": 32.2543,
       "DRpct": 33.8501,
       "DefTOpct": 19.4071,
@@ -51,7 +51,7 @@
     },
     {
       "team": "Albany",
-      "heist": 0.033394,
+      "heist": 0.03355,
       "ORpct": 31.4888,
       "DRpct": 33.5694,
       "DefTOpct": 16.1634,
@@ -59,7 +59,7 @@
     },
     {
       "team": "Alcorn St.",
-      "heist": 0.036415,
+      "heist": 0.036668,
       "ORpct": 27.4534,
       "DRpct": 37.1389,
       "DefTOpct": 18.1545,
@@ -67,7 +67,7 @@
     },
     {
       "team": "American",
-      "heist": 0.026966,
+      "heist": 0.026988,
       "ORpct": 26.6908,
       "DRpct": 30.563,
       "DefTOpct": 19.0726,
@@ -75,7 +75,7 @@
     },
     {
       "team": "Appalachian St.",
-      "heist": -0.218809,
+      "heist": -0.218786,
       "ORpct": 30.9795,
       "DRpct": 28.8154,
       "DefTOpct": 14.2905,
@@ -83,7 +83,7 @@
     },
     {
       "team": "Arizona",
-      "heist": 0.369347,
+      "heist": 0.369373,
       "ORpct": 39.4802,
       "DRpct": 25.6566,
       "DefTOpct": 17.8485,
@@ -91,7 +91,7 @@
     },
     {
       "team": "Arizona St.",
-      "heist": 0.630355,
+      "heist": 0.630199,
       "ORpct": 30.5492,
       "DRpct": 34.186,
       "DefTOpct": 19.1019,
@@ -99,7 +99,7 @@
     },
     {
       "team": "Arkansas",
-      "heist": 0.623343,
+      "heist": 0.622996,
       "ORpct": 32.4691,
       "DRpct": 31.573,
       "DefTOpct": 16.4691,
@@ -107,7 +107,7 @@
     },
     {
       "team": "Arkansas Pine Bluff",
-      "heist": -0.236425,
+      "heist": -0.23618,
       "ORpct": 27.5995,
       "DRpct": 34.8226,
       "DefTOpct": 15.9927,
@@ -115,7 +115,7 @@
     },
     {
       "team": "Arkansas St.",
-      "heist": -0.393838,
+      "heist": -0.393371,
       "ORpct": 37.8319,
       "DRpct": 26.6515,
       "DefTOpct": 15.538,
@@ -123,7 +123,7 @@
     },
     {
       "team": "Army",
-      "heist": -0.507093,
+      "heist": -0.506888,
       "ORpct": 29.3598,
       "DRpct": 27.9597,
       "DefTOpct": 15.0414,
@@ -131,7 +131,7 @@
     },
     {
       "team": "Auburn",
-      "heist": 0.90767,
+      "heist": 0.907408,
       "ORpct": 38.3079,
       "DRpct": 31.8348,
       "DefTOpct": 17.2212,
@@ -139,7 +139,7 @@
     },
     {
       "team": "Austin Peay",
-      "heist": 0.250321,
+      "heist": 0.250233,
       "ORpct": 28.7371,
       "DRpct": 29.7436,
       "DefTOpct": 19.3093,
@@ -147,7 +147,7 @@
     },
     {
       "team": "Ball St.",
-      "heist": 0.184486,
+      "heist": 0.184476,
       "ORpct": 27.2956,
       "DRpct": 32.1856,
       "DefTOpct": 19.1521,
@@ -155,7 +155,7 @@
     },
     {
       "team": "Baylor",
-      "heist": 0.438608,
+      "heist": 0.438603,
       "ORpct": 37.1827,
       "DRpct": 32.6241,
       "DefTOpct": 15.5625,
@@ -163,7 +163,7 @@
     },
     {
       "team": "Bellarmine",
-      "heist": -0.425173,
+      "heist": -0.425155,
       "ORpct": 21.1094,
       "DRpct": 34.1823,
       "DefTOpct": 14.9561,
@@ -171,7 +171,7 @@
     },
     {
       "team": "Belmont",
-      "heist": -0.307444,
+      "heist": -0.307159,
       "ORpct": 29.3601,
       "DRpct": 29.8193,
       "DefTOpct": 17.5695,
@@ -179,7 +179,7 @@
     },
     {
       "team": "Bethune Cookman",
-      "heist": -0.354895,
+      "heist": -0.354632,
       "ORpct": 29.1415,
       "DRpct": 31.4554,
       "DefTOpct": 15.8145,
@@ -187,7 +187,7 @@
     },
     {
       "team": "Binghamton",
-      "heist": -1.442613,
+      "heist": -1.442081,
       "ORpct": 21.7096,
       "DRpct": 28.8832,
       "DefTOpct": 12.9197,
@@ -195,7 +195,7 @@
     },
     {
       "team": "Boise St.",
-      "heist": -0.618091,
+      "heist": -0.617826,
       "ORpct": 31.5202,
       "DRpct": 23.9612,
       "DefTOpct": 15.5601,
@@ -203,7 +203,7 @@
     },
     {
       "team": "Boston College",
-      "heist": -0.355961,
+      "heist": -0.35591,
       "ORpct": 27.4834,
       "DRpct": 28.6996,
       "DefTOpct": 15.394,
@@ -211,7 +211,7 @@
     },
     {
       "team": "Boston University",
-      "heist": -0.985987,
+      "heist": -0.98562,
       "ORpct": 27.4026,
       "DRpct": 27.0833,
       "DefTOpct": 13.3852,
@@ -219,7 +219,7 @@
     },
     {
       "team": "Bowling Green",
-      "heist": -0.12245,
+      "heist": -0.122281,
       "ORpct": 29.3493,
       "DRpct": 27.2363,
       "DefTOpct": 19.6842,
@@ -227,7 +227,7 @@
     },
     {
       "team": "Bradley",
-      "heist": 0.345823,
+      "heist": 0.345589,
       "ORpct": 27.115,
       "DRpct": 28.9044,
       "DefTOpct": 19.891,
@@ -235,7 +235,7 @@
     },
     {
       "team": "Brown",
-      "heist": -0.256158,
+      "heist": -0.255915,
       "ORpct": 28.9398,
       "DRpct": 29.2379,
       "DefTOpct": 18.2111,
@@ -243,7 +243,7 @@
     },
     {
       "team": "Bryant",
-      "heist": -0.747779,
+      "heist": -0.747274,
       "ORpct": 28.4289,
       "DRpct": 32.0102,
       "DefTOpct": 14.7344,
@@ -251,7 +251,7 @@
     },
     {
       "team": "Bucknell",
-      "heist": -0.4095,
+      "heist": -0.409191,
       "ORpct": 26.4151,
       "DRpct": 31.2352,
       "DefTOpct": 17.7656,
@@ -259,7 +259,7 @@
     },
     {
       "team": "Buffalo",
-      "heist": 0.011013,
+      "heist": 0.011025,
       "ORpct": 27.9627,
       "DRpct": 31.0026,
       "DefTOpct": 17.6097,
@@ -267,7 +267,7 @@
     },
     {
       "team": "Butler",
-      "heist": 0.265205,
+      "heist": 0.265208,
       "ORpct": 35.7778,
       "DRpct": 30.8952,
       "DefTOpct": 15.5271,
@@ -275,7 +275,7 @@
     },
     {
       "team": "BYU",
-      "heist": 0.337311,
+      "heist": 0.337211,
       "ORpct": 35.3972,
       "DRpct": 28.7625,
       "DefTOpct": 16.4131,
@@ -283,7 +283,7 @@
     },
     {
       "team": "Cal Baptist",
-      "heist": -0.070513,
+      "heist": -0.070213,
       "ORpct": 38.7378,
       "DRpct": 26.5033,
       "DefTOpct": 16.526,
@@ -291,15 +291,15 @@
     },
     {
       "team": "Cal Poly",
-      "heist": -0.605574,
-      "ORpct": 30.2243,
-      "DRpct": 30.6604,
-      "DefTOpct": 16.6403,
-      "OffTOpct": 21.2563
+      "heist": -0.596783,
+      "ORpct": 30.6397,
+      "DRpct": 30.5028,
+      "DefTOpct": 16.845,
+      "OffTOpct": 21.4787
     },
     {
       "team": "Cal St. Bakersfield",
-      "heist": 0.348527,
+      "heist": 0.348698,
       "ORpct": 32.2072,
       "DRpct": 36.3318,
       "DefTOpct": 18.132,
@@ -307,15 +307,15 @@
     },
     {
       "team": "Cal St. Fullerton",
-      "heist": 0.035415,
-      "ORpct": 25.1131,
-      "DRpct": 29.4335,
-      "DefTOpct": 19.6462,
-      "OffTOpct": 15.4649
+      "heist": 0.017479,
+      "ORpct": 25.3536,
+      "DRpct": 28.8783,
+      "DefTOpct": 19.6695,
+      "OffTOpct": 15.384
     },
     {
       "team": "California",
-      "heist": -0.242675,
+      "heist": -0.242697,
       "ORpct": 25.7353,
       "DRpct": 30.5463,
       "DefTOpct": 15.7374,
@@ -323,7 +323,7 @@
     },
     {
       "team": "Campbell",
-      "heist": 0.042825,
+      "heist": 0.043004,
       "ORpct": 32.5581,
       "DRpct": 31.2242,
       "DefTOpct": 17.335,
@@ -331,7 +331,7 @@
     },
     {
       "team": "Canisius",
-      "heist": -0.447531,
+      "heist": -0.447151,
       "ORpct": 29.7041,
       "DRpct": 30.4799,
       "DefTOpct": 16.6289,
@@ -339,7 +339,7 @@
     },
     {
       "team": "Central Arkansas",
-      "heist": -0.066177,
+      "heist": -0.066155,
       "ORpct": 28.2139,
       "DRpct": 26.99,
       "DefTOpct": 19.0755,
@@ -347,7 +347,7 @@
     },
     {
       "team": "Central Connecticut",
-      "heist": -0.462772,
+      "heist": -0.462639,
       "ORpct": 27.3504,
       "DRpct": 30.7792,
       "DefTOpct": 14.1293,
@@ -355,7 +355,7 @@
     },
     {
       "team": "Central Michigan",
-      "heist": -0.026915,
+      "heist": -0.0268,
       "ORpct": 28.836,
       "DRpct": 34.5157,
       "DefTOpct": 16.0013,
@@ -363,7 +363,7 @@
     },
     {
       "team": "Charleston",
-      "heist": -0.234995,
+      "heist": -0.234914,
       "ORpct": 29.7921,
       "DRpct": 31.3824,
       "DefTOpct": 14.1784,
@@ -371,7 +371,7 @@
     },
     {
       "team": "Charleston Southern",
-      "heist": -0.804063,
+      "heist": -0.803638,
       "ORpct": 30.8126,
       "DRpct": 29.6178,
       "DefTOpct": 12.716,
@@ -379,7 +379,7 @@
     },
     {
       "team": "Charlotte",
-      "heist": -0.085691,
+      "heist": -0.085448,
       "ORpct": 35.0267,
       "DRpct": 31.9641,
       "DefTOpct": 14.6353,
@@ -387,7 +387,7 @@
     },
     {
       "team": "Chattanooga",
-      "heist": -0.63356,
+      "heist": -0.633549,
       "ORpct": 20.9396,
       "DRpct": 31.6121,
       "DefTOpct": 13.932,
@@ -395,7 +395,7 @@
     },
     {
       "team": "Chicago St.",
-      "heist": 0.682077,
+      "heist": 0.681899,
       "ORpct": 28.6192,
       "DRpct": 35.2713,
       "DefTOpct": 20.0271,
@@ -403,7 +403,7 @@
     },
     {
       "team": "Cincinnati",
-      "heist": -0.276056,
+      "heist": -0.275812,
       "ORpct": 30.5494,
       "DRpct": 26.0967,
       "DefTOpct": 18.8064,
@@ -411,7 +411,7 @@
     },
     {
       "team": "Clemson",
-      "heist": -0.212323,
+      "heist": -0.212301,
       "ORpct": 29.2232,
       "DRpct": 25.0863,
       "DefTOpct": 17.7616,
@@ -419,7 +419,7 @@
     },
     {
       "team": "Cleveland St.",
-      "heist": 0.020627,
+      "heist": 0.020754,
       "ORpct": 28.8538,
       "DRpct": 38.1068,
       "DefTOpct": 14.5805,
@@ -427,7 +427,7 @@
     },
     {
       "team": "Coastal Carolina",
-      "heist": -0.848102,
+      "heist": -0.847927,
       "ORpct": 26.3211,
       "DRpct": 27.5629,
       "DefTOpct": 12.641,
@@ -435,7 +435,7 @@
     },
     {
       "team": "Colgate",
-      "heist": -0.132816,
+      "heist": -0.132852,
       "ORpct": 27.3183,
       "DRpct": 29.8329,
       "DefTOpct": 16.2702,
@@ -443,7 +443,7 @@
     },
     {
       "team": "Colorado",
-      "heist": 0.063192,
+      "heist": 0.063084,
       "ORpct": 30.5263,
       "DRpct": 29.8021,
       "DefTOpct": 15.5118,
@@ -451,7 +451,7 @@
     },
     {
       "team": "Colorado St.",
-      "heist": -0.622996,
+      "heist": -0.622606,
       "ORpct": 31.3901,
       "DRpct": 27.7333,
       "DefTOpct": 15.1867,
@@ -459,7 +459,7 @@
     },
     {
       "team": "Columbia",
-      "heist": -0.545303,
+      "heist": -0.544811,
       "ORpct": 36.5672,
       "DRpct": 27.7778,
       "DefTOpct": 14.2096,
@@ -467,7 +467,7 @@
     },
     {
       "team": "Connecticut",
-      "heist": 0.386653,
+      "heist": 0.386664,
       "ORpct": 35.2509,
       "DRpct": 28.9444,
       "DefTOpct": 18.6585,
@@ -475,7 +475,7 @@
     },
     {
       "team": "Coppin St.",
-      "heist": -0.295624,
+      "heist": -0.295092,
       "ORpct": 30.1734,
       "DRpct": 35.7513,
       "DefTOpct": 17.2967,
@@ -483,7 +483,7 @@
     },
     {
       "team": "Cornell",
-      "heist": -0.160212,
+      "heist": -0.160144,
       "ORpct": 29.6923,
       "DRpct": 30.3406,
       "DefTOpct": 15.6098,
@@ -491,7 +491,7 @@
     },
     {
       "team": "Creighton",
-      "heist": -0.322332,
+      "heist": -0.322213,
       "ORpct": 28.6905,
       "DRpct": 31.5904,
       "DefTOpct": 14.2777,
@@ -499,7 +499,7 @@
     },
     {
       "team": "CSUN",
-      "heist": -0.55147,
+      "heist": -0.551123,
       "ORpct": 32.1016,
       "DRpct": 26.0417,
       "DefTOpct": 15.9638,
@@ -507,7 +507,7 @@
     },
     {
       "team": "Dartmouth",
-      "heist": -0.813155,
+      "heist": -0.812846,
       "ORpct": 25.4237,
       "DRpct": 30.7801,
       "DefTOpct": 13.7271,
@@ -515,7 +515,7 @@
     },
     {
       "team": "Davidson",
-      "heist": 0.199486,
+      "heist": 0.199465,
       "ORpct": 29.726,
       "DRpct": 31.4246,
       "DefTOpct": 18.0339,
@@ -523,7 +523,7 @@
     },
     {
       "team": "Dayton",
-      "heist": 0.39324,
+      "heist": 0.39322,
       "ORpct": 26.8323,
       "DRpct": 31.1971,
       "DefTOpct": 22.4711,
@@ -531,7 +531,7 @@
     },
     {
       "team": "Delaware",
-      "heist": -1.082664,
+      "heist": -1.082263,
       "ORpct": 22.0144,
       "DRpct": 30.397,
       "DefTOpct": 14.2673,
@@ -539,7 +539,7 @@
     },
     {
       "team": "Delaware St.",
-      "heist": -0.24941,
+      "heist": -0.249091,
       "ORpct": 26.1765,
       "DRpct": 30.8642,
       "DefTOpct": 20.2647,
@@ -547,7 +547,7 @@
     },
     {
       "team": "Denver",
-      "heist": 0.011044,
+      "heist": 0.010923,
       "ORpct": 29.927,
       "DRpct": 33.6879,
       "DefTOpct": 12.7248,
@@ -555,7 +555,7 @@
     },
     {
       "team": "DePaul",
-      "heist": 0.023173,
+      "heist": 0.023306,
       "ORpct": 30.0358,
       "DRpct": 31.0795,
       "DefTOpct": 18.1689,
@@ -563,7 +563,7 @@
     },
     {
       "team": "Detroit Mercy",
-      "heist": -0.029295,
+      "heist": -0.029194,
       "ORpct": 34.4743,
       "DRpct": 31.3376,
       "DefTOpct": 13.9562,
@@ -571,7 +571,7 @@
     },
     {
       "team": "Drake",
-      "heist": -0.293365,
+      "heist": -0.293413,
       "ORpct": 26.6298,
       "DRpct": 29.49,
       "DefTOpct": 14.7683,
@@ -579,7 +579,7 @@
     },
     {
       "team": "Drexel",
-      "heist": -0.180154,
+      "heist": -0.179897,
       "ORpct": 31.0465,
       "DRpct": 31.2281,
       "DefTOpct": 16.7651,
@@ -587,7 +587,7 @@
     },
     {
       "team": "Duke",
-      "heist": 0.279823,
+      "heist": 0.279887,
       "ORpct": 37.0323,
       "DRpct": 25.1685,
       "DefTOpct": 19.2365,
@@ -595,7 +595,7 @@
     },
     {
       "team": "Duquesne",
-      "heist": -0.158597,
+      "heist": -0.158399,
       "ORpct": 30.092,
       "DRpct": 29.3967,
       "DefTOpct": 17.8737,
@@ -603,7 +603,7 @@
     },
     {
       "team": "East Carolina",
-      "heist": 0.227542,
+      "heist": 0.227576,
       "ORpct": 32.5175,
       "DRpct": 32.5926,
       "DefTOpct": 16.6495,
@@ -611,7 +611,7 @@
     },
     {
       "team": "East Tennessee St.",
-      "heist": 0.100252,
+      "heist": 0.100182,
       "ORpct": 28.8564,
       "DRpct": 26.8414,
       "DefTOpct": 19.4137,
@@ -619,7 +619,7 @@
     },
     {
       "team": "East Texas A&M",
-      "heist": -0.448177,
+      "heist": -0.447837,
       "ORpct": 25.4651,
       "DRpct": 32.6531,
       "DefTOpct": 17.5108,
@@ -627,7 +627,7 @@
     },
     {
       "team": "Eastern Illinois",
-      "heist": 0.105586,
+      "heist": 0.105752,
       "ORpct": 26.5487,
       "DRpct": 35.2332,
       "DefTOpct": 19.4646,
@@ -635,7 +635,7 @@
     },
     {
       "team": "Eastern Kentucky",
-      "heist": -0.040455,
+      "heist": -0.040316,
       "ORpct": 33.0726,
       "DRpct": 31.7343,
       "DefTOpct": 15.0589,
@@ -643,7 +643,7 @@
     },
     {
       "team": "Eastern Michigan",
-      "heist": -0.367859,
+      "heist": -0.367652,
       "ORpct": 28.8095,
       "DRpct": 29.2453,
       "DefTOpct": 16.3708,
@@ -651,7 +651,7 @@
     },
     {
       "team": "Eastern Washington",
-      "heist": 0.006659,
+      "heist": 0.006819,
       "ORpct": 31.3358,
       "DRpct": 32.3963,
       "DefTOpct": 16.6988,
@@ -659,7 +659,7 @@
     },
     {
       "team": "Elon",
-      "heist": 0.447952,
+      "heist": 0.447845,
       "ORpct": 33.1375,
       "DRpct": 33.5656,
       "DefTOpct": 16.2557,
@@ -667,7 +667,7 @@
     },
     {
       "team": "Evansville",
-      "heist": -0.890435,
+      "heist": -0.890011,
       "ORpct": 23.2274,
       "DRpct": 30.303,
       "DefTOpct": 16.2246,
@@ -675,7 +675,7 @@
     },
     {
       "team": "Fairfield",
-      "heist": 0.339455,
+      "heist": 0.339355,
       "ORpct": 35.6334,
       "DRpct": 29.0739,
       "DefTOpct": 16.0991,
@@ -683,7 +683,7 @@
     },
     {
       "team": "Fairleigh Dickinson",
-      "heist": -0.329851,
+      "heist": -0.329605,
       "ORpct": 30.9724,
       "DRpct": 28.5521,
       "DefTOpct": 16.4206,
@@ -691,7 +691,7 @@
     },
     {
       "team": "FIU",
-      "heist": 0.814169,
+      "heist": 0.814038,
       "ORpct": 32.1883,
       "DRpct": 35.8134,
       "DefTOpct": 19.677,
@@ -699,7 +699,7 @@
     },
     {
       "team": "Florida",
-      "heist": 0.099551,
+      "heist": 0.099706,
       "ORpct": 42.7015,
       "DRpct": 23.8248,
       "DefTOpct": 15.4438,
@@ -707,7 +707,7 @@
     },
     {
       "team": "Florida A&M",
-      "heist": -0.347941,
+      "heist": -0.347381,
       "ORpct": 29.5292,
       "DRpct": 32.3263,
       "DefTOpct": 19.5467,
@@ -715,7 +715,7 @@
     },
     {
       "team": "Florida Atlantic",
-      "heist": -0.261158,
+      "heist": -0.260896,
       "ORpct": 33.134,
       "DRpct": 28.1959,
       "DefTOpct": 16.2883,
@@ -723,7 +723,7 @@
     },
     {
       "team": "Florida Gulf Coast",
-      "heist": -0.089476,
+      "heist": -0.089364,
       "ORpct": 31.3817,
       "DRpct": 29.7719,
       "DefTOpct": 16.3629,
@@ -731,7 +731,7 @@
     },
     {
       "team": "Florida St.",
-      "heist": 0.71276,
+      "heist": 0.712585,
       "ORpct": 31.8841,
       "DRpct": 32.9466,
       "DefTOpct": 19.6922,
@@ -739,7 +739,7 @@
     },
     {
       "team": "Fordham",
-      "heist": -0.039011,
+      "heist": -0.038831,
       "ORpct": 36.051,
       "DRpct": 26.9333,
       "DefTOpct": 16.6265,
@@ -747,7 +747,7 @@
     },
     {
       "team": "Fresno St.",
-      "heist": -0.170105,
+      "heist": -0.169836,
       "ORpct": 28.3733,
       "DRpct": 30.3813,
       "DefTOpct": 19.3318,
@@ -755,7 +755,7 @@
     },
     {
       "team": "Furman",
-      "heist": -0.702031,
+      "heist": -0.701647,
       "ORpct": 30.8387,
       "DRpct": 28.7209,
       "DefTOpct": 13.8937,
@@ -763,7 +763,7 @@
     },
     {
       "team": "Gardner Webb",
-      "heist": -0.693288,
+      "heist": -0.692848,
       "ORpct": 23.962,
       "DRpct": 36.6751,
       "DefTOpct": 14.5585,
@@ -771,7 +771,7 @@
     },
     {
       "team": "George Mason",
-      "heist": -0.060135,
+      "heist": -0.060089,
       "ORpct": 31.593,
       "DRpct": 28.223,
       "DefTOpct": 16.5312,
@@ -779,7 +779,7 @@
     },
     {
       "team": "George Washington",
-      "heist": 0.21015,
+      "heist": 0.210313,
       "ORpct": 36.5362,
       "DRpct": 29.2014,
       "DefTOpct": 17.7466,
@@ -787,7 +787,7 @@
     },
     {
       "team": "Georgetown",
-      "heist": 0.316519,
+      "heist": 0.316384,
       "ORpct": 32.4675,
       "DRpct": 30.7958,
       "DefTOpct": 16.3332,
@@ -795,7 +795,7 @@
     },
     {
       "team": "Georgia",
-      "heist": 1.291251,
+      "heist": 1.290867,
       "ORpct": 36.0478,
       "DRpct": 35.3422,
       "DefTOpct": 19.4972,
@@ -803,7 +803,7 @@
     },
     {
       "team": "Georgia Southern",
-      "heist": 0.816847,
+      "heist": 0.816529,
       "ORpct": 29.0598,
       "DRpct": 35.8295,
       "DefTOpct": 18.9594,
@@ -811,7 +811,7 @@
     },
     {
       "team": "Georgia St.",
-      "heist": 0.061166,
+      "heist": 0.061161,
       "ORpct": 27.525,
       "DRpct": 33.3333,
       "DefTOpct": 16.8514,
@@ -819,7 +819,7 @@
     },
     {
       "team": "Georgia Tech",
-      "heist": -0.4401,
+      "heist": -0.439812,
       "ORpct": 30.838,
       "DRpct": 29.4845,
       "DefTOpct": 15.2162,
@@ -827,7 +827,7 @@
     },
     {
       "team": "Gonzaga",
-      "heist": 0.598817,
+      "heist": 0.598637,
       "ORpct": 36.1632,
       "DRpct": 24.0286,
       "DefTOpct": 20.7758,
@@ -835,7 +835,7 @@
     },
     {
       "team": "Grambling St.",
-      "heist": -0.001964,
+      "heist": -0.001562,
       "ORpct": 30.1187,
       "DRpct": 33.2386,
       "DefTOpct": 20.5142,
@@ -843,7 +843,7 @@
     },
     {
       "team": "Grand Canyon",
-      "heist": -0.207953,
+      "heist": -0.207733,
       "ORpct": 31.9359,
       "DRpct": 26.5233,
       "DefTOpct": 18.1084,
@@ -851,7 +851,7 @@
     },
     {
       "team": "Green Bay",
-      "heist": -0.71609,
+      "heist": -0.715903,
       "ORpct": 26.0108,
       "DRpct": 29.4045,
       "DefTOpct": 13.5424,
@@ -859,7 +859,7 @@
     },
     {
       "team": "Hampton",
-      "heist": 0.153376,
+      "heist": 0.153503,
       "ORpct": 33.7278,
       "DRpct": 29.9738,
       "DefTOpct": 17.9013,
@@ -867,7 +867,7 @@
     },
     {
       "team": "Harvard",
-      "heist": -0.403843,
+      "heist": -0.403682,
       "ORpct": 26.1146,
       "DRpct": 28.866,
       "DefTOpct": 17.2509,
@@ -875,7 +875,7 @@
     },
     {
       "team": "Hawaii",
-      "heist": -0.555939,
+      "heist": -0.5555,
       "ORpct": 32.4476,
       "DRpct": 25.9352,
       "DefTOpct": 17.118,
@@ -883,7 +883,7 @@
     },
     {
       "team": "High Point",
-      "heist": 1.427364,
+      "heist": 1.426797,
       "ORpct": 31.7386,
       "DRpct": 31.8681,
       "DefTOpct": 23.3816,
@@ -891,7 +891,7 @@
     },
     {
       "team": "Hofstra",
-      "heist": 0.116647,
+      "heist": 0.116708,
       "ORpct": 35.0356,
       "DRpct": 30.6488,
       "DefTOpct": 15.1949,
@@ -899,7 +899,7 @@
     },
     {
       "team": "Holy Cross",
-      "heist": -0.931559,
+      "heist": -0.931376,
       "ORpct": 22.2785,
       "DRpct": 27.4839,
       "DefTOpct": 14.4654,
@@ -907,7 +907,7 @@
     },
     {
       "team": "Houston",
-      "heist": 1.678037,
+      "heist": 1.677438,
       "ORpct": 37.2526,
       "DRpct": 31.5085,
       "DefTOpct": 22.5587,
@@ -915,7 +915,7 @@
     },
     {
       "team": "Houston Christian",
-      "heist": -0.027531,
+      "heist": -0.027279,
       "ORpct": 31.0847,
       "DRpct": 32.6733,
       "DefTOpct": 17.6538,
@@ -923,7 +923,7 @@
     },
     {
       "team": "Howard",
-      "heist": 0.487047,
+      "heist": 0.487288,
       "ORpct": 34.7765,
       "DRpct": 32.7824,
       "DefTOpct": 21.3255,
@@ -931,7 +931,7 @@
     },
     {
       "team": "Idaho",
-      "heist": -0.554334,
+      "heist": -0.554232,
       "ORpct": 27.1574,
       "DRpct": 25.776,
       "DefTOpct": 15.6952,
@@ -939,7 +939,7 @@
     },
     {
       "team": "Idaho St.",
-      "heist": -0.195529,
+      "heist": -0.195333,
       "ORpct": 33.0986,
       "DRpct": 29.7721,
       "DefTOpct": 15.1778,
@@ -947,7 +947,7 @@
     },
     {
       "team": "Illinois",
-      "heist": -0.098785,
+      "heist": -0.0988,
       "ORpct": 38.79,
       "DRpct": 26.7913,
       "DefTOpct": 11.2536,
@@ -955,7 +955,7 @@
     },
     {
       "team": "Illinois Chicago",
-      "heist": 0.905717,
+      "heist": 0.905678,
       "ORpct": 36.6667,
       "DRpct": 34.058,
       "DefTOpct": 20.2704,
@@ -963,7 +963,7 @@
     },
     {
       "team": "Illinois St.",
-      "heist": -0.566993,
+      "heist": -0.566809,
       "ORpct": 28.8256,
       "DRpct": 24.2081,
       "DefTOpct": 16.6124,
@@ -971,7 +971,7 @@
     },
     {
       "team": "Incarnate Word",
-      "heist": 0.037382,
+      "heist": 0.037521,
       "ORpct": 32.4742,
       "DRpct": 32.0532,
       "DefTOpct": 16.2358,
@@ -979,7 +979,7 @@
     },
     {
       "team": "Indiana",
-      "heist": -0.150969,
+      "heist": -0.151009,
       "ORpct": 28.5354,
       "DRpct": 28.9562,
       "DefTOpct": 15.7078,
@@ -987,7 +987,7 @@
     },
     {
       "team": "Indiana St.",
-      "heist": -0.691598,
+      "heist": -0.691247,
       "ORpct": 25.5114,
       "DRpct": 32.0269,
       "DefTOpct": 15.0426,
@@ -995,7 +995,7 @@
     },
     {
       "team": "Iona",
-      "heist": -0.052412,
+      "heist": -0.052391,
       "ORpct": 26.4278,
       "DRpct": 32.7253,
       "DefTOpct": 16.9427,
@@ -1003,7 +1003,7 @@
     },
     {
       "team": "Iowa",
-      "heist": 0.725474,
+      "heist": 0.725278,
       "ORpct": 31.4869,
       "DRpct": 29.6348,
       "DefTOpct": 21.8012,
@@ -1011,7 +1011,7 @@
     },
     {
       "team": "Iowa St.",
-      "heist": 0.963842,
+      "heist": 0.963709,
       "ORpct": 37.6123,
       "DRpct": 28.2927,
       "DefTOpct": 22.4385,
@@ -1019,7 +1019,7 @@
     },
     {
       "team": "IU Indy",
-      "heist": 0.901015,
+      "heist": 0.900738,
       "ORpct": 28.999,
       "DRpct": 37.037,
       "DefTOpct": 19.9351,
@@ -1027,7 +1027,7 @@
     },
     {
       "team": "Jackson St.",
-      "heist": -0.184112,
+      "heist": -0.183869,
       "ORpct": 26.9441,
       "DRpct": 37.7828,
       "DefTOpct": 15.2508,
@@ -1035,7 +1035,7 @@
     },
     {
       "team": "Jacksonville",
-      "heist": -0.483995,
+      "heist": -0.483686,
       "ORpct": 30.3861,
       "DRpct": 29.3405,
       "DefTOpct": 15.379,
@@ -1043,7 +1043,7 @@
     },
     {
       "team": "Jacksonville St.",
-      "heist": -0.34682,
+      "heist": -0.346547,
       "ORpct": 30.6931,
       "DRpct": 29.2818,
       "DefTOpct": 16.3512,
@@ -1051,7 +1051,7 @@
     },
     {
       "team": "James Madison",
-      "heist": -0.551667,
+      "heist": -0.551399,
       "ORpct": 30.7167,
       "DRpct": 30.6941,
       "DefTOpct": 12.899,
@@ -1059,7 +1059,7 @@
     },
     {
       "team": "Kansas",
-      "heist": -0.333485,
+      "heist": -0.333465,
       "ORpct": 28.6439,
       "DRpct": 29.6333,
       "DefTOpct": 13.8817,
@@ -1067,7 +1067,7 @@
     },
     {
       "team": "Kansas City",
-      "heist": -0.027595,
+      "heist": -0.027404,
       "ORpct": 28.5714,
       "DRpct": 35.9008,
       "DefTOpct": 16.4519,
@@ -1075,7 +1075,7 @@
     },
     {
       "team": "Kansas St.",
-      "heist": 0.285309,
+      "heist": 0.285326,
       "ORpct": 31.4185,
       "DRpct": 33.7237,
       "DefTOpct": 17.145,
@@ -1083,7 +1083,7 @@
     },
     {
       "team": "Kennesaw St.",
-      "heist": 0.173025,
+      "heist": 0.173123,
       "ORpct": 36.2319,
       "DRpct": 30.6533,
       "DefTOpct": 15.6403,
@@ -1091,7 +1091,7 @@
     },
     {
       "team": "Kent St.",
-      "heist": -0.048111,
+      "heist": -0.047815,
       "ORpct": 36.6313,
       "DRpct": 29.9882,
       "DefTOpct": 16.0242,
@@ -1099,7 +1099,7 @@
     },
     {
       "team": "Kentucky",
-      "heist": 0.244329,
+      "heist": 0.244224,
       "ORpct": 33.9713,
       "DRpct": 28.9444,
       "DefTOpct": 16.0296,
@@ -1107,7 +1107,7 @@
     },
     {
       "team": "La Salle",
-      "heist": 0.065512,
+      "heist": 0.065712,
       "ORpct": 33.1781,
       "DRpct": 31.8182,
       "DefTOpct": 17.1466,
@@ -1115,7 +1115,7 @@
     },
     {
       "team": "Lafayette",
-      "heist": -0.296561,
+      "heist": -0.29653,
       "ORpct": 26.6085,
       "DRpct": 30.0236,
       "DefTOpct": 15.6081,
@@ -1123,7 +1123,7 @@
     },
     {
       "team": "Lamar",
-      "heist": 0.106486,
+      "heist": 0.106652,
       "ORpct": 35.9036,
       "DRpct": 28.5714,
       "DefTOpct": 17.3207,
@@ -1131,7 +1131,7 @@
     },
     {
       "team": "Le Moyne",
-      "heist": -0.801075,
+      "heist": -0.800631,
       "ORpct": 26.2639,
       "DRpct": 30.6538,
       "DefTOpct": 15.413,
@@ -1139,7 +1139,7 @@
     },
     {
       "team": "Lehigh",
-      "heist": -0.460544,
+      "heist": -0.460373,
       "ORpct": 21.6687,
       "DRpct": 33.3731,
       "DefTOpct": 16.9224,
@@ -1147,7 +1147,7 @@
     },
     {
       "team": "Liberty",
-      "heist": -0.046423,
+      "heist": -0.046687,
       "ORpct": 19.281,
       "DRpct": 32.1678,
       "DefTOpct": 17.8162,
@@ -1155,7 +1155,7 @@
     },
     {
       "team": "Lindenwood",
-      "heist": 0.245192,
+      "heist": 0.245402,
       "ORpct": 33.7169,
       "DRpct": 32.3632,
       "DefTOpct": 18.8424,
@@ -1163,7 +1163,7 @@
     },
     {
       "team": "Lipscomb",
-      "heist": -0.123276,
+      "heist": -0.123251,
       "ORpct": 25.8907,
       "DRpct": 30.1998,
       "DefTOpct": 18.0282,
@@ -1171,7 +1171,7 @@
     },
     {
       "team": "Little Rock",
-      "heist": 0.441135,
+      "heist": 0.441249,
       "ORpct": 31.4793,
       "DRpct": 35.0063,
       "DefTOpct": 19.6967,
@@ -1179,7 +1179,7 @@
     },
     {
       "team": "LIU",
-      "heist": 0.324189,
+      "heist": 0.324423,
       "ORpct": 35.6401,
       "DRpct": 32.3896,
       "DefTOpct": 18.8679,
@@ -1187,15 +1187,15 @@
     },
     {
       "team": "Long Beach St.",
-      "heist": -0.365904,
-      "ORpct": 26.9531,
-      "DRpct": 28.5714,
-      "DefTOpct": 18.0523,
-      "OffTOpct": 17.601
+      "heist": -0.423941,
+      "ORpct": 26.4484,
+      "DRpct": 28.7088,
+      "DefTOpct": 17.8435,
+      "OffTOpct": 17.7205
     },
     {
       "team": "Longwood",
-      "heist": -0.052017,
+      "heist": -0.051685,
       "ORpct": 33.7349,
       "DRpct": 28.0941,
       "DefTOpct": 19.556,
@@ -1203,7 +1203,7 @@
     },
     {
       "team": "Louisiana",
-      "heist": -0.132108,
+      "heist": -0.131944,
       "ORpct": 27.8802,
       "DRpct": 31.5723,
       "DefTOpct": 17.8516,
@@ -1211,7 +1211,7 @@
     },
     {
       "team": "Louisiana Monroe",
-      "heist": -0.191656,
+      "heist": -0.191538,
       "ORpct": 24.6085,
       "DRpct": 35.6977,
       "DefTOpct": 16.0994,
@@ -1219,7 +1219,7 @@
     },
     {
       "team": "Louisiana Tech",
-      "heist": 0.262657,
+      "heist": 0.26279,
       "ORpct": 35.9296,
       "DRpct": 30.7383,
       "DefTOpct": 17.4165,
@@ -1227,7 +1227,7 @@
     },
     {
       "team": "Louisville",
-      "heist": -0.000159,
+      "heist": -0.000091,
       "ORpct": 33.7237,
       "DRpct": 26.6451,
       "DefTOpct": 17.1526,
@@ -1235,7 +1235,7 @@
     },
     {
       "team": "Loyola Chicago",
-      "heist": -0.696009,
+      "heist": -0.695533,
       "ORpct": 32.907,
       "DRpct": 30.8982,
       "DefTOpct": 12.6525,
@@ -1243,7 +1243,7 @@
     },
     {
       "team": "Loyola Marymount",
-      "heist": -0.297387,
+      "heist": -0.297185,
       "ORpct": 26.7637,
       "DRpct": 32.4607,
       "DefTOpct": 16.5694,
@@ -1251,7 +1251,7 @@
     },
     {
       "team": "Loyola MD",
-      "heist": -0.331278,
+      "heist": -0.331136,
       "ORpct": 27.9258,
       "DRpct": 29.8507,
       "DefTOpct": 16.0674,
@@ -1259,7 +1259,7 @@
     },
     {
       "team": "LSU",
-      "heist": 0.129876,
+      "heist": 0.129874,
       "ORpct": 33.9196,
       "DRpct": 30.9813,
       "DefTOpct": 14.9447,
@@ -1267,7 +1267,7 @@
     },
     {
       "team": "Maine",
-      "heist": -0.244435,
+      "heist": -0.244225,
       "ORpct": 20.8955,
       "DRpct": 36.0195,
       "DefTOpct": 19.0605,
@@ -1275,7 +1275,7 @@
     },
     {
       "team": "Manhattan",
-      "heist": 0.528604,
+      "heist": 0.52838,
       "ORpct": 28.2418,
       "DRpct": 37.6682,
       "DefTOpct": 16.263,
@@ -1283,7 +1283,7 @@
     },
     {
       "team": "Marist",
-      "heist": -0.135194,
+      "heist": -0.135047,
       "ORpct": 28.1955,
       "DRpct": 27.6817,
       "DefTOpct": 19.6874,
@@ -1291,7 +1291,7 @@
     },
     {
       "team": "Marquette",
-      "heist": 0.643134,
+      "heist": 0.642976,
       "ORpct": 30.5408,
       "DRpct": 34.2075,
       "DefTOpct": 19.2188,
@@ -1299,7 +1299,7 @@
     },
     {
       "team": "Marshall",
-      "heist": 0.253017,
+      "heist": 0.253078,
       "ORpct": 32.9384,
       "DRpct": 32.8664,
       "DefTOpct": 16.9143,
@@ -1307,7 +1307,7 @@
     },
     {
       "team": "Maryland",
-      "heist": -0.086495,
+      "heist": -0.086264,
       "ORpct": 32.9885,
       "DRpct": 31.3676,
       "DefTOpct": 16.1588,
@@ -1315,7 +1315,7 @@
     },
     {
       "team": "Maryland Eastern Shore",
-      "heist": -0.582702,
+      "heist": -0.582054,
       "ORpct": 30.4521,
       "DRpct": 32.8496,
       "DefTOpct": 17.0556,
@@ -1323,7 +1323,7 @@
     },
     {
       "team": "Massachusetts",
-      "heist": -0.180086,
+      "heist": -0.179833,
       "ORpct": 33.4107,
       "DRpct": 26.5509,
       "DefTOpct": 17.9463,
@@ -1331,7 +1331,7 @@
     },
     {
       "team": "McNeese",
-      "heist": 1.92584,
+      "heist": 1.925332,
       "ORpct": 36.2113,
       "DRpct": 36.6925,
       "DefTOpct": 24.5279,
@@ -1339,7 +1339,7 @@
     },
     {
       "team": "Memphis",
-      "heist": 0.602442,
+      "heist": 0.602611,
       "ORpct": 35.4214,
       "DRpct": 34.7238,
       "DefTOpct": 20.0711,
@@ -1347,7 +1347,7 @@
     },
     {
       "team": "Mercer",
-      "heist": 0.570223,
+      "heist": 0.570063,
       "ORpct": 33.7709,
       "DRpct": 32.1812,
       "DefTOpct": 17.3726,
@@ -1355,7 +1355,7 @@
     },
     {
       "team": "Mercyhurst",
-      "heist": 0.400487,
+      "heist": 0.400305,
       "ORpct": 26.8949,
       "DRpct": 32.0203,
       "DefTOpct": 19.605,
@@ -1363,7 +1363,7 @@
     },
     {
       "team": "Merrimack",
-      "heist": 0.918382,
+      "heist": 0.918031,
       "ORpct": 25.0591,
       "DRpct": 40.374,
       "DefTOpct": 19.6163,
@@ -1371,7 +1371,7 @@
     },
     {
       "team": "Miami FL",
-      "heist": 0.231583,
+      "heist": 0.231645,
       "ORpct": 36.6286,
       "DRpct": 25.5814,
       "DefTOpct": 18.6367,
@@ -1379,7 +1379,7 @@
     },
     {
       "team": "Miami OH",
-      "heist": -0.086133,
+      "heist": -0.086169,
       "ORpct": 26.1868,
       "DRpct": 28.2552,
       "DefTOpct": 18.5467,
@@ -1387,7 +1387,7 @@
     },
     {
       "team": "Michigan",
-      "heist": 0.134272,
+      "heist": 0.134375,
       "ORpct": 36.8146,
       "DRpct": 27.8054,
       "DefTOpct": 16.567,
@@ -1395,7 +1395,7 @@
     },
     {
       "team": "Michigan St.",
-      "heist": -0.409896,
+      "heist": -0.409527,
       "ORpct": 39.3524,
       "DRpct": 22.0944,
       "DefTOpct": 15.6236,
@@ -1403,7 +1403,7 @@
     },
     {
       "team": "Middle Tennessee",
-      "heist": -0.54977,
+      "heist": -0.549528,
       "ORpct": 29.8667,
       "DRpct": 28.4354,
       "DefTOpct": 14.4524,
@@ -1411,7 +1411,7 @@
     },
     {
       "team": "Milwaukee",
-      "heist": 0.175819,
+      "heist": 0.175772,
       "ORpct": 33.3671,
       "DRpct": 29.8957,
       "DefTOpct": 15.8698,
@@ -1419,7 +1419,7 @@
     },
     {
       "team": "Minnesota",
-      "heist": -0.094967,
+      "heist": -0.094905,
       "ORpct": 28.8462,
       "DRpct": 29.7634,
       "DefTOpct": 17.2394,
@@ -1427,7 +1427,7 @@
     },
     {
       "team": "Mississippi",
-      "heist": 0.415325,
+      "heist": 0.415103,
       "ORpct": 29.8824,
       "DRpct": 32.5231,
       "DefTOpct": 16.9075,
@@ -1435,7 +1435,7 @@
     },
     {
       "team": "Mississippi St.",
-      "heist": -0.410174,
+      "heist": -0.410033,
       "ORpct": 31.2771,
       "DRpct": 29.5671,
       "DefTOpct": 13.0453,
@@ -1443,7 +1443,7 @@
     },
     {
       "team": "Mississippi Valley St.",
-      "heist": -0.533592,
+      "heist": -0.533063,
       "ORpct": 26.408,
       "DRpct": 36,
       "DefTOpct": 16.6545,
@@ -1451,7 +1451,7 @@
     },
     {
       "team": "Missouri",
-      "heist": 0.133722,
+      "heist": 0.133909,
       "ORpct": 36.7296,
       "DRpct": 30.0585,
       "DefTOpct": 16.5221,
@@ -1459,7 +1459,7 @@
     },
     {
       "team": "Missouri St.",
-      "heist": 0.371479,
+      "heist": 0.371536,
       "ORpct": 32.9268,
       "DRpct": 32.9496,
       "DefTOpct": 18.2726,
@@ -1467,7 +1467,7 @@
     },
     {
       "team": "Monmouth",
-      "heist": 0.59633,
+      "heist": 0.596245,
       "ORpct": 31.2057,
       "DRpct": 33.177,
       "DefTOpct": 19.9272,
@@ -1475,7 +1475,7 @@
     },
     {
       "team": "Montana",
-      "heist": -1.131883,
+      "heist": -1.131351,
       "ORpct": 22.6115,
       "DRpct": 30.203,
       "DefTOpct": 15.3358,
@@ -1483,7 +1483,7 @@
     },
     {
       "team": "Montana St.",
-      "heist": -0.15012,
+      "heist": -0.15013,
       "ORpct": 28.1709,
       "DRpct": 29.2958,
       "DefTOpct": 16.2019,
@@ -1491,7 +1491,7 @@
     },
     {
       "team": "Morehead St.",
-      "heist": 0.488741,
+      "heist": 0.488836,
       "ORpct": 36.0799,
       "DRpct": 36.6983,
       "DefTOpct": 15.9347,
@@ -1499,7 +1499,7 @@
     },
     {
       "team": "Morgan St.",
-      "heist": 0.066006,
+      "heist": 0.066156,
       "ORpct": 30.2041,
       "DRpct": 34.4932,
       "DefTOpct": 16.7694,
@@ -1507,7 +1507,7 @@
     },
     {
       "team": "Mount St. Mary's",
-      "heist": -1.063252,
+      "heist": -1.062488,
       "ORpct": 31.0469,
       "DRpct": 29.1892,
       "DefTOpct": 14.686,
@@ -1515,7 +1515,7 @@
     },
     {
       "team": "Murray St.",
-      "heist": 0.158046,
+      "heist": 0.158088,
       "ORpct": 33.7909,
       "DRpct": 31.5684,
       "DefTOpct": 15.6922,
@@ -1523,7 +1523,7 @@
     },
     {
       "team": "N.C. State",
-      "heist": 0.265369,
+      "heist": 0.26514,
       "ORpct": 27.6224,
       "DRpct": 28.1111,
       "DefTOpct": 19.1322,
@@ -1531,7 +1531,7 @@
     },
     {
       "team": "Navy",
-      "heist": -0.264163,
+      "heist": -0.263945,
       "ORpct": 30.9896,
       "DRpct": 26.4085,
       "DefTOpct": 18.0814,
@@ -1539,7 +1539,7 @@
     },
     {
       "team": "Nebraska",
-      "heist": 0.121154,
+      "heist": 0.120923,
       "ORpct": 25.4027,
       "DRpct": 27.8523,
       "DefTOpct": 18.9368,
@@ -1547,7 +1547,7 @@
     },
     {
       "team": "Nebraska Omaha",
-      "heist": -0.635644,
+      "heist": -0.635443,
       "ORpct": 27.0235,
       "DRpct": 29.1718,
       "DefTOpct": 14.2241,
@@ -1555,7 +1555,7 @@
     },
     {
       "team": "Nevada",
-      "heist": 0.331671,
+      "heist": 0.331464,
       "ORpct": 32.1176,
       "DRpct": 28.3088,
       "DefTOpct": 17.1842,
@@ -1563,7 +1563,7 @@
     },
     {
       "team": "New Hampshire",
-      "heist": -0.588231,
+      "heist": -0.588032,
       "ORpct": 25.599,
       "DRpct": 28.7324,
       "DefTOpct": 15.9775,
@@ -1571,7 +1571,7 @@
     },
     {
       "team": "New Haven",
-      "heist": -1.012065,
+      "heist": -1.011632,
       "ORpct": 22.1113,
       "DRpct": 27.9137,
       "DefTOpct": 17.0565,
@@ -1579,7 +1579,7 @@
     },
     {
       "team": "New Mexico",
-      "heist": 0.153585,
+      "heist": 0.15354,
       "ORpct": 28.9505,
       "DRpct": 28.238,
       "DefTOpct": 19.5396,
@@ -1587,7 +1587,7 @@
     },
     {
       "team": "New Mexico St.",
-      "heist": 0.099355,
+      "heist": 0.099338,
       "ORpct": 33.1135,
       "DRpct": 30.4348,
       "DefTOpct": 15.2216,
@@ -1595,7 +1595,7 @@
     },
     {
       "team": "New Orleans",
-      "heist": -0.199675,
+      "heist": -0.199247,
       "ORpct": 34.565,
       "DRpct": 34.8361,
       "DefTOpct": 14.5738,
@@ -1603,7 +1603,7 @@
     },
     {
       "team": "Niagara",
-      "heist": -0.424653,
+      "heist": -0.424405,
       "ORpct": 24.8322,
       "DRpct": 32.7801,
       "DefTOpct": 16.7836,
@@ -1611,7 +1611,7 @@
     },
     {
       "team": "Nicholls",
-      "heist": 0.639126,
+      "heist": 0.639017,
       "ORpct": 27.0953,
       "DRpct": 35.1049,
       "DefTOpct": 21.6351,
@@ -1619,7 +1619,7 @@
     },
     {
       "team": "NJIT",
-      "heist": -0.282052,
+      "heist": -0.281959,
       "ORpct": 26.1589,
       "DRpct": 32.4703,
       "DefTOpct": 15.5262,
@@ -1627,7 +1627,7 @@
     },
     {
       "team": "Norfolk St.",
-      "heist": 0.080372,
+      "heist": 0.080618,
       "ORpct": 31.3752,
       "DRpct": 32.7143,
       "DefTOpct": 18.6815,
@@ -1635,7 +1635,7 @@
     },
     {
       "team": "North Alabama",
-      "heist": -0.115019,
+      "heist": -0.114917,
       "ORpct": 30.1423,
       "DRpct": 33.3791,
       "DefTOpct": 14.5355,
@@ -1643,7 +1643,7 @@
     },
     {
       "team": "North Carolina",
-      "heist": -0.03672,
+      "heist": -0.036831,
       "ORpct": 32.6481,
       "DRpct": 28.2051,
       "DefTOpct": 13.7882,
@@ -1651,7 +1651,7 @@
     },
     {
       "team": "North Carolina A&T",
-      "heist": -0.738376,
+      "heist": -0.737941,
       "ORpct": 31.9001,
       "DRpct": 27.1895,
       "DefTOpct": 14.4085,
@@ -1659,7 +1659,7 @@
     },
     {
       "team": "North Carolina Central",
-      "heist": 0.584689,
+      "heist": 0.584668,
       "ORpct": 28.3892,
       "DRpct": 38.3701,
       "DefTOpct": 19.4513,
@@ -1667,7 +1667,7 @@
     },
     {
       "team": "North Dakota",
-      "heist": 0.705059,
+      "heist": 0.704733,
       "ORpct": 28.754,
       "DRpct": 32.327,
       "DefTOpct": 19.7903,
@@ -1675,7 +1675,7 @@
     },
     {
       "team": "North Dakota St.",
-      "heist": 0.453383,
+      "heist": 0.45332,
       "ORpct": 34.3826,
       "DRpct": 28.1541,
       "DefTOpct": 19.4295,
@@ -1683,7 +1683,7 @@
     },
     {
       "team": "North Florida",
-      "heist": -0.465781,
+      "heist": -0.465585,
       "ORpct": 25.0298,
       "DRpct": 38.0137,
       "DefTOpct": 12.2016,
@@ -1691,7 +1691,7 @@
     },
     {
       "team": "North Texas",
-      "heist": 0.918469,
+      "heist": 0.918445,
       "ORpct": 34.3373,
       "DRpct": 34.0996,
       "DefTOpct": 22.1669,
@@ -1699,7 +1699,7 @@
     },
     {
       "team": "Northeastern",
-      "heist": 0.055741,
+      "heist": 0.055753,
       "ORpct": 27.327,
       "DRpct": 32.4607,
       "DefTOpct": 17.7036,
@@ -1707,7 +1707,7 @@
     },
     {
       "team": "Northern Arizona",
-      "heist": -0.127887,
+      "heist": -0.127911,
       "ORpct": 23.765,
       "DRpct": 33.1063,
       "DefTOpct": 16.8788,
@@ -1715,7 +1715,7 @@
     },
     {
       "team": "Northern Colorado",
-      "heist": -1.084206,
+      "heist": -1.083879,
       "ORpct": 28.4016,
       "DRpct": 24.5721,
       "DefTOpct": 12.433,
@@ -1723,7 +1723,7 @@
     },
     {
       "team": "Northern Illinois",
-      "heist": -0.474845,
+      "heist": -0.474258,
       "ORpct": 32.6232,
       "DRpct": 30.8148,
       "DefTOpct": 17.2773,
@@ -1731,7 +1731,7 @@
     },
     {
       "team": "Northern Iowa",
-      "heist": -0.635437,
+      "heist": -0.635403,
       "ORpct": 21.7073,
       "DRpct": 25.1476,
       "DefTOpct": 17.6657,
@@ -1739,7 +1739,7 @@
     },
     {
       "team": "Northern Kentucky",
-      "heist": 0.589272,
+      "heist": 0.589184,
       "ORpct": 31.9026,
       "DRpct": 33.2071,
       "DefTOpct": 19.2947,
@@ -1747,7 +1747,7 @@
     },
     {
       "team": "Northwestern",
-      "heist": 0.58854,
+      "heist": 0.588107,
       "ORpct": 27.8375,
       "DRpct": 34.2197,
       "DefTOpct": 16.2121,
@@ -1755,7 +1755,7 @@
     },
     {
       "team": "Northwestern St.",
-      "heist": -0.297495,
+      "heist": -0.297289,
       "ORpct": 25.5968,
       "DRpct": 33.2432,
       "DefTOpct": 16.9343,
@@ -1763,7 +1763,7 @@
     },
     {
       "team": "Notre Dame",
-      "heist": -0.635816,
+      "heist": -0.63553,
       "ORpct": 31.7768,
       "DRpct": 26.3398,
       "DefTOpct": 14.0499,
@@ -1771,7 +1771,7 @@
     },
     {
       "team": "Oakland",
-      "heist": 0.384039,
+      "heist": 0.383839,
       "ORpct": 30.7345,
       "DRpct": 34.5652,
       "DefTOpct": 15.0643,
@@ -1779,7 +1779,7 @@
     },
     {
       "team": "Ohio",
-      "heist": 0.173135,
+      "heist": 0.173122,
       "ORpct": 29.1202,
       "DRpct": 33.3333,
       "DefTOpct": 17.0628,
@@ -1787,7 +1787,7 @@
     },
     {
       "team": "Ohio St.",
-      "heist": 0.235767,
+      "heist": 0.235708,
       "ORpct": 32.8859,
       "DRpct": 31.1991,
       "DefTOpct": 15.9564,
@@ -1795,7 +1795,7 @@
     },
     {
       "team": "Oklahoma",
-      "heist": 0.346762,
+      "heist": 0.346599,
       "ORpct": 33.3333,
       "DRpct": 31.5068,
       "DefTOpct": 15.294,
@@ -1803,7 +1803,7 @@
     },
     {
       "team": "Oklahoma St.",
-      "heist": -0.004363,
+      "heist": -0.004296,
       "ORpct": 30.4795,
       "DRpct": 30.131,
       "DefTOpct": 17.1148,
@@ -1811,7 +1811,7 @@
     },
     {
       "team": "Old Dominion",
-      "heist": -0.477602,
+      "heist": -0.477553,
       "ORpct": 25.5365,
       "DRpct": 29.8324,
       "DefTOpct": 14.4728,
@@ -1819,7 +1819,7 @@
     },
     {
       "team": "Oral Roberts",
-      "heist": -0.447821,
+      "heist": -0.447561,
       "ORpct": 27.4699,
       "DRpct": 33.2481,
       "DefTOpct": 14.6403,
@@ -1827,7 +1827,7 @@
     },
     {
       "team": "Oregon",
-      "heist": 0.032176,
+      "heist": 0.032339,
       "ORpct": 34.1578,
       "DRpct": 31.4746,
       "DefTOpct": 15.7689,
@@ -1835,7 +1835,7 @@
     },
     {
       "team": "Oregon St.",
-      "heist": -0.394324,
+      "heist": -0.394151,
       "ORpct": 25.848,
       "DRpct": 32.8025,
       "DefTOpct": 15.3545,
@@ -1843,7 +1843,7 @@
     },
     {
       "team": "Pacific",
-      "heist": -0.815512,
+      "heist": -0.814904,
       "ORpct": 35.4037,
       "DRpct": 23.7826,
       "DefTOpct": 15.8064,
@@ -1851,7 +1851,7 @@
     },
     {
       "team": "Penn",
-      "heist": 0.062444,
+      "heist": 0.062445,
       "ORpct": 31.2155,
       "DRpct": 30.7803,
       "DefTOpct": 16.0736,
@@ -1859,7 +1859,7 @@
     },
     {
       "team": "Penn St.",
-      "heist": 0.307968,
+      "heist": 0.307769,
       "ORpct": 27.2397,
       "DRpct": 31.6754,
       "DefTOpct": 18.1913,
@@ -1867,7 +1867,7 @@
     },
     {
       "team": "Pepperdine",
-      "heist": -0.179866,
+      "heist": -0.179648,
       "ORpct": 27.23,
       "DRpct": 34.0741,
       "DefTOpct": 16.9728,
@@ -1875,7 +1875,7 @@
     },
     {
       "team": "Pittsburgh",
-      "heist": -0.043394,
+      "heist": -0.043222,
       "ORpct": 34.2252,
       "DRpct": 28.3715,
       "DefTOpct": 16.7984,
@@ -1883,7 +1883,7 @@
     },
     {
       "team": "Portland",
-      "heist": -0.218361,
+      "heist": -0.218068,
       "ORpct": 28.5185,
       "DRpct": 32.417,
       "DefTOpct": 17.775,
@@ -1891,7 +1891,7 @@
     },
     {
       "team": "Portland St.",
-      "heist": -0.242567,
+      "heist": -0.242277,
       "ORpct": 31.7507,
       "DRpct": 27.802,
       "DefTOpct": 18.0839,
@@ -1899,7 +1899,7 @@
     },
     {
       "team": "Prairie View A&M",
-      "heist": 0.593062,
+      "heist": 0.592873,
       "ORpct": 25.2618,
       "DRpct": 37,
       "DefTOpct": 19.9409,
@@ -1907,7 +1907,7 @@
     },
     {
       "team": "Presbyterian",
-      "heist": -0.301121,
+      "heist": -0.300726,
       "ORpct": 34.4043,
       "DRpct": 30.5304,
       "DefTOpct": 15.5272,
@@ -1915,7 +1915,7 @@
     },
     {
       "team": "Princeton",
-      "heist": -0.620436,
+      "heist": -0.620244,
       "ORpct": 27.3203,
       "DRpct": 28.4153,
       "DefTOpct": 14.5223,
@@ -1923,7 +1923,7 @@
     },
     {
       "team": "Providence",
-      "heist": -0.13729,
+      "heist": -0.137217,
       "ORpct": 32.5986,
       "DRpct": 31.3492,
       "DefTOpct": 13.4304,
@@ -1931,7 +1931,7 @@
     },
     {
       "team": "Purdue",
-      "heist": 0.251201,
+      "heist": 0.251101,
       "ORpct": 35.9684,
       "DRpct": 26.1185,
       "DefTOpct": 16.5579,
@@ -1939,7 +1939,7 @@
     },
     {
       "team": "Purdue Fort Wayne",
-      "heist": 0.515916,
+      "heist": 0.515596,
       "ORpct": 22.18,
       "DRpct": 36.0054,
       "DefTOpct": 19.6694,
@@ -1947,7 +1947,7 @@
     },
     {
       "team": "Queens",
-      "heist": 0.265946,
+      "heist": 0.265813,
       "ORpct": 32.0377,
       "DRpct": 32.7037,
       "DefTOpct": 14.8846,
@@ -1955,7 +1955,7 @@
     },
     {
       "team": "Quinnipiac",
-      "heist": 0.524532,
+      "heist": 0.524445,
       "ORpct": 33.0347,
       "DRpct": 32.7314,
       "DefTOpct": 18.0691,
@@ -1963,7 +1963,7 @@
     },
     {
       "team": "Radford",
-      "heist": 0.219134,
+      "heist": 0.219163,
       "ORpct": 29.5954,
       "DRpct": 32.5871,
       "DefTOpct": 18.4018,
@@ -1971,7 +1971,7 @@
     },
     {
       "team": "Rhode Island",
-      "heist": 0.449707,
+      "heist": 0.449854,
       "ORpct": 32.9114,
       "DRpct": 31.3237,
       "DefTOpct": 21.5791,
@@ -1979,7 +1979,7 @@
     },
     {
       "team": "Rice",
-      "heist": 0.4621,
+      "heist": 0.462157,
       "ORpct": 35.5482,
       "DRpct": 35.1648,
       "DefTOpct": 16.3116,
@@ -1987,7 +1987,7 @@
     },
     {
       "team": "Richmond",
-      "heist": 0.090091,
+      "heist": 0.089993,
       "ORpct": 26.9608,
       "DRpct": 31.1927,
       "DefTOpct": 17.5055,
@@ -1995,7 +1995,7 @@
     },
     {
       "team": "Rider",
-      "heist": -0.086847,
+      "heist": -0.086654,
       "ORpct": 34.0071,
       "DRpct": 33.7856,
       "DefTOpct": 13.4514,
@@ -2003,7 +2003,7 @@
     },
     {
       "team": "Robert Morris",
-      "heist": -0.121802,
+      "heist": -0.121487,
       "ORpct": 37.5729,
       "DRpct": 28.436,
       "DefTOpct": 15.7212,
@@ -2011,7 +2011,7 @@
     },
     {
       "team": "Rutgers",
-      "heist": 0.429157,
+      "heist": 0.429052,
       "ORpct": 32.5056,
       "DRpct": 33.6218,
       "DefTOpct": 16.428,
@@ -2019,7 +2019,7 @@
     },
     {
       "team": "Sacramento St.",
-      "heist": 0.201198,
+      "heist": 0.201036,
       "ORpct": 26.7166,
       "DRpct": 33.3333,
       "DefTOpct": 16.7708,
@@ -2027,7 +2027,7 @@
     },
     {
       "team": "Sacred Heart",
-      "heist": -0.460879,
+      "heist": -0.460622,
       "ORpct": 28.8155,
       "DRpct": 30.257,
       "DefTOpct": 15.3658,
@@ -2035,7 +2035,7 @@
     },
     {
       "team": "Saint Francis",
-      "heist": 0.151705,
+      "heist": 0.151795,
       "ORpct": 27.0809,
       "DRpct": 34.072,
       "DefTOpct": 19.239,
@@ -2043,7 +2043,7 @@
     },
     {
       "team": "Saint Joseph's",
-      "heist": -0.037102,
+      "heist": -0.036947,
       "ORpct": 32.533,
       "DRpct": 31.8807,
       "DefTOpct": 15.6261,
@@ -2051,7 +2051,7 @@
     },
     {
       "team": "Saint Louis",
-      "heist": -0.302837,
+      "heist": -0.302649,
       "ORpct": 32.6116,
       "DRpct": 26.3874,
       "DefTOpct": 16.1046,
@@ -2059,7 +2059,7 @@
     },
     {
       "team": "Saint Mary's",
-      "heist": -0.319336,
+      "heist": -0.319088,
       "ORpct": 37,
       "DRpct": 24.377,
       "DefTOpct": 15.1172,
@@ -2067,7 +2067,7 @@
     },
     {
       "team": "Saint Peter's",
-      "heist": 1.038681,
+      "heist": 1.038553,
       "ORpct": 37.2796,
       "DRpct": 33.6232,
       "DefTOpct": 20.4342,
@@ -2075,7 +2075,7 @@
     },
     {
       "team": "Sam Houston St.",
-      "heist": 0.29119,
+      "heist": 0.291254,
       "ORpct": 34.8624,
       "DRpct": 31.385,
       "DefTOpct": 17.0541,
@@ -2083,7 +2083,7 @@
     },
     {
       "team": "Samford",
-      "heist": -0.612666,
+      "heist": -0.612736,
       "ORpct": 25.5491,
       "DRpct": 26.6745,
       "DefTOpct": 12.9299,
@@ -2091,7 +2091,7 @@
     },
     {
       "team": "San Diego",
-      "heist": 0.56074,
+      "heist": 0.560685,
       "ORpct": 28.6511,
       "DRpct": 36.2745,
       "DefTOpct": 19.7527,
@@ -2099,7 +2099,7 @@
     },
     {
       "team": "San Diego St.",
-      "heist": 0.352465,
+      "heist": 0.352507,
       "ORpct": 29.5105,
       "DRpct": 30.4403,
       "DefTOpct": 21.59,
@@ -2107,7 +2107,7 @@
     },
     {
       "team": "San Francisco",
-      "heist": -0.344369,
+      "heist": -0.344261,
       "ORpct": 32.0132,
       "DRpct": 28.4632,
       "DefTOpct": 13.5398,
@@ -2115,7 +2115,7 @@
     },
     {
       "team": "San Jose St.",
-      "heist": 0.540334,
+      "heist": 0.540209,
       "ORpct": 29.7129,
       "DRpct": 36.1233,
       "DefTOpct": 17.8402,
@@ -2123,7 +2123,7 @@
     },
     {
       "team": "Santa Clara",
-      "heist": 0.973463,
+      "heist": 0.973315,
       "ORpct": 37.1303,
       "DRpct": 31.0668,
       "DefTOpct": 20.9885,
@@ -2131,7 +2131,7 @@
     },
     {
       "team": "Seattle",
-      "heist": 0.181195,
+      "heist": 0.181216,
       "ORpct": 24.7299,
       "DRpct": 32.9312,
       "DefTOpct": 20.8171,
@@ -2139,7 +2139,7 @@
     },
     {
       "team": "Seton Hall",
-      "heist": 1.118703,
+      "heist": 1.118524,
       "ORpct": 36.4045,
       "DRpct": 31.4727,
       "DefTOpct": 22.5369,
@@ -2147,7 +2147,7 @@
     },
     {
       "team": "Siena",
-      "heist": 0.253156,
+      "heist": 0.25314,
       "ORpct": 32.8698,
       "DRpct": 28.5539,
       "DefTOpct": 18.4202,
@@ -2155,7 +2155,7 @@
     },
     {
       "team": "SIUE",
-      "heist": 0.063933,
+      "heist": 0.064037,
       "ORpct": 30.5942,
       "DRpct": 32.6062,
       "DefTOpct": 16.9426,
@@ -2163,7 +2163,7 @@
     },
     {
       "team": "SMU",
-      "heist": 0.489362,
+      "heist": 0.489307,
       "ORpct": 35.0665,
       "DRpct": 31.3466,
       "DefTOpct": 17.5986,
@@ -2171,7 +2171,7 @@
     },
     {
       "team": "South Alabama",
-      "heist": 0.328365,
+      "heist": 0.328059,
       "ORpct": 24.6719,
       "DRpct": 31.4961,
       "DefTOpct": 18.6593,
@@ -2179,7 +2179,7 @@
     },
     {
       "team": "South Carolina",
-      "heist": -0.034565,
+      "heist": -0.034684,
       "ORpct": 27.7094,
       "DRpct": 31.8236,
       "DefTOpct": 14.7765,
@@ -2187,7 +2187,7 @@
     },
     {
       "team": "South Carolina St.",
-      "heist": 0.300126,
+      "heist": 0.300352,
       "ORpct": 30.5665,
       "DRpct": 39.039,
       "DefTOpct": 17.8004,
@@ -2195,7 +2195,7 @@
     },
     {
       "team": "South Dakota",
-      "heist": -0.125901,
+      "heist": -0.125767,
       "ORpct": 30.3241,
       "DRpct": 30.4678,
       "DefTOpct": 16.5282,
@@ -2203,7 +2203,7 @@
     },
     {
       "team": "South Dakota St.",
-      "heist": -0.532225,
+      "heist": -0.532053,
       "ORpct": 29.0123,
       "DRpct": 26.799,
       "DefTOpct": 15.1717,
@@ -2211,7 +2211,7 @@
     },
     {
       "team": "South Florida",
-      "heist": 0.883585,
+      "heist": 0.883423,
       "ORpct": 37.963,
       "DRpct": 32.2513,
       "DefTOpct": 18.3966,
@@ -2219,7 +2219,7 @@
     },
     {
       "team": "Southeast Missouri",
-      "heist": -0.073703,
+      "heist": -0.073582,
       "ORpct": 29.5958,
       "DRpct": 27.8779,
       "DefTOpct": 19.0213,
@@ -2227,7 +2227,7 @@
     },
     {
       "team": "Southeastern Louisiana",
-      "heist": -0.002728,
+      "heist": -0.002531,
       "ORpct": 28.3175,
       "DRpct": 31.9896,
       "DefTOpct": 19.3861,
@@ -2235,7 +2235,7 @@
     },
     {
       "team": "Southern",
-      "heist": 0.433084,
+      "heist": 0.433067,
       "ORpct": 31.7676,
       "DRpct": 32.5352,
       "DefTOpct": 18.9367,
@@ -2243,7 +2243,7 @@
     },
     {
       "team": "Southern Illinois",
-      "heist": -0.093893,
+      "heist": -0.093741,
       "ORpct": 30.3333,
       "DRpct": 28.074,
       "DefTOpct": 18.6203,
@@ -2251,7 +2251,7 @@
     },
     {
       "team": "Southern Indiana",
-      "heist": 0.093779,
+      "heist": 0.093881,
       "ORpct": 30.1985,
       "DRpct": 33.7662,
       "DefTOpct": 16.8319,
@@ -2259,7 +2259,7 @@
     },
     {
       "team": "Southern Miss",
-      "heist": -0.355716,
+      "heist": -0.355403,
       "ORpct": 31.1266,
       "DRpct": 27.7193,
       "DefTOpct": 17.5026,
@@ -2267,7 +2267,7 @@
     },
     {
       "team": "Southern Utah",
-      "heist": -0.535691,
+      "heist": -0.535294,
       "ORpct": 27.5731,
       "DRpct": 34.3672,
       "DefTOpct": 14.8719,
@@ -2275,7 +2275,7 @@
     },
     {
       "team": "St. Bonaventure",
-      "heist": 0.374826,
+      "heist": 0.374857,
       "ORpct": 34.8505,
       "DRpct": 30.3401,
       "DefTOpct": 18.2314,
@@ -2283,7 +2283,7 @@
     },
     {
       "team": "St. John's",
-      "heist": 1.007574,
+      "heist": 1.007348,
       "ORpct": 37.4429,
       "DRpct": 31.386,
       "DefTOpct": 19.8355,
@@ -2291,7 +2291,7 @@
     },
     {
       "team": "St. Thomas",
-      "heist": -0.318581,
+      "heist": -0.318686,
       "ORpct": 21.123,
       "DRpct": 28.4672,
       "DefTOpct": 17.8667,
@@ -2299,7 +2299,7 @@
     },
     {
       "team": "Stanford",
-      "heist": 0.289816,
+      "heist": 0.289798,
       "ORpct": 32.6966,
       "DRpct": 28.6608,
       "DefTOpct": 18.8927,
@@ -2307,7 +2307,7 @@
     },
     {
       "team": "Stephen F. Austin",
-      "heist": 0.383247,
+      "heist": 0.383119,
       "ORpct": 34.2857,
       "DRpct": 28.8199,
       "DefTOpct": 17.2547,
@@ -2315,7 +2315,7 @@
     },
     {
       "team": "Stetson",
-      "heist": -0.530928,
+      "heist": -0.530654,
       "ORpct": 26.4671,
       "DRpct": 31.9899,
       "DefTOpct": 15.2544,
@@ -2323,7 +2323,7 @@
     },
     {
       "team": "Stonehill",
-      "heist": -1.450333,
+      "heist": -1.449589,
       "ORpct": 28.6564,
       "DRpct": 26.1682,
       "DefTOpct": 13.0498,
@@ -2331,7 +2331,7 @@
     },
     {
       "team": "Stony Brook",
-      "heist": -0.098871,
+      "heist": -0.098786,
       "ORpct": 28.4235,
       "DRpct": 31.8605,
       "DefTOpct": 16.5469,
@@ -2339,7 +2339,7 @@
     },
     {
       "team": "Syracuse",
-      "heist": 0.416946,
+      "heist": 0.416863,
       "ORpct": 29.9429,
       "DRpct": 32.9335,
       "DefTOpct": 18.7157,
@@ -2347,7 +2347,7 @@
     },
     {
       "team": "Tarleton St.",
-      "heist": 0.77918,
+      "heist": 0.779298,
       "ORpct": 31.4327,
       "DRpct": 34.3402,
       "DefTOpct": 24.3439,
@@ -2355,7 +2355,7 @@
     },
     {
       "team": "TCU",
-      "heist": 0.440332,
+      "heist": 0.440291,
       "ORpct": 33.0166,
       "DRpct": 29.2534,
       "DefTOpct": 19.8231,
@@ -2363,7 +2363,7 @@
     },
     {
       "team": "Temple",
-      "heist": 0.320593,
+      "heist": 0.320356,
       "ORpct": 30.5838,
       "DRpct": 31.0167,
       "DefTOpct": 15.9747,
@@ -2371,7 +2371,7 @@
     },
     {
       "team": "Tennessee",
-      "heist": 0.417648,
+      "heist": 0.417875,
       "ORpct": 44.7462,
       "DRpct": 27.9299,
       "DefTOpct": 16.6035,
@@ -2379,7 +2379,7 @@
     },
     {
       "team": "Tennessee Martin",
-      "heist": 0.153486,
+      "heist": 0.153956,
       "ORpct": 38.3562,
       "DRpct": 31.4924,
       "DefTOpct": 19.049,
@@ -2387,7 +2387,7 @@
     },
     {
       "team": "Tennessee St.",
-      "heist": 0.589638,
+      "heist": 0.589574,
       "ORpct": 33.7756,
       "DRpct": 31.1914,
       "DefTOpct": 19.652,
@@ -2395,7 +2395,7 @@
     },
     {
       "team": "Tennessee Tech",
-      "heist": -0.268684,
+      "heist": -0.268336,
       "ORpct": 32.1519,
       "DRpct": 32.4155,
       "DefTOpct": 15.5711,
@@ -2403,7 +2403,7 @@
     },
     {
       "team": "Texas",
-      "heist": 0.033909,
+      "heist": 0.033963,
       "ORpct": 37.4836,
       "DRpct": 27.4056,
       "DefTOpct": 14.4144,
@@ -2411,7 +2411,7 @@
     },
     {
       "team": "Texas A&M",
-      "heist": 0.722317,
+      "heist": 0.722093,
       "ORpct": 32.809,
       "DRpct": 31.7932,
       "DefTOpct": 19.1622,
@@ -2419,7 +2419,7 @@
     },
     {
       "team": "Texas A&M Corpus Chris",
-      "heist": -0.013842,
+      "heist": -0.013603,
       "ORpct": 30.8101,
       "DRpct": 29.0133,
       "DefTOpct": 20.0289,
@@ -2427,7 +2427,7 @@
     },
     {
       "team": "Texas Southern",
-      "heist": -0.361748,
+      "heist": -0.361476,
       "ORpct": 27.6748,
       "DRpct": 32.5109,
       "DefTOpct": 16.1966,
@@ -2435,7 +2435,7 @@
     },
     {
       "team": "Texas St.",
-      "heist": -0.116375,
+      "heist": -0.116065,
       "ORpct": 33.3333,
       "DRpct": 28.0285,
       "DefTOpct": 18.7446,
@@ -2443,7 +2443,7 @@
     },
     {
       "team": "Texas Tech",
-      "heist": 0.129883,
+      "heist": 0.129855,
       "ORpct": 33.7995,
       "DRpct": 28.9352,
       "DefTOpct": 15.8835,
@@ -2451,7 +2451,7 @@
     },
     {
       "team": "The Citadel",
-      "heist": -0.505243,
+      "heist": -0.505034,
       "ORpct": 28.3272,
       "DRpct": 30.8609,
       "DefTOpct": 14.053,
@@ -2459,7 +2459,7 @@
     },
     {
       "team": "Toledo",
-      "heist": 0.742211,
+      "heist": 0.741953,
       "ORpct": 29.798,
       "DRpct": 35.4798,
       "DefTOpct": 18.6684,
@@ -2467,7 +2467,7 @@
     },
     {
       "team": "Towson",
-      "heist": -0.037068,
+      "heist": -0.036944,
       "ORpct": 36.044,
       "DRpct": 26.799,
       "DefTOpct": 15.8985,
@@ -2475,7 +2475,7 @@
     },
     {
       "team": "Troy",
-      "heist": 0.343959,
+      "heist": 0.343949,
       "ORpct": 33.4083,
       "DRpct": 31.3212,
       "DefTOpct": 17.5869,
@@ -2483,7 +2483,7 @@
     },
     {
       "team": "Tulane",
-      "heist": 0.125756,
+      "heist": 0.12561,
       "ORpct": 22.1649,
       "DRpct": 35.4878,
       "DefTOpct": 17.8026,
@@ -2491,7 +2491,7 @@
     },
     {
       "team": "Tulsa",
-      "heist": -0.075831,
+      "heist": -0.075783,
       "ORpct": 32.5613,
       "DRpct": 28.8599,
       "DefTOpct": 15.3482,
@@ -2499,7 +2499,7 @@
     },
     {
       "team": "UAB",
-      "heist": 0.369058,
+      "heist": 0.368787,
       "ORpct": 33.1942,
       "DRpct": 27.2216,
       "DefTOpct": 16.6385,
@@ -2507,7 +2507,7 @@
     },
     {
       "team": "UC Davis",
-      "heist": -0.102217,
+      "heist": -0.102041,
       "ORpct": 26.6667,
       "DRpct": 30.8767,
       "DefTOpct": 19.6164,
@@ -2515,15 +2515,15 @@
     },
     {
       "team": "UC Irvine",
-      "heist": 0.230857,
-      "ORpct": 30.4455,
-      "DRpct": 32.2148,
-      "DefTOpct": 18.3589,
-      "OffTOpct": 17.2075
+      "heist": 0.264914,
+      "ORpct": 30.2924,
+      "DRpct": 32.516,
+      "DefTOpct": 18.7476,
+      "OffTOpct": 17.4085
     },
     {
       "team": "UC Riverside",
-      "heist": -0.702501,
+      "heist": -0.702038,
       "ORpct": 28.024,
       "DRpct": 31.068,
       "DefTOpct": 15.5055,
@@ -2531,7 +2531,7 @@
     },
     {
       "team": "UC San Diego",
-      "heist": -0.500625,
+      "heist": -0.500449,
       "ORpct": 26.3473,
       "DRpct": 27.9652,
       "DefTOpct": 16.6852,
@@ -2539,7 +2539,7 @@
     },
     {
       "team": "UC Santa Barbara",
-      "heist": -0.280539,
+      "heist": -0.28022,
       "ORpct": 32.8276,
       "DRpct": 26.014,
       "DefTOpct": 18.4283,
@@ -2547,7 +2547,7 @@
     },
     {
       "team": "UCF",
-      "heist": 0.060561,
+      "heist": 0.060637,
       "ORpct": 36.1179,
       "DRpct": 27.0166,
       "DefTOpct": 16.2143,
@@ -2555,7 +2555,7 @@
     },
     {
       "team": "UCLA",
-      "heist": 0.746481,
+      "heist": 0.746165,
       "ORpct": 31.4694,
       "DRpct": 31.8804,
       "DefTOpct": 18.9258,
@@ -2563,7 +2563,7 @@
     },
     {
       "team": "UMass Lowell",
-      "heist": -0.549059,
+      "heist": -0.548643,
       "ORpct": 32.419,
       "DRpct": 29.8851,
       "DefTOpct": 14.5027,
@@ -2571,7 +2571,7 @@
     },
     {
       "team": "UMBC",
-      "heist": -0.76554,
+      "heist": -0.765463,
       "ORpct": 23.4949,
       "DRpct": 26.2162,
       "DefTOpct": 14.8884,
@@ -2579,7 +2579,7 @@
     },
     {
       "team": "UNC Asheville",
-      "heist": -0.273816,
+      "heist": -0.273623,
       "ORpct": 29.5833,
       "DRpct": 31.3907,
       "DefTOpct": 15.515,
@@ -2587,7 +2587,7 @@
     },
     {
       "team": "UNC Greensboro",
-      "heist": -0.434958,
+      "heist": -0.434889,
       "ORpct": 28.6203,
       "DRpct": 29.6875,
       "DefTOpct": 13.3448,
@@ -2595,7 +2595,7 @@
     },
     {
       "team": "UNC Wilmington",
-      "heist": -0.033587,
+      "heist": -0.033567,
       "ORpct": 34.878,
       "DRpct": 26.9231,
       "DefTOpct": 15.0912,
@@ -2603,7 +2603,7 @@
     },
     {
       "team": "UNLV",
-      "heist": 0.19665,
+      "heist": 0.196746,
       "ORpct": 32.2304,
       "DRpct": 31.677,
       "DefTOpct": 17.9261,
@@ -2611,7 +2611,7 @@
     },
     {
       "team": "USC",
-      "heist": 0.148613,
+      "heist": 0.14872,
       "ORpct": 33.2918,
       "DRpct": 31.3131,
       "DefTOpct": 17.0236,
@@ -2619,7 +2619,7 @@
     },
     {
       "team": "USC Upstate",
-      "heist": -0.215164,
+      "heist": -0.214995,
       "ORpct": 28.5219,
       "DRpct": 32.1645,
       "DefTOpct": 16.1138,
@@ -2627,7 +2627,7 @@
     },
     {
       "team": "UT Arlington",
-      "heist": -0.27046,
+      "heist": -0.269941,
       "ORpct": 34.9719,
       "DRpct": 29.6149,
       "DefTOpct": 17.9423,
@@ -2635,7 +2635,7 @@
     },
     {
       "team": "UT Rio Grande Valley",
-      "heist": -0.203591,
+      "heist": -0.203365,
       "ORpct": 29.1275,
       "DRpct": 31.4251,
       "DefTOpct": 17.1588,
@@ -2643,7 +2643,7 @@
     },
     {
       "team": "Utah",
-      "heist": -0.179871,
+      "heist": -0.179836,
       "ORpct": 28.8095,
       "DRpct": 32.5608,
       "DefTOpct": 14.11,
@@ -2651,7 +2651,7 @@
     },
     {
       "team": "Utah St.",
-      "heist": 0.899505,
+      "heist": 0.899355,
       "ORpct": 35.4533,
       "DRpct": 31.2578,
       "DefTOpct": 21.0325,
@@ -2659,7 +2659,7 @@
     },
     {
       "team": "Utah Tech",
-      "heist": 0.194498,
+      "heist": 0.194566,
       "ORpct": 29.3367,
       "DRpct": 34.3672,
       "DefTOpct": 17.7774,
@@ -2667,7 +2667,7 @@
     },
     {
       "team": "Utah Valley",
-      "heist": 0.302945,
+      "heist": 0.30329,
       "ORpct": 35.0072,
       "DRpct": 31.3253,
       "DefTOpct": 21.3392,
@@ -2675,7 +2675,7 @@
     },
     {
       "team": "UTEP",
-      "heist": 0.157105,
+      "heist": 0.157151,
       "ORpct": 27.6215,
       "DRpct": 33.4716,
       "DefTOpct": 18.6644,
@@ -2683,7 +2683,7 @@
     },
     {
       "team": "UTSA",
-      "heist": 0.193699,
+      "heist": 0.193792,
       "ORpct": 30.1136,
       "DRpct": 38.8957,
       "DefTOpct": 14.8869,
@@ -2691,7 +2691,7 @@
     },
     {
       "team": "Valparaiso",
-      "heist": 0.178692,
+      "heist": 0.178677,
       "ORpct": 32.3718,
       "DRpct": 30.1354,
       "DefTOpct": 16.895,
@@ -2699,7 +2699,7 @@
     },
     {
       "team": "Vanderbilt",
-      "heist": 0.471899,
+      "heist": 0.471629,
       "ORpct": 30.7598,
       "DRpct": 29.0951,
       "DefTOpct": 18.3764,
@@ -2707,7 +2707,7 @@
     },
     {
       "team": "VCU",
-      "heist": 0.378035,
+      "heist": 0.377974,
       "ORpct": 33.912,
       "DRpct": 30.43,
       "DefTOpct": 17.4577,
@@ -2715,7 +2715,7 @@
     },
     {
       "team": "Vermont",
-      "heist": -0.910387,
+      "heist": -0.910228,
       "ORpct": 26.7516,
       "DRpct": 22.5282,
       "DefTOpct": 14.4106,
@@ -2723,7 +2723,7 @@
     },
     {
       "team": "Villanova",
-      "heist": 0.773881,
+      "heist": 0.773711,
       "ORpct": 34.9941,
       "DRpct": 32.1078,
       "DefTOpct": 18.9734,
@@ -2731,7 +2731,7 @@
     },
     {
       "team": "Virginia",
-      "heist": 0.466915,
+      "heist": 0.466893,
       "ORpct": 39.8137,
       "DRpct": 28.9105,
       "DefTOpct": 16.1621,
@@ -2739,7 +2739,7 @@
     },
     {
       "team": "Virginia Tech",
-      "heist": 0.60041,
+      "heist": 0.600203,
       "ORpct": 31.7821,
       "DRpct": 32.5556,
       "DefTOpct": 18.1384,
@@ -2747,7 +2747,7 @@
     },
     {
       "team": "VMI",
-      "heist": 0.448358,
+      "heist": 0.448189,
       "ORpct": 26.2258,
       "DRpct": 38.8041,
       "DefTOpct": 16.73,
@@ -2755,7 +2755,7 @@
     },
     {
       "team": "Wagner",
-      "heist": -0.355821,
+      "heist": -0.355519,
       "ORpct": 31.6619,
       "DRpct": 30.6548,
       "DefTOpct": 15.2074,
@@ -2763,7 +2763,7 @@
     },
     {
       "team": "Wake Forest",
-      "heist": 0.616901,
+      "heist": 0.61673,
       "ORpct": 30.012,
       "DRpct": 33.2117,
       "DefTOpct": 19.6493,
@@ -2771,7 +2771,7 @@
     },
     {
       "team": "Washington",
-      "heist": -0.005838,
+      "heist": -0.00579,
       "ORpct": 35.2874,
       "DRpct": 28.3937,
       "DefTOpct": 14.6843,
@@ -2779,7 +2779,7 @@
     },
     {
       "team": "Washington St.",
-      "heist": -0.848359,
+      "heist": -0.847914,
       "ORpct": 29.7136,
       "DRpct": 27.2936,
       "DefTOpct": 14.5926,
@@ -2787,7 +2787,7 @@
     },
     {
       "team": "Weber St.",
-      "heist": -0.008085,
+      "heist": -0.008043,
       "ORpct": 32.2468,
       "DRpct": 28.202,
       "DefTOpct": 16.6989,
@@ -2795,7 +2795,7 @@
     },
     {
       "team": "West Georgia",
-      "heist": -0.036156,
+      "heist": -0.036142,
       "ORpct": 31.7714,
       "DRpct": 29.909,
       "DefTOpct": 15.213,
@@ -2803,7 +2803,7 @@
     },
     {
       "team": "West Virginia",
-      "heist": -0.307823,
+      "heist": -0.307611,
       "ORpct": 30.4833,
       "DRpct": 26.2963,
       "DefTOpct": 17.8701,
@@ -2811,7 +2811,7 @@
     },
     {
       "team": "Western Carolina",
-      "heist": -0.337688,
+      "heist": -0.337434,
       "ORpct": 34.126,
       "DRpct": 27.86,
       "DefTOpct": 14.784,
@@ -2819,7 +2819,7 @@
     },
     {
       "team": "Western Illinois",
-      "heist": -0.176145,
+      "heist": -0.176032,
       "ORpct": 27.867,
       "DRpct": 33.9332,
       "DefTOpct": 15.1323,
@@ -2827,7 +2827,7 @@
     },
     {
       "team": "Western Kentucky",
-      "heist": 0.533962,
+      "heist": 0.53378,
       "ORpct": 33.5845,
       "DRpct": 30.2071,
       "DefTOpct": 17.9153,
@@ -2835,7 +2835,7 @@
     },
     {
       "team": "Western Michigan",
-      "heist": -0.447726,
+      "heist": -0.447482,
       "ORpct": 31.465,
       "DRpct": 30.3069,
       "DefTOpct": 13.5495,
@@ -2843,7 +2843,7 @@
     },
     {
       "team": "Wichita St.",
-      "heist": 0.602864,
+      "heist": 0.602745,
       "ORpct": 38.3442,
       "DRpct": 29.6591,
       "DefTOpct": 16.9015,
@@ -2851,7 +2851,7 @@
     },
     {
       "team": "William & Mary",
-      "heist": 0.105227,
+      "heist": 0.105268,
       "ORpct": 26.8482,
       "DRpct": 31.8976,
       "DefTOpct": 19.3992,
@@ -2859,7 +2859,7 @@
     },
     {
       "team": "Winthrop",
-      "heist": 0.373862,
+      "heist": 0.373731,
       "ORpct": 33.9806,
       "DRpct": 28.9872,
       "DefTOpct": 17.1989,
@@ -2867,7 +2867,7 @@
     },
     {
       "team": "Wisconsin",
-      "heist": -0.2337,
+      "heist": -0.233803,
       "ORpct": 29.8595,
       "DRpct": 26.0613,
       "DefTOpct": 14.6324,
@@ -2875,7 +2875,7 @@
     },
     {
       "team": "Wofford",
-      "heist": 0.083414,
+      "heist": 0.083246,
       "ORpct": 29.8021,
       "DRpct": 29.9145,
       "DefTOpct": 15.2602,
@@ -2883,7 +2883,7 @@
     },
     {
       "team": "Wright St.",
-      "heist": 0.208402,
+      "heist": 0.208403,
       "ORpct": 32.9616,
       "DRpct": 30.2239,
       "DefTOpct": 17.062,
@@ -2891,7 +2891,7 @@
     },
     {
       "team": "Wyoming",
-      "heist": -0.15747,
+      "heist": -0.157253,
       "ORpct": 34.6887,
       "DRpct": 26.6578,
       "DefTOpct": 16.7987,
@@ -2899,7 +2899,7 @@
     },
     {
       "team": "Xavier",
-      "heist": -0.101563,
+      "heist": -0.101682,
       "ORpct": 25.9783,
       "DRpct": 29.1018,
       "DefTOpct": 16.7386,
@@ -2907,7 +2907,7 @@
     },
     {
       "team": "Yale",
-      "heist": 0.340439,
+      "heist": 0.34029,
       "ORpct": 34.6154,
       "DRpct": 29.2035,
       "DefTOpct": 15.9552,
@@ -2915,7 +2915,7 @@
     },
     {
       "team": "Youngstown St.",
-      "heist": 0.033126,
+      "heist": 0.033398,
       "ORpct": 32.7742,
       "DRpct": 31.4094,
       "DefTOpct": 18.3496,
