@@ -1,11 +1,3 @@
-const data = [
-  { team: "Houston", heist: 1.42 },
-  { team: "Purdue", heist: 0.88 },
-  { team: "Kentucky", heist: 0.52 },
-  { team: "Tennessee", heist: -0.12 },
-  { team: "Alabama", heist: -0.63 }
-];
-
 function band(score) {
   if (score >= 1.0) return "Elite";
   if (score >= 0.5) return "Strong";
@@ -20,20 +12,39 @@ function bandClass(score) {
   return "neutral";
 }
 
-const sorted = [...data].sort((a, b) => b.heist - a.heist);
+async function main() {
+  const rowsEl = document.getElementById("rows");
+  rowsEl.innerHTML = "";
 
-const rows = document.getElementById("rows");
+  // cache-bust so you see updates immediately
+  const res = await fetch(`./data/data.json?ts=${Date.now()}`);
+  const payload = await res.json();
 
-sorted.forEach((t, i) => {
-  const row = document.createElement("div");
-  row.className = `row ${bandClass(t.heist)}`;
+  const data = payload.teams || [];
+  const sorted = [...data].sort((a, b) => b.heist - a.heist);
 
-  row.innerHTML = `
-    <div>${i + 1}</div>
-    <div>${t.team}</div>
-    <div class="score">${t.heist.toFixed(2)}</div>
-    <div class="band">${band(t.heist)}</div>
-  `;
+  sorted.forEach((t, i) => {
+    const row = document.createElement("div");
+    row.className = `row ${bandClass(t.heist)}`;
 
-  rows.appendChild(row);
+    row.innerHTML = `
+      <div>${i + 1}</div>
+      <div>${t.team}</div>
+      <div class="score">${Number(t.heist).toFixed(2)}</div>
+      <div class="band">${band(t.heist)}</div>
+    `;
+
+    rowsEl.appendChild(row);
+  });
+}
+
+main().catch(err => {
+  console.error(err);
+  const rowsEl = document.getElementById("rows");
+  rowsEl.innerHTML = `<div class="row below">
+    <div></div>
+    <div>Failed to load data.json</div>
+    <div class="score">--</div>
+    <div class="band">Error</div>
+  </div>`;
 });
