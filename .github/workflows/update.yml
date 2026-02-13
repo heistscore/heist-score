@@ -14,8 +14,9 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      # Secret name in GitHub: KENPOM_API_KEY
-      # Env var your script expects: KP_API_KEY
+      # GitHub Secret name: KENPOM_API_KEY
+      # Export BOTH env var names so scripts can't break if they reference either one.
+      KENPOM_API_KEY: ${{ secrets.KENPOM_API_KEY }}
       KP_API_KEY: ${{ secrets.KENPOM_API_KEY }}
 
     steps:
