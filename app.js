@@ -12,28 +12,41 @@ function bandClass(score) {
   return "neutral";
 }
 
-function render(rowsEl, teams) {
+function render(rowsEl, teams, metricKey) {
   rowsEl.innerHTML = "";
 
   teams.forEach((t, i) => {
+    const val = Number(t[metricKey]);
     const row = document.createElement("div");
-    row.className = `row ${bandClass(Number(t.heist))}`;
+    row.className = `row ${bandClass(val)}`;
 
     row.innerHTML = `
       <div>${i + 1}</div>
       <div>${t.team}</div>
-      <div class="score">${Number(t.heist).toFixed(2)}</div>
-      <div class="band">${band(Number(t.heist))}</div>
+      <div class="score">${Number.isFinite(val) ? val.toFixed(2) : "--"}</div>
+      <div class="band">${Number.isFinite(val) ? band(val) : "--"}</div>
     `;
 
     rowsEl.appendChild(row);
   });
 }
 
+function applySearch(sorted, query) {
+  const q = query.trim().toLowerCase();
+  if (!q) return sorted.slice(0, 50);
+  return sorted.filter(t => String(t.team).toLowerCase().includes(q));
+}
+
 async function main() {
   const rowsEl = document.getElementById("rows");
   const searchEl = document.getElementById("search");
-  const controlsEl = document.getElementById("controls");
+
+  const btnHeist = document.getElementById("btnHeist");
+  const btnPayday = document.getElementById("btnPayday");
+  const metricHeader = document.getElementById("metricHeader");
+
+  // default metric
+  let metricKey = "heist";
 
   const res = await fetch(`./data/data.json?ts=${Date.now()}`);
   const payload = await res.json();
@@ -42,59 +55,44 @@ async function main() {
   if (meta) meta.textContent = `Updated: ${payload.updated_at}`;
 
   const data = payload.teams || [];
-  const sorted = [...data].sort((a, b) => Number(b.heist) - Number(a.heist));
 
-  // Read initial limit from the active button (default Top 25)
-  let currentLimit = 25;
-  const activeBtn = controlsEl?.querySelector(".pill.active");
-  if (activeBtn) {
-    const v = activeBtn.getAttribute("data-limit");
-    currentLimit = (v === "all") ? "all" : Number(v);
+  function getSorted() {
+    return [...data].sort((a, b) => Number(b[metricKey]) - Number(a[metricKey]));
   }
 
-  function getLimitedList(list) {
-    if (currentLimit === "all") return list;
-    return list.slice(0, currentLimit);
+  function refresh() {
+    const sorted = getSorted();
+    const view = applySearch(sorted, searchEl ? searchEl.value : "");
+    if (metricHeader) metricHeader.textContent = metricKey === "heist" ? "Heist" : "Payday";
+    render(rowsEl, view, metricKey);
   }
 
-  function applyFilters() {
-    const q = (searchEl?.value || "").trim().toLowerCase();
-    const base = getLimitedList(sorted);
-
-    if (!q) return render(rowsEl, base);
-
-    const filtered = base.filter(t =>
-      String(t.team).toLowerCase().includes(q)
-    );
-
-    render(rowsEl, filtered);
-  }
-
-  // Initial render
-  applyFilters();
-
-  // Search listeners
-  if (searchEl) {
-    searchEl.addEventListener("input", applyFilters);
-    searchEl.addEventListener("change", applyFilters);
-    searchEl.addEventListener("keyup", applyFilters);
-  }
-
-  // Pill clicks (event delegation)
-  if (controlsEl) {
-    controlsEl.addEventListener("click", (e) => {
-      const btn = e.target.closest(".pill");
-      if (!btn) return;
-
-      controlsEl.querySelectorAll(".pill").forEach(b => b.classList.remove("active"));
-      btn.classList.add("active");
-
-      const v = btn.getAttribute("data-limit");
-      currentLimit = (v === "all") ? "all" : Number(v);
-
-      applyFilters();
+  // wire up buttons
+  if (btnHeist) {
+    btnHeist.addEventListener("click", () => {
+      metricKey = "heist";
+      btnHeist.classList.add("active");
+      btnPayday && btnPayday.classList.remove("active");
+      refresh();
     });
   }
+
+  if (btnPayday) {
+    btnPayday.addEventListener("click", () => {
+      metricKey = "payday";
+      btnPayday.classList.add("active");
+      btnHeist && btnHeist.classList.remove("active");
+      refresh();
+    });
+  }
+
+  // wire up search
+  if (searchEl) {
+    searchEl.addEventListener("input", refresh);
+  }
+
+  // initial render
+  refresh();
 }
 
 main().catch(err => {
