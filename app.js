@@ -29,12 +29,8 @@ function setActive(btn, on) {
   btn.classList.toggle("active", !!on);
 }
 
-/**
- * Stable team-color generation (for teams not in manual overrides).
- * Produces a nice, readable color that will be the same every time.
- */
+// ---------- color helpers ----------
 function hashString(str) {
-  // FNV-1a-ish
   let h = 2166136261;
   for (let i = 0; i < str.length; i++) {
     h ^= str.charCodeAt(i);
@@ -44,7 +40,6 @@ function hashString(str) {
 }
 
 function hslToHex(h, s, l) {
-  // h: 0-360, s/l: 0-100
   s /= 100;
   l /= 100;
 
@@ -70,33 +65,42 @@ function hslToHex(h, s, l) {
 
 function autoTeamColor(teamName) {
   const h = hashString(teamName);
-  // Keep hues broad, avoid too-dark colors
   const hue = h % 360;
-  const sat = 70;   // punchy
-  const light = 42; // readable on dark bg
+  const sat = 70;
+  const light = 42;
   return hslToHex(hue, sat, light);
 }
 
-async function loadTeamColors() {
-  const res = await fetch(`./data/team_colors.json?ts=${Date.now()}`);
-  if (!res.ok) return { manual: {} };
-  const json = await res.json();
+async function loadJson(path) {
+  const res = await fetch(`${path}?ts=${Date.now()}`);
+  if (!res.ok) return null;
+  return await res.json();
+}
 
-  // Support both formats:
-  // - old flat map { "Kentucky": "#0033A0", ... }
-  // - new hybrid { manual: { ... } }
-  if (json && json.manual && typeof json.manual === "object") return json;
+async function loadManualColors() {
+  const json = await loadJson("./data/team_colors.json");
+  if (!json) return { manual: {} };
+  if (json.manual && typeof json.manual === "object") return json;
   return { manual: json || {} };
 }
 
-function getTeamColor(teamName, colorData) {
-  const manual = (colorData && colorData.manual) ? colorData.manual : {};
-  return manual[teamName] || autoTeamColor(teamName);
+async function loadFullColors() {
+  const json = await loadJson("./data/team_colors_full.json");
+  return (json && typeof json === "object") ? json : {};
 }
 
-function render(rowsEl, teamsToShow, fullSorted, metricKey, colorData) {
-  rowsEl.innerHTML = "";
+function getTeamColor(teamName, manualData, fullMap) {
+  // Priority:
+  // 1) manual override
+  // 2) full dataset
+  // 3) auto hash fallback
+  const manual = manualData?.manual || {};
+  return manual[teamName] || fullMap[teamName] || autoTeamColor(teamName);
+}
 
+// ---------- render ----------
+function render(rowsEl, teamsToShow, fullSorted, metricKey, manualData, fullMap) {
+  rowsEl.innerHTML = "";
   const total = fullSorted.length;
 
   teamsToShow.forEach((t) => {
@@ -107,9 +111,7 @@ function render(rowsEl, teamsToShow, fullSorted, metricKey, colorData) {
     const row = document.createElement("div");
     row.className = `row ${bandClass(val)}`;
 
-    // apply team color (manual override or auto)
-    const color = getTeamColor(t.team, colorData);
-    row.style.setProperty("--team", color);
+    row.style.setProperty("--team", getTeamColor(t.team, manualData, fullMap));
 
     row.innerHTML = `
       <div>${rankIndex >= 0 ? rankIndex + 1 : ""}</div>
@@ -127,7 +129,6 @@ async function main() {
   const rowsEl = document.getElementById("rows");
   const meta = document.getElementById("meta");
 
-  // Controls
   const btnHeist = document.getElementById("btnHeist");
   const btnPayday = document.getElementById("btnPayday");
   const btn25 = document.getElementById("btn25");
@@ -136,7 +137,10 @@ async function main() {
   const btnAll = document.getElementById("btnAll");
   const searchEl = document.getElementById("search");
 
-  const colorData = await loadTeamColors();
+  const [manualData, fullMap] = await Promise.all([
+    loadManualColors(),
+    loadFullColors()
+  ]);
 
   const res = await fetch(`./data/data.json?ts=${Date.now()}`);
   const payload = await res.json();
@@ -145,8 +149,8 @@ async function main() {
 
   const data = payload.teams || [];
 
-  let metricKey = "heist"; // "heist" or "payday"
-  let limit = 25;          // 25 / 50 / 100 / Infinity
+  let metricKey = "heist";
+  let limit = 25;
   let query = "";
 
   function getSorted() {
@@ -163,10 +167,9 @@ async function main() {
     const sorted = getSorted();
     const filtered = getFiltered(sorted);
     const sliced = Number.isFinite(limit) ? filtered.slice(0, limit) : filtered;
-    render(rowsEl, sliced, sorted, metricKey, colorData);
+    render(rowsEl, sliced, sorted, metricKey, manualData, fullMap);
   }
 
-  // Metric toggle
   btnHeist?.addEventListener("click", () => {
     metricKey = "heist";
     setActive(btnHeist, true);
@@ -181,7 +184,6 @@ async function main() {
     rerender();
   });
 
-  // Range toggle
   btn25?.addEventListener("click", () => {
     limit = 25;
     setActive(btn25, true); setActive(btn50, false); setActive(btn100, false); setActive(btnAll, false);
@@ -206,7 +208,6 @@ async function main() {
     rerender();
   });
 
-  // Search
   searchEl?.addEventListener("input", () => {
     query = searchEl.value.trim();
     rerender();
@@ -221,7 +222,7 @@ main().catch(err => {
   if (rowsEl) {
     rowsEl.innerHTML = `<div class="row below">
       <div></div>
-      <div>Failed to load data.json / team colors</div>
+      <div>Failed to load data.json / color maps</div>
       <div class="score">--</div>
       <div class="pct">--</div>
       <div class="band">Error</div>
