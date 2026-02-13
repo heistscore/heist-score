@@ -1,6 +1,6 @@
 :root{
   --bg: #0b0f17;            /* single dark background */
-  --panel: #111827;         /* card/table background */
+  --panel: #111827;         /* table background */
   --panel2: #0f172a;        /* header background */
   --border: rgba(255,255,255,.10);
   --text: rgba(255,255,255,.92);
@@ -21,26 +21,22 @@
 
 *{ box-sizing:border-box; }
 
-html, body{
-  height:100%;
-}
+html, body{ height:100%; }
 
 body{
   margin:0;
-  background: var(--bg);  /* single color, no gradients */
+  background: var(--bg);
   color: var(--text);
   font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
 }
 
 .wrap{
-  max-width: 980px;          /* centers like “old” */
+  max-width: 980px;
   margin: 28px auto 60px;
   padding: 0 18px;
 }
 
-.header{
-  margin-bottom: 14px;
-}
+.header{ margin-bottom: 14px; }
 
 .titleblock h1{
   margin: 0;
@@ -60,9 +56,7 @@ body{
   font-size: 12px;
 }
 
-.controls{
-  margin-top: 14px;
-}
+.controls{ margin-top: 14px; }
 
 .controlRow{
   display:flex;
@@ -89,9 +83,7 @@ body{
   user-select:none;
 }
 
-.pill:hover{
-  background: rgba(255,255,255,.10);
-}
+.pill:hover{ background: rgba(255,255,255,.10); }
 
 .pill.active{
   background: rgba(59,130,246,.22);
@@ -121,9 +113,7 @@ body{
   flex: 1 1 240px;
 }
 
-.search::placeholder{
-  color: rgba(255,255,255,.45);
-}
+.search::placeholder{ color: rgba(255,255,255,.45); }
 
 .card{
   background: rgba(255,255,255,.02);
@@ -132,9 +122,7 @@ body{
   overflow:hidden;
 }
 
-.table{
-  width: 100%;
-}
+.table{ width: 100%; }
 
 .thead{
   display:grid;
@@ -143,6 +131,10 @@ body{
   padding: 12px 14px;
   background: var(--panel2);
   border-bottom: 1px solid rgba(255,255,255,.10);
+
+  /* IMPORTANT: match the row left accent border so columns line up */
+  border-left: 4px solid transparent;
+
   font-size: 12px;
   letter-spacing: .08em;
   text-transform: uppercase;
@@ -151,15 +143,8 @@ body{
   top: 0;
   z-index: 5;
 }
-/* Align numeric headers with numeric columns */
-.thead div:nth-child(3),
-.thead div:nth-child(4),
-.thead div:nth-child(5){
-  text-align: right;
-}
-.rows{
-  background: var(--panel);
-}
+
+.rows{ background: var(--panel); }
 
 .row{
   display:grid;
@@ -168,13 +153,11 @@ body{
   border-bottom: 1px solid rgba(255,255,255,.08);
   align-items:center;
 
-  /* subtle left accent bar */
+  /* left accent line */
   border-left: 4px solid transparent;
 }
 
-.row:last-child{
-  border-bottom: none;
-}
+.row:last-child{ border-bottom: none; }
 
 .row .teamcell{
   display:flex;
@@ -189,14 +172,11 @@ body{
   text-overflow: ellipsis;
 }
 
-.right{
-  text-align:right;
-}
+.right{ text-align:right; }
 
-.score, .pct, .band{
-  font-variant-numeric: tabular-nums;
-}
+.score, .pct, .band{ font-variant-numeric: tabular-nums; }
 
+/* row colors */
 .row.elite{
   background: var(--eliteRow);
   border-left-color: var(--eliteAccent);
@@ -214,7 +194,7 @@ body{
   border-left-color: var(--belowAccent);
 }
 
-/* make sure text stays readable on colored rows */
+/* keep text readable */
 .row.elite, .row.strong, .row.neutral, .row.below{
   color: rgba(255,255,255,.92);
 }
@@ -227,43 +207,4 @@ body{
   }
   .select{ min-width: 160px; }
   .search{ min-width: 180px; }
-}
-/* Force header alignment to match numeric columns */
-.thead > div.right { 
-  text-align: right !important; 
-}
-
-.thead > div:nth-child(3),
-.thead > div:nth-child(4),
-.thead > div:nth-child(5) {
-  text-align: right !important;
-}
-/* === FIX: make header + rows share the same column grid === */
-
-/* Use the same grid for header + each row */
-.thead,
-#rows > .row {
-  display: grid !important;
-  grid-template-columns: 72px 1fr 120px 90px 110px; /* rank, team, score, pct, band */
-  align-items: center;
-  column-gap: 12px;
-}
-
-/* Header */
-.thead {
-  font-weight: 700;
-  letter-spacing: 0.02em;
-}
-
-/* Right-side columns (SCORE / PCT / BAND) */
-.thead > .right,
-#rows > .row > .right {
-  text-align: right !important;
-  justify-self: end !important;
-}
-
-/* Optional: keep the last column from hugging the edge */
-.thead > div:last-child,
-#rows > .row > div:last-child {
-  padding-right: 6px;
 }
