@@ -238,3 +238,32 @@ body{
 .thead > div:nth-child(5) {
   text-align: right !important;
 }
+/* === FIX: make header + rows share the same column grid === */
+
+/* Use the same grid for header + each row */
+.thead,
+#rows > .row {
+  display: grid !important;
+  grid-template-columns: 72px 1fr 120px 90px 110px; /* rank, team, score, pct, band */
+  align-items: center;
+  column-gap: 12px;
+}
+
+/* Header */
+.thead {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+/* Right-side columns (SCORE / PCT / BAND) */
+.thead > .right,
+#rows > .row > .right {
+  text-align: right !important;
+  justify-self: end !important;
+}
+
+/* Optional: keep the last column from hugging the edge */
+.thead > div:last-child,
+#rows > .row > div:last-child {
+  padding-right: 6px;
+}
