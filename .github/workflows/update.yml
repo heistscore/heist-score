@@ -1,25 +1,24 @@
 name: Update data.json
 
 on:
-  schedule:
-    - cron: '0 10 * * *'   # runs daily at 10:00 UTC
   workflow_dispatch:
+  schedule:
+    - cron: "0 9 * * *"
+
+permissions:
+  contents: write
 
 jobs:
   update:
     runs-on: ubuntu-latest
-
-    permissions:
-      contents: write
-
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: "18"
 
       - name: Fetch KenPom Four Factors into data/raw.json
         env:
@@ -28,14 +27,14 @@ jobs:
         run: |
           node scripts/fetch_kp.js
 
-      - name: Compute Heist into data/data.json
+      - name: Compute Heist + Payday into data/data.json
         run: |
           node scripts/compute_heist.js
 
-      - name: Commit and push updated data
+      - name: Commit & push updated data
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
           git add data/raw.json data/data.json
-          git commit -m "Update data.json (auto)" || echo "No changes to commit"
+          git commit -m "Daily update data" || echo "No changes to commit"
           git push
