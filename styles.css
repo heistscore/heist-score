@@ -6,7 +6,7 @@ body {
 }
 
 .wrap {
-  max-width: 900px;
+  max-width: 980px;
   margin: 0 auto;
   padding: 24px;
 }
@@ -28,50 +28,60 @@ h1 {
 }
 
 .controls {
-  margin-top: 14px;
   display: flex;
   gap: 12px;
   align-items: center;
-  justify-content: space-between;
   flex-wrap: wrap;
+  margin-top: 14px;
 }
 
 .toggle {
   display: inline-flex;
+  gap: 8px;
+  padding: 6px;
+  background: #0f172a;
   border: 1px solid #243043;
-  border-radius: 999px;
-  overflow: hidden;
-  background: #0e1626;
+  border-radius: 12px;
 }
 
 .pill {
-  appearance: none;
-  border: none;
-  background: transparent;
-  color: #9ca3af;
-  padding: 10px 14px;
+  border: 1px solid #243043;
+  background: rgba(255,255,255,0.03);
+  color: #e5e7eb;
+  padding: 8px 12px;
+  border-radius: 10px;
   cursor: pointer;
+  font-size: 14px;
+}
+
+.pill-sm {
+  padding: 6px 10px;
   font-size: 13px;
 }
 
+.pill:hover {
+  background: rgba(255,255,255,0.06);
+}
+
 .pill.active {
-  color: #e5e7eb;
-  background: #111827;
+  background: rgba(59,130,246,0.18);
+  border-color: rgba(59,130,246,0.5);
 }
 
 .search {
   flex: 1;
   min-width: 220px;
-  max-width: 320px;
+  max-width: 420px;
   padding: 10px 12px;
-  border-radius: 10px;
+  border-radius: 12px;
   border: 1px solid #243043;
-  background: #0e1626;
+  background: #0f172a;
   color: #e5e7eb;
+  outline: none;
 }
 
 .search::placeholder {
-  color: #6b7280;
+  color: #94a3b8;
 }
 
 .table {
@@ -108,5 +118,5 @@ h1 {
 
 .elite { background: rgba(34,197,94,.15); }
 .strong { background: rgba(59,130,246,.15); }
-.neutral { background: rgba(156,163,175,.1); }
+.neutral { background: rgba(156,163,175,.10); }
 .below { background: rgba(239,68,68,.15); }
