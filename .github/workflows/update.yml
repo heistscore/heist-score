@@ -30,7 +30,7 @@ jobs:
       - name: Build raw.json (KenPom)
         env:
           KENPOM_API_KEY: ${{ secrets.KENPOM_API_KEY }}
-        run: node scripts/fetch_kenpom.js
+        run: node scripts/fetch_kp.js
 
       - name: Compute Heist + Payday into data.json
         run: node scripts/compute_heist.js
