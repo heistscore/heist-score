@@ -26,9 +26,7 @@
 
 *{ box-sizing:border-box; }
 
-html,body{
-  height:100%;
-}
+html,body{ height:100%; }
 
 body{
   margin:0;
@@ -42,23 +40,23 @@ body{
 
 /* ---- layout ---- */
 .container{
-  max-width: 1200px;   /* tighter grid */
+  max-width: 1180px;     /* tighter than full screen */
   margin: 0 auto;
-  padding: 22px;
+  padding: 16px;
 }
 
 .card{
   background: var(--panel);
   border: 1px solid var(--stroke);
   border-radius: 18px;
-  padding: 22px;
+  padding: 16px;         /* tighter */
   backdrop-filter: blur(16px);
   box-shadow: 0 18px 60px rgba(0,0,0,.45);
 }
 
 h1{
   margin: 0 0 4px 0;
-  font-size: 42px;
+  font-size: 40px;
   letter-spacing: .2px;
 }
 
@@ -80,7 +78,7 @@ h1{
   flex-wrap:wrap;
   gap: 10px;
   align-items:center;
-  margin-top: 14px;
+  margin-top: 12px;
 }
 
 .group{
@@ -138,15 +136,16 @@ h1{
 
 /* ---- table ---- */
 .table{
-  margin-top: 14px;
+  margin-top: 12px;
   border: 1px solid var(--stroke2);
   border-radius: 16px;
   overflow:hidden;
+  width: 100%;
 }
 
 .thead{
   display:grid;
-  grid-template-columns: 60px 1fr 90px 90px 100px; /* tighter columns */
+  grid-template-columns: 60px 1fr 90px 90px 100px; /* RANK TEAM SCORE PCT BAND */
   column-gap: 12px;
   align-items:center;
   padding: 10px 12px;
@@ -158,32 +157,27 @@ h1{
   color: rgba(233,238,248,.72);
 }
 
-.thead .right{
-  text-align:right;
-}
+.thead .right{ text-align:right; }
 
-.rows .row{
+/* IMPORTANT: target .row directly so it still works even if #rows loses "rows" class */
+.row{
   display:grid;
   grid-template-columns: 60px 1fr 90px 90px 100px; /* must match header */
   column-gap: 12px;
   align-items:center;
-  padding: 8px 12px;   /* tighter rows */
+  padding: 7px 12px;     /* tighter rows */
   border-bottom: 1px solid rgba(255,255,255,.07);
   background: var(--row);
+  line-height: 1.15;     /* tighter */
 }
 
-.rows .row:nth-child(even){
-  background: var(--row2);
-}
+.row:nth-child(even){ background: var(--row2); }
+.row:last-child{ border-bottom:none; }
 
-.rows .row:last-child{
-  border-bottom:none;
-}
-
-.rows .row.elite{ background: var(--elite); }
-.rows .row.strong{ background: var(--strong); }
-.rows .row.neutral{ background: var(--neutral); }
-.rows .row.below{ background: var(--below); }
+.row.elite{ background: var(--elite); }
+.row.strong{ background: var(--strong); }
+.row.neutral{ background: var(--neutral); }
+.row.below{ background: var(--below); }
 
 .teamcell{
   display:flex;
@@ -191,9 +185,7 @@ h1{
   gap:10px;
 }
 
-.teamname{
-  font-weight: 700;
-}
+.teamname{ font-weight: 700; }
 
 .score{
   text-align:right;
@@ -216,10 +208,10 @@ h1{
 /* ---- responsive ---- */
 @media (max-width: 900px){
   .container{ max-width: 96vw; }
-  h1{ font-size: 34px; }
+  h1{ font-size: 32px; }
 
   .thead,
-  .rows .row{
+  .row{
     grid-template-columns: 52px 1fr 84px 84px 88px;
     column-gap: 10px;
   }
