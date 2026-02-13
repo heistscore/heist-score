@@ -29,7 +29,7 @@ function setActive(btn, on) {
   btn.classList.toggle("active", !!on);
 }
 
-// ---------- fallback color helpers (only used if JSON missing a team) ----------
+// ---------- color helpers ----------
 function hashString(str) {
   let h = 2166136261;
   for (let i = 0; i < str.length; i++) {
@@ -75,14 +75,17 @@ async function loadJson(path) {
   return await res.json();
 }
 
-function getTeamColor(teamName, colorMap) {
-  const c = colorMap?.[teamName];
-  if (typeof c === "string" && c.startsWith("#") && c.length === 7) return c;
-  return autoTeamColor(teamName);
+async function loadFullColors() {
+  const json = await loadJson("./data/team_primary_colors.json");
+  return (json && typeof json === "object") ? json : {};
+}
+
+function getTeamColor(teamName, fullMap) {
+  return fullMap[teamName] || autoTeamColor(teamName);
 }
 
 // ---------- render ----------
-function render(rowsEl, teamsToShow, fullSorted, metricKey, colorMap) {
+function render(rowsEl, teamsToShow, fullSorted, metricKey, fullMap) {
   rowsEl.innerHTML = "";
   const total = fullSorted.length;
 
@@ -94,7 +97,7 @@ function render(rowsEl, teamsToShow, fullSorted, metricKey, colorMap) {
     const row = document.createElement("div");
     row.className = `row ${bandClass(val)}`;
 
-    row.style.setProperty("--team", getTeamColor(t.team, colorMap));
+    row.style.setProperty("--team", getTeamColor(t.team, fullMap));
 
     row.innerHTML = `
       <div>${rankIndex >= 0 ? rankIndex + 1 : ""}</div>
@@ -105,6 +108,39 @@ function render(rowsEl, teamsToShow, fullSorted, metricKey, colorMap) {
     `;
 
     rowsEl.appendChild(row);
+  });
+}
+
+function buildConferenceOptions(selectEl, data) {
+  if (!selectEl) return;
+
+  // Map: confShort -> confLong (best available)
+  const confMap = new Map();
+
+  data.forEach(t => {
+    const cs = t.confShort;
+    if (!cs) return;
+    const cl = t.confLong || cs;
+    if (!confMap.has(cs)) confMap.set(cs, cl);
+  });
+
+  // Sort by confLong then confShort
+  const confs = Array.from(confMap.entries())
+    .sort((a, b) => {
+      const aName = String(a[1]).toLowerCase();
+      const bName = String(b[1]).toLowerCase();
+      if (aName < bName) return -1;
+      if (aName > bName) return 1;
+      return String(a[0]).localeCompare(String(b[0]));
+    });
+
+  // Rebuild options (keep first option)
+  selectEl.innerHTML = `<option value="ALL">All Conferences</option>`;
+  confs.forEach(([short, long]) => {
+    const opt = document.createElement("option");
+    opt.value = short;
+    opt.textContent = `${long} (${short})`;
+    selectEl.appendChild(opt);
   });
 }
 
@@ -120,35 +156,50 @@ async function main() {
   const btnAll = document.getElementById("btnAll");
   const searchEl = document.getElementById("search");
 
-  // Load colors (single file)
-  const colorMap = (await loadJson("./data/team_primary_colors.json")) || {};
+  // NEW: conference select
+  const confEl = document.getElementById("conf");
 
-  // Load leaderboard data
+  const [fullMap] = await Promise.all([
+    loadFullColors()
+  ]);
+
   const res = await fetch(`./data/data.json?ts=${Date.now()}`);
   const payload = await res.json();
+
   if (meta) meta.textContent = `Updated: ${payload.updated_at}`;
 
   const data = payload.teams || [];
 
+  // NEW: populate conference dropdown from data.json
+  buildConferenceOptions(confEl, data);
+
   let metricKey = "heist";
   let limit = 25;
   let query = "";
+  let conf = "ALL";
 
   function getSorted() {
     return [...data].sort((a, b) => Number(b[metricKey]) - Number(a[metricKey]));
   }
 
   function getFiltered(sorted) {
-    if (!query) return sorted;
+    let out = sorted;
+
+    // NEW: conf filter
+    if (conf && conf !== "ALL") {
+      out = out.filter(t => String(t.confShort || "") === String(conf));
+    }
+
+    if (!query) return out;
     const q = query.toLowerCase();
-    return sorted.filter(t => String(t.team).toLowerCase().includes(q));
+    return out.filter(t => String(t.team).toLowerCase().includes(q));
   }
 
   function rerender() {
     const sorted = getSorted();
     const filtered = getFiltered(sorted);
     const sliced = Number.isFinite(limit) ? filtered.slice(0, limit) : filtered;
-    render(rowsEl, sliced, sorted, metricKey, colorMap);
+    render(rowsEl, sliced, sorted, metricKey, fullMap);
   }
 
   btnHeist?.addEventListener("click", () => {
@@ -194,9 +245,11 @@ async function main() {
     rerender();
   });
 
-  // Default active
-  setActive(btnHeist, true);
-  setActive(btn25, true);
+  // NEW: conf change handler
+  confEl?.addEventListener("change", () => {
+    conf = confEl.value;
+    rerender();
+  });
 
   rerender();
 }
@@ -207,7 +260,7 @@ main().catch(err => {
   if (rowsEl) {
     rowsEl.innerHTML = `<div class="row below">
       <div></div>
-      <div>Failed to load data.json / team_primary_colors.json</div>
+      <div>Failed to load data.json / team colors</div>
       <div class="score">--</div>
       <div class="pct">--</div>
       <div class="band">Error</div>
