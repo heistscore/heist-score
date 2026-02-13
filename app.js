@@ -29,62 +29,18 @@ function setActive(btn, on) {
   btn.classList.toggle("active", !!on);
 }
 
-// ---------- color fallback (only if CSV is missing a team) ----------
-function hashString(str) {
-  let h = 2166136261;
-  for (let i = 0; i < str.length; i++) {
-    h ^= str.charCodeAt(i);
-    h = Math.imul(h, 16777619);
-  }
-  return h >>> 0;
-}
-
-function hslToHex(h, s, l) {
-  s /= 100;
-  l /= 100;
-  const c = (1 - Math.abs(2 * l - 1)) * s;
-  const x = c * (1 - Math.abs(((h / 60) % 2) - 1));
-  const m = l - c / 2;
-
-  let r = 0, g = 0, b = 0;
-  if (0 <= h && h < 60) { r = c; g = x; b = 0; }
-  else if (60 <= h && h < 120) { r = x; g = c; b = 0; }
-  else if (120 <= h && h < 180) { r = 0; g = c; b = x; }
-  else if (180 <= h && h < 240) { r = 0; g = x; b = c; }
-  else if (240 <= h && h < 300) { r = x; g = 0; b = c; }
-  else { r = c; g = 0; b = x; }
-
-  const toHex = (v) => {
-    const n = Math.round((v + m) * 255);
-    return n.toString(16).padStart(2, "0");
-  };
-
-  return `#${toHex(r)}${toHex(g)}${toHex(b)}`;
-}
-
-function autoTeamColor(teamName) {
-  const h = hashString(teamName);
-  const hue = h % 360;
-  return hslToHex(hue, 70, 42);
-}
-
 async function loadJson(path) {
   const res = await fetch(`${path}?ts=${Date.now()}`);
-  if (!res.ok) return null;
+  if (!res.ok) throw new Error(`Failed to load ${path}: ${res.status}`);
   return await res.json();
 }
 
-async function loadPrimaryColors() {
-  const json = await loadJson("./data/team_primary_colors.json");
-  return (json && typeof json === "object") ? json : {};
+function getTeamColor(teamName, colorMap) {
+  // strict: if missing, show a neutral gray instead of wrong colors
+  return colorMap?.[teamName] || "#334155";
 }
 
-function getTeamColor(teamName, primaryMap) {
-  return primaryMap[teamName] || autoTeamColor(teamName);
-}
-
-// ---------- render ----------
-function render(rowsEl, teamsToShow, fullSorted, metricKey, primaryMap) {
+function render(rowsEl, teamsToShow, fullSorted, metricKey, colorMap) {
   rowsEl.innerHTML = "";
   const total = fullSorted.length;
 
@@ -96,7 +52,7 @@ function render(rowsEl, teamsToShow, fullSorted, metricKey, primaryMap) {
     const row = document.createElement("div");
     row.className = `row ${bandClass(val)}`;
 
-    row.style.setProperty("--team", getTeamColor(t.team, primaryMap));
+    row.style.setProperty("--team", getTeamColor(t.team, colorMap));
 
     row.innerHTML = `
       <div>${rankIndex >= 0 ? rankIndex + 1 : ""}</div>
@@ -122,12 +78,9 @@ async function main() {
   const btnAll = document.getElementById("btnAll");
   const searchEl = document.getElementById("search");
 
-  const [primaryMap, payload] = await Promise.all([
-    loadPrimaryColors(),
-    (async () => {
-      const res = await fetch(`./data/data.json?ts=${Date.now()}`);
-      return await res.json();
-    })()
+  const [payload, colorMap] = await Promise.all([
+    loadJson("./data/data.json"),
+    loadJson("./data/team_primary_colors.json"),
   ]);
 
   if (meta) meta.textContent = `Updated: ${payload.updated_at}`;
@@ -152,7 +105,7 @@ async function main() {
     const sorted = getSorted();
     const filtered = getFiltered(sorted);
     const sliced = Number.isFinite(limit) ? filtered.slice(0, limit) : filtered;
-    render(rowsEl, sliced, sorted, metricKey, primaryMap);
+    render(rowsEl, sliced, sorted, metricKey, colorMap);
   }
 
   btnHeist?.addEventListener("click", () => {
@@ -215,7 +168,7 @@ main().catch(err => {
   if (rowsEl) {
     rowsEl.innerHTML = `<div class="row below">
       <div></div>
-      <div>Failed to load data.json / team_primary_colors.json</div>
+      <div>Failed to load data.json or team_primary_colors.json</div>
       <div class="score">--</div>
       <div class="pct">--</div>
       <div class="band">Error</div>
