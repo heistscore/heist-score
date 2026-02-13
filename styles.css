@@ -108,18 +108,6 @@ h1 { margin: 0 0 6px; font-size: 34px; font-weight: 750; }
 .band { padding-left: 10px; text-align: left; }
 
 /* ===============================
-   Team color bar (THIS IS THE FIX)
-   app.js sets: --team
-================================= */
-.row::before {
-  content: "";
-  position: absolute;
-  left: 0; top: 0; bottom: 0;
-  width: 6px;
-  background: var(--team, #6b7280);  /* <- use --team */
-}
-
-/* ===============================
    Band shading (restore)
 ================================= */
 .row.elite   { background: rgba(16, 185, 129, 0.18); }  /* green */
