@@ -23,17 +23,22 @@ async function main() {
   if (meta) meta.textContent = `Updated: ${payload.updated_at}`;
 
   const data = payload.teams || [];
-  const sorted = [...data].sort((a, b) => b.heist - a.heist);
 
-  sorted.forEach((t, i) => {
+  // Sort by Heist (high to low)
+  const sorted = [...data].sort((a, b) => Number(b.heist) - Number(a.heist));
+
+  // Show top 50 only
+  const top = sorted.slice(0, 50);
+
+  top.forEach((t, i) => {
     const row = document.createElement("div");
-    row.className = `row ${bandClass(t.heist)}`;
+    row.className = `row ${bandClass(Number(t.heist))}`;
 
     row.innerHTML = `
       <div>${i + 1}</div>
       <div>${t.team}</div>
       <div class="score">${Number(t.heist).toFixed(2)}</div>
-      <div class="band">${band(t.heist)}</div>
+      <div class="band">${band(Number(t.heist))}</div>
     `;
 
     rowsEl.appendChild(row);
