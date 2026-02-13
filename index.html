@@ -1,47 +1,56 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Heist Score</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
+  <div class="wrap">
+    <header class="header">
+      <div class="titleblock">
+        <h1>Heist Score</h1>
+        <div class="sub">Possession Control Leaderboard</div>
+        <div id="meta" class="meta">Updated: —</div>
+      </div>
 
-  <h1>Heist Score</h1>
-  <div class="sub">Possession Control Leaderboard</div>
-  <div id="updated" class="updated"></div>
+      <div class="controls">
+        <div class="controlRow">
+          <button id="btnHeist" class="pill active" type="button">Heist</button>
+          <button id="btnPayday" class="pill" type="button">Payday</button>
 
-  <div class="controls">
-    <div class="mode">
-      <button id="btnHeist" class="pill active">Heist</button>
-      <button id="btnPayday" class="pill">Payday</button>
-    </div>
+          <span class="divider"></span>
 
-    <div class="range">
-      <button id="btn25" class="pill active">Top 25</button>
-      <button id="btn50" class="pill">Top 50</button>
-      <button id="btn100" class="pill">Top 100</button>
-      <button id="btnAll" class="pill">All</button>
-    </div>
+          <button id="btn25" class="pill active" type="button">Top 25</button>
+          <button id="btn50" class="pill" type="button">Top 50</button>
+          <button id="btn100" class="pill" type="button">Top 100</button>
+          <button id="btnAll" class="pill" type="button">All</button>
 
-    <select id="conf" class="select">
-      <option value="ALL">All Conferences</option>
-    </select>
+          <span class="divider"></span>
 
-    <input id="search" class="search" type="text" placeholder="Search team..." />
-  </div>
+          <select id="conf" class="select">
+            <option value="ALL">All Conferences</option>
+          </select>
 
-  <div class="table">
-    <div class="row header">
-      <div>RANK</div>
-      <div>TEAM</div>
-      <div class="score">SCORE</div>
-      <div class="pct">PCT</div>
-      
-      <div>BAND</div>
-    </div>
+          <input id="search" class="search" type="text" placeholder="Search team…" />
+        </div>
+      </div>
+    </header>
 
-    <div id="rows"></div>
+    <main class="card">
+      <div class="table">
+        <div class="thead">
+          <div>RANK</div>
+          <div>TEAM</div>
+          <div class="right">SCORE</div>
+          <div class="right">PCT</div>
+          <div class="right">BAND</div>
+        </div>
+
+        <div id="rows" class="rows"></div>
+      </div>
+    </main>
   </div>
 
   <script src="./app.js"></script>
