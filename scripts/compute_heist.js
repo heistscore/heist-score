@@ -10,25 +10,29 @@ function stddev(arr, m) {
 }
 
 function zScore(value, m, s) {
-  if (!Number.isFinite(value) || s === 0) return 0;
+  if (!Number.isFinite(value) || !Number.isFinite(m) || !Number.isFinite(s) || s === 0) return 0;
   return (value - m) / s;
 }
 
+function num(x) {
+  const v = Number(x);
+  return Number.isFinite(v) ? v : NaN;
+}
+
 function loadRaw() {
-  const raw = JSON.parse(fs.readFileSync("data/raw.json", "utf8"));
-  return raw;
+  return JSON.parse(fs.readFileSync("data/raw.json", "utf8"));
 }
 
 function main() {
   const raw = loadRaw();
   const teams = raw.teams;
 
-  // Collect arrays for normalization
-  const ORs = teams.map(t => t.ORpct);
-  const DRs = teams.map(t => t.DRpct);
-  const DefTOs = teams.map(t => t.DefTOpct);
-  const OffTOs = teams.map(t => t.OffTOpct);
-  const eFGs = teams.map(t => t.eFGpct);
+  // Collect arrays for normalization (convert to numbers + filter NaNs just in case)
+  const ORs = teams.map(t => num(t.ORpct)).filter(Number.isFinite);
+  const DRs = teams.map(t => num(t.DRpct)).filter(Number.isFinite);
+  const DefTOs = teams.map(t => num(t.DefTOpct)).filter(Number.isFinite);
+  const OffTOs = teams.map(t => num(t.OffTOpct)).filter(Number.isFinite);
+  const eFGs = teams.map(t => num(t.eFGpct)).filter(Number.isFinite);
 
   // Means
   const mOR = mean(ORs);
@@ -44,23 +48,59 @@ function main() {
   const sOffTO = stddev(OffTOs, mOffTO);
   const seFG = stddev(eFGs, meFG);
 
-  const computed = teams.map(t => {
-    const zOR = zScore(t.ORpct, mOR, sOR);
-    const zDR = zScore(t.DRpct, mDR, sDR);
-    const zDefTO = zScore(t.DefTOpct, mDefTO, sDefTO);
-    const zOffTO = zScore(t.OffTOpct, mOffTO, sOffTO);
-    const zeFG = zScore(t.eFGpct, meFG, seFG);
+  // Step 1: compute RAW (summed) scores
+  const withRaw = teams.map(t => {
+    const ORpct = num(t.ORpct);
+    const DRpct = num(t.DRpct);
+    const DefTOpct = num(t.DefTOpct);
+    const OffTOpct = num(t.OffTOpct);
+    const eFGpct = num(t.eFGpct);
 
-    // Heist = possession control
-    const heist = zOR + zDR + zDefTO - zOffTO;
+    const zOR = zScore(ORpct, mOR, sOR);
+    const zDR = zScore(DRpct, mDR, sDR);
+    const zDefTO = zScore(DefTOpct, mDefTO, sDefTO);
+    const zOffTO = zScore(OffTOpct, mOffTO, sOffTO);
+    const zeFG = zScore(eFGpct, meFG, seFG);
 
-    // Payday = possession control + shot-making
-    const payday = heist + zeFG;
+    // Raw Heist = possession control (sum)
+    const heist_raw = zOR + zDR + zDefTO - zOffTO;
+
+    // Raw Payday = heist + shot-making (sum)
+    const payday_raw = heist_raw + zeFG;
 
     return {
       team: t.team,
+      ORpct, DRpct, DefTOpct, OffTOpct, eFGpct,
+      heist_raw,
+      payday_raw
+    };
+  });
+
+  // Step 2: re-normalize RAW scores so the final outputs are clean z-scores
+  const heistRawArr = withRaw.map(t => t.heist_raw).filter(Number.isFinite);
+  const paydayRawArr = withRaw.map(t => t.payday_raw).filter(Number.isFinite);
+
+  const mHeist = mean(heistRawArr);
+  const sHeist = stddev(heistRawArr, mHeist);
+
+  const mPayday = mean(paydayRawArr);
+  const sPayday = stddev(paydayRawArr, mPayday);
+
+  const computed = withRaw.map(t => {
+    const heist = zScore(t.heist_raw, mHeist, sHeist);
+    const payday = zScore(t.payday_raw, mPayday, sPayday);
+
+    return {
+      team: t.team,
+
+      // Final, display-ready metrics (these will no longer hit crazy 7s often)
       heist,
       payday,
+
+      // Keep these for transparency/debugging (optional but helpful)
+      heist_raw: t.heist_raw,
+      payday_raw: t.payday_raw,
+
       ORpct: t.ORpct,
       DRpct: t.DRpct,
       DefTOpct: t.DefTOpct,
@@ -76,7 +116,7 @@ function main() {
   };
 
   fs.writeFileSync("data/data.json", JSON.stringify(payload, null, 2));
-  console.log("Wrote data/data.json with Heist + Payday");
+  console.log("Wrote data/data.json with normalized Heist + Payday");
 }
 
 main();
