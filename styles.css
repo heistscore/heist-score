@@ -33,9 +33,7 @@ body{
   font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
   color:var(--text);
   background:
-    radial-gradient(900px 450px at 40% 10%, rgba(90,120,255,.28), transparent 60%),
-    radial-gradient(700px 400px at 80% 30%, rgba(70,150,255,.18), transparent 60%),
-    linear-gradient(180deg, var(--bg2), var(--bg1));
+    background: linear-gradient(180deg, #0a1224, #050b16);
 }
 
 /* ---- layout ---- */
