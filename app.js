@@ -64,11 +64,20 @@ function hslToHex(h, s, l) {
 }
 
 function autoTeamColor(teamName) {
-  const h = hashString(teamName);
+  const h = hashString(String(teamName || ""));
   const hue = h % 360;
   const sat = 70;
   const light = 42;
   return hslToHex(hue, sat, light);
+}
+
+function normName(s) {
+  return String(s || "")
+    .toLowerCase()
+    .replace(/&/g, "and")
+    .replace(/[^a-z0-9]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 async function loadJson(path) {
@@ -77,41 +86,40 @@ async function loadJson(path) {
   return await res.json();
 }
 
-async function loadManualColors() {
+// team_colors.json is expected to look like:
+// { "kentucky": { "primary": "#0033A0", "source": "Kentucky Wildcats" }, ... }
+async function loadTeamColors() {
   const json = await loadJson("./data/team_colors.json");
-  if (!json) return { manual: {} };
-  if (json.manual && typeof json.manual === "object") return json;
-  return { manual: json || {} };
-}
-
-async function loadFullColors() {
-  const json = await loadJson("./data/team_colors_full.json");
   return (json && typeof json === "object") ? json : {};
 }
 
-function getTeamColor(teamName, manualData, fullMap) {
-  // Priority:
-  // 1) manual override
-  // 2) full dataset
-  // 3) auto hash fallback
-  const manual = manualData?.manual || {};
-  return manual[teamName] || fullMap[teamName] || autoTeamColor(teamName);
+function getTeamColor(teamName, colorMap) {
+  const key = normName(teamName);
+  const entry = colorMap[key];
+  const hex = entry?.primary;
+  return hex || autoTeamColor(teamName);
 }
 
 // ---------- render ----------
-function render(rowsEl, teamsToShow, fullSorted, metricKey, manualData, fullMap) {
+function render(rowsEl, teamsToShow, fullSorted, metricKey, colorMap) {
   rowsEl.innerHTML = "";
   const total = fullSorted.length;
 
+  // Build rank lookup once (much faster than findIndex for every row)
+  const rankByTeam = new Map();
+  for (let i = 0; i < fullSorted.length; i++) {
+    rankByTeam.set(fullSorted[i].team, i);
+  }
+
   teamsToShow.forEach((t) => {
-    const rankIndex = fullSorted.findIndex(x => x.team === t.team);
+    const rankIndex = rankByTeam.has(t.team) ? rankByTeam.get(t.team) : -1;
     const pct = rankIndex >= 0 ? pctLabelFromRank(rankIndex, total) : "—";
 
     const val = Number(t[metricKey]);
     const row = document.createElement("div");
     row.className = `row ${bandClass(val)}`;
 
-    row.style.setProperty("--team", getTeamColor(t.team, manualData, fullMap));
+    row.style.setProperty("--team", getTeamColor(t.team, colorMap));
 
     row.innerHTML = `
       <div>${rankIndex >= 0 ? rankIndex + 1 : ""}</div>
@@ -137,13 +145,12 @@ async function main() {
   const btnAll = document.getElementById("btnAll");
   const searchEl = document.getElementById("search");
 
-  const [manualData, fullMap] = await Promise.all([
-    loadManualColors(),
-    loadFullColors()
+  const [colorMap, payload] = await Promise.all([
+    loadTeamColors(),
+    loadJson("./data/data.json")
   ]);
 
-  const res = await fetch(`./data/data.json?ts=${Date.now()}`);
-  const payload = await res.json();
+  if (!payload) throw new Error("Failed to load data/data.json");
 
   if (meta) meta.textContent = `Updated: ${payload.updated_at}`;
 
@@ -167,7 +174,7 @@ async function main() {
     const sorted = getSorted();
     const filtered = getFiltered(sorted);
     const sliced = Number.isFinite(limit) ? filtered.slice(0, limit) : filtered;
-    render(rowsEl, sliced, sorted, metricKey, manualData, fullMap);
+    render(rowsEl, sliced, sorted, metricKey, colorMap);
   }
 
   btnHeist?.addEventListener("click", () => {
@@ -213,6 +220,14 @@ async function main() {
     rerender();
   });
 
+  // default active states
+  setActive(btnHeist, true);
+  setActive(btnPayday, false);
+  setActive(btn25, true);
+  setActive(btn50, false);
+  setActive(btn100, false);
+  setActive(btnAll, false);
+
   rerender();
 }
 
@@ -222,7 +237,7 @@ main().catch(err => {
   if (rowsEl) {
     rowsEl.innerHTML = `<div class="row below">
       <div></div>
-      <div>Failed to load data.json / color maps</div>
+      <div>Failed to load data.json / team_colors.json</div>
       <div class="score">--</div>
       <div class="pct">--</div>
       <div class="band">Error</div>
