@@ -1,42 +1,41 @@
 name: Update data.json
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: "20 12 * * *"
-
-permissions:
-  contents: write
+    - cron: '0 10 * * *'   # runs daily at 10:00 UTC
+  workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Show files (debug)
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Fetch KenPom Four Factors into data/raw.json
+        env:
+          KENPOM_API_KEY: ${{ secrets.KENPOM_API_KEY }}
+          SEASON: "2026"
         run: |
-          echo "Root:"
-          ls -la
-          echo "data/:"
-          ls -la data || true
-          echo "scripts/:"
-          ls -la scripts || true
+          node scripts/fetch_kp.js
 
       - name: Compute Heist into data/data.json
         run: |
           node scripts/compute_heist.js
 
-      - name: Show output (debug)
+      - name: Commit and push updated data
         run: |
-          echo "----- data/data.json -----"
-          cat data/data.json
-
-      - name: Commit & push
-        run: |
-          git config user.name "heist-bot"
-          git config user.email "heist-bot@users.noreply.github.com"
-          git add data/data.json
-          git commit -m "Compute Heist into data.json" || echo "No changes"
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add data/raw.json data/data.json
+          git commit -m "Update data.json (auto)" || echo "No changes to commit"
           git push
