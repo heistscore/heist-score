@@ -1,46 +1,51 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Heist Score</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
+  <div class="wrap">
+    <h1>Heist Score</h1>
+    <p class="sub">Possession Control Leaderboard</p>
+    <p id="meta" class="meta">Updated: —</p>
 
-<div class="wrap">
-  <h1>Heist Score</h1>
-  <p class="sub">Possession Control Leaderboard</p>
-  <p id="meta" class="meta"></p>
+    <div class="controls">
+      <div class="toggle" role="group" aria-label="Metric toggle">
+        <button id="btnHeist" class="pill active" type="button">Heist</button>
+        <button id="btnPayday" class="pill" type="button">Payday</button>
+      </div>
 
-  <div class="controls">
-    <div class="toggle" role="group" aria-label="Metric toggle">
-      <button id="btnHeist" class="pill active" type="button">Heist</button>
-      <button id="btnPayday" class="pill" type="button">Payday</button>
+      <div class="toggle" role="group" aria-label="Limit toggle">
+        <button id="btn25" class="pill active" type="button">Top 25</button>
+        <button id="btn50" class="pill" type="button">Top 50</button>
+        <button id="btn100" class="pill" type="button">Top 100</button>
+        <button id="btnAll" class="pill" type="button">All</button>
+      </div>
+
+      <!-- NEW: Conference dropdown -->
+      <select id="conf" class="select">
+        <option value="ALL">All Conferences</option>
+      </select>
+
+      <input id="search" class="search" type="text" placeholder="Search team..." />
     </div>
 
-    <div class="toggle" role="group" aria-label="Range toggle">
-      <button id="btn25" class="pill active" type="button">Top 25</button>
-      <button id="btn50" class="pill" type="button">Top 50</button>
-      <button id="btn100" class="pill" type="button">Top 100</button>
-      <button id="btnAll" class="pill" type="button">All</button>
-    </div>
+    <div class="table">
+      <div class="thead">
+        <div>RANK</div>
+        <div>TEAM</div>
+        <div class="right">SCORE</div>
+        <div class="right">PCT</div>
+        <div>BAND</div>
+      </div>
 
-    <input id="search" class="search" type="text" placeholder="Search team..." />
+      <div id="rows" class="rows"></div>
+    </div>
   </div>
 
-  <div class="table">
-    <div class="row head">
-      <div>Rank</div>
-      <div>Team</div>
-      <div class="score">Score</div>
-      <div class="pct">Pct</div>
-      <div class="band">Band</div>
-    </div>
-    <div id="rows"></div>
-  </div>
-</div>
-
-<script src="app.js"></script>
+  <script src="./app.js"></script>
 </body>
 </html>
