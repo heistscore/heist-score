@@ -1,269 +1,239 @@
-function band(score) {
-  if (score >= 1.0) return "Elite";
-  if (score >= 0.5) return "Strong";
-  if (score <= -0.5) return "Below";
-  return "Neutral";
+// app.js
+// Renders Heist / Payday leaderboard with search + conference filter
+// Ensures rows have 5 columns to match the header grid:
+// RANK | TEAM | SCORE | PCT | BAND
+
+const $ = (sel) => document.querySelector(sel);
+
+const rowsEl = $("#rows");
+const metaEl = $("#meta");
+
+const btnHeist = $("#btnHeist");
+const btnPayday = $("#btnPayday");
+const btn25 = $("#btn25");
+const btn50 = $("#btn50");
+const btn100 = $("#btn100");
+const btnAll = $("#btnAll");
+
+const confSel = $("#conf");
+const searchEl = $("#search");
+
+let DATA = null;
+
+let mode = "heist";        // "heist" | "payday"
+let limit = 25;            // 25 | 50 | 100 | Infinity
+let conf = "ALL";
+let q = "";
+
+// ---------- helpers ----------
+function toNum(x) {
+  const n = Number(x);
+  return Number.isFinite(n) ? n : 0;
 }
 
-function bandClass(score) {
-  if (score >= 1.0) return "elite";
-  if (score >= 0.5) return "strong";
-  if (score <= -0.5) return "below";
+function ordinal(n) {
+  // 1 -> 1st, 2 -> 2nd, 3 -> 3rd ... 11 -> 11th, 12 -> 12th, 13 -> 13th
+  const s = ["th", "st", "nd", "rd"];
+  const v = n % 100;
+  return n + (s[(v - 20) % 10] || s[v] || s[0]);
+}
+
+function bandFromPct(p) {
+  if (p >= 95) return "Elite";
+  if (p >= 80) return "Strong";
+  if (p >= 50) return "Average";
+  return "Below";
+}
+
+function rowClassFromBand(b) {
+  const x = String(b || "").toLowerCase();
+  if (x === "elite") return "elite";
+  if (x === "strong") return "strong";
+  if (x === "below") return "below";
   return "neutral";
 }
 
-function pctLabelFromRank(rankIndex, total) {
-  if (total <= 1) return "—";
-  const pct = Math.round(((total - rankIndex) / total) * 100);
-  const mod10 = pct % 10;
-  const mod100 = pct % 100;
-  let suf = "th";
-  if (mod10 === 1 && mod100 !== 11) suf = "st";
-  else if (mod10 === 2 && mod100 !== 12) suf = "nd";
-  else if (mod10 === 3 && mod100 !== 13) suf = "rd";
-  return `${pct}${suf}`;
-}
-
 function setActive(btn, on) {
-  if (!btn) return;
   btn.classList.toggle("active", !!on);
 }
 
-// ---------- color helpers ----------
-function hashString(str) {
-  let h = 2166136261;
-  for (let i = 0; i < str.length; i++) {
-    h ^= str.charCodeAt(i);
-    h = Math.imul(h, 16777619);
-  }
-  return h >>> 0;
+function scoreKey() {
+  // Support a few possible field names depending on your compute script
+  // Prefer exact mode-named fields if they exist.
+  return mode; // expects t.heist / t.payday
 }
 
-function hslToHex(h, s, l) {
-  s /= 100;
-  l /= 100;
+function getScore(teamObj) {
+  const k = scoreKey();
+  if (teamObj && teamObj[k] != null) return toNum(teamObj[k]);
 
-  const c = (1 - Math.abs(2 * l - 1)) * s;
-  const x = c * (1 - Math.abs(((h / 60) % 2) - 1));
-  const m = l - c / 2;
-
-  let r = 0, g = 0, b = 0;
-  if (0 <= h && h < 60) { r = c; g = x; b = 0; }
-  else if (60 <= h && h < 120) { r = x; g = c; b = 0; }
-  else if (120 <= h && h < 180) { r = 0; g = c; b = x; }
-  else if (180 <= h && h < 240) { r = 0; g = x; b = c; }
-  else if (240 <= h && h < 300) { r = x; g = 0; b = c; }
-  else { r = c; g = 0; b = x; }
-
-  const toHex = (v) => {
-    const n = Math.round((v + m) * 255);
-    return n.toString(16).padStart(2, "0");
-  };
-
-  return `#${toHex(r)}${toHex(g)}${toHex(b)}`;
+  // fallbacks (in case compute script uses different names)
+  if (mode === "heist") return toNum(teamObj.heistScore ?? teamObj.score ?? teamObj.heist);
+  return toNum(teamObj.paydayScore ?? teamObj.score ?? teamObj.payday);
 }
 
-function autoTeamColor(teamName) {
-  const h = hashString(teamName);
-  const hue = h % 360;
-  return hslToHex(hue, 70, 42);
+function getConf(teamObj) {
+  return teamObj.confShort || teamObj.conf || teamObj.conference || "";
 }
 
-async function loadJson(path) {
-  const res = await fetch(`${path}?ts=${Date.now()}`);
-  if (!res.ok) return null;
-  return await res.json();
-}
+// ---------- ranking / pct ----------
+function buildRankAndPctMaps(teams) {
+  const n = teams.length;
 
-async function loadFullColors() {
-  const json = await loadJson("./data/team_primary_colors.json");
-  return (json && typeof json === "object") ? json : {};
-}
+  // rank map per mode so conference filter keeps original ranks like your screenshot
+  const sorted = [...teams].sort((a, b) => getScore(b) - getScore(a));
+  const rankByTeam = new Map();
 
-function getTeamColor(teamName, fullMap) {
-  return fullMap[teamName] || autoTeamColor(teamName);
+  sorted.forEach((t, i) => {
+    rankByTeam.set(t.team, i + 1);
+  });
+
+  const pctByTeam = new Map();
+  sorted.forEach((t, i) => {
+    // percentile: best team ~ 100, worst ~ 1
+    const rank = i + 1;
+    const pct = n <= 1 ? 100 : Math.round((1 - (rank - 1) / (n - 1)) * 100);
+    pctByTeam.set(t.team, pct);
+  });
+
+  return { rankByTeam, pctByTeam };
 }
 
 // ---------- render ----------
-function render(rowsEl, teamsToShow, fullSorted, metricKey, fullMap) {
+function render() {
+  if (!DATA) return;
+
+  const teams = DATA.teams || [];
+  const { rankByTeam, pctByTeam } = buildRankAndPctMaps(teams);
+
+  // filters
+  const qq = q.trim().toLowerCase();
+  let filtered = teams.filter((t) => {
+    if (conf !== "ALL") {
+      const c = getConf(t);
+      if (c !== conf) return false;
+    }
+    if (qq) {
+      const name = String(t.team || "").toLowerCase();
+      if (!name.includes(qq)) return false;
+    }
+    return true;
+  });
+
+  // sort by current mode score
+  filtered.sort((a, b) => getScore(b) - getScore(a));
+
+  // apply limit
+  if (limit !== Infinity) filtered = filtered.slice(0, limit);
+
+  // build rows
   rowsEl.innerHTML = "";
-  const total = fullSorted.length;
 
-  teamsToShow.forEach((t) => {
-    const rankIndex = fullSorted.findIndex(x => x.team === t.team);
-    const pct = rankIndex >= 0 ? pctLabelFromRank(rankIndex, total) : "—";
+  for (const t of filtered) {
+    const teamName = String(t.team || "");
+    const rank = rankByTeam.get(teamName) ?? "";
+    const score = getScore(t);
 
-    const val = Number(t[metricKey]);
+    // pct/band: use existing data if present, otherwise compute
+    const pctNum = t.pct != null ? Number(t.pct) : (pctByTeam.get(teamName) ?? 0);
+    const pctLabel = t.pctLabel || ordinal(pctNum);
+    const band = t.band || bandFromPct(pctNum);
+
     const row = document.createElement("div");
-    row.className = `row ${bandClass(val)}`;
+    row.className = `row ${rowClassFromBand(band)}`;
 
-    row.style.setProperty("--team", getTeamColor(t.team, fullMap));
-
+    // IMPORTANT: 5 separate cells (this fixes your PCT/BAND squish)
     row.innerHTML = `
-      <div>${rankIndex >= 0 ? rankIndex + 1 : ""}</div>
-      <div class="teamcell"><span class="teamname">${t.team}</span></div>
-      <div class="score">${Number.isFinite(val) ? val.toFixed(2) : "--"}</div>
-      <div class="pct">${pct}</div>
-      <div class="band">${band(val)}</div>
+      <div>${rank}</div>
+      <div class="teamcell"><span class="teamname">${escapeHtml(teamName)}</span></div>
+      <div class="right score">${score.toFixed(2)}</div>
+      <div class="right pct">${escapeHtml(pctLabel)}</div>
+      <div class="right band">${escapeHtml(band)}</div>
     `;
 
     rowsEl.appendChild(row);
-  });
-}
-
-function buildConferenceOptions(selectEl, data) {
-  if (!selectEl) return;
-
-  // Map: confShort -> confLong (best available)
-  const confMap = new Map();
-
-  data.forEach(t => {
-    const cs = t.confShort;
-    if (!cs) return;
-    const cl = t.confLong || cs;
-    if (!confMap.has(cs)) confMap.set(cs, cl);
-  });
-
-  // Sort by confLong then confShort
-  const confs = Array.from(confMap.entries())
-    .sort((a, b) => {
-      const aName = String(a[1]).toLowerCase();
-      const bName = String(b[1]).toLowerCase();
-      if (aName < bName) return -1;
-      if (aName > bName) return 1;
-      return String(a[0]).localeCompare(String(b[0]));
-    });
-
-  // Rebuild options (keep first option)
-  selectEl.innerHTML = `<option value="ALL">All Conferences</option>`;
-  confs.forEach(([short, long]) => {
-    const opt = document.createElement("option");
-    opt.value = short;
-    opt.textContent = `${long} (${short})`;
-    selectEl.appendChild(opt);
-  });
-}
-
-async function main() {
-  const rowsEl = document.getElementById("rows");
-  const meta = document.getElementById("meta");
-
-  const btnHeist = document.getElementById("btnHeist");
-  const btnPayday = document.getElementById("btnPayday");
-  const btn25 = document.getElementById("btn25");
-  const btn50 = document.getElementById("btn50");
-  const btn100 = document.getElementById("btn100");
-  const btnAll = document.getElementById("btnAll");
-  const searchEl = document.getElementById("search");
-
-  // NEW: conference select
-  const confEl = document.getElementById("conf");
-
-  const [fullMap] = await Promise.all([
-    loadFullColors()
-  ]);
-
-  const res = await fetch(`./data/data.json?ts=${Date.now()}`);
-  const payload = await res.json();
-
-  if (meta) meta.textContent = `Updated: ${payload.updated_at}`;
-
-  const data = payload.teams || [];
-
-  // NEW: populate conference dropdown from data.json
-  buildConferenceOptions(confEl, data);
-
-  let metricKey = "heist";
-  let limit = 25;
-  let query = "";
-  let conf = "ALL";
-
-  function getSorted() {
-    return [...data].sort((a, b) => Number(b[metricKey]) - Number(a[metricKey]));
   }
 
-  function getFiltered(sorted) {
-    let out = sorted;
-
-    // NEW: conf filter
-    if (conf && conf !== "ALL") {
-      out = out.filter(t => String(t.confShort || "") === String(conf));
-    }
-
-    if (!query) return out;
-    const q = query.toLowerCase();
-    return out.filter(t => String(t.team).toLowerCase().includes(q));
+  // meta
+  if (metaEl && DATA.updated_at) {
+    metaEl.textContent = `Updated: ${DATA.updated_at}`;
   }
-
-  function rerender() {
-    const sorted = getSorted();
-    const filtered = getFiltered(sorted);
-    const sliced = Number.isFinite(limit) ? filtered.slice(0, limit) : filtered;
-    render(rowsEl, sliced, sorted, metricKey, fullMap);
-  }
-
-  btnHeist?.addEventListener("click", () => {
-    metricKey = "heist";
-    setActive(btnHeist, true);
-    setActive(btnPayday, false);
-    rerender();
-  });
-
-  btnPayday?.addEventListener("click", () => {
-    metricKey = "payday";
-    setActive(btnHeist, false);
-    setActive(btnPayday, true);
-    rerender();
-  });
-
-  btn25?.addEventListener("click", () => {
-    limit = 25;
-    setActive(btn25, true); setActive(btn50, false); setActive(btn100, false); setActive(btnAll, false);
-    rerender();
-  });
-
-  btn50?.addEventListener("click", () => {
-    limit = 50;
-    setActive(btn25, false); setActive(btn50, true); setActive(btn100, false); setActive(btnAll, false);
-    rerender();
-  });
-
-  btn100?.addEventListener("click", () => {
-    limit = 100;
-    setActive(btn25, false); setActive(btn50, false); setActive(btn100, true); setActive(btnAll, false);
-    rerender();
-  });
-
-  btnAll?.addEventListener("click", () => {
-    limit = Infinity;
-    setActive(btn25, false); setActive(btn50, false); setActive(btn100, false); setActive(btnAll, true);
-    rerender();
-  });
-
-  searchEl?.addEventListener("input", () => {
-    query = searchEl.value.trim();
-    rerender();
-  });
-
-  // NEW: conf change handler
-  confEl?.addEventListener("change", () => {
-    conf = confEl.value;
-    rerender();
-  });
-
-  rerender();
 }
 
-main().catch(err => {
+// ---------- populate conf dropdown ----------
+function populateConferences() {
+  const teams = DATA.teams || [];
+  const confs = new Set();
+
+  teams.forEach((t) => {
+    const c = getConf(t);
+    if (c) confs.add(c);
+  });
+
+  const list = Array.from(confs).sort((a, b) => a.localeCompare(b));
+  confSel.innerHTML = `<option value="ALL">All Conferences</option>` + list.map(c => {
+    return `<option value="${escapeAttr(c)}">${escapeHtml(c)}</option>`;
+  }).join("");
+}
+
+// ---------- events ----------
+function setMode(newMode) {
+  mode = newMode;
+  setActive(btnHeist, mode === "heist");
+  setActive(btnPayday, mode === "payday");
+  render();
+}
+
+function setLimit(newLimit) {
+  limit = newLimit;
+  setActive(btn25, limit === 25);
+  setActive(btn50, limit === 50);
+  setActive(btn100, limit === 100);
+  setActive(btnAll, limit === Infinity);
+  render();
+}
+
+btnHeist?.addEventListener("click", () => setMode("heist"));
+btnPayday?.addEventListener("click", () => setMode("payday"));
+
+btn25?.addEventListener("click", () => setLimit(25));
+btn50?.addEventListener("click", () => setLimit(50));
+btn100?.addEventListener("click", () => setLimit(100));
+btnAll?.addEventListener("click", () => setLimit(Infinity));
+
+confSel?.addEventListener("change", (e) => {
+  conf = e.target.value;
+  render();
+});
+
+searchEl?.addEventListener("input", (e) => {
+  q = e.target.value || "";
+  render();
+});
+
+// ---------- load ----------
+async function load() {
+  const res = await fetch("./data/data.json", { cache: "no-store" });
+  if (!res.ok) throw new Error("Failed to load data/data.json");
+  DATA = await res.json();
+
+  populateConferences();
+  render();
+}
+
+function escapeHtml(s) {
+  return String(s)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+function escapeAttr(s) {
+  return escapeHtml(s).replaceAll('"', "&quot;");
+}
+
+load().catch((err) => {
   console.error(err);
-  const rowsEl = document.getElementById("rows");
-  if (rowsEl) {
-    rowsEl.innerHTML = `<div class="row below">
-      <div></div>
-      <div>Failed to load data.json / team colors</div>
-      <div class="score">--</div>
-      <div class="pct">--</div>
-      <div class="band">Error</div>
-    </div>`;
-  }
+  rowsEl.innerHTML = `<div style="padding:14px;color:rgba(255,255,255,.8)">Error loading data.</div>`;
 });
