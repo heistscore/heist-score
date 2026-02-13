@@ -33,6 +33,7 @@ function render(rowsEl, teams) {
 async function main() {
   const rowsEl = document.getElementById("rows");
   const searchEl = document.getElementById("search");
+  const pills = Array.from(document.querySelectorAll(".pill"));
 
   const res = await fetch(`./data/data.json?ts=${Date.now()}`);
   const payload = await res.json();
@@ -43,25 +44,50 @@ async function main() {
   const data = payload.teams || [];
   const sorted = [...data].sort((a, b) => Number(b.heist) - Number(a.heist));
 
-  // Default view = top 50
-  render(rowsEl, sorted.slice(0, 50));
+  let currentLimit = 25;
 
-  // If no search box exists, stop here
-  if (!searchEl) return;
+  function getLimitedList(list) {
+    if (currentLimit === "all") return list;
+    return list.slice(0, currentLimit);
+  }
 
-  searchEl.addEventListener("input", () => {
-    const q = searchEl.value.trim().toLowerCase();
+  function applyFilters() {
+    const q = (searchEl?.value || "").trim().toLowerCase();
+    const base = getLimitedList(sorted);
 
     if (!q) {
-      render(rowsEl, sorted.slice(0, 50));
+      render(rowsEl, base);
       return;
     }
 
-    const filtered = sorted.filter(t =>
+    const filtered = base.filter(t =>
       String(t.team).toLowerCase().includes(q)
     );
 
     render(rowsEl, filtered);
+  }
+
+  // Default render
+  applyFilters();
+
+  // Search
+  if (searchEl) {
+    searchEl.addEventListener("input", applyFilters);
+    searchEl.addEventListener("change", applyFilters);
+    searchEl.addEventListener("keyup", applyFilters);
+  }
+
+  // Toggle pills
+  pills.forEach(btn => {
+    btn.addEventListener("click", () => {
+      pills.forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+
+      const v = btn.getAttribute("data-limit");
+      currentLimit = (v === "all") ? "all" : Number(v);
+
+      applyFilters();
+    });
   });
 }
 
