@@ -29,13 +29,43 @@ function setActive(btn, on) {
   btn.classList.toggle("active", !!on);
 }
 
-function normName(s) {
-  return String(s || "")
-    .toLowerCase()
-    .replace(/&/g, "and")
-    .replace(/[^a-z0-9]+/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
+// ---------- color fallback (only if CSV is missing a team) ----------
+function hashString(str) {
+  let h = 2166136261;
+  for (let i = 0; i < str.length; i++) {
+    h ^= str.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  return h >>> 0;
+}
+
+function hslToHex(h, s, l) {
+  s /= 100;
+  l /= 100;
+  const c = (1 - Math.abs(2 * l - 1)) * s;
+  const x = c * (1 - Math.abs(((h / 60) % 2) - 1));
+  const m = l - c / 2;
+
+  let r = 0, g = 0, b = 0;
+  if (0 <= h && h < 60) { r = c; g = x; b = 0; }
+  else if (60 <= h && h < 120) { r = x; g = c; b = 0; }
+  else if (120 <= h && h < 180) { r = 0; g = c; b = x; }
+  else if (180 <= h && h < 240) { r = 0; g = x; b = c; }
+  else if (240 <= h && h < 300) { r = x; g = 0; b = c; }
+  else { r = c; g = 0; b = x; }
+
+  const toHex = (v) => {
+    const n = Math.round((v + m) * 255);
+    return n.toString(16).padStart(2, "0");
+  };
+
+  return `#${toHex(r)}${toHex(g)}${toHex(b)}`;
+}
+
+function autoTeamColor(teamName) {
+  const h = hashString(teamName);
+  const hue = h % 360;
+  return hslToHex(hue, 70, 42);
 }
 
 async function loadJson(path) {
@@ -44,28 +74,29 @@ async function loadJson(path) {
   return await res.json();
 }
 
-function getTeamColor(teamName, colors) {
-  if (!colors) return "transparent";
-  // Try exact, then normalized
-  return colors[teamName] || colors[normName(teamName)] || "transparent";
+async function loadPrimaryColors() {
+  const json = await loadJson("./data/team_primary_colors.json");
+  return (json && typeof json === "object") ? json : {};
 }
 
-function render(rowsEl, teamsToShow, fullSorted, metricKey, colors) {
+function getTeamColor(teamName, primaryMap) {
+  return primaryMap[teamName] || autoTeamColor(teamName);
+}
+
+// ---------- render ----------
+function render(rowsEl, teamsToShow, fullSorted, metricKey, primaryMap) {
   rowsEl.innerHTML = "";
   const total = fullSorted.length;
 
-  const rankByTeam = new Map();
-  for (let i = 0; i < fullSorted.length; i++) rankByTeam.set(fullSorted[i].team, i);
-
   teamsToShow.forEach((t) => {
-    const rankIndex = rankByTeam.has(t.team) ? rankByTeam.get(t.team) : -1;
+    const rankIndex = fullSorted.findIndex(x => x.team === t.team);
     const pct = rankIndex >= 0 ? pctLabelFromRank(rankIndex, total) : "—";
 
     const val = Number(t[metricKey]);
     const row = document.createElement("div");
     row.className = `row ${bandClass(val)}`;
 
-    row.style.setProperty("--team", getTeamColor(t.team, colors));
+    row.style.setProperty("--team", getTeamColor(t.team, primaryMap));
 
     row.innerHTML = `
       <div>${rankIndex >= 0 ? rankIndex + 1 : ""}</div>
@@ -91,12 +122,13 @@ async function main() {
   const btnAll = document.getElementById("btnAll");
   const searchEl = document.getElementById("search");
 
-  const [colors, payload] = await Promise.all([
-    loadJson("./data/team_colors.json"),
-    loadJson("./data/data.json")
+  const [primaryMap, payload] = await Promise.all([
+    loadPrimaryColors(),
+    (async () => {
+      const res = await fetch(`./data/data.json?ts=${Date.now()}`);
+      return await res.json();
+    })()
   ]);
-
-  if (!payload) throw new Error("Failed to load data/data.json");
 
   if (meta) meta.textContent = `Updated: ${payload.updated_at}`;
 
@@ -120,7 +152,7 @@ async function main() {
     const sorted = getSorted();
     const filtered = getFiltered(sorted);
     const sliced = Number.isFinite(limit) ? filtered.slice(0, limit) : filtered;
-    render(rowsEl, sliced, sorted, metricKey, colors);
+    render(rowsEl, sliced, sorted, metricKey, primaryMap);
   }
 
   btnHeist?.addEventListener("click", () => {
@@ -166,7 +198,7 @@ async function main() {
     rerender();
   });
 
-  // Default active states
+  // defaults
   setActive(btnHeist, true);
   setActive(btnPayday, false);
   setActive(btn25, true);
@@ -183,7 +215,7 @@ main().catch(err => {
   if (rowsEl) {
     rowsEl.innerHTML = `<div class="row below">
       <div></div>
-      <div>Failed to load data.json / team_colors.json</div>
+      <div>Failed to load data.json / team_primary_colors.json</div>
       <div class="score">--</div>
       <div class="pct">--</div>
       <div class="band">Error</div>
