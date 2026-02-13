@@ -93,7 +93,7 @@ h1 {
 
 .row {
   display: grid;
-  grid-template-columns: 60px 1fr 120px 120px;
+  grid-template-columns: 60px 1fr 120px 90px 120px;
   padding: 12px;
   border-top: 1px solid #243043;
   align-items: center;
@@ -109,6 +109,10 @@ h1 {
 }
 
 .score {
+  text-align: right;
+}
+
+.pct {
   text-align: right;
 }
 
