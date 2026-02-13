@@ -3,9 +3,7 @@ name: Update data.json
 on:
   workflow_dispatch:
   schedule:
-    # 3:00 AM Central is 09:00 UTC during Standard Time.
-    # When DST hits, 3:00 AM Central becomes 08:00 UTC.
-    # If you want DST-perfect scheduling later, we can handle that separately.
+    # 3:00 AM Central Time = 09:00 UTC (cron is always UTC)
     - cron: "0 9 * * *"
 
 permissions:
@@ -15,6 +13,11 @@ jobs:
   update:
     runs-on: ubuntu-latest
 
+    env:
+      # Secret name in GitHub: KENPOM_API_KEY
+      # Env var your script expects: KP_API_KEY
+      KP_API_KEY: ${{ secrets.KENPOM_API_KEY }}
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -22,18 +25,9 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: 20
 
-      - name: Debug list
-        run: |
-          ls -la
-          ls -la data || true
-          ls -la scripts || true
-
-      # If you fetch KenPom here, keep YOUR correct file name:
       - name: Build raw.json (KenPom)
-        env:
-          KENPOM_API_KEY: ${{ secrets.KENPOM_API_KEY }}
         run: node scripts/fetch_kp.js
 
       - name: Convert CSV team colors -> JSON
@@ -45,10 +39,7 @@ jobs:
       - name: Commit updated data files
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/raw.json data/data.json data/team_primary_colors.json || true
-
-          git diff --staged --quiet && echo "No changes to commit" && exit 0
-          git commit -m "Update data + colors"
+          git commit -m "Update data files" || echo "No changes to commit"
           git push
