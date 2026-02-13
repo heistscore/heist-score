@@ -33,7 +33,7 @@ function render(rowsEl, teams) {
 async function main() {
   const rowsEl = document.getElementById("rows");
   const searchEl = document.getElementById("search");
-  const pills = Array.from(document.querySelectorAll(".pill"));
+  const controlsEl = document.getElementById("controls");
 
   const res = await fetch(`./data/data.json?ts=${Date.now()}`);
   const payload = await res.json();
@@ -44,7 +44,13 @@ async function main() {
   const data = payload.teams || [];
   const sorted = [...data].sort((a, b) => Number(b.heist) - Number(a.heist));
 
+  // Read initial limit from the active button (default Top 25)
   let currentLimit = 25;
+  const activeBtn = controlsEl?.querySelector(".pill.active");
+  if (activeBtn) {
+    const v = activeBtn.getAttribute("data-limit");
+    currentLimit = (v === "all") ? "all" : Number(v);
+  }
 
   function getLimitedList(list) {
     if (currentLimit === "all") return list;
@@ -55,10 +61,7 @@ async function main() {
     const q = (searchEl?.value || "").trim().toLowerCase();
     const base = getLimitedList(sorted);
 
-    if (!q) {
-      render(rowsEl, base);
-      return;
-    }
+    if (!q) return render(rowsEl, base);
 
     const filtered = base.filter(t =>
       String(t.team).toLowerCase().includes(q)
@@ -67,20 +70,23 @@ async function main() {
     render(rowsEl, filtered);
   }
 
-  // Default render
+  // Initial render
   applyFilters();
 
-  // Search
+  // Search listeners
   if (searchEl) {
     searchEl.addEventListener("input", applyFilters);
     searchEl.addEventListener("change", applyFilters);
     searchEl.addEventListener("keyup", applyFilters);
   }
 
-  // Toggle pills
-  pills.forEach(btn => {
-    btn.addEventListener("click", () => {
-      pills.forEach(b => b.classList.remove("active"));
+  // Pill clicks (event delegation)
+  if (controlsEl) {
+    controlsEl.addEventListener("click", (e) => {
+      const btn = e.target.closest(".pill");
+      if (!btn) return;
+
+      controlsEl.querySelectorAll(".pill").forEach(b => b.classList.remove("active"));
       btn.classList.add("active");
 
       const v = btn.getAttribute("data-limit");
@@ -88,16 +94,18 @@ async function main() {
 
       applyFilters();
     });
-  });
+  }
 }
 
 main().catch(err => {
   console.error(err);
   const rowsEl = document.getElementById("rows");
-  rowsEl.innerHTML = `<div class="row below">
-    <div></div>
-    <div>Failed to load data.json</div>
-    <div class="score">--</div>
-    <div class="band">Error</div>
-  </div>`;
+  if (rowsEl) {
+    rowsEl.innerHTML = `<div class="row below">
+      <div></div>
+      <div>Failed to load data.json</div>
+      <div class="score">--</div>
+      <div class="band">Error</div>
+    </div>`;
+  }
 });
