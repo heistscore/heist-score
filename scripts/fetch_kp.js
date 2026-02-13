@@ -5,7 +5,7 @@
  * Adds conference fields via `teams` + `conferences` endpoints.
  *
  * Required env:
- *   KP_API_KEY  (GitHub Secret)
+ *   KENPOM_API_KEY  (GitHub Secret)
  *
  * Optional env:
  *   KP_SEASON   (ending year, e.g. 2026). If omitted, defaults to current year.
@@ -17,7 +17,6 @@ const path = require("path");
 const BASE_URL = "https://kenpom.com/api.php";
 
 function getSeasonYear() {
-  // KenPom "y" is ending year of season (e.g., 2026 for 2025-26 season)
   const envY = process.env.KP_SEASON;
   if (envY && Number.isFinite(Number(envY))) return Number(envY);
   return new Date().getFullYear();
@@ -33,8 +32,11 @@ function qs(params) {
 }
 
 async function kpFetch(endpoint, params = {}) {
-  const apiKey = process.env.KP_API_KEY;
-  if (!apiKey) throw new Error("Missing KP_API_KEY env var (set as GitHub Secret).");
+  const apiKey = process.env.KENPOM_API_KEY;
+
+  if (!apiKey) {
+    throw new Error("Missing KENPOM_API_KEY env var (set as GitHub Secret).");
+  }
 
   const url = `${BASE_URL}?${qs({ endpoint, ...params })}`;
 
@@ -47,7 +49,9 @@ async function kpFetch(endpoint, params = {}) {
 
   if (!res.ok) {
     const text = await res.text().catch(() => "");
-    throw new Error(`KenPom fetch failed (${res.status}) ${endpoint} ${url}\n${text}`);
+    throw new Error(
+      `KenPom fetch failed (${res.status}) ${endpoint} ${url}\n${text}`
+    );
   }
 
   return await res.json();
@@ -68,15 +72,15 @@ function safeArray(payload) {
 async function main() {
   const y = getSeasonYear();
 
-  // 1) Four Factors — gives us eFG%, TO%, OR%, etc (offense + defense)
+  // 1) Four Factors
   const ffPayload = await kpFetch("four-factors", { y });
   const ffRows = safeArray(ffPayload);
 
-  // 2) Teams — authoritative TeamName + ConfShort (and TeamID)
+  // 2) Teams endpoint (for conf + id)
   const teamsPayload = await kpFetch("teams", { y });
   const teamRows = safeArray(teamsPayload);
 
-  // 3) Conferences — ConfShort => ConfLong
+  // 3) Conferences endpoint (for conf long names)
   const confPayload = await kpFetch("conferences", { y });
   const confRows = safeArray(confPayload);
 
@@ -91,30 +95,29 @@ async function main() {
   teamRows.forEach((t) => {
     const name = t.TeamName ?? t.team ?? t.name;
     if (!name) return;
+
     const confShort = t.ConfShort ?? t.confShort ?? "";
     const teamId = t.TeamID ?? t.team_id ?? t.id ?? null;
+
     teamInfoByName[String(name)] = {
       team: String(name),
       team_id: teamId,
       confShort: confShort ? String(confShort) : "",
-      confLong: confShort ? (confLongByShort[String(confShort)] || "") : "",
+      confLong: confShort
+        ? confLongByShort[String(confShort)] || ""
+        : "",
     };
   });
 
-  // Build raw.teams from Four Factors rows, then attach conference fields via teams endpoint.
   const teams = ffRows
     .map((r) => {
       const team = r.TeamName ?? r.team ?? r.name;
       if (!team) return null;
 
-      // KenPom four-factors fields per your doc:
-      // eFG_Pct (offense), TO_Pct (offense), OR_Pct (offense)
-      // DTO_Pct (defense forced), DOR_Pct (defense reb%), etc.
       const eFGpct = toNum(r.eFG_Pct);
       const OffTOpct = toNum(r.TO_Pct);
       const ORpct = toNum(r.OR_Pct);
 
-      // Defensive “possession control” pieces:
       const DefTOpct = toNum(r.DTO_Pct);
       const DRpct = toNum(r.DOR_Pct);
 
@@ -128,20 +131,14 @@ async function main() {
       return {
         team: String(team),
 
-        // possession control inputs (keep your current naming)
         ORpct,
         DRpct,
         DefTOpct,
         OffTOpct,
-
-        // payday input
         eFGpct,
 
-        // conference metadata for filters
         confShort: info.confShort || null,
         confLong: info.confLong || null,
-
-        // (optional) if you ever want to join by ID later
         team_id: info.team_id ?? null,
       };
     })
@@ -155,7 +152,10 @@ async function main() {
 
   const outPath = path.join("data", "raw.json");
   fs.writeFileSync(outPath, JSON.stringify(out, null, 2));
-  console.log(`Wrote ${outPath} with ${teams.length} teams (with confShort/confLong)`);
+
+  console.log(
+    `Wrote ${outPath} with ${teams.length} teams (with confShort/confLong)`
+  );
 }
 
 main().catch((err) => {
