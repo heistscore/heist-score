@@ -3,7 +3,7 @@ name: Update data.json
 on:
   workflow_dispatch:
   schedule:
-    - cron: "20 12 * * *" # daily 12:20 UTC (about 6:20am CT)
+    - cron: "20 12 * * *"
 
 permissions:
   contents: write
@@ -15,24 +15,28 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Show files (debug)
+        run: |
+          echo "Root:"
+          ls -la
+          echo "data/:"
+          ls -la data || true
+          echo "scripts/:"
+          ls -la scripts || true
+
       - name: Compute Heist into data/data.json
         run: |
           node scripts/compute_heist.js
 
+      - name: Show output (debug)
         run: |
-          node -e "
-          const fs = require('fs');
-          const p = 'data/data.json';
-          const obj = JSON.parse(fs.readFileSync(p,'utf8'));
-          obj.updated_at = new Date().toISOString();
-          fs.writeFileSync(p, JSON.stringify(obj, null, 2));
-          console.log('updated_at ->', obj.updated_at);
-          "
+          echo "----- data/data.json -----"
+          cat data/data.json
 
       - name: Commit & push
         run: |
           git config user.name "heist-bot"
           git config user.email "heist-bot@users.noreply.github.com"
           git add data/data.json
-          git commit -m "Update data.json timestamp" || echo "No changes"
+          git commit -m "Compute Heist into data.json" || echo "No changes"
           git push
