@@ -56,11 +56,6 @@ h1 {
 .strong { background: rgba(59,130,246,.15); }
 .neutral { background: rgba(156,163,175,.1); }
 .below { background: rgba(239,68,68,.15); }
-.meta {
-  color: #9ca3af;
-  margin: 10px 0 0;
-  font-size: 13px;
-}
 
 .meta {
   color: #9ca3af;
