@@ -19,11 +19,11 @@
       <button id="btnPayday" class="pill" type="button">Payday</button>
     </div>
 
-    <div class="toggle" role="group" aria-label="Limit toggle">
-      <button class="pill active" type="button" data-limit="25">Top 25</button>
-      <button class="pill" type="button" data-limit="50">Top 50</button>
-      <button class="pill" type="button" data-limit="100">Top 100</button>
-      <button class="pill" type="button" data-limit="all">All</button>
+    <div class="toggle" role="group" aria-label="Range toggle">
+      <button id="btn25" class="pill active" type="button">Top 25</button>
+      <button id="btn50" class="pill" type="button">Top 50</button>
+      <button id="btn100" class="pill" type="button">Top 100</button>
+      <button id="btnAll" class="pill" type="button">All</button>
     </div>
 
     <input id="search" class="search" type="text" placeholder="Search team..." />
@@ -33,7 +33,7 @@
     <div class="row head">
       <div>Rank</div>
       <div>Team</div>
-      <div class="score" id="colLabel">Heist</div>
+      <div class="score">Score</div>
       <div class="pct">Pct</div>
       <div class="band">Band</div>
     </div>
