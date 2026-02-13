@@ -12,6 +12,12 @@ function bandClass(score) {
   return "neutral";
 }
 
+function fmt(n) {
+  const x = Number(n);
+  if (!Number.isFinite(x)) return "--";
+  return x.toFixed(2);
+}
+
 function render(rowsEl, teams, metricKey) {
   rowsEl.innerHTML = "";
 
@@ -23,76 +29,90 @@ function render(rowsEl, teams, metricKey) {
     row.innerHTML = `
       <div>${i + 1}</div>
       <div>${t.team}</div>
-      <div class="score">${Number.isFinite(val) ? val.toFixed(2) : "--"}</div>
-      <div class="band">${Number.isFinite(val) ? band(val) : "--"}</div>
+      <div class="score">${fmt(val)}</div>
+      <div class="band">${band(val)}</div>
     `;
 
     rowsEl.appendChild(row);
   });
 }
 
-function applySearch(sorted, query) {
-  const q = query.trim().toLowerCase();
-  if (!q) return sorted.slice(0, 50);
-  return sorted.filter(t => String(t.team).toLowerCase().includes(q));
-}
-
 async function main() {
   const rowsEl = document.getElementById("rows");
-  const searchEl = document.getElementById("search");
+  const metaEl = document.getElementById("meta");
+  const colLabelEl = document.getElementById("colLabel");
 
   const btnHeist = document.getElementById("btnHeist");
   const btnPayday = document.getElementById("btnPayday");
-  const metricHeader = document.getElementById("metricHeader");
+  const searchEl = document.getElementById("search");
 
-  // default metric
+  const limitButtons = Array.from(document.querySelectorAll("[data-limit]"));
+
+  // Defaults
   let metricKey = "heist";
+  let limit = 25;
+  let query = "";
 
   const res = await fetch(`./data/data.json?ts=${Date.now()}`);
   const payload = await res.json();
 
-  const meta = document.getElementById("meta");
-  if (meta) meta.textContent = `Updated: ${payload.updated_at}`;
+  if (metaEl) metaEl.textContent = `Updated: ${payload.updated_at}`;
 
   const data = payload.teams || [];
 
-  function getSorted() {
-    return [...data].sort((a, b) => Number(b[metricKey]) - Number(a[metricKey]));
+  function sortedByMetric(list) {
+    return [...list].sort((a, b) => Number(b[metricKey]) - Number(a[metricKey]));
   }
 
-  function refresh() {
-    const sorted = getSorted();
-    const view = applySearch(sorted, searchEl ? searchEl.value : "");
-    if (metricHeader) metricHeader.textContent = metricKey === "heist" ? "Heist" : "Payday";
+  function applyFiltersAndRender() {
+    let list = sortedByMetric(data);
+
+    if (query) {
+      list = list.filter(t => String(t.team).toLowerCase().includes(query));
+    }
+
+    let view = list;
+    if (limit !== "all") view = list.slice(0, limit);
+
+    if (colLabelEl) colLabelEl.textContent = metricKey === "payday" ? "Payday" : "Heist";
     render(rowsEl, view, metricKey);
   }
 
-  // wire up buttons
-  if (btnHeist) {
-    btnHeist.addEventListener("click", () => {
-      metricKey = "heist";
-      btnHeist.classList.add("active");
-      btnPayday && btnPayday.classList.remove("active");
-      refresh();
+  // Metric toggle
+  btnHeist?.addEventListener("click", () => {
+    metricKey = "heist";
+    btnHeist.classList.add("active");
+    btnPayday?.classList.remove("active");
+    applyFiltersAndRender();
+  });
+
+  btnPayday?.addEventListener("click", () => {
+    metricKey = "payday";
+    btnPayday.classList.add("active");
+    btnHeist?.classList.remove("active");
+    applyFiltersAndRender();
+  });
+
+  // Limit toggle
+  limitButtons.forEach(btn => {
+    btn.addEventListener("click", () => {
+      limitButtons.forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+
+      const v = btn.getAttribute("data-limit");
+      limit = (v === "all") ? "all" : Number(v);
+      applyFiltersAndRender();
     });
-  }
+  });
 
-  if (btnPayday) {
-    btnPayday.addEventListener("click", () => {
-      metricKey = "payday";
-      btnPayday.classList.add("active");
-      btnHeist && btnHeist.classList.remove("active");
-      refresh();
-    });
-  }
+  // Search
+  searchEl?.addEventListener("input", () => {
+    query = searchEl.value.trim().toLowerCase();
+    applyFiltersAndRender();
+  });
 
-  // wire up search
-  if (searchEl) {
-    searchEl.addEventListener("input", refresh);
-  }
-
-  // initial render
-  refresh();
+  // Initial render
+  applyFiltersAndRender();
 }
 
 main().catch(err => {
