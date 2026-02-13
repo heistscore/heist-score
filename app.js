@@ -29,48 +29,6 @@ function setActive(btn, on) {
   btn.classList.toggle("active", !!on);
 }
 
-// ---------- color helpers ----------
-function hashString(str) {
-  let h = 2166136261;
-  for (let i = 0; i < str.length; i++) {
-    h ^= str.charCodeAt(i);
-    h = Math.imul(h, 16777619);
-  }
-  return h >>> 0;
-}
-
-function hslToHex(h, s, l) {
-  s /= 100;
-  l /= 100;
-
-  const c = (1 - Math.abs(2 * l - 1)) * s;
-  const x = c * (1 - Math.abs(((h / 60) % 2) - 1));
-  const m = l - c / 2;
-
-  let r = 0, g = 0, b = 0;
-  if (0 <= h && h < 60) { r = c; g = x; b = 0; }
-  else if (60 <= h && h < 120) { r = x; g = c; b = 0; }
-  else if (120 <= h && h < 180) { r = 0; g = c; b = x; }
-  else if (180 <= h && h < 240) { r = 0; g = x; b = c; }
-  else if (240 <= h && h < 300) { r = x; g = 0; b = c; }
-  else { r = c; g = 0; b = x; }
-
-  const toHex = (v) => {
-    const n = Math.round((v + m) * 255);
-    return n.toString(16).padStart(2, "0");
-  };
-
-  return `#${toHex(r)}${toHex(g)}${toHex(b)}`;
-}
-
-function autoTeamColor(teamName) {
-  const h = hashString(String(teamName || ""));
-  const hue = h % 360;
-  const sat = 70;
-  const light = 42;
-  return hslToHex(hue, sat, light);
-}
-
 function normName(s) {
   return String(s || "")
     .toLowerCase()
@@ -86,30 +44,18 @@ async function loadJson(path) {
   return await res.json();
 }
 
-// team_colors.json is expected to look like:
-// { "kentucky": { "primary": "#0033A0", "source": "Kentucky Wildcats" }, ... }
-async function loadTeamColors() {
-  const json = await loadJson("./data/team_colors.json");
-  return (json && typeof json === "object") ? json : {};
+function getTeamColor(teamName, colors) {
+  if (!colors) return "transparent";
+  // Try exact, then normalized
+  return colors[teamName] || colors[normName(teamName)] || "transparent";
 }
 
-function getTeamColor(teamName, colorMap) {
-  const key = normName(teamName);
-  const entry = colorMap[key];
-  const hex = entry?.primary;
-  return hex || autoTeamColor(teamName);
-}
-
-// ---------- render ----------
-function render(rowsEl, teamsToShow, fullSorted, metricKey, colorMap) {
+function render(rowsEl, teamsToShow, fullSorted, metricKey, colors) {
   rowsEl.innerHTML = "";
   const total = fullSorted.length;
 
-  // Build rank lookup once (much faster than findIndex for every row)
   const rankByTeam = new Map();
-  for (let i = 0; i < fullSorted.length; i++) {
-    rankByTeam.set(fullSorted[i].team, i);
-  }
+  for (let i = 0; i < fullSorted.length; i++) rankByTeam.set(fullSorted[i].team, i);
 
   teamsToShow.forEach((t) => {
     const rankIndex = rankByTeam.has(t.team) ? rankByTeam.get(t.team) : -1;
@@ -119,7 +65,7 @@ function render(rowsEl, teamsToShow, fullSorted, metricKey, colorMap) {
     const row = document.createElement("div");
     row.className = `row ${bandClass(val)}`;
 
-    row.style.setProperty("--team", getTeamColor(t.team, colorMap));
+    row.style.setProperty("--team", getTeamColor(t.team, colors));
 
     row.innerHTML = `
       <div>${rankIndex >= 0 ? rankIndex + 1 : ""}</div>
@@ -145,8 +91,8 @@ async function main() {
   const btnAll = document.getElementById("btnAll");
   const searchEl = document.getElementById("search");
 
-  const [colorMap, payload] = await Promise.all([
-    loadTeamColors(),
+  const [colors, payload] = await Promise.all([
+    loadJson("./data/team_colors.json"),
     loadJson("./data/data.json")
   ]);
 
@@ -174,7 +120,7 @@ async function main() {
     const sorted = getSorted();
     const filtered = getFiltered(sorted);
     const sliced = Number.isFinite(limit) ? filtered.slice(0, limit) : filtered;
-    render(rowsEl, sliced, sorted, metricKey, colorMap);
+    render(rowsEl, sliced, sorted, metricKey, colors);
   }
 
   btnHeist?.addEventListener("click", () => {
@@ -220,7 +166,7 @@ async function main() {
     rerender();
   });
 
-  // default active states
+  // Default active states
   setActive(btnHeist, true);
   setActive(btnPayday, false);
   setActive(btn25, true);
