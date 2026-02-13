@@ -19,7 +19,8 @@ async function main() {
   // cache-bust so you see updates immediately
   const res = await fetch(`./data/data.json?ts=${Date.now()}`);
   const payload = await res.json();
-
+const meta = document.getElementById("meta");
+if (meta) meta.textContent = `Updated: ${payload.updated_at}`;
   const data = payload.teams || [];
   const sorted = [...data].sort((a, b) => b.heist - a.heist);
 
