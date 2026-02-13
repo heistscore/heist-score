@@ -1,11 +1,3 @@
-/**
- * scripts/compute_heist.js
- *
- * Reads data/raw.json (from KenPom)
- * Computes Heist + Payday (weighted eFG)
- * Writes data/data.json
- */
-
 const fs = require("fs");
 
 function mean(arr) {
@@ -18,7 +10,7 @@ function stddev(arr, m) {
 }
 
 function zScore(value, m, s) {
-  if (!Number.isFinite(value) || s === 0) return 0;
+  if (!Number.isFinite(value) || !Number.isFinite(m) || !Number.isFinite(s) || s === 0) return 0;
   return (value - m) / s;
 }
 
@@ -30,64 +22,80 @@ function main() {
   const raw = loadRaw();
   const teams = raw.teams || [];
 
-  // Weight for Payday (shot-making)
-  const EFG_WEIGHT = 0.6;
+  // Pull arrays for first-pass z scoring of the components
+  const ORs = teams.map(t => Number(t.ORpct)).filter(Number.isFinite);
+  const DRs = teams.map(t => Number(t.DRpct)).filter(Number.isFinite);
+  const DefTOs = teams.map(t => Number(t.DefTOpct)).filter(Number.isFinite);
+  const OffTOs = teams.map(t => Number(t.OffTOpct)).filter(Number.isFinite);
+  const eFGs = teams.map(t => Number(t.eFGpct)).filter(Number.isFinite);
 
-  // Collect arrays for normalization
-  const ORs = teams.map(t => t.ORpct);
-  const DRs = teams.map(t => t.DRpct);
-  const DefTOs = teams.map(t => t.DefTOpct);
-  const OffTOs = teams.map(t => t.OffTOpct);
-  const eFGs = teams.map(t => t.eFGpct);
+  const mOR = mean(ORs), sOR = stddev(ORs, mOR);
+  const mDR = mean(DRs), sDR = stddev(DRs, mDR);
+  const mDefTO = mean(DefTOs), sDefTO = stddev(DefTOs, mDefTO);
+  const mOffTO = mean(OffTOs), sOffTO = stddev(OffTOs, mOffTO);
+  const meFG = mean(eFGs), seFG = stddev(eFGs, meFG);
 
-  // Means
-  const mOR = mean(ORs);
-  const mDR = mean(DRs);
-  const mDefTO = mean(DefTOs);
-  const mOffTO = mean(OffTOs);
-  const meFG = mean(eFGs);
+  // 1) Build weighted heist_raw + zeFG for every team
+  const interim = teams.map(t => {
+    const ORpct = Number(t.ORpct);
+    const DRpct = Number(t.DRpct);
+    const DefTOpct = Number(t.DefTOpct);
+    const OffTOpct = Number(t.OffTOpct);
+    const eFGpct = Number(t.eFGpct);
 
-  // Std devs
-  const sOR = stddev(ORs, mOR);
-  const sDR = stddev(DRs, mDR);
-  const sDefTO = stddev(DefTOs, mDefTO);
-  const sOffTO = stddev(OffTOs, mOffTO);
-  const seFG = stddev(eFGs, meFG);
+    const zOR = zScore(ORpct, mOR, sOR);
+    const zDR = zScore(DRpct, mDR, sDR);
+    const zDefTO = zScore(DefTOpct, mDefTO, sDefTO);
+    const zOffTO = zScore(OffTOpct, mOffTO, sOffTO);
+    const zeFG = zScore(eFGpct, meFG, seFG);
 
-  const computed = teams.map(t => {
-    const zOR = zScore(t.ORpct, mOR, sOR);
-    const zDR = zScore(t.DRpct, mDR, sDR);
-    const zDefTO = zScore(t.DefTOpct, mDefTO, sDefTO);
-    const zOffTO = zScore(t.OffTOpct, mOffTO, sOffTO);
-    const zeFG = zScore(t.eFGpct, meFG, seFG);
-
-    // raw possession control
-    const heist_raw = zOR + zDR + zDefTO - zOffTO;
-
-    // normalize heist_raw itself (optional) — BUT you already like current scale,
-    // so we keep "heist" as raw z-sum.
-    const heist = heist_raw;
-
-    // Payday: explicit weight on shotmaking
-    const payday = heist_raw + (EFG_WEIGHT * zeFG);
+    // Weighted components (your original philosophy)
+    const heist_raw = 0.25 * zOR + 0.25 * zDR + 0.25 * zDefTO - 0.25 * zOffTO;
 
     return {
-      team: t.team,
+      team: String(t.team),
+      confShort: t.confShort ?? null,
+      confLong: t.confLong ?? null,
 
-      // metrics
+      ORpct: Number.isFinite(ORpct) ? ORpct : null,
+      DRpct: Number.isFinite(DRpct) ? DRpct : null,
+      DefTOpct: Number.isFinite(DefTOpct) ? DefTOpct : null,
+      OffTOpct: Number.isFinite(OffTOpct) ? OffTOpct : null,
+      eFGpct: Number.isFinite(eFGpct) ? eFGpct : null,
+
+      heist_raw,
+      zeFG
+    };
+  });
+
+  // 2) Normalize heist_raw into a clean z-score (so "1.0" = 1 SD)
+  const heistRawArr = interim.map(x => x.heist_raw);
+  const mH = mean(heistRawArr);
+  const sH = stddev(heistRawArr, mH);
+
+  const computed = interim.map(x => {
+    const heist = zScore(x.heist_raw, mH, sH);
+
+    // Payday weight explicit (0.60/0.40)
+    const payday = 0.60 * heist + 0.40 * x.zeFG;
+
+    return {
+      team: x.team,
+      confShort: x.confShort,
+      confLong: x.confLong,
+
       heist,
       payday,
 
-      // inputs
-      ORpct: t.ORpct,
-      DRpct: t.DRpct,
-      DefTOpct: t.DefTOpct,
-      OffTOpct: t.OffTOpct,
-      eFGpct: t.eFGpct,
+      // keep the ingredients (optional but useful for debugging)
+      heist_raw: x.heist_raw,
+      eFG_z: x.zeFG,
 
-      // conference metadata (THIS IS THE IMPORTANT PART)
-      confShort: t.confShort || null,
-      confLong: t.confLong || null
+      ORpct: x.ORpct,
+      DRpct: x.DRpct,
+      DefTOpct: x.DefTOpct,
+      OffTOpct: x.OffTOpct,
+      eFGpct: x.eFGpct
     };
   });
 
@@ -98,7 +106,7 @@ function main() {
   };
 
   fs.writeFileSync("data/data.json", JSON.stringify(payload, null, 2));
-  console.log("Wrote data/data.json with Heist + Payday + conferences");
+  console.log("Wrote data/data.json with normalized Heist + weighted Payday (0.60/0.40).");
 }
 
 main();
