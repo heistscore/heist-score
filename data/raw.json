@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-02-13T09:04:25.676Z",
+  "updated_at": "2026-02-13T10:03:59.292Z",
   "teams": [
     {
       "team": "Abilene Christian",
@@ -8,7 +8,10 @@
       "DRpct": 30.8362,
       "DefTOpct": 23.3316,
       "OffTOpct": 20.4675,
-      "eFGpct": 47.1343
+      "eFGpct": 47.1343,
+      "confShort": "WAC",
+      "confLong": "Western Athletic Conference",
+      "team_id": 1
     },
     {
       "team": "Air Force",
@@ -16,7 +19,10 @@
       "DRpct": 31.3472,
       "DefTOpct": 15.6729,
       "OffTOpct": 22.5764,
-      "eFGpct": 49.5029
+      "eFGpct": 49.5029,
+      "confShort": "MWC",
+      "confLong": "Mountain West Conference",
+      "team_id": 2
     },
     {
       "team": "Akron",
@@ -24,7 +30,10 @@
       "DRpct": 32.1951,
       "DefTOpct": 18.5132,
       "OffTOpct": 15.4595,
-      "eFGpct": 58.4527
+      "eFGpct": 58.4527,
+      "confShort": "MAC",
+      "confLong": "Mid American Conference",
+      "team_id": 3
     },
     {
       "team": "Alabama",
@@ -32,7 +41,10 @@
       "DRpct": 32.7837,
       "DefTOpct": 12.4134,
       "OffTOpct": 12.9651,
-      "eFGpct": 55.072
+      "eFGpct": 55.072,
+      "confShort": "SEC",
+      "confLong": "Southeastern Conference",
+      "team_id": 4
     },
     {
       "team": "Alabama A&M",
@@ -40,7 +52,10 @@
       "DRpct": 29.2308,
       "DefTOpct": 16.9646,
       "OffTOpct": 17.1048,
-      "eFGpct": 47.5524
+      "eFGpct": 47.5524,
+      "confShort": "SWAC",
+      "confLong": "Southwestern Athletic Conference",
+      "team_id": 5
     },
     {
       "team": "Alabama St.",
@@ -48,7 +63,10 @@
       "DRpct": 33.8501,
       "DefTOpct": 19.4071,
       "OffTOpct": 19.2855,
-      "eFGpct": 47.1636
+      "eFGpct": 47.1636,
+      "confShort": "SWAC",
+      "confLong": "Southwestern Athletic Conference",
+      "team_id": 6
     },
     {
       "team": "Albany",
@@ -56,7 +74,10 @@
       "DRpct": 33.5694,
       "DefTOpct": 16.1634,
       "OffTOpct": 18.2181,
-      "eFGpct": 50.1171
+      "eFGpct": 50.1171,
+      "confShort": "AE",
+      "confLong": "America East Conference",
+      "team_id": 7
     },
     {
       "team": "Alcorn St.",
@@ -64,7 +85,10 @@
       "DRpct": 37.1389,
       "DefTOpct": 18.1545,
       "OffTOpct": 20.3456,
-      "eFGpct": 48.7934
+      "eFGpct": 48.7934,
+      "confShort": "SWAC",
+      "confLong": "Southwestern Athletic Conference",
+      "team_id": 8
     },
     {
       "team": "American",
@@ -72,7 +96,10 @@
       "DRpct": 30.563,
       "DefTOpct": 19.0726,
       "OffTOpct": 16.5419,
-      "eFGpct": 51.2545
+      "eFGpct": 51.2545,
+      "confShort": "PL",
+      "confLong": "Patriot League",
+      "team_id": 9
     },
     {
       "team": "Appalachian St.",
@@ -80,7 +107,10 @@
       "DRpct": 28.8154,
       "DefTOpct": 14.2905,
       "OffTOpct": 15.1642,
-      "eFGpct": 50.0718
+      "eFGpct": 50.0718,
+      "confShort": "SB",
+      "confLong": "Sun Belt Conference",
+      "team_id": 10
     },
     {
       "team": "Arizona",
@@ -88,7 +118,10 @@
       "DRpct": 25.6566,
       "DefTOpct": 17.8485,
       "OffTOpct": 15.8022,
-      "eFGpct": 55.9612
+      "eFGpct": 55.9612,
+      "confShort": "B12",
+      "confLong": "Big 12 Conference",
+      "team_id": 11
     },
     {
       "team": "Arizona St.",
@@ -96,7 +129,10 @@
       "DRpct": 34.186,
       "DefTOpct": 19.1019,
       "OffTOpct": 16.0119,
-      "eFGpct": 51.4576
+      "eFGpct": 51.4576,
+      "confShort": "B12",
+      "confLong": "Big 12 Conference",
+      "team_id": 12
     },
     {
       "team": "Arkansas",
@@ -104,7 +140,10 @@
       "DRpct": 31.573,
       "DefTOpct": 16.4691,
       "OffTOpct": 12.9113,
-      "eFGpct": 56.6997
+      "eFGpct": 56.6997,
+      "confShort": "SEC",
+      "confLong": "Southeastern Conference",
+      "team_id": 13
     },
     {
       "team": "Arkansas Pine Bluff",
@@ -112,7 +151,10 @@
       "DRpct": 34.8226,
       "DefTOpct": 15.9927,
       "OffTOpct": 19.1286,
-      "eFGpct": 49.6462
+      "eFGpct": 49.6462,
+      "confShort": "SWAC",
+      "confLong": "Southwestern Athletic Conference",
+      "team_id": 15
     },
     {
       "team": "Arkansas St.",
@@ -120,7 +162,10 @@
       "DRpct": 26.6515,
       "DefTOpct": 15.538,
       "OffTOpct": 19.6928,
-      "eFGpct": 51.2399
+      "eFGpct": 51.2399,
+      "confShort": "SB",
+      "confLong": "Sun Belt Conference",
+      "team_id": 16
     },
     {
       "team": "Army",
@@ -128,7 +173,10 @@
       "DRpct": 27.9597,
       "DefTOpct": 15.0414,
       "OffTOpct": 16.8002,
-      "eFGpct": 49.4456
+      "eFGpct": 49.4456,
+      "confShort": "PL",
+      "confLong": "Patriot League",
+      "team_id": 17
     },
     {
       "team": "Auburn",
@@ -136,7 +184,10 @@
       "DRpct": 31.8348,
       "DefTOpct": 17.2212,
       "OffTOpct": 14.3806,
-      "eFGpct": 52.7682
+      "eFGpct": 52.7682,
+      "confShort": "SEC",
+      "confLong": "Southeastern Conference",
+      "team_id": 18
     },
     {
       "team": "Austin Peay",
@@ -144,7 +195,10 @@
       "DRpct": 29.7436,
       "DefTOpct": 19.3093,
       "OffTOpct": 15.4345,
-      "eFGpct": 52.7905
+      "eFGpct": 52.7905,
+      "confShort": "ASun",
+      "confLong": "ASUN Conference",
+      "team_id": 19
     },
     {
       "team": "Ball St.",
@@ -152,7 +206,10 @@
       "DRpct": 32.1856,
       "DefTOpct": 19.1521,
       "OffTOpct": 16.7145,
-      "eFGpct": 45.9723
+      "eFGpct": 45.9723,
+      "confShort": "MAC",
+      "confLong": "Mid American Conference",
+      "team_id": 20
     },
     {
       "team": "Baylor",
@@ -160,7 +217,10 @@
       "DRpct": 32.6241,
       "DefTOpct": 15.5625,
       "OffTOpct": 16.6165,
-      "eFGpct": 54.396
+      "eFGpct": 54.396,
+      "confShort": "B12",
+      "confLong": "Big 12 Conference",
+      "team_id": 21
     },
     {
       "team": "Bellarmine",
@@ -168,7 +228,10 @@
       "DRpct": 34.1823,
       "DefTOpct": 14.9561,
       "OffTOpct": 16.0567,
-      "eFGpct": 59.1019
+      "eFGpct": 59.1019,
+      "confShort": "ASun",
+      "confLong": "ASUN Conference",
+      "team_id": 360
     },
     {
       "team": "Belmont",
@@ -176,7 +239,10 @@
       "DRpct": 29.8193,
       "DefTOpct": 17.5695,
       "OffTOpct": 18.7118,
-      "eFGpct": 61.1148
+      "eFGpct": 61.1148,
+      "confShort": "MVC",
+      "confLong": "Missouri Valley Conference",
+      "team_id": 22
     },
     {
       "team": "Bethune Cookman",
@@ -184,7 +250,10 @@
       "DRpct": 31.4554,
       "DefTOpct": 15.8145,
       "OffTOpct": 18.4703,
-      "eFGpct": 50.0375
+      "eFGpct": 50.0375,
+      "confShort": "SWAC",
+      "confLong": "Southwestern Athletic Conference",
+      "team_id": 23
     },
     {
       "team": "Binghamton",
@@ -192,7 +261,10 @@
       "DRpct": 28.8832,
       "DefTOpct": 12.9197,
       "OffTOpct": 19.2172,
-      "eFGpct": 47.5786
+      "eFGpct": 47.5786,
+      "confShort": "AE",
+      "confLong": "America East Conference",
+      "team_id": 24
     },
     {
       "team": "Boise St.",
@@ -200,7 +272,10 @@
       "DRpct": 23.9612,
       "DefTOpct": 15.5601,
       "OffTOpct": 16.6062,
-      "eFGpct": 51.8876
+      "eFGpct": 51.8876,
+      "confShort": "MWC",
+      "confLong": "Mountain West Conference",
+      "team_id": 25
     },
     {
       "team": "Boston College",
@@ -208,7 +283,10 @@
       "DRpct": 28.6996,
       "DefTOpct": 15.394,
       "OffTOpct": 15.4555,
-      "eFGpct": 46.8123
+      "eFGpct": 46.8123,
+      "confShort": "ACC",
+      "confLong": "Atlantic Coast Conference",
+      "team_id": 26
     },
     {
       "team": "Boston University",
@@ -216,7 +294,10 @@
       "DRpct": 27.0833,
       "DefTOpct": 13.3852,
       "OffTOpct": 17.6057,
-      "eFGpct": 56.7965
+      "eFGpct": 56.7965,
+      "confShort": "PL",
+      "confLong": "Patriot League",
+      "team_id": 27
     },
     {
       "team": "Bowling Green",
@@ -224,7 +305,10 @@
       "DRpct": 27.2363,
       "DefTOpct": 19.6842,
       "OffTOpct": 17.4327,
-      "eFGpct": 52.0108
+      "eFGpct": 52.0108,
+      "confShort": "MAC",
+      "confLong": "Mid American Conference",
+      "team_id": 28
     },
     {
       "team": "Bradley",
@@ -232,7 +316,10 @@
       "DRpct": 28.9044,
       "DefTOpct": 19.891,
       "OffTOpct": 13.8322,
-      "eFGpct": 50.8005
+      "eFGpct": 50.8005,
+      "confShort": "MVC",
+      "confLong": "Missouri Valley Conference",
+      "team_id": 29
     },
     {
       "team": "Brown",
@@ -240,7 +327,10 @@
       "DRpct": 29.2379,
       "DefTOpct": 18.2111,
       "OffTOpct": 18.2885,
-      "eFGpct": 47.1749
+      "eFGpct": 47.1749,
+      "confShort": "Ivy",
+      "confLong": "Ivy League",
+      "team_id": 30
     },
     {
       "team": "Bryant",
@@ -248,7 +338,10 @@
       "DRpct": 32.0102,
       "DefTOpct": 14.7344,
       "OffTOpct": 20.6682,
-      "eFGpct": 46.1631
+      "eFGpct": 46.1631,
+      "confShort": "AE",
+      "confLong": "America East Conference",
+      "team_id": 31
     },
     {
       "team": "Bucknell",
@@ -256,7 +349,10 @@
       "DRpct": 31.2352,
       "DefTOpct": 17.7656,
       "OffTOpct": 19.18,
-      "eFGpct": 47.7632
+      "eFGpct": 47.7632,
+      "confShort": "PL",
+      "confLong": "Patriot League",
+      "team_id": 32
     },
     {
       "team": "Buffalo",
@@ -264,7 +360,10 @@
       "DRpct": 31.0026,
       "DefTOpct": 17.6097,
       "OffTOpct": 16.265,
-      "eFGpct": 55.6477
+      "eFGpct": 55.6477,
+      "confShort": "MAC",
+      "confLong": "Mid American Conference",
+      "team_id": 33
     },
     {
       "team": "Butler",
@@ -272,7 +371,10 @@
       "DRpct": 30.8952,
       "DefTOpct": 15.5271,
       "OffTOpct": 16.1437,
-      "eFGpct": 51.7893
+      "eFGpct": 51.7893,
+      "confShort": "BE",
+      "confLong": "Big East Conference",
+      "team_id": 34
     },
     {
       "team": "BYU",
@@ -280,7 +382,10 @@
       "DRpct": 28.7625,
       "DefTOpct": 16.4131,
       "OffTOpct": 14.7718,
-      "eFGpct": 55.6848
+      "eFGpct": 55.6848,
+      "confShort": "B12",
+      "confLong": "Big 12 Conference",
+      "team_id": 35
     },
     {
       "team": "Cal Baptist",
@@ -288,7 +393,10 @@
       "DRpct": 26.5033,
       "DefTOpct": 16.526,
       "OffTOpct": 18.3363,
-      "eFGpct": 48.3085
+      "eFGpct": 48.3085,
+      "confShort": "WAC",
+      "confLong": "Western Athletic Conference",
+      "team_id": 357
     },
     {
       "team": "Cal Poly",
@@ -296,7 +404,10 @@
       "DRpct": 30.5028,
       "DefTOpct": 16.845,
       "OffTOpct": 21.4787,
-      "eFGpct": 51.5007
+      "eFGpct": 51.5007,
+      "confShort": "BW",
+      "confLong": "Big West Conference",
+      "team_id": 36
     },
     {
       "team": "Cal St. Bakersfield",
@@ -304,7 +415,10 @@
       "DRpct": 36.3318,
       "DefTOpct": 18.132,
       "OffTOpct": 19.643,
-      "eFGpct": 45.3571
+      "eFGpct": 45.3571,
+      "confShort": "BW",
+      "confLong": "Big West Conference",
+      "team_id": 37
     },
     {
       "team": "Cal St. Fullerton",
@@ -312,7 +426,10 @@
       "DRpct": 28.8783,
       "DefTOpct": 19.6695,
       "OffTOpct": 15.384,
-      "eFGpct": 50.7392
+      "eFGpct": 50.7392,
+      "confShort": "BW",
+      "confLong": "Big West Conference",
+      "team_id": 38
     },
     {
       "team": "California",
@@ -320,7 +437,10 @@
       "DRpct": 30.5463,
       "DefTOpct": 15.7374,
       "OffTOpct": 15.2009,
-      "eFGpct": 52.7536
+      "eFGpct": 52.7536,
+      "confShort": "ACC",
+      "confLong": "Atlantic Coast Conference",
+      "team_id": 40
     },
     {
       "team": "Campbell",
@@ -328,7 +448,10 @@
       "DRpct": 31.2242,
       "DefTOpct": 17.335,
       "OffTOpct": 18.1925,
-      "eFGpct": 50.4532
+      "eFGpct": 50.4532,
+      "confShort": "CAA",
+      "confLong": "Coastal Athletic Association",
+      "team_id": 41
     },
     {
       "team": "Canisius",
@@ -336,7 +459,10 @@
       "DRpct": 30.4799,
       "DefTOpct": 16.6289,
       "OffTOpct": 19.5938,
-      "eFGpct": 46.1923
+      "eFGpct": 46.1923,
+      "confShort": "MAAC",
+      "confLong": "Metro Atlantic Athletic Conference",
+      "team_id": 42
     },
     {
       "team": "Central Arkansas",
@@ -344,7 +470,10 @@
       "DRpct": 26.99,
       "DefTOpct": 19.0755,
       "OffTOpct": 15.6988,
-      "eFGpct": 53.3904
+      "eFGpct": 53.3904,
+      "confShort": "ASun",
+      "confLong": "ASUN Conference",
+      "team_id": 43
     },
     {
       "team": "Central Connecticut",
@@ -352,7 +481,10 @@
       "DRpct": 30.7792,
       "DefTOpct": 14.1293,
       "OffTOpct": 16.4727,
-      "eFGpct": 52.3457
+      "eFGpct": 52.3457,
+      "confShort": "NEC",
+      "confLong": "NEC",
+      "team_id": 44
     },
     {
       "team": "Central Michigan",
@@ -360,7 +492,10 @@
       "DRpct": 34.5157,
       "DefTOpct": 16.0013,
       "OffTOpct": 17.8604,
-      "eFGpct": 50.7886
+      "eFGpct": 50.7886,
+      "confShort": "MAC",
+      "confLong": "Mid American Conference",
+      "team_id": 45
     },
     {
       "team": "Charleston",
@@ -368,7 +503,10 @@
       "DRpct": 31.3824,
       "DefTOpct": 14.1784,
       "OffTOpct": 16.2937,
-      "eFGpct": 50.5237
+      "eFGpct": 50.5237,
+      "confShort": "CAA",
+      "confLong": "Coastal Athletic Association",
+      "team_id": 55
     },
     {
       "team": "Charleston Southern",
@@ -376,7 +514,10 @@
       "DRpct": 29.6178,
       "DefTOpct": 12.716,
       "OffTOpct": 18.899,
-      "eFGpct": 53.3402
+      "eFGpct": 53.3402,
+      "confShort": "BSth",
+      "confLong": "Big South Conference",
+      "team_id": 46
     },
     {
       "team": "Charlotte",
@@ -384,7 +525,10 @@
       "DRpct": 31.9641,
       "DefTOpct": 14.6353,
       "OffTOpct": 18.4937,
-      "eFGpct": 53.115
+      "eFGpct": 53.115,
+      "confShort": "Amer",
+      "confLong": "American Athletic Conference",
+      "team_id": 47
     },
     {
       "team": "Chattanooga",
@@ -392,7 +536,10 @@
       "DRpct": 31.6121,
       "DefTOpct": 13.932,
       "OffTOpct": 15.0285,
-      "eFGpct": 51.9261
+      "eFGpct": 51.9261,
+      "confShort": "SC",
+      "confLong": "Southern Conference",
+      "team_id": 48
     },
     {
       "team": "Chicago St.",
@@ -400,7 +547,10 @@
       "DRpct": 35.2713,
       "DefTOpct": 20.0271,
       "OffTOpct": 16.1896,
-      "eFGpct": 45.066
+      "eFGpct": 45.066,
+      "confShort": "NEC",
+      "confLong": "NEC",
+      "team_id": 49
     },
     {
       "team": "Cincinnati",
@@ -408,7 +558,10 @@
       "DRpct": 26.0967,
       "DefTOpct": 18.8064,
       "OffTOpct": 17.7204,
-      "eFGpct": 49.8342
+      "eFGpct": 49.8342,
+      "confShort": "B12",
+      "confLong": "Big 12 Conference",
+      "team_id": 50
     },
     {
       "team": "Clemson",
@@ -416,7 +569,10 @@
       "DRpct": 25.0863,
       "DefTOpct": 17.7616,
       "OffTOpct": 14.9318,
-      "eFGpct": 53.8599
+      "eFGpct": 53.8599,
+      "confShort": "ACC",
+      "confLong": "Atlantic Coast Conference",
+      "team_id": 51
     },
     {
       "team": "Cleveland St.",
@@ -424,7 +580,10 @@
       "DRpct": 38.1068,
       "DefTOpct": 14.5805,
       "OffTOpct": 18.5626,
-      "eFGpct": 53.876
+      "eFGpct": 53.876,
+      "confShort": "Horz",
+      "confLong": "Horizon League",
+      "team_id": 52
     },
     {
       "team": "Coastal Carolina",
@@ -432,7 +591,10 @@
       "DRpct": 27.5629,
       "DefTOpct": 12.641,
       "OffTOpct": 15.596,
-      "eFGpct": 48.212
+      "eFGpct": 48.212,
+      "confShort": "SB",
+      "confLong": "Sun Belt Conference",
+      "team_id": 53
     },
     {
       "team": "Colgate",
@@ -440,7 +602,10 @@
       "DRpct": 29.8329,
       "DefTOpct": 16.2702,
       "OffTOpct": 15.1167,
-      "eFGpct": 53.3545
+      "eFGpct": 53.3545,
+      "confShort": "PL",
+      "confLong": "Patriot League",
+      "team_id": 54
     },
     {
       "team": "Colorado",
@@ -448,7 +613,10 @@
       "DRpct": 29.8021,
       "DefTOpct": 15.5118,
       "OffTOpct": 14.4242,
-      "eFGpct": 53.1187
+      "eFGpct": 53.1187,
+      "confShort": "B12",
+      "confLong": "Big 12 Conference",
+      "team_id": 56
     },
     {
       "team": "Colorado St.",
@@ -456,7 +624,10 @@
       "DRpct": 27.7333,
       "DefTOpct": 15.1867,
       "OffTOpct": 18.728,
-      "eFGpct": 57.702
+      "eFGpct": 57.702,
+      "confShort": "MWC",
+      "confLong": "Mountain West Conference",
+      "team_id": 57
     },
     {
       "team": "Columbia",
@@ -464,7 +635,10 @@
       "DRpct": 27.7778,
       "DefTOpct": 14.2096,
       "OffTOpct": 19.8206,
-      "eFGpct": 54.2979
+      "eFGpct": 54.2979,
+      "confShort": "Ivy",
+      "confLong": "Ivy League",
+      "team_id": 58
     },
     {
       "team": "Connecticut",
@@ -472,7 +646,10 @@
       "DRpct": 28.9444,
       "DefTOpct": 18.6585,
       "OffTOpct": 16.4599,
-      "eFGpct": 56.288
+      "eFGpct": 56.288,
+      "confShort": "BE",
+      "confLong": "Big East Conference",
+      "team_id": 59
     },
     {
       "team": "Coppin St.",
@@ -480,7 +657,10 @@
       "DRpct": 35.7513,
       "DefTOpct": 17.2967,
       "OffTOpct": 22.6832,
-      "eFGpct": 45.4545
+      "eFGpct": 45.4545,
+      "confShort": "MEAC",
+      "confLong": "Mid-Eastern Athletic Conference",
+      "team_id": 60
     },
     {
       "team": "Cornell",
@@ -488,7 +668,10 @@
       "DRpct": 30.3406,
       "DefTOpct": 15.6098,
       "OffTOpct": 16.2542,
-      "eFGpct": 58.609
+      "eFGpct": 58.609,
+      "confShort": "Ivy",
+      "confLong": "Ivy League",
+      "team_id": 61
     },
     {
       "team": "Creighton",
@@ -496,7 +679,10 @@
       "DRpct": 31.5904,
       "DefTOpct": 14.2777,
       "OffTOpct": 16.6768,
-      "eFGpct": 54.5085
+      "eFGpct": 54.5085,
+      "confShort": "BE",
+      "confLong": "Big East Conference",
+      "team_id": 62
     },
     {
       "team": "CSUN",
@@ -504,7 +690,10 @@
       "DRpct": 26.0417,
       "DefTOpct": 15.9638,
       "OffTOpct": 18.0962,
-      "eFGpct": 52.1635
+      "eFGpct": 52.1635,
+      "confShort": "BW",
+      "confLong": "Big West Conference",
+      "team_id": 39
     },
     {
       "team": "Dartmouth",
@@ -512,7 +701,10 @@
       "DRpct": 30.7801,
       "DefTOpct": 13.7271,
       "OffTOpct": 17.9741,
-      "eFGpct": 52.343
+      "eFGpct": 52.343,
+      "confShort": "Ivy",
+      "confLong": "Ivy League",
+      "team_id": 63
     },
     {
       "team": "Davidson",
@@ -520,7 +712,10 @@
       "DRpct": 31.4246,
       "DefTOpct": 18.0339,
       "OffTOpct": 16.2864,
-      "eFGpct": 53.9056
+      "eFGpct": 53.9056,
+      "confShort": "A10",
+      "confLong": "Atlantic 10 Conference",
+      "team_id": 64
     },
     {
       "team": "Dayton",
@@ -528,7 +723,10 @@
       "DRpct": 31.1971,
       "DefTOpct": 22.4711,
       "OffTOpct": 17.163,
-      "eFGpct": 51.3636
+      "eFGpct": 51.3636,
+      "confShort": "A10",
+      "confLong": "Atlantic 10 Conference",
+      "team_id": 65
     },
     {
       "team": "Delaware",
@@ -536,7 +734,10 @@
       "DRpct": 30.397,
       "DefTOpct": 14.2673,
       "OffTOpct": 18.6881,
-      "eFGpct": 53.1146
+      "eFGpct": 53.1146,
+      "confShort": "CUSA",
+      "confLong": "Conference USA",
+      "team_id": 66
     },
     {
       "team": "Delaware St.",
@@ -544,7 +745,10 @@
       "DRpct": 30.8642,
       "DefTOpct": 20.2647,
       "OffTOpct": 19.7952,
-      "eFGpct": 42.3851
+      "eFGpct": 42.3851,
+      "confShort": "MEAC",
+      "confLong": "Mid-Eastern Athletic Conference",
+      "team_id": 67
     },
     {
       "team": "Denver",
@@ -552,7 +756,10 @@
       "DRpct": 33.6879,
       "DefTOpct": 12.7248,
       "OffTOpct": 14.5767,
-      "eFGpct": 53.7612
+      "eFGpct": 53.7612,
+      "confShort": "Sum",
+      "confLong": "Summit League",
+      "team_id": 68
     },
     {
       "team": "DePaul",
@@ -560,7 +767,10 @@
       "DRpct": 31.0795,
       "DefTOpct": 18.1689,
       "OffTOpct": 17.7573,
-      "eFGpct": 50.9233
+      "eFGpct": 50.9233,
+      "confShort": "BE",
+      "confLong": "Big East Conference",
+      "team_id": 69
     },
     {
       "team": "Detroit Mercy",
@@ -568,7 +778,10 @@
       "DRpct": 31.3376,
       "DefTOpct": 13.9562,
       "OffTOpct": 16.7345,
-      "eFGpct": 48.9424
+      "eFGpct": 48.9424,
+      "confShort": "Horz",
+      "confLong": "Horizon League",
+      "team_id": 70
     },
     {
       "team": "Drake",
@@ -576,7 +789,10 @@
       "DRpct": 29.49,
       "DefTOpct": 14.7683,
       "OffTOpct": 14.4787,
-      "eFGpct": 51.9322
+      "eFGpct": 51.9322,
+      "confShort": "MVC",
+      "confLong": "Missouri Valley Conference",
+      "team_id": 71
     },
     {
       "team": "Drexel",
@@ -584,7 +800,10 @@
       "DRpct": 31.2281,
       "DefTOpct": 16.7651,
       "OffTOpct": 18.723,
-      "eFGpct": 50.8256
+      "eFGpct": 50.8256,
+      "confShort": "CAA",
+      "confLong": "Coastal Athletic Association",
+      "team_id": 72
     },
     {
       "team": "Duke",
@@ -592,7 +811,10 @@
       "DRpct": 25.1685,
       "DefTOpct": 19.2365,
       "OffTOpct": 16.2442,
-      "eFGpct": 57.3729
+      "eFGpct": 57.3729,
+      "confShort": "ACC",
+      "confLong": "Atlantic Coast Conference",
+      "team_id": 73
     },
     {
       "team": "Duquesne",
@@ -600,7 +822,10 @@
       "DRpct": 29.3967,
       "DefTOpct": 17.8737,
       "OffTOpct": 17.8737,
-      "eFGpct": 54.3077
+      "eFGpct": 54.3077,
+      "confShort": "A10",
+      "confLong": "Atlantic 10 Conference",
+      "team_id": 74
     },
     {
       "team": "East Carolina",
@@ -608,7 +833,10 @@
       "DRpct": 32.5926,
       "DefTOpct": 16.6495,
       "OffTOpct": 16.9624,
-      "eFGpct": 45.2539
+      "eFGpct": 45.2539,
+      "confShort": "Amer",
+      "confLong": "American Athletic Conference",
+      "team_id": 75
     },
     {
       "team": "East Tennessee St.",
@@ -616,7 +844,10 @@
       "DRpct": 26.8414,
       "DefTOpct": 19.4137,
       "OffTOpct": 14.8859,
-      "eFGpct": 55.0885
+      "eFGpct": 55.0885,
+      "confShort": "SC",
+      "confLong": "Southern Conference",
+      "team_id": 76
     },
     {
       "team": "East Texas A&M",
@@ -624,7 +855,10 @@
       "DRpct": 32.6531,
       "DefTOpct": 17.5108,
       "OffTOpct": 19.7221,
-      "eFGpct": 48.7463
+      "eFGpct": 48.7463,
+      "confShort": "Slnd",
+      "confLong": "Southland Conference",
+      "team_id": 369
     },
     {
       "team": "Eastern Illinois",
@@ -632,7 +866,10 @@
       "DRpct": 35.2332,
       "DefTOpct": 19.4646,
       "OffTOpct": 19.2712,
-      "eFGpct": 45.4941
+      "eFGpct": 45.4941,
+      "confShort": "OVC",
+      "confLong": "Ohio Valley Conference",
+      "team_id": 77
     },
     {
       "team": "Eastern Kentucky",
@@ -640,7 +877,10 @@
       "DRpct": 31.7343,
       "DefTOpct": 15.0589,
       "OffTOpct": 17.3895,
-      "eFGpct": 51.5943
+      "eFGpct": 51.5943,
+      "confShort": "ASun",
+      "confLong": "ASUN Conference",
+      "team_id": 78
     },
     {
       "team": "Eastern Michigan",
@@ -648,7 +888,10 @@
       "DRpct": 29.2453,
       "DefTOpct": 16.3708,
       "OffTOpct": 17.4581,
-      "eFGpct": 50.0357
+      "eFGpct": 50.0357,
+      "confShort": "MAC",
+      "confLong": "Mid American Conference",
+      "team_id": 79
     },
     {
       "team": "Eastern Washington",
@@ -656,7 +899,10 @@
       "DRpct": 32.3963,
       "DefTOpct": 16.6988,
       "OffTOpct": 18.0705,
-      "eFGpct": 52.0937
+      "eFGpct": 52.0937,
+      "confShort": "BSky",
+      "confLong": "Big Sky Conference",
+      "team_id": 80
     },
     {
       "team": "Elon",
@@ -664,7 +910,10 @@
       "DRpct": 33.5656,
       "DefTOpct": 16.2557,
       "OffTOpct": 15.7776,
-      "eFGpct": 53.677
+      "eFGpct": 53.677,
+      "confShort": "CAA",
+      "confLong": "Coastal Athletic Association",
+      "team_id": 81
     },
     {
       "team": "Evansville",
@@ -672,7 +921,10 @@
       "DRpct": 30.303,
       "DefTOpct": 16.2246,
       "OffTOpct": 19.4573,
-      "eFGpct": 49.0099
+      "eFGpct": 49.0099,
+      "confShort": "MVC",
+      "confLong": "Missouri Valley Conference",
+      "team_id": 82
     },
     {
       "team": "Fairfield",
@@ -680,7 +932,10 @@
       "DRpct": 29.0739,
       "DefTOpct": 16.0991,
       "OffTOpct": 14.7922,
-      "eFGpct": 49.1094
+      "eFGpct": 49.1094,
+      "confShort": "MAAC",
+      "confLong": "Metro Atlantic Athletic Conference",
+      "team_id": 83
     },
     {
       "team": "Fairleigh Dickinson",
@@ -688,7 +943,10 @@
       "DRpct": 28.5521,
       "DefTOpct": 16.4206,
       "OffTOpct": 17.8166,
-      "eFGpct": 47.3235
+      "eFGpct": 47.3235,
+      "confShort": "NEC",
+      "confLong": "NEC",
+      "team_id": 84
     },
     {
       "team": "FIU",
@@ -696,7 +954,10 @@
       "DRpct": 35.8134,
       "DefTOpct": 19.677,
       "OffTOpct": 16.9405,
-      "eFGpct": 50.234
+      "eFGpct": 50.234,
+      "confShort": "CUSA",
+      "confLong": "Conference USA",
+      "team_id": 85
     },
     {
       "team": "Florida",
@@ -704,7 +965,10 @@
       "DRpct": 23.8248,
       "DefTOpct": 15.4438,
       "OffTOpct": 16.1901,
-      "eFGpct": 52.694
+      "eFGpct": 52.694,
+      "confShort": "SEC",
+      "confLong": "Southeastern Conference",
+      "team_id": 86
     },
     {
       "team": "Florida A&M",
@@ -712,7 +976,10 @@
       "DRpct": 32.3263,
       "DefTOpct": 19.5467,
       "OffTOpct": 22.5701,
-      "eFGpct": 49.4165
+      "eFGpct": 49.4165,
+      "confShort": "SWAC",
+      "confLong": "Southwestern Athletic Conference",
+      "team_id": 87
     },
     {
       "team": "Florida Atlantic",
@@ -720,7 +987,10 @@
       "DRpct": 28.1959,
       "DefTOpct": 16.2883,
       "OffTOpct": 17.9838,
-      "eFGpct": 52.7305
+      "eFGpct": 52.7305,
+      "confShort": "Amer",
+      "confLong": "American Athletic Conference",
+      "team_id": 88
     },
     {
       "team": "Florida Gulf Coast",
@@ -728,7 +998,10 @@
       "DRpct": 29.7719,
       "DefTOpct": 16.3629,
       "OffTOpct": 16.8338,
-      "eFGpct": 52.7702
+      "eFGpct": 52.7702,
+      "confShort": "ASun",
+      "confLong": "ASUN Conference",
+      "team_id": 89
     },
     {
       "team": "Florida St.",
@@ -736,7 +1009,10 @@
       "DRpct": 32.9466,
       "DefTOpct": 19.6922,
       "OffTOpct": 15.7311,
-      "eFGpct": 49.7416
+      "eFGpct": 49.7416,
+      "confShort": "ACC",
+      "confLong": "Atlantic Coast Conference",
+      "team_id": 90
     },
     {
       "team": "Fordham",
@@ -744,7 +1020,10 @@
       "DRpct": 26.9333,
       "DefTOpct": 16.6265,
       "OffTOpct": 17.1196,
-      "eFGpct": 48.6301
+      "eFGpct": 48.6301,
+      "confShort": "A10",
+      "confLong": "Atlantic 10 Conference",
+      "team_id": 91
     },
     {
       "team": "Fresno St.",
@@ -752,7 +1031,10 @@
       "DRpct": 30.3813,
       "DefTOpct": 19.3318,
       "OffTOpct": 19.0839,
-      "eFGpct": 50.0383
+      "eFGpct": 50.0383,
+      "confShort": "MWC",
+      "confLong": "Mountain West Conference",
+      "team_id": 92
     },
     {
       "team": "Furman",
@@ -760,7 +1042,10 @@
       "DRpct": 28.7209,
       "DefTOpct": 13.8937,
       "OffTOpct": 18.5676,
-      "eFGpct": 54.4318
+      "eFGpct": 54.4318,
+      "confShort": "SC",
+      "confLong": "Southern Conference",
+      "team_id": 93
     },
     {
       "team": "Gardner Webb",
@@ -768,7 +1053,10 @@
       "DRpct": 36.6751,
       "DefTOpct": 14.5585,
       "OffTOpct": 20.9202,
-      "eFGpct": 47.0521
+      "eFGpct": 47.0521,
+      "confShort": "BSth",
+      "confLong": "Big South Conference",
+      "team_id": 94
     },
     {
       "team": "George Mason",
@@ -776,7 +1064,10 @@
       "DRpct": 28.223,
       "DefTOpct": 16.5312,
       "OffTOpct": 15.8344,
-      "eFGpct": 53.3074
+      "eFGpct": 53.3074,
+      "confShort": "A10",
+      "confLong": "Atlantic 10 Conference",
+      "team_id": 95
     },
     {
       "team": "George Washington",
@@ -784,7 +1075,10 @@
       "DRpct": 29.2014,
       "DefTOpct": 17.7466,
       "OffTOpct": 17.8641,
-      "eFGpct": 54.9522
+      "eFGpct": 54.9522,
+      "confShort": "A10",
+      "confLong": "Atlantic 10 Conference",
+      "team_id": 96
     },
     {
       "team": "Georgetown",
@@ -792,7 +1086,10 @@
       "DRpct": 30.7958,
       "DefTOpct": 16.3332,
       "OffTOpct": 14.7487,
-      "eFGpct": 49.3959
+      "eFGpct": 49.3959,
+      "confShort": "BE",
+      "confLong": "Big East Conference",
+      "team_id": 97
     },
     {
       "team": "Georgia",
@@ -800,7 +1097,10 @@
       "DRpct": 35.3422,
       "DefTOpct": 19.4972,
       "OffTOpct": 14.5412,
-      "eFGpct": 53.2878
+      "eFGpct": 53.2878,
+      "confShort": "SEC",
+      "confLong": "Southeastern Conference",
+      "team_id": 98
     },
     {
       "team": "Georgia Southern",
@@ -808,7 +1108,10 @@
       "DRpct": 35.8295,
       "DefTOpct": 18.9594,
       "OffTOpct": 14.7207,
-      "eFGpct": 49.4908
+      "eFGpct": 49.4908,
+      "confShort": "SB",
+      "confLong": "Sun Belt Conference",
+      "team_id": 99
     },
     {
       "team": "Georgia St.",
@@ -816,7 +1119,10 @@
       "DRpct": 33.3333,
       "DefTOpct": 16.8514,
       "OffTOpct": 16.4903,
-      "eFGpct": 44.8052
+      "eFGpct": 44.8052,
+      "confShort": "SB",
+      "confLong": "Sun Belt Conference",
+      "team_id": 100
     },
     {
       "team": "Georgia Tech",
@@ -824,7 +1130,10 @@
       "DRpct": 29.4845,
       "DefTOpct": 15.2162,
       "OffTOpct": 18.1595,
-      "eFGpct": 50.332
+      "eFGpct": 50.332,
+      "confShort": "ACC",
+      "confLong": "Atlantic Coast Conference",
+      "team_id": 101
     },
     {
       "team": "Gonzaga",
@@ -832,7 +1141,10 @@
       "DRpct": 24.0286,
       "DefTOpct": 20.7758,
       "OffTOpct": 13.8861,
-      "eFGpct": 56.5282
+      "eFGpct": 56.5282,
+      "confShort": "WCC",
+      "confLong": "West Coast Conference",
+      "team_id": 102
     },
     {
       "team": "Grambling St.",
@@ -840,7 +1152,10 @@
       "DRpct": 33.2386,
       "DefTOpct": 20.5142,
       "OffTOpct": 21.5538,
-      "eFGpct": 49.4075
+      "eFGpct": 49.4075,
+      "confShort": "SWAC",
+      "confLong": "Southwestern Athletic Conference",
+      "team_id": 103
     },
     {
       "team": "Grand Canyon",
@@ -848,7 +1163,10 @@
       "DRpct": 26.5233,
       "DefTOpct": 18.1084,
       "OffTOpct": 17.5088,
-      "eFGpct": 50
+      "eFGpct": 50,
+      "confShort": "MWC",
+      "confLong": "Mountain West Conference",
+      "team_id": 104
     },
     {
       "team": "Green Bay",
@@ -856,7 +1174,10 @@
       "DRpct": 29.4045,
       "DefTOpct": 13.5424,
       "OffTOpct": 16.4094,
-      "eFGpct": 54.6118
+      "eFGpct": 54.6118,
+      "confShort": "Horz",
+      "confLong": "Horizon League",
+      "team_id": 105
     },
     {
       "team": "Hampton",
@@ -864,7 +1185,10 @@
       "DRpct": 29.9738,
       "DefTOpct": 17.9013,
       "OffTOpct": 17.5735,
-      "eFGpct": 45.669
+      "eFGpct": 45.669,
+      "confShort": "CAA",
+      "confLong": "Coastal Athletic Association",
+      "team_id": 106
     },
     {
       "team": "Harvard",
@@ -872,7 +1196,10 @@
       "DRpct": 28.866,
       "DefTOpct": 17.2509,
       "OffTOpct": 16.956,
-      "eFGpct": 54.2179
+      "eFGpct": 54.2179,
+      "confShort": "Ivy",
+      "confLong": "Ivy League",
+      "team_id": 108
     },
     {
       "team": "Hawaii",
@@ -880,7 +1207,10 @@
       "DRpct": 25.9352,
       "DefTOpct": 17.118,
       "OffTOpct": 19.2823,
-      "eFGpct": 52.9194
+      "eFGpct": 52.9194,
+      "confShort": "BW",
+      "confLong": "Big West Conference",
+      "team_id": 109
     },
     {
       "team": "High Point",
@@ -888,7 +1218,10 @@
       "DRpct": 31.8681,
       "DefTOpct": 23.3816,
       "OffTOpct": 12.5363,
-      "eFGpct": 54.8739
+      "eFGpct": 54.8739,
+      "confShort": "BSth",
+      "confLong": "Big South Conference",
+      "team_id": 110
     },
     {
       "team": "Hofstra",
@@ -896,7 +1229,10 @@
       "DRpct": 30.6488,
       "DefTOpct": 15.1949,
       "OffTOpct": 16.508,
-      "eFGpct": 51.2703
+      "eFGpct": 51.2703,
+      "confShort": "CAA",
+      "confLong": "Coastal Athletic Association",
+      "team_id": 111
     },
     {
       "team": "Holy Cross",
@@ -904,7 +1240,10 @@
       "DRpct": 27.4839,
       "DefTOpct": 14.4654,
       "OffTOpct": 15.8612,
-      "eFGpct": 49.505
+      "eFGpct": 49.505,
+      "confShort": "PL",
+      "confLong": "Patriot League",
+      "team_id": 112
     },
     {
       "team": "Houston",
@@ -912,7 +1251,10 @@
       "DRpct": 31.5085,
       "DefTOpct": 22.5587,
       "OffTOpct": 12.2756,
-      "eFGpct": 52.6263
+      "eFGpct": 52.6263,
+      "confShort": "B12",
+      "confLong": "Big 12 Conference",
+      "team_id": 113
     },
     {
       "team": "Houston Christian",
@@ -920,7 +1262,10 @@
       "DRpct": 32.6733,
       "DefTOpct": 17.6538,
       "OffTOpct": 19.2709,
-      "eFGpct": 50.4105
+      "eFGpct": 50.4105,
+      "confShort": "Slnd",
+      "confLong": "Southland Conference",
+      "team_id": 114
     },
     {
       "team": "Howard",
@@ -928,7 +1273,10 @@
       "DRpct": 32.7824,
       "DefTOpct": 21.3255,
       "OffTOpct": 20.3655,
-      "eFGpct": 48.4215
+      "eFGpct": 48.4215,
+      "confShort": "MEAC",
+      "confLong": "Mid-Eastern Athletic Conference",
+      "team_id": 115
     },
     {
       "team": "Idaho",
@@ -936,7 +1284,10 @@
       "DRpct": 25.776,
       "DefTOpct": 15.6952,
       "OffTOpct": 15.2393,
-      "eFGpct": 51.3534
+      "eFGpct": 51.3534,
+      "confShort": "BSky",
+      "confLong": "Big Sky Conference",
+      "team_id": 116
     },
     {
       "team": "Idaho St.",
@@ -944,7 +1295,10 @@
       "DRpct": 29.7721,
       "DefTOpct": 15.1778,
       "OffTOpct": 17.4675,
-      "eFGpct": 52.8823
+      "eFGpct": 52.8823,
+      "confShort": "BSky",
+      "confLong": "Big Sky Conference",
+      "team_id": 117
     },
     {
       "team": "Illinois",
@@ -952,7 +1306,10 @@
       "DRpct": 26.7913,
       "DefTOpct": 11.2536,
       "OffTOpct": 13.9926,
-      "eFGpct": 55.9228
+      "eFGpct": 55.9228,
+      "confShort": "B10",
+      "confLong": "Big Ten Conference",
+      "team_id": 118
     },
     {
       "team": "Illinois Chicago",
@@ -960,7 +1317,10 @@
       "DRpct": 34.058,
       "DefTOpct": 20.2704,
       "OffTOpct": 17.8134,
-      "eFGpct": 48.0742
+      "eFGpct": 48.0742,
+      "confShort": "MVC",
+      "confLong": "Missouri Valley Conference",
+      "team_id": 119
     },
     {
       "team": "Illinois St.",
@@ -968,7 +1328,10 @@
       "DRpct": 24.2081,
       "DefTOpct": 16.6124,
       "OffTOpct": 15.9712,
-      "eFGpct": 54.0096
+      "eFGpct": 54.0096,
+      "confShort": "MVC",
+      "confLong": "Missouri Valley Conference",
+      "team_id": 120
     },
     {
       "team": "Incarnate Word",
@@ -976,7 +1339,10 @@
       "DRpct": 32.0532,
       "DefTOpct": 16.2358,
       "OffTOpct": 17.7429,
-      "eFGpct": 49.681
+      "eFGpct": 49.681,
+      "confShort": "Slnd",
+      "confLong": "Southland Conference",
+      "team_id": 121
     },
     {
       "team": "Indiana",
@@ -984,7 +1350,10 @@
       "DRpct": 28.9562,
       "DefTOpct": 15.7078,
       "OffTOpct": 14.7804,
-      "eFGpct": 56.2413
+      "eFGpct": 56.2413,
+      "confShort": "B10",
+      "confLong": "Big Ten Conference",
+      "team_id": 122
     },
     {
       "team": "Indiana St.",
@@ -992,7 +1361,10 @@
       "DRpct": 32.0269,
       "DefTOpct": 15.0426,
       "OffTOpct": 19.0539,
-      "eFGpct": 52.7279
+      "eFGpct": 52.7279,
+      "confShort": "MVC",
+      "confLong": "Missouri Valley Conference",
+      "team_id": 123
     },
     {
       "team": "Iona",
@@ -1000,7 +1372,10 @@
       "DRpct": 32.7253,
       "DefTOpct": 16.9427,
       "OffTOpct": 16.5421,
-      "eFGpct": 51.8048
+      "eFGpct": 51.8048,
+      "confShort": "MAAC",
+      "confLong": "Metro Atlantic Athletic Conference",
+      "team_id": 124
     },
     {
       "team": "Iowa",
@@ -1008,7 +1383,10 @@
       "DRpct": 29.6348,
       "DefTOpct": 21.8012,
       "OffTOpct": 15.1632,
-      "eFGpct": 58.082
+      "eFGpct": 58.082,
+      "confShort": "B10",
+      "confLong": "Big Ten Conference",
+      "team_id": 125
     },
     {
       "team": "Iowa St.",
@@ -1016,7 +1394,10 @@
       "DRpct": 28.2927,
       "DefTOpct": 22.4385,
       "OffTOpct": 15.9844,
-      "eFGpct": 58.3045
+      "eFGpct": 58.3045,
+      "confShort": "B12",
+      "confLong": "Big 12 Conference",
+      "team_id": 126
     },
     {
       "team": "IU Indy",
@@ -1024,7 +1405,10 @@
       "DRpct": 37.037,
       "DefTOpct": 19.9351,
       "OffTOpct": 15.6936,
-      "eFGpct": 51.7962
+      "eFGpct": 51.7962,
+      "confShort": "Horz",
+      "confLong": "Horizon League",
+      "team_id": 128
     },
     {
       "team": "Jackson St.",
@@ -1032,7 +1416,10 @@
       "DRpct": 37.7828,
       "DefTOpct": 15.2508,
       "OffTOpct": 19.6579,
-      "eFGpct": 45.8511
+      "eFGpct": 45.8511,
+      "confShort": "SWAC",
+      "confLong": "Southwestern Athletic Conference",
+      "team_id": 129
     },
     {
       "team": "Jacksonville",
@@ -1040,7 +1427,10 @@
       "DRpct": 29.3405,
       "DefTOpct": 15.379,
       "OffTOpct": 18.3414,
-      "eFGpct": 49.2895
+      "eFGpct": 49.2895,
+      "confShort": "ASun",
+      "confLong": "ASUN Conference",
+      "team_id": 130
     },
     {
       "team": "Jacksonville St.",
@@ -1048,7 +1438,10 @@
       "DRpct": 29.2818,
       "DefTOpct": 16.3512,
       "OffTOpct": 18.2323,
-      "eFGpct": 49.7746
+      "eFGpct": 49.7746,
+      "confShort": "CUSA",
+      "confLong": "Conference USA",
+      "team_id": 131
     },
     {
       "team": "James Madison",
@@ -1056,7 +1449,10 @@
       "DRpct": 30.6941,
       "DefTOpct": 12.899,
       "OffTOpct": 17.6918,
-      "eFGpct": 52.8441
+      "eFGpct": 52.8441,
+      "confShort": "SB",
+      "confLong": "Sun Belt Conference",
+      "team_id": 132
     },
     {
       "team": "Kansas",
@@ -1064,7 +1460,10 @@
       "DRpct": 29.6333,
       "DefTOpct": 13.8817,
       "OffTOpct": 15.0941,
-      "eFGpct": 53.8873
+      "eFGpct": 53.8873,
+      "confShort": "B12",
+      "confLong": "Big 12 Conference",
+      "team_id": 133
     },
     {
       "team": "Kansas City",
@@ -1072,7 +1471,10 @@
       "DRpct": 35.9008,
       "DefTOpct": 16.4519,
       "OffTOpct": 19.0562,
-      "eFGpct": 46.1191
+      "eFGpct": 46.1191,
+      "confShort": "Sum",
+      "confLong": "Summit League",
+      "team_id": 310
     },
     {
       "team": "Kansas St.",
@@ -1080,7 +1482,10 @@
       "DRpct": 33.7237,
       "DefTOpct": 17.145,
       "OffTOpct": 17.145,
-      "eFGpct": 53.8561
+      "eFGpct": 53.8561,
+      "confShort": "B12",
+      "confLong": "Big 12 Conference",
+      "team_id": 134
     },
     {
       "team": "Kennesaw St.",
@@ -1088,7 +1493,10 @@
       "DRpct": 30.6533,
       "DefTOpct": 15.6403,
       "OffTOpct": 17.0563,
-      "eFGpct": 49.8086
+      "eFGpct": 49.8086,
+      "confShort": "CUSA",
+      "confLong": "Conference USA",
+      "team_id": 135
     },
     {
       "team": "Kent St.",
@@ -1096,7 +1504,10 @@
       "DRpct": 29.9882,
       "DefTOpct": 16.0242,
       "OffTOpct": 18.9483,
-      "eFGpct": 51.919
+      "eFGpct": 51.919,
+      "confShort": "MAC",
+      "confLong": "Mid American Conference",
+      "team_id": 136
     },
     {
       "team": "Kentucky",
@@ -1104,7 +1515,10 @@
       "DRpct": 28.9444,
       "DefTOpct": 16.0296,
       "OffTOpct": 14.5834,
-      "eFGpct": 53.982
+      "eFGpct": 53.982,
+      "confShort": "SEC",
+      "confLong": "Southeastern Conference",
+      "team_id": 137
     },
     {
       "team": "La Salle",
@@ -1112,7 +1526,10 @@
       "DRpct": 31.8182,
       "DefTOpct": 17.1466,
       "OffTOpct": 18.5386,
-      "eFGpct": 45.3869
+      "eFGpct": 45.3869,
+      "confShort": "A10",
+      "confLong": "Atlantic 10 Conference",
+      "team_id": 138
     },
     {
       "team": "Lafayette",
@@ -1120,7 +1537,10 @@
       "DRpct": 30.0236,
       "DefTOpct": 15.6081,
       "OffTOpct": 15.6081,
-      "eFGpct": 47.9267
+      "eFGpct": 47.9267,
+      "confShort": "PL",
+      "confLong": "Patriot League",
+      "team_id": 139
     },
     {
       "team": "Lamar",
@@ -1128,7 +1548,10 @@
       "DRpct": 28.5714,
       "DefTOpct": 17.3207,
       "OffTOpct": 17.5831,
-      "eFGpct": 48.9439
+      "eFGpct": 48.9439,
+      "confShort": "Slnd",
+      "confLong": "Southland Conference",
+      "team_id": 140
     },
     {
       "team": "Le Moyne",
@@ -1136,7 +1559,10 @@
       "DRpct": 30.6538,
       "DefTOpct": 15.413,
       "OffTOpct": 19.7425,
-      "eFGpct": 52.7077
+      "eFGpct": 52.7077,
+      "confShort": "NEC",
+      "confLong": "NEC",
+      "team_id": 370
     },
     {
       "team": "Lehigh",
@@ -1144,7 +1570,10 @@
       "DRpct": 33.3731,
       "DefTOpct": 16.9224,
       "OffTOpct": 17.8724,
-      "eFGpct": 52.4705
+      "eFGpct": 52.4705,
+      "confShort": "PL",
+      "confLong": "Patriot League",
+      "team_id": 141
     },
     {
       "team": "Liberty",
@@ -1152,7 +1581,10 @@
       "DRpct": 32.1678,
       "DefTOpct": 17.8162,
       "OffTOpct": 13.3622,
-      "eFGpct": 60.0352
+      "eFGpct": 60.0352,
+      "confShort": "CUSA",
+      "confLong": "Conference USA",
+      "team_id": 142
     },
     {
       "team": "Lindenwood",
@@ -1160,7 +1592,10 @@
       "DRpct": 32.3632,
       "DefTOpct": 18.8424,
       "OffTOpct": 19.2571,
-      "eFGpct": 48.9613
+      "eFGpct": 48.9613,
+      "confShort": "OVC",
+      "confLong": "Ohio Valley Conference",
+      "team_id": 368
     },
     {
       "team": "Lipscomb",
@@ -1168,7 +1603,10 @@
       "DRpct": 30.1998,
       "DefTOpct": 18.0282,
       "OffTOpct": 16.1673,
-      "eFGpct": 53.951
+      "eFGpct": 53.951,
+      "confShort": "ASun",
+      "confLong": "ASUN Conference",
+      "team_id": 143
     },
     {
       "team": "Little Rock",
@@ -1176,7 +1614,10 @@
       "DRpct": 35.0063,
       "DefTOpct": 19.6967,
       "OffTOpct": 19.0812,
-      "eFGpct": 49.3933
+      "eFGpct": 49.3933,
+      "confShort": "OVC",
+      "confLong": "Ohio Valley Conference",
+      "team_id": 14
     },
     {
       "team": "LIU",
@@ -1184,7 +1625,10 @@
       "DRpct": 32.3896,
       "DefTOpct": 18.8679,
       "OffTOpct": 19.618,
-      "eFGpct": 51.9113
+      "eFGpct": 51.9113,
+      "confShort": "NEC",
+      "confLong": "NEC",
+      "team_id": 144
     },
     {
       "team": "Long Beach St.",
@@ -1192,7 +1636,10 @@
       "DRpct": 28.7088,
       "DefTOpct": 17.8435,
       "OffTOpct": 17.7205,
-      "eFGpct": 50.7407
+      "eFGpct": 50.7407,
+      "confShort": "BW",
+      "confLong": "Big West Conference",
+      "team_id": 145
     },
     {
       "team": "Longwood",
@@ -1200,7 +1647,10 @@
       "DRpct": 28.0941,
       "DefTOpct": 19.556,
       "OffTOpct": 19.4967,
-      "eFGpct": 49.927
+      "eFGpct": 49.927,
+      "confShort": "BSth",
+      "confLong": "Big South Conference",
+      "team_id": 146
     },
     {
       "team": "Louisiana",
@@ -1208,7 +1658,10 @@
       "DRpct": 31.5723,
       "DefTOpct": 17.8516,
       "OffTOpct": 17.973,
-      "eFGpct": 47.8799
+      "eFGpct": 47.8799,
+      "confShort": "SB",
+      "confLong": "Sun Belt Conference",
+      "team_id": 147
     },
     {
       "team": "Louisiana Monroe",
@@ -1216,7 +1669,10 @@
       "DRpct": 35.6977,
       "DefTOpct": 16.0994,
       "OffTOpct": 17.9525,
-      "eFGpct": 47.4045
+      "eFGpct": 47.4045,
+      "confShort": "SB",
+      "confLong": "Sun Belt Conference",
+      "team_id": 148
     },
     {
       "team": "Louisiana Tech",
@@ -1224,7 +1680,10 @@
       "DRpct": 30.7383,
       "DefTOpct": 17.4165,
       "OffTOpct": 17.852,
-      "eFGpct": 45.5474
+      "eFGpct": 45.5474,
+      "confShort": "CUSA",
+      "confLong": "Conference USA",
+      "team_id": 149
     },
     {
       "team": "Louisville",
@@ -1232,7 +1691,10 @@
       "DRpct": 26.6451,
       "DefTOpct": 17.1526,
       "OffTOpct": 15.9357,
-      "eFGpct": 56.5057
+      "eFGpct": 56.5057,
+      "confShort": "ACC",
+      "confLong": "Atlantic Coast Conference",
+      "team_id": 150
     },
     {
       "team": "Loyola Chicago",
@@ -1240,7 +1702,10 @@
       "DRpct": 30.8982,
       "DefTOpct": 12.6525,
       "OffTOpct": 19.8565,
-      "eFGpct": 49.4573
+      "eFGpct": 49.4573,
+      "confShort": "A10",
+      "confLong": "Atlantic 10 Conference",
+      "team_id": 151
     },
     {
       "team": "Loyola Marymount",
@@ -1248,7 +1713,10 @@
       "DRpct": 32.4607,
       "DefTOpct": 16.5694,
       "OffTOpct": 18.1711,
-      "eFGpct": 51.6247
+      "eFGpct": 51.6247,
+      "confShort": "WCC",
+      "confLong": "West Coast Conference",
+      "team_id": 152
     },
     {
       "team": "Loyola MD",
@@ -1256,7 +1724,10 @@
       "DRpct": 29.8507,
       "DefTOpct": 16.0674,
       "OffTOpct": 16.8468,
-      "eFGpct": 50.4202
+      "eFGpct": 50.4202,
+      "confShort": "PL",
+      "confLong": "Patriot League",
+      "team_id": 153
     },
     {
       "team": "LSU",
@@ -1264,7 +1735,10 @@
       "DRpct": 30.9813,
       "DefTOpct": 14.9447,
       "OffTOpct": 15.8378,
-      "eFGpct": 53.267
+      "eFGpct": 53.267,
+      "confShort": "SEC",
+      "confLong": "Southeastern Conference",
+      "team_id": 154
     },
     {
       "team": "Maine",
@@ -1272,7 +1746,10 @@
       "DRpct": 36.0195,
       "DefTOpct": 19.0605,
       "OffTOpct": 19.4307,
-      "eFGpct": 49.2754
+      "eFGpct": 49.2754,
+      "confShort": "AE",
+      "confLong": "America East Conference",
+      "team_id": 155
     },
     {
       "team": "Manhattan",
@@ -1280,7 +1757,10 @@
       "DRpct": 37.6682,
       "DefTOpct": 16.263,
       "OffTOpct": 15.401,
-      "eFGpct": 48.1195
+      "eFGpct": 48.1195,
+      "confShort": "MAAC",
+      "confLong": "Metro Atlantic Athletic Conference",
+      "team_id": 156
     },
     {
       "team": "Marist",
@@ -1288,7 +1768,10 @@
       "DRpct": 27.6817,
       "DefTOpct": 19.6874,
       "OffTOpct": 17.2576,
-      "eFGpct": 50.2553
+      "eFGpct": 50.2553,
+      "confShort": "MAAC",
+      "confLong": "Metro Atlantic Athletic Conference",
+      "team_id": 157
     },
     {
       "team": "Marquette",
@@ -1296,7 +1779,10 @@
       "DRpct": 34.2075,
       "DefTOpct": 19.2188,
       "OffTOpct": 16.025,
-      "eFGpct": 50.0326
+      "eFGpct": 50.0326,
+      "confShort": "BE",
+      "confLong": "Big East Conference",
+      "team_id": 158
     },
     {
       "team": "Marshall",
@@ -1304,7 +1790,10 @@
       "DRpct": 32.8664,
       "DefTOpct": 16.9143,
       "OffTOpct": 17.3874,
-      "eFGpct": 54.2408
+      "eFGpct": 54.2408,
+      "confShort": "SB",
+      "confLong": "Sun Belt Conference",
+      "team_id": 159
     },
     {
       "team": "Maryland",
@@ -1312,7 +1801,10 @@
       "DRpct": 31.3676,
       "DefTOpct": 16.1588,
       "OffTOpct": 18.4759,
-      "eFGpct": 48.607
+      "eFGpct": 48.607,
+      "confShort": "B10",
+      "confLong": "Big Ten Conference",
+      "team_id": 160
     },
     {
       "team": "Maryland Eastern Shore",
@@ -1320,7 +1812,10 @@
       "DRpct": 32.8496,
       "DefTOpct": 17.0556,
       "OffTOpct": 23.0052,
-      "eFGpct": 47.2808
+      "eFGpct": 47.2808,
+      "confShort": "MEAC",
+      "confLong": "Mid-Eastern Athletic Conference",
+      "team_id": 161
     },
     {
       "team": "Massachusetts",
@@ -1328,7 +1823,10 @@
       "DRpct": 26.5509,
       "DefTOpct": 17.9463,
       "OffTOpct": 17.8892,
-      "eFGpct": 52.7341
+      "eFGpct": 52.7341,
+      "confShort": "MAC",
+      "confLong": "Mid American Conference",
+      "team_id": 162
     },
     {
       "team": "McNeese",
@@ -1336,7 +1834,10 @@
       "DRpct": 36.6925,
       "DefTOpct": 24.5279,
       "OffTOpct": 14.964,
-      "eFGpct": 51.236
+      "eFGpct": 51.236,
+      "confShort": "Slnd",
+      "confLong": "Southland Conference",
+      "team_id": 163
     },
     {
       "team": "Memphis",
@@ -1344,7 +1845,10 @@
       "DRpct": 34.7238,
       "DefTOpct": 20.0711,
       "OffTOpct": 19.8966,
-      "eFGpct": 49.4182
+      "eFGpct": 49.4182,
+      "confShort": "Amer",
+      "confLong": "American Athletic Conference",
+      "team_id": 164
     },
     {
       "team": "Mercer",
@@ -1352,7 +1856,10 @@
       "DRpct": 32.1812,
       "DefTOpct": 17.3726,
       "OffTOpct": 15.2088,
-      "eFGpct": 51.5681
+      "eFGpct": 51.5681,
+      "confShort": "SC",
+      "confLong": "Southern Conference",
+      "team_id": 165
     },
     {
       "team": "Mercyhurst",
@@ -1360,7 +1867,10 @@
       "DRpct": 32.0203,
       "DefTOpct": 19.605,
       "OffTOpct": 15.0758,
-      "eFGpct": 48.6142
+      "eFGpct": 48.6142,
+      "confShort": "NEC",
+      "confLong": "NEC",
+      "team_id": 371
     },
     {
       "team": "Merrimack",
@@ -1368,7 +1878,10 @@
       "DRpct": 40.374,
       "DefTOpct": 19.6163,
       "OffTOpct": 15.5023,
-      "eFGpct": 49.8183
+      "eFGpct": 49.8183,
+      "confShort": "MAAC",
+      "confLong": "Metro Atlantic Athletic Conference",
+      "team_id": 359
     },
     {
       "team": "Miami FL",
@@ -1376,7 +1889,10 @@
       "DRpct": 25.5814,
       "DefTOpct": 18.6367,
       "OffTOpct": 16.1597,
-      "eFGpct": 56.4147
+      "eFGpct": 56.4147,
+      "confShort": "ACC",
+      "confLong": "Atlantic Coast Conference",
+      "team_id": 166
     },
     {
       "team": "Miami OH",
@@ -1384,7 +1900,10 @@
       "DRpct": 28.2552,
       "DefTOpct": 18.5467,
       "OffTOpct": 15.2044,
-      "eFGpct": 60.0568
+      "eFGpct": 60.0568,
+      "confShort": "MAC",
+      "confLong": "Mid American Conference",
+      "team_id": 167
     },
     {
       "team": "Michigan",
@@ -1392,7 +1911,10 @@
       "DRpct": 27.8054,
       "DefTOpct": 16.567,
       "OffTOpct": 16.6233,
-      "eFGpct": 58.5121
+      "eFGpct": 58.5121,
+      "confShort": "B10",
+      "confLong": "Big Ten Conference",
+      "team_id": 168
     },
     {
       "team": "Michigan St.",
@@ -1400,7 +1922,10 @@
       "DRpct": 22.0944,
       "DefTOpct": 15.6236,
       "OffTOpct": 17.6534,
-      "eFGpct": 53.4703
+      "eFGpct": 53.4703,
+      "confShort": "B10",
+      "confLong": "Big Ten Conference",
+      "team_id": 169
     },
     {
       "team": "Middle Tennessee",
@@ -1408,7 +1933,10 @@
       "DRpct": 28.4354,
       "DefTOpct": 14.4524,
       "OffTOpct": 17.1753,
-      "eFGpct": 51.5152
+      "eFGpct": 51.5152,
+      "confShort": "CUSA",
+      "confLong": "Conference USA",
+      "team_id": 170
     },
     {
       "team": "Milwaukee",
@@ -1416,7 +1944,10 @@
       "DRpct": 29.8957,
       "DefTOpct": 15.8698,
       "OffTOpct": 15.3169,
-      "eFGpct": 49.5336
+      "eFGpct": 49.5336,
+      "confShort": "Horz",
+      "confLong": "Horizon League",
+      "team_id": 171
     },
     {
       "team": "Minnesota",
@@ -1424,7 +1955,10 @@
       "DRpct": 29.7634,
       "DefTOpct": 17.2394,
       "OffTOpct": 16.4063,
-      "eFGpct": 53.3386
+      "eFGpct": 53.3386,
+      "confShort": "B10",
+      "confLong": "Big Ten Conference",
+      "team_id": 172
     },
     {
       "team": "Mississippi",
@@ -1432,7 +1966,10 @@
       "DRpct": 32.5231,
       "DefTOpct": 16.9075,
       "OffTOpct": 14.3252,
-      "eFGpct": 50.0351
+      "eFGpct": 50.0351,
+      "confShort": "SEC",
+      "confLong": "Southeastern Conference",
+      "team_id": 173
     },
     {
       "team": "Mississippi St.",
@@ -1440,7 +1977,10 @@
       "DRpct": 29.5671,
       "DefTOpct": 13.0453,
       "OffTOpct": 16.22,
-      "eFGpct": 50.132
+      "eFGpct": 50.132,
+      "confShort": "SEC",
+      "confLong": "Southeastern Conference",
+      "team_id": 174
     },
     {
       "team": "Mississippi Valley St.",
@@ -1448,7 +1988,10 @@
       "DRpct": 36,
       "DefTOpct": 16.6545,
       "OffTOpct": 22.3084,
-      "eFGpct": 44.7348
+      "eFGpct": 44.7348,
+      "confShort": "SWAC",
+      "confLong": "Southwestern Athletic Conference",
+      "team_id": 175
     },
     {
       "team": "Missouri",
@@ -1456,7 +1999,10 @@
       "DRpct": 30.0585,
       "DefTOpct": 16.5221,
       "OffTOpct": 18.0296,
-      "eFGpct": 55.8039
+      "eFGpct": 55.8039,
+      "confShort": "SEC",
+      "confLong": "Southeastern Conference",
+      "team_id": 176
     },
     {
       "team": "Missouri St.",
@@ -1464,7 +2010,10 @@
       "DRpct": 32.9496,
       "DefTOpct": 18.2726,
       "OffTOpct": 17.7147,
-      "eFGpct": 50.128
+      "eFGpct": 50.128,
+      "confShort": "CUSA",
+      "confLong": "Conference USA",
+      "team_id": 177
     },
     {
       "team": "Monmouth",
@@ -1472,7 +2021,10 @@
       "DRpct": 33.177,
       "DefTOpct": 19.9272,
       "OffTOpct": 16.6974,
-      "eFGpct": 48.9598
+      "eFGpct": 48.9598,
+      "confShort": "CAA",
+      "confLong": "Coastal Athletic Association",
+      "team_id": 178
     },
     {
       "team": "Montana",
@@ -1480,7 +2032,10 @@
       "DRpct": 30.203,
       "DefTOpct": 15.3358,
       "OffTOpct": 20.2245,
-      "eFGpct": 56.5466
+      "eFGpct": 56.5466,
+      "confShort": "BSky",
+      "confLong": "Big Sky Conference",
+      "team_id": 179
     },
     {
       "team": "Montana St.",
@@ -1488,7 +2043,10 @@
       "DRpct": 29.2958,
       "DefTOpct": 16.2019,
       "OffTOpct": 15.2646,
-      "eFGpct": 52.1807
+      "eFGpct": 52.1807,
+      "confShort": "BSky",
+      "confLong": "Big Sky Conference",
+      "team_id": 180
     },
     {
       "team": "Morehead St.",
@@ -1496,7 +2054,10 @@
       "DRpct": 36.6983,
       "DefTOpct": 15.9347,
       "OffTOpct": 18.6865,
-      "eFGpct": 48.4151
+      "eFGpct": 48.4151,
+      "confShort": "OVC",
+      "confLong": "Ohio Valley Conference",
+      "team_id": 181
     },
     {
       "team": "Morgan St.",
@@ -1504,7 +2065,10 @@
       "DRpct": 34.4932,
       "DefTOpct": 16.7694,
       "OffTOpct": 18.4748,
-      "eFGpct": 45.6655
+      "eFGpct": 45.6655,
+      "confShort": "MEAC",
+      "confLong": "Mid-Eastern Athletic Conference",
+      "team_id": 182
     },
     {
       "team": "Mount St. Mary's",
@@ -1512,7 +2076,10 @@
       "DRpct": 29.1892,
       "DefTOpct": 14.686,
       "OffTOpct": 22.6117,
-      "eFGpct": 50.517
+      "eFGpct": 50.517,
+      "confShort": "MAAC",
+      "confLong": "Metro Atlantic Athletic Conference",
+      "team_id": 183
     },
     {
       "team": "Murray St.",
@@ -1520,7 +2087,10 @@
       "DRpct": 31.5684,
       "DefTOpct": 15.6922,
       "OffTOpct": 16.6123,
-      "eFGpct": 54.8603
+      "eFGpct": 54.8603,
+      "confShort": "MVC",
+      "confLong": "Missouri Valley Conference",
+      "team_id": 184
     },
     {
       "team": "N.C. State",
@@ -1528,7 +2098,10 @@
       "DRpct": 28.1111,
       "DefTOpct": 19.1322,
       "OffTOpct": 13.5216,
-      "eFGpct": 56.5574
+      "eFGpct": 56.5574,
+      "confShort": "ACC",
+      "confLong": "Atlantic Coast Conference",
+      "team_id": 200
     },
     {
       "team": "Navy",
@@ -1536,7 +2109,10 @@
       "DRpct": 26.4085,
       "DefTOpct": 18.0814,
       "OffTOpct": 17.3908,
-      "eFGpct": 52.5934
+      "eFGpct": 52.5934,
+      "confShort": "PL",
+      "confLong": "Patriot League",
+      "team_id": 185
     },
     {
       "team": "Nebraska",
@@ -1544,7 +2120,10 @@
       "DRpct": 27.8523,
       "DefTOpct": 18.9368,
       "OffTOpct": 13.2315,
-      "eFGpct": 56.263
+      "eFGpct": 56.263,
+      "confShort": "B10",
+      "confLong": "Big Ten Conference",
+      "team_id": 186
     },
     {
       "team": "Nebraska Omaha",
@@ -1552,7 +2131,10 @@
       "DRpct": 29.1718,
       "DefTOpct": 14.2241,
       "OffTOpct": 16.7305,
-      "eFGpct": 52.8137
+      "eFGpct": 52.8137,
+      "confShort": "Sum",
+      "confLong": "Summit League",
+      "team_id": 187
     },
     {
       "team": "Nevada",
@@ -1560,7 +2142,10 @@
       "DRpct": 28.3088,
       "DefTOpct": 17.1842,
       "OffTOpct": 13.586,
-      "eFGpct": 50.2542
+      "eFGpct": 50.2542,
+      "confShort": "MWC",
+      "confLong": "Mountain West Conference",
+      "team_id": 188
     },
     {
       "team": "New Hampshire",
@@ -1568,7 +2153,10 @@
       "DRpct": 28.7324,
       "DefTOpct": 15.9775,
       "OffTOpct": 16.9417,
-      "eFGpct": 46.8977
+      "eFGpct": 46.8977,
+      "confShort": "AE",
+      "confLong": "America East Conference",
+      "team_id": 189
     },
     {
       "team": "New Haven",
@@ -1576,7 +2164,10 @@
       "DRpct": 27.9137,
       "DefTOpct": 17.0565,
       "OffTOpct": 19.0631,
-      "eFGpct": 48.4431
+      "eFGpct": 48.4431,
+      "confShort": "NEC",
+      "confLong": "NEC",
+      "team_id": 373
     },
     {
       "team": "New Mexico",
@@ -1584,7 +2175,10 @@
       "DRpct": 28.238,
       "DefTOpct": 19.5396,
       "OffTOpct": 15.5375,
-      "eFGpct": 53.6662
+      "eFGpct": 53.6662,
+      "confShort": "MWC",
+      "confLong": "Mountain West Conference",
+      "team_id": 190
     },
     {
       "team": "New Mexico St.",
@@ -1592,7 +2186,10 @@
       "DRpct": 30.4348,
       "DefTOpct": 15.2216,
       "OffTOpct": 15.5739,
-      "eFGpct": 50
+      "eFGpct": 50,
+      "confShort": "CUSA",
+      "confLong": "Conference USA",
+      "team_id": 191
     },
     {
       "team": "New Orleans",
@@ -1600,7 +2197,10 @@
       "DRpct": 34.8361,
       "DefTOpct": 14.5738,
       "OffTOpct": 21.0199,
-      "eFGpct": 50.3579
+      "eFGpct": 50.3579,
+      "confShort": "Slnd",
+      "confLong": "Southland Conference",
+      "team_id": 192
     },
     {
       "team": "Niagara",
@@ -1608,7 +2208,10 @@
       "DRpct": 32.7801,
       "DefTOpct": 16.7836,
       "OffTOpct": 18.6408,
-      "eFGpct": 49.5507
+      "eFGpct": 49.5507,
+      "confShort": "MAAC",
+      "confLong": "Metro Atlantic Athletic Conference",
+      "team_id": 193
     },
     {
       "team": "Nicholls",
@@ -1616,7 +2219,10 @@
       "DRpct": 35.1049,
       "DefTOpct": 21.6351,
       "OffTOpct": 17.1278,
-      "eFGpct": 50.5789
+      "eFGpct": 50.5789,
+      "confShort": "Slnd",
+      "confLong": "Southland Conference",
+      "team_id": 194
     },
     {
       "team": "NJIT",
@@ -1624,7 +2230,10 @@
       "DRpct": 32.4703,
       "DefTOpct": 15.5262,
       "OffTOpct": 16.8055,
-      "eFGpct": 47.3482
+      "eFGpct": 47.3482,
+      "confShort": "AE",
+      "confLong": "America East Conference",
+      "team_id": 195
     },
     {
       "team": "Norfolk St.",
@@ -1632,7 +2241,10 @@
       "DRpct": 32.7143,
       "DefTOpct": 18.6815,
       "OffTOpct": 19.5057,
-      "eFGpct": 47.8916
+      "eFGpct": 47.8916,
+      "confShort": "MEAC",
+      "confLong": "Mid-Eastern Athletic Conference",
+      "team_id": 196
     },
     {
       "team": "North Alabama",
@@ -1640,7 +2252,10 @@
       "DRpct": 33.3791,
       "DefTOpct": 14.5355,
       "OffTOpct": 17.1409,
-      "eFGpct": 48.1737
+      "eFGpct": 48.1737,
+      "confShort": "ASun",
+      "confLong": "ASUN Conference",
+      "team_id": 356
     },
     {
       "team": "North Carolina",
@@ -1648,7 +2263,10 @@
       "DRpct": 28.2051,
       "DefTOpct": 13.7882,
       "OffTOpct": 13.6683,
-      "eFGpct": 54.8924
+      "eFGpct": 54.8924,
+      "confShort": "ACC",
+      "confLong": "Atlantic Coast Conference",
+      "team_id": 197
     },
     {
       "team": "North Carolina A&T",
@@ -1656,7 +2274,10 @@
       "DRpct": 27.1895,
       "DefTOpct": 14.4085,
       "OffTOpct": 18.8471,
-      "eFGpct": 49.2766
+      "eFGpct": 49.2766,
+      "confShort": "CAA",
+      "confLong": "Coastal Athletic Association",
+      "team_id": 198
     },
     {
       "team": "North Carolina Central",
@@ -1664,7 +2285,10 @@
       "DRpct": 38.3701,
       "DefTOpct": 19.4513,
       "OffTOpct": 18.3798,
-      "eFGpct": 46.4688
+      "eFGpct": 46.4688,
+      "confShort": "MEAC",
+      "confLong": "Mid-Eastern Athletic Conference",
+      "team_id": 199
     },
     {
       "team": "North Dakota",
@@ -1672,7 +2296,10 @@
       "DRpct": 32.327,
       "DefTOpct": 19.7903,
       "OffTOpct": 13.9159,
-      "eFGpct": 49.0698
+      "eFGpct": 49.0698,
+      "confShort": "Sum",
+      "confLong": "Summit League",
+      "team_id": 201
     },
     {
       "team": "North Dakota St.",
@@ -1680,7 +2307,10 @@
       "DRpct": 28.1541,
       "DefTOpct": 19.4295,
       "OffTOpct": 15.6689,
-      "eFGpct": 52.7719
+      "eFGpct": 52.7719,
+      "confShort": "Sum",
+      "confLong": "Summit League",
+      "team_id": 202
     },
     {
       "team": "North Florida",
@@ -1688,7 +2318,10 @@
       "DRpct": 38.0137,
       "DefTOpct": 12.2016,
       "OffTOpct": 18.3595,
-      "eFGpct": 54.1124
+      "eFGpct": 54.1124,
+      "confShort": "ASun",
+      "confLong": "ASUN Conference",
+      "team_id": 203
     },
     {
       "team": "North Texas",
@@ -1696,7 +2329,10 @@
       "DRpct": 34.0996,
       "DefTOpct": 22.1669,
       "OffTOpct": 18.3006,
-      "eFGpct": 46.1391
+      "eFGpct": 46.1391,
+      "confShort": "Amer",
+      "confLong": "American Athletic Conference",
+      "team_id": 204
     },
     {
       "team": "Northeastern",
@@ -1704,7 +2340,10 @@
       "DRpct": 32.4607,
       "DefTOpct": 17.7036,
       "OffTOpct": 16.6342,
-      "eFGpct": 52.6573
+      "eFGpct": 52.6573,
+      "confShort": "CAA",
+      "confLong": "Coastal Athletic Association",
+      "team_id": 205
     },
     {
       "team": "Northern Arizona",
@@ -1712,7 +2351,10 @@
       "DRpct": 33.1063,
       "DefTOpct": 16.8788,
       "OffTOpct": 16.0183,
-      "eFGpct": 51.7886
+      "eFGpct": 51.7886,
+      "confShort": "BSky",
+      "confLong": "Big Sky Conference",
+      "team_id": 206
     },
     {
       "team": "Northern Colorado",
@@ -1720,7 +2362,10 @@
       "DRpct": 24.5721,
       "DefTOpct": 12.433,
       "OffTOpct": 16.3752,
-      "eFGpct": 56.1615
+      "eFGpct": 56.1615,
+      "confShort": "BSky",
+      "confLong": "Big Sky Conference",
+      "team_id": 207
     },
     {
       "team": "Northern Illinois",
@@ -1728,7 +2373,10 @@
       "DRpct": 30.8148,
       "DefTOpct": 17.2773,
       "OffTOpct": 22.0765,
-      "eFGpct": 48.1261
+      "eFGpct": 48.1261,
+      "confShort": "MAC",
+      "confLong": "Mid American Conference",
+      "team_id": 208
     },
     {
       "team": "Northern Iowa",
@@ -1736,7 +2384,10 @@
       "DRpct": 25.1476,
       "DefTOpct": 17.6657,
       "OffTOpct": 14.5555,
-      "eFGpct": 51.9579
+      "eFGpct": 51.9579,
+      "confShort": "MVC",
+      "confLong": "Missouri Valley Conference",
+      "team_id": 209
     },
     {
       "team": "Northern Kentucky",
@@ -1744,7 +2395,10 @@
       "DRpct": 33.2071,
       "DefTOpct": 19.2947,
       "OffTOpct": 16.5467,
-      "eFGpct": 52.8747
+      "eFGpct": 52.8747,
+      "confShort": "Horz",
+      "confLong": "Horizon League",
+      "team_id": 210
     },
     {
       "team": "Northwestern",
@@ -1752,7 +2406,10 @@
       "DRpct": 34.2197,
       "DefTOpct": 16.2121,
       "OffTOpct": 12.3975,
-      "eFGpct": 51.1325
+      "eFGpct": 51.1325,
+      "confShort": "B10",
+      "confLong": "Big Ten Conference",
+      "team_id": 211
     },
     {
       "team": "Northwestern St.",
@@ -1760,7 +2417,10 @@
       "DRpct": 33.2432,
       "DefTOpct": 16.9343,
       "OffTOpct": 18.4382,
-      "eFGpct": 49.3432
+      "eFGpct": 49.3432,
+      "confShort": "Slnd",
+      "confLong": "Southland Conference",
+      "team_id": 212
     },
     {
       "team": "Notre Dame",
@@ -1768,7 +2428,10 @@
       "DRpct": 26.3398,
       "DefTOpct": 14.0499,
       "OffTOpct": 17.0732,
-      "eFGpct": 52.4121
+      "eFGpct": 52.4121,
+      "confShort": "ACC",
+      "confLong": "Atlantic Coast Conference",
+      "team_id": 213
     },
     {
       "team": "Oakland",
@@ -1776,7 +2439,10 @@
       "DRpct": 34.5652,
       "DefTOpct": 15.0643,
       "OffTOpct": 14.6738,
-      "eFGpct": 52.6974
+      "eFGpct": 52.6974,
+      "confShort": "Horz",
+      "confLong": "Horizon League",
+      "team_id": 214
     },
     {
       "team": "Ohio",
@@ -1784,7 +2450,10 @@
       "DRpct": 33.3333,
       "DefTOpct": 17.0628,
       "OffTOpct": 16.5735,
-      "eFGpct": 51.2445
+      "eFGpct": 51.2445,
+      "confShort": "MAC",
+      "confLong": "Mid American Conference",
+      "team_id": 215
     },
     {
       "team": "Ohio St.",
@@ -1792,7 +2461,10 @@
       "DRpct": 31.1991,
       "DefTOpct": 15.9564,
       "OffTOpct": 15.5317,
-      "eFGpct": 55.7359
+      "eFGpct": 55.7359,
+      "confShort": "B10",
+      "confLong": "Big Ten Conference",
+      "team_id": 216
     },
     {
       "team": "Oklahoma",
@@ -1800,7 +2472,10 @@
       "DRpct": 31.5068,
       "DefTOpct": 15.294,
       "OffTOpct": 14.4608,
-      "eFGpct": 54.2059
+      "eFGpct": 54.2059,
+      "confShort": "SEC",
+      "confLong": "Southeastern Conference",
+      "team_id": 217
     },
     {
       "team": "Oklahoma St.",
@@ -1808,7 +2483,10 @@
       "DRpct": 30.131,
       "DefTOpct": 17.1148,
       "OffTOpct": 16.6179,
-      "eFGpct": 52.787
+      "eFGpct": 52.787,
+      "confShort": "B12",
+      "confLong": "Big 12 Conference",
+      "team_id": 218
     },
     {
       "team": "Old Dominion",
@@ -1816,7 +2494,10 @@
       "DRpct": 29.8324,
       "DefTOpct": 14.4728,
       "OffTOpct": 15.3773,
-      "eFGpct": 49.1374
+      "eFGpct": 49.1374,
+      "confShort": "SB",
+      "confLong": "Sun Belt Conference",
+      "team_id": 219
     },
     {
       "team": "Oral Roberts",
@@ -1824,7 +2505,10 @@
       "DRpct": 33.2481,
       "DefTOpct": 14.6403,
       "OffTOpct": 18.5028,
-      "eFGpct": 47.8491
+      "eFGpct": 47.8491,
+      "confShort": "Sum",
+      "confLong": "Summit League",
+      "team_id": 220
     },
     {
       "team": "Oregon",
@@ -1832,7 +2516,10 @@
       "DRpct": 31.4746,
       "DefTOpct": 15.7689,
       "OffTOpct": 17.8176,
-      "eFGpct": 49.4942
+      "eFGpct": 49.4942,
+      "confShort": "B10",
+      "confLong": "Big Ten Conference",
+      "team_id": 221
     },
     {
       "team": "Oregon St.",
@@ -1840,7 +2527,10 @@
       "DRpct": 32.8025,
       "DefTOpct": 15.3545,
       "OffTOpct": 17.619,
-      "eFGpct": 50.4954
+      "eFGpct": 50.4954,
+      "confShort": "WCC",
+      "confLong": "West Coast Conference",
+      "team_id": 222
     },
     {
       "team": "Pacific",
@@ -1848,7 +2538,10 @@
       "DRpct": 23.7826,
       "DefTOpct": 15.8064,
       "OffTOpct": 20.2369,
-      "eFGpct": 53.3716
+      "eFGpct": 53.3716,
+      "confShort": "WCC",
+      "confLong": "West Coast Conference",
+      "team_id": 223
     },
     {
       "team": "Penn",
@@ -1856,7 +2549,10 @@
       "DRpct": 30.7803,
       "DefTOpct": 16.0736,
       "OffTOpct": 15.9281,
-      "eFGpct": 50.6388
+      "eFGpct": 50.6388,
+      "confShort": "Ivy",
+      "confLong": "Ivy League",
+      "team_id": 224
     },
     {
       "team": "Penn St.",
@@ -1864,7 +2560,10 @@
       "DRpct": 31.6754,
       "DefTOpct": 18.1913,
       "OffTOpct": 14.4824,
-      "eFGpct": 53.069
+      "eFGpct": 53.069,
+      "confShort": "B10",
+      "confLong": "Big Ten Conference",
+      "team_id": 225
     },
     {
       "team": "Pepperdine",
@@ -1872,7 +2571,10 @@
       "DRpct": 34.0741,
       "DefTOpct": 16.9728,
       "OffTOpct": 18.8853,
-      "eFGpct": 46.0835
+      "eFGpct": 46.0835,
+      "confShort": "WCC",
+      "confLong": "West Coast Conference",
+      "team_id": 226
     },
     {
       "team": "Pittsburgh",
@@ -1880,7 +2582,10 @@
       "DRpct": 28.3715,
       "DefTOpct": 16.7984,
       "OffTOpct": 17.3501,
-      "eFGpct": 50.3097
+      "eFGpct": 50.3097,
+      "confShort": "ACC",
+      "confLong": "Atlantic Coast Conference",
+      "team_id": 227
     },
     {
       "team": "Portland",
@@ -1888,7 +2593,10 @@
       "DRpct": 32.417,
       "DefTOpct": 17.775,
       "OffTOpct": 19.4733,
-      "eFGpct": 50.7719
+      "eFGpct": 50.7719,
+      "confShort": "WCC",
+      "confLong": "West Coast Conference",
+      "team_id": 228
     },
     {
       "team": "Portland St.",
@@ -1896,7 +2604,10 @@
       "DRpct": 27.802,
       "DefTOpct": 18.0839,
       "OffTOpct": 18.5162,
-      "eFGpct": 52.1891
+      "eFGpct": 52.1891,
+      "confShort": "BSky",
+      "confLong": "Big Sky Conference",
+      "team_id": 229
     },
     {
       "team": "Prairie View A&M",
@@ -1904,7 +2615,10 @@
       "DRpct": 37,
       "DefTOpct": 19.9409,
       "OffTOpct": 16.2972,
-      "eFGpct": 47.2153
+      "eFGpct": 47.2153,
+      "confShort": "SWAC",
+      "confLong": "Southwestern Athletic Conference",
+      "team_id": 230
     },
     {
       "team": "Presbyterian",
@@ -1912,7 +2626,10 @@
       "DRpct": 30.5304,
       "DefTOpct": 15.5272,
       "OffTOpct": 19.7858,
-      "eFGpct": 50.4831
+      "eFGpct": 50.4831,
+      "confShort": "BSth",
+      "confLong": "Big South Conference",
+      "team_id": 231
     },
     {
       "team": "Princeton",
@@ -1920,7 +2637,10 @@
       "DRpct": 28.4153,
       "DefTOpct": 14.5223,
       "OffTOpct": 16.5278,
-      "eFGpct": 49.0947
+      "eFGpct": 49.0947,
+      "confShort": "Ivy",
+      "confLong": "Ivy League",
+      "team_id": 232
     },
     {
       "team": "Providence",
@@ -1928,7 +2648,10 @@
       "DRpct": 31.3492,
       "DefTOpct": 13.4304,
       "OffTOpct": 16.2018,
-      "eFGpct": 55.5626
+      "eFGpct": 55.5626,
+      "confShort": "BE",
+      "confLong": "Big East Conference",
+      "team_id": 233
     },
     {
       "team": "Purdue",
@@ -1936,7 +2659,10 @@
       "DRpct": 26.1185,
       "DefTOpct": 16.5579,
       "OffTOpct": 14.1393,
-      "eFGpct": 57.8694
+      "eFGpct": 57.8694,
+      "confShort": "B10",
+      "confLong": "Big Ten Conference",
+      "team_id": 234
     },
     {
       "team": "Purdue Fort Wayne",
@@ -1944,7 +2670,10 @@
       "DRpct": 36.0054,
       "DefTOpct": 19.6694,
       "OffTOpct": 14.4832,
-      "eFGpct": 52.3686
+      "eFGpct": 52.3686,
+      "confShort": "Horz",
+      "confLong": "Horizon League",
+      "team_id": 127
     },
     {
       "team": "Queens",
@@ -1952,7 +2681,10 @@
       "DRpct": 32.7037,
       "DefTOpct": 14.8846,
       "OffTOpct": 14.8846,
-      "eFGpct": 56.0784
+      "eFGpct": 56.0784,
+      "confShort": "ASun",
+      "confLong": "ASUN Conference",
+      "team_id": 367
     },
     {
       "team": "Quinnipiac",
@@ -1960,7 +2692,10 @@
       "DRpct": 32.7314,
       "DefTOpct": 18.0691,
       "OffTOpct": 16.2058,
-      "eFGpct": 49.2903
+      "eFGpct": 49.2903,
+      "confShort": "MAAC",
+      "confLong": "Metro Atlantic Athletic Conference",
+      "team_id": 235
     },
     {
       "team": "Radford",
@@ -1968,7 +2703,10 @@
       "DRpct": 32.5871,
       "DefTOpct": 18.4018,
       "OffTOpct": 17.1632,
-      "eFGpct": 51.4079
+      "eFGpct": 51.4079,
+      "confShort": "BSth",
+      "confLong": "Big South Conference",
+      "team_id": 236
     },
     {
       "team": "Rhode Island",
@@ -1976,7 +2714,10 @@
       "DRpct": 31.3237,
       "DefTOpct": 21.5791,
       "OffTOpct": 19.0071,
-      "eFGpct": 51.8349
+      "eFGpct": 51.8349,
+      "confShort": "A10",
+      "confLong": "Atlantic 10 Conference",
+      "team_id": 237
     },
     {
       "team": "Rice",
@@ -1984,7 +2725,10 @@
       "DRpct": 35.1648,
       "DefTOpct": 16.3116,
       "OffTOpct": 17.9682,
-      "eFGpct": 48.4727
+      "eFGpct": 48.4727,
+      "confShort": "Amer",
+      "confLong": "American Athletic Conference",
+      "team_id": 238
     },
     {
       "team": "Richmond",
@@ -1992,7 +2736,10 @@
       "DRpct": 31.1927,
       "DefTOpct": 17.5055,
       "OffTOpct": 15.1594,
-      "eFGpct": 53.3862
+      "eFGpct": 53.3862,
+      "confShort": "A10",
+      "confLong": "Atlantic 10 Conference",
+      "team_id": 239
     },
     {
       "team": "Rider",
@@ -2000,7 +2747,10 @@
       "DRpct": 33.7856,
       "DefTOpct": 13.4514,
       "OffTOpct": 18.121,
-      "eFGpct": 42.8515
+      "eFGpct": 42.8515,
+      "confShort": "MAAC",
+      "confLong": "Metro Atlantic Athletic Conference",
+      "team_id": 240
     },
     {
       "team": "Robert Morris",
@@ -2008,7 +2758,10 @@
       "DRpct": 28.436,
       "DefTOpct": 15.7212,
       "OffTOpct": 18.713,
-      "eFGpct": 54.3057
+      "eFGpct": 54.3057,
+      "confShort": "Horz",
+      "confLong": "Horizon League",
+      "team_id": 241
     },
     {
       "team": "Rutgers",
@@ -2016,7 +2769,10 @@
       "DRpct": 33.6218,
       "DefTOpct": 16.428,
       "OffTOpct": 15.8081,
-      "eFGpct": 46.7453
+      "eFGpct": 46.7453,
+      "confShort": "B10",
+      "confLong": "Big Ten Conference",
+      "team_id": 242
     },
     {
       "team": "Sacramento St.",
@@ -2024,7 +2780,10 @@
       "DRpct": 33.3333,
       "DefTOpct": 16.7708,
       "OffTOpct": 14.8857,
-      "eFGpct": 47.098
+      "eFGpct": 47.098,
+      "confShort": "BSky",
+      "confLong": "Big Sky Conference",
+      "team_id": 243
     },
     {
       "team": "Sacred Heart",
@@ -2032,7 +2791,10 @@
       "DRpct": 30.257,
       "DefTOpct": 15.3658,
       "OffTOpct": 17.9653,
-      "eFGpct": 52.0506
+      "eFGpct": 52.0506,
+      "confShort": "MAAC",
+      "confLong": "Metro Atlantic Athletic Conference",
+      "team_id": 244
     },
     {
       "team": "Saint Francis",
@@ -2040,7 +2802,10 @@
       "DRpct": 34.072,
       "DefTOpct": 19.239,
       "OffTOpct": 18.1941,
-      "eFGpct": 47.9547
+      "eFGpct": 47.9547,
+      "confShort": "NEC",
+      "confLong": "NEC",
+      "team_id": 276
     },
     {
       "team": "Saint Joseph's",
@@ -2048,7 +2813,10 @@
       "DRpct": 31.8807,
       "DefTOpct": 15.6261,
       "OffTOpct": 17.7054,
-      "eFGpct": 48.6192
+      "eFGpct": 48.6192,
+      "confShort": "A10",
+      "confLong": "Atlantic 10 Conference",
+      "team_id": 245
     },
     {
       "team": "Saint Louis",
@@ -2056,7 +2824,10 @@
       "DRpct": 26.3874,
       "DefTOpct": 16.1046,
       "OffTOpct": 16.7011,
-      "eFGpct": 61.0594
+      "eFGpct": 61.0594,
+      "confShort": "A10",
+      "confLong": "Atlantic 10 Conference",
+      "team_id": 246
     },
     {
       "team": "Saint Mary's",
@@ -2064,7 +2835,10 @@
       "DRpct": 24.377,
       "DefTOpct": 15.1172,
       "OffTOpct": 16.7969,
-      "eFGpct": 53.277
+      "eFGpct": 53.277,
+      "confShort": "WCC",
+      "confLong": "West Coast Conference",
+      "team_id": 247
     },
     {
       "team": "Saint Peter's",
@@ -2072,7 +2846,10 @@
       "DRpct": 33.6232,
       "DefTOpct": 20.4342,
       "OffTOpct": 16.9086,
-      "eFGpct": 45.5393
+      "eFGpct": 45.5393,
+      "confShort": "MAAC",
+      "confLong": "Metro Atlantic Athletic Conference",
+      "team_id": 248
     },
     {
       "team": "Sam Houston St.",
@@ -2080,7 +2857,10 @@
       "DRpct": 31.385,
       "DefTOpct": 17.0541,
       "OffTOpct": 17.1879,
-      "eFGpct": 52.5019
+      "eFGpct": 52.5019,
+      "confShort": "CUSA",
+      "confLong": "Conference USA",
+      "team_id": 249
     },
     {
       "team": "Samford",
@@ -2088,7 +2868,10 @@
       "DRpct": 26.6745,
       "DefTOpct": 12.9299,
       "OffTOpct": 12.9903,
-      "eFGpct": 51.9537
+      "eFGpct": 51.9537,
+      "confShort": "SC",
+      "confLong": "Southern Conference",
+      "team_id": 250
     },
     {
       "team": "San Diego",
@@ -2096,7 +2879,10 @@
       "DRpct": 36.2745,
       "DefTOpct": 19.7527,
       "OffTOpct": 17.5958,
-      "eFGpct": 50.7596
+      "eFGpct": 50.7596,
+      "confShort": "WCC",
+      "confLong": "West Coast Conference",
+      "team_id": 251
     },
     {
       "team": "San Diego St.",
@@ -2104,7 +2890,10 @@
       "DRpct": 30.4403,
       "DefTOpct": 21.59,
       "OffTOpct": 17.526,
-      "eFGpct": 53.6413
+      "eFGpct": 53.6413,
+      "confShort": "MWC",
+      "confLong": "Mountain West Conference",
+      "team_id": 252
     },
     {
       "team": "San Francisco",
@@ -2112,7 +2901,10 @@
       "DRpct": 28.4632,
       "DefTOpct": 13.5398,
       "OffTOpct": 15.7773,
-      "eFGpct": 50.6766
+      "eFGpct": 50.6766,
+      "confShort": "WCC",
+      "confLong": "West Coast Conference",
+      "team_id": 253
     },
     {
       "team": "San Jose St.",
@@ -2120,7 +2912,10 @@
       "DRpct": 36.1233,
       "DefTOpct": 17.8402,
       "OffTOpct": 16.4526,
-      "eFGpct": 47.7395
+      "eFGpct": 47.7395,
+      "confShort": "MWC",
+      "confLong": "Mountain West Conference",
+      "team_id": 254
     },
     {
       "team": "Santa Clara",
@@ -2128,7 +2923,10 @@
       "DRpct": 31.0668,
       "DefTOpct": 20.9885,
       "OffTOpct": 16.1786,
-      "eFGpct": 55.0656
+      "eFGpct": 55.0656,
+      "confShort": "WCC",
+      "confLong": "West Coast Conference",
+      "team_id": 255
     },
     {
       "team": "Seattle",
@@ -2136,7 +2934,10 @@
       "DRpct": 32.9312,
       "DefTOpct": 20.8171,
       "OffTOpct": 17.4672,
-      "eFGpct": 49.7455
+      "eFGpct": 49.7455,
+      "confShort": "WCC",
+      "confLong": "West Coast Conference",
+      "team_id": 257
     },
     {
       "team": "Seton Hall",
@@ -2144,7 +2945,10 @@
       "DRpct": 31.4727,
       "DefTOpct": 22.5369,
       "OffTOpct": 16.3198,
-      "eFGpct": 47.9364
+      "eFGpct": 47.9364,
+      "confShort": "BE",
+      "confLong": "Big East Conference",
+      "team_id": 258
     },
     {
       "team": "Siena",
@@ -2152,7 +2956,10 @@
       "DRpct": 28.5539,
       "DefTOpct": 18.4202,
       "OffTOpct": 15.8773,
-      "eFGpct": 51.7488
+      "eFGpct": 51.7488,
+      "confShort": "MAAC",
+      "confLong": "Metro Atlantic Athletic Conference",
+      "team_id": 259
     },
     {
       "team": "SIUE",
@@ -2160,7 +2967,10 @@
       "DRpct": 32.6062,
       "DefTOpct": 16.9426,
       "OffTOpct": 17.5993,
-      "eFGpct": 49.2302
+      "eFGpct": 49.2302,
+      "confShort": "OVC",
+      "confLong": "Ohio Valley Conference",
+      "team_id": 260
     },
     {
       "team": "SMU",
@@ -2168,7 +2978,10 @@
       "DRpct": 31.3466,
       "DefTOpct": 17.5986,
       "OffTOpct": 16.1608,
-      "eFGpct": 56.366
+      "eFGpct": 56.366,
+      "confShort": "ACC",
+      "confLong": "Atlantic Coast Conference",
+      "team_id": 261
     },
     {
       "team": "South Alabama",
@@ -2176,7 +2989,10 @@
       "DRpct": 31.4961,
       "DefTOpct": 18.6593,
       "OffTOpct": 13.3466,
-      "eFGpct": 52.0505
+      "eFGpct": 52.0505,
+      "confShort": "SB",
+      "confLong": "Sun Belt Conference",
+      "team_id": 262
     },
     {
       "team": "South Carolina",
@@ -2184,7 +3000,10 @@
       "DRpct": 31.8236,
       "DefTOpct": 14.7765,
       "OffTOpct": 14.4749,
-      "eFGpct": 51.0379
+      "eFGpct": 51.0379,
+      "confShort": "SEC",
+      "confLong": "Southeastern Conference",
+      "team_id": 263
     },
     {
       "team": "South Carolina St.",
@@ -2192,7 +3011,10 @@
       "DRpct": 39.039,
       "DefTOpct": 17.8004,
       "OffTOpct": 20.6997,
-      "eFGpct": 45.9391
+      "eFGpct": 45.9391,
+      "confShort": "MEAC",
+      "confLong": "Mid-Eastern Athletic Conference",
+      "team_id": 264
     },
     {
       "team": "South Dakota",
@@ -2200,7 +3022,10 @@
       "DRpct": 30.4678,
       "DefTOpct": 16.5282,
       "OffTOpct": 17.2098,
-      "eFGpct": 50.2803
+      "eFGpct": 50.2803,
+      "confShort": "Sum",
+      "confLong": "Summit League",
+      "team_id": 265
     },
     {
       "team": "South Dakota St.",
@@ -2208,7 +3033,10 @@
       "DRpct": 26.799,
       "DefTOpct": 15.1717,
       "OffTOpct": 16.1832,
-      "eFGpct": 51.8382
+      "eFGpct": 51.8382,
+      "confShort": "Sum",
+      "confLong": "Summit League",
+      "team_id": 266
     },
     {
       "team": "South Florida",
@@ -2216,7 +3044,10 @@
       "DRpct": 32.2513,
       "DefTOpct": 18.3966,
       "OffTOpct": 15.7449,
-      "eFGpct": 51.5345
+      "eFGpct": 51.5345,
+      "confShort": "Amer",
+      "confLong": "American Athletic Conference",
+      "team_id": 267
     },
     {
       "team": "Southeast Missouri",
@@ -2224,7 +3055,10 @@
       "DRpct": 27.8779,
       "DefTOpct": 19.0213,
       "OffTOpct": 16.9833,
-      "eFGpct": 51.3109
+      "eFGpct": 51.3109,
+      "confShort": "OVC",
+      "confLong": "Ohio Valley Conference",
+      "team_id": 268
     },
     {
       "team": "Southeastern Louisiana",
@@ -2232,7 +3066,10 @@
       "DRpct": 31.9896,
       "DefTOpct": 19.3861,
       "OffTOpct": 18.8159,
-      "eFGpct": 46.4034
+      "eFGpct": 46.4034,
+      "confShort": "Slnd",
+      "confLong": "Southland Conference",
+      "team_id": 269
     },
     {
       "team": "Southern",
@@ -2240,7 +3077,10 @@
       "DRpct": 32.5352,
       "DefTOpct": 18.9367,
       "OffTOpct": 16.9709,
-      "eFGpct": 47.9751
+      "eFGpct": 47.9751,
+      "confShort": "SWAC",
+      "confLong": "Southwestern Athletic Conference",
+      "team_id": 270
     },
     {
       "team": "Southern Illinois",
@@ -2248,7 +3088,10 @@
       "DRpct": 28.074,
       "DefTOpct": 18.6203,
       "OffTOpct": 17.2783,
-      "eFGpct": 50.1659
+      "eFGpct": 50.1659,
+      "confShort": "MVC",
+      "confLong": "Missouri Valley Conference",
+      "team_id": 271
     },
     {
       "team": "Southern Indiana",
@@ -2256,7 +3099,10 @@
       "DRpct": 33.7662,
       "DefTOpct": 16.8319,
       "OffTOpct": 17.8257,
-      "eFGpct": 43.401
+      "eFGpct": 43.401,
+      "confShort": "OVC",
+      "confLong": "Ohio Valley Conference",
+      "team_id": 365
     },
     {
       "team": "Southern Miss",
@@ -2264,7 +3110,10 @@
       "DRpct": 27.7193,
       "DefTOpct": 17.5026,
       "OffTOpct": 18.5355,
-      "eFGpct": 48.4643
+      "eFGpct": 48.4643,
+      "confShort": "SB",
+      "confLong": "Sun Belt Conference",
+      "team_id": 272
     },
     {
       "team": "Southern Utah",
@@ -2272,7 +3121,10 @@
       "DRpct": 34.3672,
       "DefTOpct": 14.8719,
       "OffTOpct": 20.2105,
-      "eFGpct": 49.3784
+      "eFGpct": 49.3784,
+      "confShort": "WAC",
+      "confLong": "Western Athletic Conference",
+      "team_id": 273
     },
     {
       "team": "St. Bonaventure",
@@ -2280,7 +3132,10 @@
       "DRpct": 30.3401,
       "DefTOpct": 18.2314,
       "OffTOpct": 16.888,
-      "eFGpct": 52.7959
+      "eFGpct": 52.7959,
+      "confShort": "A10",
+      "confLong": "Atlantic 10 Conference",
+      "team_id": 274
     },
     {
       "team": "St. John's",
@@ -2288,7 +3143,10 @@
       "DRpct": 31.386,
       "DefTOpct": 19.8355,
       "OffTOpct": 15.2226,
-      "eFGpct": 52.2177
+      "eFGpct": 52.2177,
+      "confShort": "BE",
+      "confLong": "Big East Conference",
+      "team_id": 277
     },
     {
       "team": "St. Thomas",
@@ -2296,7 +3154,10 @@
       "DRpct": 28.4672,
       "DefTOpct": 17.8667,
       "OffTOpct": 14.0803,
-      "eFGpct": 59.2862
+      "eFGpct": 59.2862,
+      "confShort": "Sum",
+      "confLong": "Summit League",
+      "team_id": 364
     },
     {
       "team": "Stanford",
@@ -2304,7 +3165,10 @@
       "DRpct": 28.6608,
       "DefTOpct": 18.8927,
       "OffTOpct": 15.995,
-      "eFGpct": 50.5743
+      "eFGpct": 50.5743,
+      "confShort": "ACC",
+      "confLong": "Atlantic Coast Conference",
+      "team_id": 278
     },
     {
       "team": "Stephen F. Austin",
@@ -2312,7 +3176,10 @@
       "DRpct": 28.8199,
       "DefTOpct": 17.2547,
       "OffTOpct": 14.6502,
-      "eFGpct": 52.5144
+      "eFGpct": 52.5144,
+      "confShort": "Slnd",
+      "confLong": "Southland Conference",
+      "team_id": 279
     },
     {
       "team": "Stetson",
@@ -2320,7 +3187,10 @@
       "DRpct": 31.9899,
       "DefTOpct": 15.2544,
       "OffTOpct": 18.4021,
-      "eFGpct": 50.968
+      "eFGpct": 50.968,
+      "confShort": "ASun",
+      "confLong": "ASUN Conference",
+      "team_id": 280
     },
     {
       "team": "Stonehill",
@@ -2328,7 +3198,10 @@
       "DRpct": 26.1682,
       "DefTOpct": 13.0498,
       "OffTOpct": 21.066,
-      "eFGpct": 46.6171
+      "eFGpct": 46.6171,
+      "confShort": "NEC",
+      "confLong": "NEC",
+      "team_id": 366
     },
     {
       "team": "Stony Brook",
@@ -2336,7 +3209,10 @@
       "DRpct": 31.8605,
       "DefTOpct": 16.5469,
       "OffTOpct": 16.9807,
-      "eFGpct": 50.3929
+      "eFGpct": 50.3929,
+      "confShort": "CAA",
+      "confLong": "Coastal Athletic Association",
+      "team_id": 281
     },
     {
       "team": "Syracuse",
@@ -2344,7 +3220,10 @@
       "DRpct": 32.9335,
       "DefTOpct": 18.7157,
       "OffTOpct": 16.2546,
-      "eFGpct": 53.2877
+      "eFGpct": 53.2877,
+      "confShort": "ACC",
+      "confLong": "Atlantic Coast Conference",
+      "team_id": 282
     },
     {
       "team": "Tarleton St.",
@@ -2352,7 +3231,10 @@
       "DRpct": 34.3402,
       "DefTOpct": 24.3439,
       "OffTOpct": 20.1132,
-      "eFGpct": 48.523
+      "eFGpct": 48.523,
+      "confShort": "WAC",
+      "confLong": "Western Athletic Conference",
+      "team_id": 362
     },
     {
       "team": "TCU",
@@ -2360,7 +3242,10 @@
       "DRpct": 29.2534,
       "DefTOpct": 19.8231,
       "OffTOpct": 16.1761,
-      "eFGpct": 51.5961
+      "eFGpct": 51.5961,
+      "confShort": "B12",
+      "confLong": "Big 12 Conference",
+      "team_id": 283
     },
     {
       "team": "Temple",
@@ -2368,7 +3253,10 @@
       "DRpct": 31.0167,
       "DefTOpct": 15.9747,
       "OffTOpct": 13.5983,
-      "eFGpct": 50
+      "eFGpct": 50,
+      "confShort": "Amer",
+      "confLong": "American Athletic Conference",
+      "team_id": 284
     },
     {
       "team": "Tennessee",
@@ -2376,7 +3264,10 @@
       "DRpct": 27.9299,
       "DefTOpct": 16.6035,
       "OffTOpct": 18.4017,
-      "eFGpct": 52.7835
+      "eFGpct": 52.7835,
+      "confShort": "SEC",
+      "confLong": "Southeastern Conference",
+      "team_id": 285
     },
     {
       "team": "Tennessee Martin",
@@ -2384,7 +3275,10 @@
       "DRpct": 31.4924,
       "DefTOpct": 19.049,
       "OffTOpct": 21.9194,
-      "eFGpct": 50.2385
+      "eFGpct": 50.2385,
+      "confShort": "OVC",
+      "confLong": "Ohio Valley Conference",
+      "team_id": 286
     },
     {
       "team": "Tennessee St.",
@@ -2392,7 +3286,10 @@
       "DRpct": 31.1914,
       "DefTOpct": 19.652,
       "OffTOpct": 16.472,
-      "eFGpct": 49.5293
+      "eFGpct": 49.5293,
+      "confShort": "OVC",
+      "confLong": "Ohio Valley Conference",
+      "team_id": 287
     },
     {
       "team": "Tennessee Tech",
@@ -2400,7 +3297,10 @@
       "DRpct": 32.4155,
       "DefTOpct": 15.5711,
       "OffTOpct": 19.6854,
-      "eFGpct": 49.5038
+      "eFGpct": 49.5038,
+      "confShort": "OVC",
+      "confLong": "Ohio Valley Conference",
+      "team_id": 288
     },
     {
       "team": "Texas",
@@ -2408,7 +3308,10 @@
       "DRpct": 27.4056,
       "DefTOpct": 14.4144,
       "OffTOpct": 15.5474,
-      "eFGpct": 54.9811
+      "eFGpct": 54.9811,
+      "confShort": "SEC",
+      "confLong": "Southeastern Conference",
+      "team_id": 289
     },
     {
       "team": "Texas A&M",
@@ -2416,7 +3319,10 @@
       "DRpct": 31.7932,
       "DefTOpct": 19.1622,
       "OffTOpct": 14.873,
-      "eFGpct": 55.8387
+      "eFGpct": 55.8387,
+      "confShort": "SEC",
+      "confLong": "Southeastern Conference",
+      "team_id": 290
     },
     {
       "team": "Texas A&M Corpus Chris",
@@ -2424,7 +3330,10 @@
       "DRpct": 29.0133,
       "DefTOpct": 20.0289,
       "OffTOpct": 18.7683,
-      "eFGpct": 47.4739
+      "eFGpct": 47.4739,
+      "confShort": "Slnd",
+      "confLong": "Southland Conference",
+      "team_id": 291
     },
     {
       "team": "Texas Southern",
@@ -2432,7 +3341,10 @@
       "DRpct": 32.5109,
       "DefTOpct": 16.1966,
       "OffTOpct": 18.8381,
-      "eFGpct": 49.1297
+      "eFGpct": 49.1297,
+      "confShort": "SWAC",
+      "confLong": "Southwestern Athletic Conference",
+      "team_id": 292
     },
     {
       "team": "Texas St.",
@@ -2440,7 +3352,10 @@
       "DRpct": 28.0285,
       "DefTOpct": 18.7446,
       "OffTOpct": 19.0357,
-      "eFGpct": 49.2318
+      "eFGpct": 49.2318,
+      "confShort": "SB",
+      "confLong": "Sun Belt Conference",
+      "team_id": 293
     },
     {
       "team": "Texas Tech",
@@ -2448,7 +3363,10 @@
       "DRpct": 28.9352,
       "DefTOpct": 15.8835,
       "OffTOpct": 15.2819,
-      "eFGpct": 55.9039
+      "eFGpct": 55.9039,
+      "confShort": "B12",
+      "confLong": "Big 12 Conference",
+      "team_id": 294
     },
     {
       "team": "The Citadel",
@@ -2456,7 +3374,10 @@
       "DRpct": 30.8609,
       "DefTOpct": 14.053,
       "OffTOpct": 17.2859,
-      "eFGpct": 48.8453
+      "eFGpct": 48.8453,
+      "confShort": "SC",
+      "confLong": "Southern Conference",
+      "team_id": 295
     },
     {
       "team": "Toledo",
@@ -2464,7 +3385,10 @@
       "DRpct": 35.4798,
       "DefTOpct": 18.6684,
       "OffTOpct": 15.1952,
-      "eFGpct": 53.1408
+      "eFGpct": 53.1408,
+      "confShort": "MAC",
+      "confLong": "Mid American Conference",
+      "team_id": 296
     },
     {
       "team": "Towson",
@@ -2472,7 +3396,10 @@
       "DRpct": 26.799,
       "DefTOpct": 15.8985,
       "OffTOpct": 16.3509,
-      "eFGpct": 45.8128
+      "eFGpct": 45.8128,
+      "confShort": "CAA",
+      "confLong": "Coastal Athletic Association",
+      "team_id": 297
     },
     {
       "team": "Troy",
@@ -2480,7 +3407,10 @@
       "DRpct": 31.3212,
       "DefTOpct": 17.5869,
       "OffTOpct": 16.4804,
-      "eFGpct": 51.927
+      "eFGpct": 51.927,
+      "confShort": "SB",
+      "confLong": "Sun Belt Conference",
+      "team_id": 298
     },
     {
       "team": "Tulane",
@@ -2488,7 +3418,10 @@
       "DRpct": 35.4878,
       "DefTOpct": 17.8026,
       "OffTOpct": 15.5852,
-      "eFGpct": 50.1216
+      "eFGpct": 50.1216,
+      "confShort": "Amer",
+      "confLong": "American Athletic Conference",
+      "team_id": 299
     },
     {
       "team": "Tulsa",
@@ -2496,7 +3429,10 @@
       "DRpct": 28.8599,
       "DefTOpct": 15.3482,
       "OffTOpct": 15.7885,
-      "eFGpct": 57.1973
+      "eFGpct": 57.1973,
+      "confShort": "Amer",
+      "confLong": "American Athletic Conference",
+      "team_id": 300
     },
     {
       "team": "UAB",
@@ -2504,7 +3440,10 @@
       "DRpct": 27.2216,
       "DefTOpct": 16.6385,
       "OffTOpct": 12.6084,
-      "eFGpct": 48.2028
+      "eFGpct": 48.2028,
+      "confShort": "Amer",
+      "confLong": "American Athletic Conference",
+      "team_id": 301
     },
     {
       "team": "UC Davis",
@@ -2512,7 +3451,10 @@
       "DRpct": 30.8767,
       "DefTOpct": 19.6164,
       "OffTOpct": 18.272,
-      "eFGpct": 52.4691
+      "eFGpct": 52.4691,
+      "confShort": "BW",
+      "confLong": "Big West Conference",
+      "team_id": 302
     },
     {
       "team": "UC Irvine",
@@ -2520,7 +3462,10 @@
       "DRpct": 32.516,
       "DefTOpct": 18.7476,
       "OffTOpct": 17.4085,
-      "eFGpct": 48.3261
+      "eFGpct": 48.3261,
+      "confShort": "BW",
+      "confLong": "Big West Conference",
+      "team_id": 303
     },
     {
       "team": "UC Riverside",
@@ -2528,7 +3473,10 @@
       "DRpct": 31.068,
       "DefTOpct": 15.5055,
       "OffTOpct": 20.1808,
-      "eFGpct": 49.4139
+      "eFGpct": 49.4139,
+      "confShort": "BW",
+      "confLong": "Big West Conference",
+      "team_id": 304
     },
     {
       "team": "UC San Diego",
@@ -2536,7 +3484,10 @@
       "DRpct": 27.9652,
       "DefTOpct": 16.6852,
       "OffTOpct": 16.7448,
-      "eFGpct": 53.0829
+      "eFGpct": 53.0829,
+      "confShort": "BW",
+      "confLong": "Big West Conference",
+      "team_id": 363
     },
     {
       "team": "UC Santa Barbara",
@@ -2544,7 +3495,10 @@
       "DRpct": 26.014,
       "DefTOpct": 18.4283,
       "OffTOpct": 18.4927,
-      "eFGpct": 56.152
+      "eFGpct": 56.152,
+      "confShort": "BW",
+      "confLong": "Big West Conference",
+      "team_id": 305
     },
     {
       "team": "UCF",
@@ -2552,7 +3506,10 @@
       "DRpct": 27.0166,
       "DefTOpct": 16.2143,
       "OffTOpct": 16.0307,
-      "eFGpct": 53.9256
+      "eFGpct": 53.9256,
+      "confShort": "B12",
+      "confLong": "Big 12 Conference",
+      "team_id": 306
     },
     {
       "team": "UCLA",
@@ -2560,7 +3517,10 @@
       "DRpct": 31.8804,
       "DefTOpct": 18.9258,
       "OffTOpct": 13.8542,
-      "eFGpct": 53.8075
+      "eFGpct": 53.8075,
+      "confShort": "B10",
+      "confLong": "Big Ten Conference",
+      "team_id": 307
     },
     {
       "team": "UMass Lowell",
@@ -2568,7 +3528,10 @@
       "DRpct": 29.8851,
       "DefTOpct": 14.5027,
       "OffTOpct": 19.4411,
-      "eFGpct": 50.1517
+      "eFGpct": 50.1517,
+      "confShort": "AE",
+      "confLong": "America East Conference",
+      "team_id": 308
     },
     {
       "team": "UMBC",
@@ -2576,7 +3539,10 @@
       "DRpct": 26.2162,
       "DefTOpct": 14.8884,
       "OffTOpct": 14.6767,
-      "eFGpct": 52.7919
+      "eFGpct": 52.7919,
+      "confShort": "AE",
+      "confLong": "America East Conference",
+      "team_id": 309
     },
     {
       "team": "UNC Asheville",
@@ -2584,7 +3550,10 @@
       "DRpct": 31.3907,
       "DefTOpct": 15.515,
       "OffTOpct": 17.7219,
-      "eFGpct": 51.7725
+      "eFGpct": 51.7725,
+      "confShort": "BSth",
+      "confLong": "Big South Conference",
+      "team_id": 311
     },
     {
       "team": "UNC Greensboro",
@@ -2592,7 +3561,10 @@
       "DRpct": 29.6875,
       "DefTOpct": 13.3448,
       "OffTOpct": 15.4487,
-      "eFGpct": 50.7625
+      "eFGpct": 50.7625,
+      "confShort": "SC",
+      "confLong": "Southern Conference",
+      "team_id": 312
     },
     {
       "team": "UNC Wilmington",
@@ -2600,7 +3572,10 @@
       "DRpct": 26.9231,
       "DefTOpct": 15.0912,
       "OffTOpct": 15.0912,
-      "eFGpct": 51.1459
+      "eFGpct": 51.1459,
+      "confShort": "CAA",
+      "confLong": "Coastal Athletic Association",
+      "team_id": 313
     },
     {
       "team": "UNLV",
@@ -2608,7 +3583,10 @@
       "DRpct": 31.677,
       "DefTOpct": 17.9261,
       "OffTOpct": 17.6243,
-      "eFGpct": 51.9703
+      "eFGpct": 51.9703,
+      "confShort": "MWC",
+      "confLong": "Mountain West Conference",
+      "team_id": 314
     },
     {
       "team": "USC",
@@ -2616,7 +3594,10 @@
       "DRpct": 31.3131,
       "DefTOpct": 17.0236,
       "OffTOpct": 17.4806,
-      "eFGpct": 51.9355
+      "eFGpct": 51.9355,
+      "confShort": "B10",
+      "confLong": "Big Ten Conference",
+      "team_id": 315
     },
     {
       "team": "USC Upstate",
@@ -2624,7 +3605,10 @@
       "DRpct": 32.1645,
       "DefTOpct": 16.1138,
       "OffTOpct": 17.7744,
-      "eFGpct": 48.5359
+      "eFGpct": 48.5359,
+      "confShort": "BSth",
+      "confLong": "Big South Conference",
+      "team_id": 316
     },
     {
       "team": "UT Arlington",
@@ -2632,7 +3616,10 @@
       "DRpct": 29.6149,
       "DefTOpct": 17.9423,
       "OffTOpct": 21.4107,
-      "eFGpct": 48.9873
+      "eFGpct": 48.9873,
+      "confShort": "WAC",
+      "confLong": "Western Athletic Conference",
+      "team_id": 317
     },
     {
       "team": "UT Rio Grande Valley",
@@ -2640,7 +3627,10 @@
       "DRpct": 31.4251,
       "DefTOpct": 17.1588,
       "OffTOpct": 18.4441,
-      "eFGpct": 54.311
+      "eFGpct": 54.311,
+      "confShort": "Slnd",
+      "confLong": "Southland Conference",
+      "team_id": 318
     },
     {
       "team": "Utah",
@@ -2648,7 +3638,10 @@
       "DRpct": 32.5608,
       "DefTOpct": 14.11,
       "OffTOpct": 16.0747,
-      "eFGpct": 52.4825
+      "eFGpct": 52.4825,
+      "confShort": "B12",
+      "confLong": "Big 12 Conference",
+      "team_id": 319
     },
     {
       "team": "Utah St.",
@@ -2656,7 +3649,10 @@
       "DRpct": 31.2578,
       "DefTOpct": 21.0325,
       "OffTOpct": 16.106,
-      "eFGpct": 57.7869
+      "eFGpct": 57.7869,
+      "confShort": "MWC",
+      "confLong": "Mountain West Conference",
+      "team_id": 320
     },
     {
       "team": "Utah Tech",
@@ -2664,7 +3660,10 @@
       "DRpct": 34.3672,
       "DefTOpct": 17.7774,
       "OffTOpct": 17.8393,
-      "eFGpct": 52.8003
+      "eFGpct": 52.8003,
+      "confShort": "WAC",
+      "confLong": "Western Athletic Conference",
+      "team_id": 361
     },
     {
       "team": "Utah Valley",
@@ -2672,7 +3671,10 @@
       "DRpct": 31.3253,
       "DefTOpct": 21.3392,
       "OffTOpct": 21.0168,
-      "eFGpct": 55.8426
+      "eFGpct": 55.8426,
+      "confShort": "WAC",
+      "confLong": "Western Athletic Conference",
+      "team_id": 321
     },
     {
       "team": "UTEP",
@@ -2680,7 +3682,10 @@
       "DRpct": 33.4716,
       "DefTOpct": 18.6644,
       "OffTOpct": 17.5022,
-      "eFGpct": 47.8226
+      "eFGpct": 47.8226,
+      "confShort": "CUSA",
+      "confLong": "Conference USA",
+      "team_id": 322
     },
     {
       "team": "UTSA",
@@ -2688,7 +3693,10 @@
       "DRpct": 38.8957,
       "DefTOpct": 14.8869,
       "OffTOpct": 18.5924,
-      "eFGpct": 44.0405
+      "eFGpct": 44.0405,
+      "confShort": "Amer",
+      "confLong": "American Athletic Conference",
+      "team_id": 323
     },
     {
       "team": "Valparaiso",
@@ -2696,7 +3704,10 @@
       "DRpct": 30.1354,
       "DefTOpct": 16.895,
       "OffTOpct": 15.8872,
-      "eFGpct": 46.573
+      "eFGpct": 46.573,
+      "confShort": "MVC",
+      "confLong": "Missouri Valley Conference",
+      "team_id": 324
     },
     {
       "team": "Vanderbilt",
@@ -2704,7 +3715,10 @@
       "DRpct": 29.0951,
       "DefTOpct": 18.3764,
       "OffTOpct": 13.3803,
-      "eFGpct": 56.6241
+      "eFGpct": 56.6241,
+      "confShort": "SEC",
+      "confLong": "Southeastern Conference",
+      "team_id": 325
     },
     {
       "team": "VCU",
@@ -2712,7 +3726,10 @@
       "DRpct": 30.43,
       "DefTOpct": 17.4577,
       "OffTOpct": 15.7517,
-      "eFGpct": 54.744
+      "eFGpct": 54.744,
+      "confShort": "A10",
+      "confLong": "Atlantic 10 Conference",
+      "team_id": 326
     },
     {
       "team": "Vermont",
@@ -2720,7 +3737,10 @@
       "DRpct": 22.5282,
       "DefTOpct": 14.4106,
       "OffTOpct": 14.6011,
-      "eFGpct": 53.4712
+      "eFGpct": 53.4712,
+      "confShort": "AE",
+      "confLong": "America East Conference",
+      "team_id": 327
     },
     {
       "team": "Villanova",
@@ -2728,7 +3748,10 @@
       "DRpct": 32.1078,
       "DefTOpct": 18.9734,
       "OffTOpct": 15.5808,
-      "eFGpct": 54.4492
+      "eFGpct": 54.4492,
+      "confShort": "BE",
+      "confLong": "Big East Conference",
+      "team_id": 328
     },
     {
       "team": "Virginia",
@@ -2736,7 +3759,10 @@
       "DRpct": 28.9105,
       "DefTOpct": 16.1621,
       "OffTOpct": 15.7948,
-      "eFGpct": 54.5732
+      "eFGpct": 54.5732,
+      "confShort": "ACC",
+      "confLong": "Atlantic Coast Conference",
+      "team_id": 329
     },
     {
       "team": "Virginia Tech",
@@ -2744,7 +3770,10 @@
       "DRpct": 32.5556,
       "DefTOpct": 18.1384,
       "OffTOpct": 14.9176,
-      "eFGpct": 51.9029
+      "eFGpct": 51.9029,
+      "confShort": "ACC",
+      "confLong": "Atlantic Coast Conference",
+      "team_id": 330
     },
     {
       "team": "VMI",
@@ -2752,7 +3781,10 @@
       "DRpct": 38.8041,
       "DefTOpct": 16.73,
       "OffTOpct": 16.2172,
-      "eFGpct": 47.4925
+      "eFGpct": 47.4925,
+      "confShort": "SC",
+      "confLong": "Southern Conference",
+      "team_id": 331
     },
     {
       "team": "Wagner",
@@ -2760,7 +3792,10 @@
       "DRpct": 30.6548,
       "DefTOpct": 15.2074,
       "OffTOpct": 18.6534,
-      "eFGpct": 50.4394
+      "eFGpct": 50.4394,
+      "confShort": "NEC",
+      "confLong": "NEC",
+      "team_id": 332
     },
     {
       "team": "Wake Forest",
@@ -2768,7 +3803,10 @@
       "DRpct": 33.2117,
       "DefTOpct": 19.6493,
       "OffTOpct": 15.7079,
-      "eFGpct": 52.8649
+      "eFGpct": 52.8649,
+      "confShort": "ACC",
+      "confLong": "Atlantic Coast Conference",
+      "team_id": 333
     },
     {
       "team": "Washington",
@@ -2776,7 +3814,10 @@
       "DRpct": 28.3937,
       "DefTOpct": 14.6843,
       "OffTOpct": 15.671,
-      "eFGpct": 50.6498
+      "eFGpct": 50.6498,
+      "confShort": "B10",
+      "confLong": "Big Ten Conference",
+      "team_id": 334
     },
     {
       "team": "Washington St.",
@@ -2784,7 +3825,10 @@
       "DRpct": 27.2936,
       "DefTOpct": 14.5926,
       "OffTOpct": 18.8813,
-      "eFGpct": 55.1395
+      "eFGpct": 55.1395,
+      "confShort": "WCC",
+      "confLong": "West Coast Conference",
+      "team_id": 335
     },
     {
       "team": "Weber St.",
@@ -2792,7 +3836,10 @@
       "DRpct": 28.202,
       "DefTOpct": 16.6989,
       "OffTOpct": 15.8786,
-      "eFGpct": 51.7061
+      "eFGpct": 51.7061,
+      "confShort": "BSky",
+      "confLong": "Big Sky Conference",
+      "team_id": 336
     },
     {
       "team": "West Georgia",
@@ -2800,7 +3847,10 @@
       "DRpct": 29.909,
       "DefTOpct": 15.213,
       "OffTOpct": 15.6441,
-      "eFGpct": 48.7889
+      "eFGpct": 48.7889,
+      "confShort": "ASun",
+      "confLong": "ASUN Conference",
+      "team_id": 372
     },
     {
       "team": "West Virginia",
@@ -2808,7 +3858,10 @@
       "DRpct": 26.2963,
       "DefTOpct": 17.8701,
       "OffTOpct": 17.225,
-      "eFGpct": 51.8377
+      "eFGpct": 51.8377,
+      "confShort": "B12",
+      "confLong": "Big 12 Conference",
+      "team_id": 337
     },
     {
       "team": "Western Carolina",
@@ -2816,7 +3869,10 @@
       "DRpct": 27.86,
       "DefTOpct": 14.784,
       "OffTOpct": 17.5073,
-      "eFGpct": 50.1459
+      "eFGpct": 50.1459,
+      "confShort": "SC",
+      "confLong": "Southern Conference",
+      "team_id": 338
     },
     {
       "team": "Western Illinois",
@@ -2824,7 +3880,10 @@
       "DRpct": 33.9332,
       "DefTOpct": 15.1323,
       "OffTOpct": 17.4083,
-      "eFGpct": 43.9224
+      "eFGpct": 43.9224,
+      "confShort": "OVC",
+      "confLong": "Ohio Valley Conference",
+      "team_id": 339
     },
     {
       "team": "Western Kentucky",
@@ -2832,7 +3891,10 @@
       "DRpct": 30.2071,
       "DefTOpct": 17.9153,
       "OffTOpct": 14.6001,
-      "eFGpct": 45.0249
+      "eFGpct": 45.0249,
+      "confShort": "CUSA",
+      "confLong": "Conference USA",
+      "team_id": 340
     },
     {
       "team": "Western Michigan",
@@ -2840,7 +3902,10 @@
       "DRpct": 30.3069,
       "DefTOpct": 13.5495,
       "OffTOpct": 17.5617,
-      "eFGpct": 50.3037
+      "eFGpct": 50.3037,
+      "confShort": "MAC",
+      "confLong": "Mid American Conference",
+      "team_id": 341
     },
     {
       "team": "Wichita St.",
@@ -2848,7 +3913,10 @@
       "DRpct": 29.6591,
       "DefTOpct": 16.9015,
       "OffTOpct": 15.132,
-      "eFGpct": 49.4932
+      "eFGpct": 49.4932,
+      "confShort": "Amer",
+      "confLong": "American Athletic Conference",
+      "team_id": 342
     },
     {
       "team": "William & Mary",
@@ -2856,7 +3924,10 @@
       "DRpct": 31.8976,
       "DefTOpct": 19.3992,
       "OffTOpct": 17.1654,
-      "eFGpct": 54.7672
+      "eFGpct": 54.7672,
+      "confShort": "CAA",
+      "confLong": "Coastal Athletic Association",
+      "team_id": 343
     },
     {
       "team": "Winthrop",
@@ -2864,7 +3935,10 @@
       "DRpct": 28.9872,
       "DefTOpct": 17.1989,
       "OffTOpct": 14.6336,
-      "eFGpct": 51.0877
+      "eFGpct": 51.0877,
+      "confShort": "BSth",
+      "confLong": "Big South Conference",
+      "team_id": 344
     },
     {
       "team": "Wisconsin",
@@ -2872,7 +3946,10 @@
       "DRpct": 26.0613,
       "DefTOpct": 14.6324,
       "OffTOpct": 13.2221,
-      "eFGpct": 53.7609
+      "eFGpct": 53.7609,
+      "confShort": "B10",
+      "confLong": "Big Ten Conference",
+      "team_id": 345
     },
     {
       "team": "Wofford",
@@ -2880,7 +3957,10 @@
       "DRpct": 29.9145,
       "DefTOpct": 15.2602,
       "OffTOpct": 13.7463,
-      "eFGpct": 52.0906
+      "eFGpct": 52.0906,
+      "confShort": "SC",
+      "confLong": "Southern Conference",
+      "team_id": 346
     },
     {
       "team": "Wright St.",
@@ -2888,7 +3968,10 @@
       "DRpct": 30.2239,
       "DefTOpct": 17.062,
       "OffTOpct": 16.1512,
-      "eFGpct": 53.574
+      "eFGpct": 53.574,
+      "confShort": "Horz",
+      "confLong": "Horizon League",
+      "team_id": 347
     },
     {
       "team": "Wyoming",
@@ -2896,7 +3979,10 @@
       "DRpct": 26.6578,
       "DefTOpct": 16.7987,
       "OffTOpct": 17.3714,
-      "eFGpct": 51.9202
+      "eFGpct": 51.9202,
+      "confShort": "MWC",
+      "confLong": "Mountain West Conference",
+      "team_id": 348
     },
     {
       "team": "Xavier",
@@ -2904,7 +3990,10 @@
       "DRpct": 29.1018,
       "DefTOpct": 16.7386,
       "OffTOpct": 14.1412,
-      "eFGpct": 50.9855
+      "eFGpct": 50.9855,
+      "confShort": "BE",
+      "confLong": "Big East Conference",
+      "team_id": 349
     },
     {
       "team": "Yale",
@@ -2912,7 +4001,10 @@
       "DRpct": 29.2035,
       "DefTOpct": 15.9552,
       "OffTOpct": 14.2323,
-      "eFGpct": 56.8398
+      "eFGpct": 56.8398,
+      "confShort": "Ivy",
+      "confLong": "Ivy League",
+      "team_id": 350
     },
     {
       "team": "Youngstown St.",
@@ -2920,7 +4012,10 @@
       "DRpct": 31.4094,
       "DefTOpct": 18.3496,
       "OffTOpct": 19.4216,
-      "eFGpct": 54.3381
+      "eFGpct": 54.3381,
+      "confShort": "Horz",
+      "confLong": "Horizon League",
+      "team_id": 351
     }
   ]
 }
