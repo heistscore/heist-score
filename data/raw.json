@@ -1,0 +1,9 @@
+{
+  "teams": [
+    { "team": "Houston",   "ORpct": 36.0, "DRpct": 78.0, "DefTOpct": 22.0, "OffTOpct": 14.0 },
+    { "team": "Purdue",    "ORpct": 34.0, "DRpct": 75.0, "DefTOpct": 18.0, "OffTOpct": 15.5 },
+    { "team": "Kentucky",  "ORpct": 33.0, "DRpct": 74.0, "DefTOpct": 16.0, "OffTOpct": 16.5 },
+    { "team": "Tennessee", "ORpct": 30.0, "DRpct": 73.0, "DefTOpct": 19.0, "OffTOpct": 17.0 },
+    { "team": "Alabama",   "ORpct": 28.0, "DRpct": 70.0, "DefTOpct": 15.0, "OffTOpct": 18.5 }
+  ]
+}
