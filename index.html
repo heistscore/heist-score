@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Heist Score</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=7">
 </head>
 <body>
 
@@ -15,11 +15,11 @@
 
   <input id="search" class="search" type="text" placeholder="Search team..." />
 
-  <div class="controls">
-    <button class="pill active" data-limit="25">Top 25</button>
-    <button class="pill" data-limit="50">Top 50</button>
-    <button class="pill" data-limit="100">Top 100</button>
-    <button class="pill" data-limit="all">All</button>
+  <div class="controls" id="controls">
+    <button class="pill active" data-limit="25" type="button">Top 25</button>
+    <button class="pill" data-limit="50" type="button">Top 50</button>
+    <button class="pill" data-limit="100" type="button">Top 100</button>
+    <button class="pill" data-limit="all" type="button">All</button>
   </div>
 
   <div class="table">
@@ -33,6 +33,6 @@
   </div>
 </div>
 
-<script src="app.js"></script>
+<script defer src="./app.js?v=7"></script>
 </body>
 </html>
