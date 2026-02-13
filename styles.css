@@ -27,6 +27,22 @@ h1 {
   font-size: 13px;
 }
 
+.search {
+  margin-top: 12px;
+  width: 100%;
+  max-width: 420px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #243043;
+  background: #0f1625;
+  color: #e5e7eb;
+  outline: none;
+}
+
+.search::placeholder {
+  color: #9ca3af;
+}
+
 .table {
   margin-top: 20px;
   border: 1px solid #243043;
