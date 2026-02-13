@@ -1,25 +1,45 @@
 {
-  "updated_at": "2026-02-13T04:51:43.995Z",
+  "updated_at": "2026-02-13T05:00:58.580Z",
   "teams": [
     {
       "team": "Houston",
-      "heist": 1.42
+      "heist": 1.506782,
+      "ORpct": 36,
+      "DRpct": 78,
+      "DefTOpct": 22,
+      "OffTOpct": 14
     },
     {
       "team": "Purdue",
-      "heist": 0.88
+      "heist": 0.38644,
+      "ORpct": 34,
+      "DRpct": 75,
+      "DefTOpct": 18,
+      "OffTOpct": 15.5
     },
     {
       "team": "Kentucky",
-      "heist": 0.52
+      "heist": -0.16737,
+      "ORpct": 33,
+      "DRpct": 74,
+      "DefTOpct": 16,
+      "OffTOpct": 16.5
     },
     {
       "team": "Tennessee",
-      "heist": -0.12
+      "heist": -0.302755,
+      "ORpct": 30,
+      "DRpct": 73,
+      "DefTOpct": 19,
+      "OffTOpct": 17
     },
     {
       "team": "Alabama",
-      "heist": -0.63
+      "heist": -1.423097,
+      "ORpct": 28,
+      "DRpct": 70,
+      "DefTOpct": 15,
+      "OffTOpct": 18.5
     }
   ]
 }
