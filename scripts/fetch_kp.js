@@ -1,8 +1,7 @@
 const fs = require("fs");
 
 function asPct(x) {
-  // KenPom fields are likely already percent numbers (e.g., 33.4)
-  // but if they come back as decimals (0.334), convert.
+  // KenPom might return percent as 33.4 OR decimal as 0.334
   const n = Number(x);
   if (!Number.isFinite(n)) return null;
   return n <= 1 ? n * 100 : n;
@@ -14,8 +13,7 @@ async function main() {
     throw new Error("Missing KENPOM_API_KEY env var (set as GitHub Actions secret).");
   }
 
-  // Use env SEASON if provided; otherwise default to current year.
-  // (KenPom uses ending-year season like 2026 for 2025-26.)
+  // KenPom uses ending-year season like 2026 for 2025-26
   const SEASON = process.env.SEASON || String(new Date().getFullYear());
 
   const url = `https://kenpom.com/api.php?endpoint=four-factors&y=${encodeURIComponent(SEASON)}`;
@@ -34,22 +32,25 @@ async function main() {
 
   const rows = await res.json();
 
-  // rows is expected to be an array of team objects
-  const teams = rows.map(r => ({
-    team: r.TeamName,
-    ORpct: asPct(r.OR_Pct),
-    DRpct: asPct(r.DOR_Pct),
-    DefTOpct: asPct(r.DTO_Pct),
-    OffTOpct: asPct(r.TO_Pct),
-  })).filter(t =>
-    t.team &&
-    [t.ORpct, t.DRpct, t.DefTOpct, t.OffTOpct].every(v => Number.isFinite(v))
-  );
+  // Convert KenPom -> our raw format (now includes eFG%)
+  const teams = rows
+    .map(r => ({
+      team: r.TeamName,
+      ORpct: asPct(r.OR_Pct),
+      DRpct: asPct(r.DOR_Pct),
+      DefTOpct: asPct(r.DTO_Pct),
+      OffTOpct: asPct(r.TO_Pct),
+      eFGpct: asPct(r.eFG_Pct), // <-- NEW (for Payday)
+    }))
+    .filter(t =>
+      t.team &&
+      [t.ORpct, t.DRpct, t.DefTOpct, t.OffTOpct, t.eFGpct].every(v => Number.isFinite(v))
+    );
 
   const payload = {
     season: Number(SEASON),
     updated_at: new Date().toISOString(),
-    teams
+    teams,
   };
 
   fs.writeFileSync("data/raw.json", JSON.stringify(payload, null, 2));
