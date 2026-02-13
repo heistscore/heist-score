@@ -1,0 +1,10 @@
+{
+  "updated_at": "manual test",
+  "teams": [
+    { "team": "Houston", "heist": 1.42 },
+    { "team": "Purdue", "heist": 0.88 },
+    { "team": "Kentucky", "heist": 0.52 },
+    { "team": "Tennessee", "heist": -0.12 },
+    { "team": "Alabama", "heist": -0.63 }
+  ]
+}
