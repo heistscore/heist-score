@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Heist Score</title>
-  <link rel="stylesheet" href="styles.css?v=7">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -13,26 +13,26 @@
   <p class="sub">Possession Control Leaderboard</p>
   <p id="meta" class="meta"></p>
 
-  <input id="search" class="search" type="text" placeholder="Search team..." />
+  <div class="controls">
+    <div class="toggle" role="group" aria-label="Metric toggle">
+      <button id="btnHeist" class="pill active" type="button">Heist</button>
+      <button id="btnPayday" class="pill" type="button">Payday</button>
+    </div>
 
-  <div class="controls" id="controls">
-    <button class="pill active" data-limit="25" type="button">Top 25</button>
-    <button class="pill" data-limit="50" type="button">Top 50</button>
-    <button class="pill" data-limit="100" type="button">Top 100</button>
-    <button class="pill" data-limit="all" type="button">All</button>
+    <input id="search" class="search" type="text" placeholder="Search team..." />
   </div>
 
   <div class="table">
     <div class="row head">
       <div>Rank</div>
       <div>Team</div>
-      <div class="score">Heist</div>
+      <div class="score" id="metricHeader">Heist</div>
       <div class="band">Band</div>
     </div>
     <div id="rows"></div>
   </div>
 </div>
 
-<script defer src="./app.js?v=7"></script>
+<script src="app.js"></script>
 </body>
 </html>
