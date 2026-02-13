@@ -1,2925 +1,3656 @@
 {
-  "updated_at": "2026-02-13T05:53:36.946Z",
+  "season": 2026,
+  "updated_at": "2026-02-13T05:57:49.874Z",
   "teams": [
     {
       "team": "Abilene Christian",
-      "heist": 0.385487,
+      "heist": 1.541946484026884,
+      "payday": 0.29096892958324805,
       "ORpct": 32.2493,
       "DRpct": 30.8362,
       "DefTOpct": 23.3316,
-      "OffTOpct": 20.4675
+      "OffTOpct": 20.4675,
+      "eFGpct": 47.1343
     },
     {
       "team": "Air Force",
-      "heist": -1.326062,
+      "heist": -5.304248684535814,
+      "payday": -5.841263366683922,
       "ORpct": 22.0493,
       "DRpct": 31.3472,
       "DefTOpct": 15.6729,
-      "OffTOpct": 22.5764
+      "OffTOpct": 22.5764,
+      "eFGpct": 49.5029
     },
     {
       "team": "Akron",
-      "heist": 0.675413,
+      "heist": 2.7016521725603875,
+      "payday": 4.862359737507838,
       "ORpct": 33.882,
       "DRpct": 32.1951,
       "DefTOpct": 18.5132,
-      "OffTOpct": 15.4595
+      "OffTOpct": 15.4595,
+      "eFGpct": 58.4527
     },
     {
       "team": "Alabama",
-      "heist": 0.19607,
+      "heist": 0.7842815050696474,
+      "payday": 1.9259507003601284,
       "ORpct": 31.4559,
       "DRpct": 32.7837,
       "DefTOpct": 12.4134,
-      "OffTOpct": 12.9651
+      "OffTOpct": 12.9651,
+      "eFGpct": 55.072
     },
     {
       "team": "Alabama A&M",
-      "heist": -0.362282,
+      "heist": -1.449129085293577,
+      "payday": -2.5740795026491616,
       "ORpct": 27.1233,
       "DRpct": 29.2308,
       "DefTOpct": 16.9646,
-      "OffTOpct": 17.1048
+      "OffTOpct": 17.1048,
+      "eFGpct": 47.5524
     },
     {
       "team": "Alabama St.",
-      "heist": 0.336684,
+      "heist": 1.346734804698033,
+      "payday": 0.10458909698168695,
       "ORpct": 32.2543,
       "DRpct": 33.8501,
       "DefTOpct": 19.4071,
-      "OffTOpct": 19.2855
+      "OffTOpct": 19.2855,
+      "eFGpct": 47.1636
     },
     {
       "team": "Albany",
-      "heist": 0.03355,
+      "heist": 0.1341990712473693,
+      "payday": -0.217678400665191,
       "ORpct": 31.4888,
       "DRpct": 33.5694,
       "DefTOpct": 16.1634,
-      "OffTOpct": 18.2181
+      "OffTOpct": 18.2181,
+      "eFGpct": 50.1171
     },
     {
       "team": "Alcorn St.",
-      "heist": 0.036668,
+      "heist": 0.14667193030786052,
+      "payday": -0.6042060710556814,
       "ORpct": 27.4534,
       "DRpct": 37.1389,
       "DefTOpct": 18.1545,
-      "OffTOpct": 20.3456
+      "OffTOpct": 20.3456,
+      "eFGpct": 48.7934
     },
     {
       "team": "American",
-      "heist": 0.026988,
+      "heist": 0.10795368633989574,
+      "payday": 0.09892066724711741,
       "ORpct": 26.6908,
       "DRpct": 30.563,
       "DefTOpct": 19.0726,
-      "OffTOpct": 16.5419
+      "OffTOpct": 16.5419,
+      "eFGpct": 51.2545
     },
     {
       "team": "Appalachian St.",
-      "heist": -0.218786,
+      "heist": -0.8751430284991734,
+      "payday": -1.2406751985941984,
       "ORpct": 30.9795,
       "DRpct": 28.8154,
       "DefTOpct": 14.2905,
-      "OffTOpct": 15.1642
+      "OffTOpct": 15.1642,
+      "eFGpct": 50.0718
     },
     {
       "team": "Arizona",
-      "heist": 0.369373,
+      "heist": 1.4774906736851325,
+      "payday": 2.887189838596986,
       "ORpct": 39.4802,
       "DRpct": 25.6566,
       "DefTOpct": 17.8485,
-      "OffTOpct": 15.8022
+      "OffTOpct": 15.8022,
+      "eFGpct": 55.9612
     },
     {
       "team": "Arizona St.",
-      "heist": 0.630199,
+      "heist": 2.520796385184547,
+      "payday": 2.5729834367509015,
       "ORpct": 30.5492,
       "DRpct": 34.186,
       "DefTOpct": 19.1019,
-      "OffTOpct": 16.0119
+      "OffTOpct": 16.0119,
+      "eFGpct": 51.4576
     },
     {
       "team": "Arkansas",
-      "heist": 0.622996,
+      "heist": 2.491983212535311,
+      "payday": 4.124287114925105,
       "ORpct": 32.4691,
       "DRpct": 31.573,
       "DefTOpct": 16.4691,
-      "OffTOpct": 12.9113
+      "OffTOpct": 12.9113,
+      "eFGpct": 56.6997
     },
     {
       "team": "Arkansas Pine Bluff",
-      "heist": -0.23618,
+      "heist": -0.9447198493904196,
+      "payday": -1.4385398681931114,
       "ORpct": 27.5995,
       "DRpct": 34.8226,
       "DefTOpct": 15.9927,
-      "OffTOpct": 19.1286
+      "OffTOpct": 19.1286,
+      "eFGpct": 49.6462
     },
     {
       "team": "Arkansas St.",
-      "heist": -0.393371,
+      "heist": -1.5734850359140906,
+      "payday": -1.586918906959717,
       "ORpct": 37.8319,
       "DRpct": 26.6515,
       "DefTOpct": 15.538,
-      "OffTOpct": 19.6928
+      "OffTOpct": 19.6928,
+      "eFGpct": 51.2399
     },
     {
       "team": "Army",
-      "heist": -0.506888,
+      "heist": -2.0275528345996183,
+      "payday": -2.5818393535215725,
       "ORpct": 29.3598,
       "DRpct": 27.9597,
       "DefTOpct": 15.0414,
-      "OffTOpct": 16.8002
+      "OffTOpct": 16.8002,
+      "eFGpct": 49.4456
     },
     {
       "team": "Auburn",
-      "heist": 0.907408,
+      "heist": 3.6296329153957245,
+      "payday": 4.076871786784135,
       "ORpct": 38.3079,
       "DRpct": 31.8348,
       "DefTOpct": 17.2212,
-      "OffTOpct": 14.3806
+      "OffTOpct": 14.3806,
+      "eFGpct": 52.7682
     },
     {
       "team": "Austin Peay",
-      "heist": 0.250233,
+      "heist": 1.0009308296223915,
+      "payday": 1.4548915502264532,
       "ORpct": 28.7371,
       "DRpct": 29.7436,
       "DefTOpct": 19.3093,
-      "OffTOpct": 15.4345
+      "OffTOpct": 15.4345,
+      "eFGpct": 52.7905
     },
     {
       "team": "Ball St.",
-      "heist": 0.184476,
+      "heist": 0.7379030620879835,
+      "payday": -0.8633340792877685,
       "ORpct": 27.2956,
       "DRpct": 32.1856,
       "DefTOpct": 19.1521,
-      "OffTOpct": 16.7145
+      "OffTOpct": 16.7145,
+      "eFGpct": 45.9723
     },
     {
       "team": "Baylor",
-      "heist": 0.438603,
+      "heist": 1.754412680582548,
+      "payday": 2.6923164018918673,
       "ORpct": 37.1827,
       "DRpct": 32.6241,
       "DefTOpct": 15.5625,
-      "OffTOpct": 16.6165
+      "OffTOpct": 16.6165,
+      "eFGpct": 54.396
     },
     {
       "team": "Bellarmine",
-      "heist": -0.425155,
+      "heist": -1.7006194947460922,
+      "payday": 0.6557752679951001,
       "ORpct": 21.1094,
       "DRpct": 34.1823,
       "DefTOpct": 14.9561,
-      "OffTOpct": 16.0567
+      "OffTOpct": 16.0567,
+      "eFGpct": 59.1019
     },
     {
       "team": "Belmont",
-      "heist": -0.307159,
+      "heist": -1.2286345904694087,
+      "payday": 1.734505028154446,
       "ORpct": 29.3601,
       "DRpct": 29.8193,
       "DefTOpct": 17.5695,
-      "OffTOpct": 18.7118
+      "OffTOpct": 18.7118,
+      "eFGpct": 61.1148
     },
     {
       "team": "Bethune Cookman",
-      "heist": -0.354632,
+      "heist": -1.4185270083933454,
+      "payday": -1.7943981662954032,
       "ORpct": 29.1415,
       "DRpct": 31.4554,
       "DefTOpct": 15.8145,
-      "OffTOpct": 18.4703
+      "OffTOpct": 18.4703,
+      "eFGpct": 50.0375
     },
     {
       "team": "Binghamton",
-      "heist": -1.442081,
+      "heist": -5.768324386284725,
+      "payday": -6.885377384382459,
       "ORpct": 21.7096,
       "DRpct": 28.8832,
       "DefTOpct": 12.9197,
-      "OffTOpct": 19.2172
+      "OffTOpct": 19.2172,
+      "eFGpct": 47.5786
     },
     {
       "team": "Boise St.",
-      "heist": -0.617826,
+      "heist": -2.4713048497033228,
+      "payday": -2.2895036652791294,
       "ORpct": 31.5202,
       "DRpct": 23.9612,
       "DefTOpct": 15.5601,
-      "OffTOpct": 16.6062
+      "OffTOpct": 16.6062,
+      "eFGpct": 51.8876
     },
     {
       "team": "Boston College",
-      "heist": -0.35591,
+      "heist": -1.4236412642893743,
+      "payday": -2.771678704268416,
       "ORpct": 27.4834,
       "DRpct": 28.6996,
       "DefTOpct": 15.394,
-      "OffTOpct": 15.4555
+      "OffTOpct": 15.4555,
+      "eFGpct": 46.8123
     },
     {
       "team": "Boston University",
-      "heist": -0.98562,
+      "heist": -3.9424815495673653,
+      "payday": -2.2809993958737595,
       "ORpct": 27.4026,
       "DRpct": 27.0833,
       "DefTOpct": 13.3852,
-      "OffTOpct": 17.6057
+      "OffTOpct": 17.6057,
+      "eFGpct": 56.7965
     },
     {
       "team": "Bowling Green",
-      "heist": -0.122281,
+      "heist": -0.4891231175241624,
+      "payday": -0.27018597689511703,
       "ORpct": 29.3493,
       "DRpct": 27.2363,
       "DefTOpct": 19.6842,
-      "OffTOpct": 17.4327
+      "OffTOpct": 17.4327,
+      "eFGpct": 52.0108
     },
     {
       "team": "Bradley",
-      "heist": 0.345589,
+      "heist": 1.3823573001796894,
+      "payday": 1.2364758710463086,
       "ORpct": 27.115,
       "DRpct": 28.9044,
       "DefTOpct": 19.891,
-      "OffTOpct": 13.8322
+      "OffTOpct": 13.8322,
+      "eFGpct": 50.8005
     },
     {
       "team": "Brown",
-      "heist": -0.255915,
+      "heist": -1.0236581628652377,
+      "payday": -2.2623977317413666,
       "ORpct": 28.9398,
       "DRpct": 29.2379,
       "DefTOpct": 18.2111,
-      "OffTOpct": 18.2885
+      "OffTOpct": 18.2885,
+      "eFGpct": 47.1749
     },
     {
       "team": "Bryant",
-      "heist": -0.747274,
+      "heist": -2.9890949889067713,
+      "payday": -4.532819626679555,
       "ORpct": 28.4289,
       "DRpct": 32.0102,
       "DefTOpct": 14.7344,
-      "OffTOpct": 20.6682
+      "OffTOpct": 20.6682,
+      "eFGpct": 46.1631
     },
     {
       "team": "Bucknell",
-      "heist": -0.409191,
+      "heist": -1.6367628673341934,
+      "payday": -2.6981722167678424,
       "ORpct": 26.4151,
       "DRpct": 31.2352,
       "DefTOpct": 17.7656,
-      "OffTOpct": 19.18
+      "OffTOpct": 19.18,
+      "eFGpct": 47.7632
     },
     {
       "team": "Buffalo",
-      "heist": 0.011025,
+      "heist": 0.04409864821401055,
+      "payday": 1.359300067426021,
       "ORpct": 27.9627,
       "DRpct": 31.0026,
       "DefTOpct": 17.6097,
-      "OffTOpct": 16.265
+      "OffTOpct": 16.265,
+      "eFGpct": 55.6477
     },
     {
       "team": "Butler",
-      "heist": 0.265208,
+      "heist": 1.0608331097460058,
+      "payday": 1.2130039005424647,
       "ORpct": 35.7778,
       "DRpct": 30.8952,
       "DefTOpct": 15.5271,
-      "OffTOpct": 16.1437
+      "OffTOpct": 16.1437,
+      "eFGpct": 51.7893
     },
     {
       "team": "BYU",
-      "heist": 0.337211,
+      "heist": 1.3488457548079764,
+      "payday": 2.675230160831676,
       "ORpct": 35.3972,
       "DRpct": 28.7625,
       "DefTOpct": 16.4131,
-      "OffTOpct": 14.7718
+      "OffTOpct": 14.7718,
+      "eFGpct": 55.6848
     },
     {
       "team": "Cal Baptist",
-      "heist": -0.070213,
+      "heist": -0.28085097465194353,
+      "payday": -1.177891517928894,
       "ORpct": 38.7378,
       "DRpct": 26.5033,
       "DefTOpct": 16.526,
-      "OffTOpct": 18.3363
+      "OffTOpct": 18.3363,
+      "eFGpct": 48.3085
     },
     {
       "team": "Cal Poly",
-      "heist": -0.596783,
+      "heist": -2.3871331317266593,
+      "payday": -2.3219545240529254,
       "ORpct": 30.6397,
       "DRpct": 30.5028,
       "DefTOpct": 16.845,
-      "OffTOpct": 21.4787
+      "OffTOpct": 21.4787,
+      "eFGpct": 51.5007
     },
     {
       "team": "Cal St. Bakersfield",
-      "heist": 0.348698,
+      "heist": 1.3947929738877862,
+      "payday": -0.3918828059394588,
       "ORpct": 32.2072,
       "DRpct": 36.3318,
       "DefTOpct": 18.132,
-      "OffTOpct": 19.643
+      "OffTOpct": 19.643,
+      "eFGpct": 45.3571
     },
     {
       "team": "Cal St. Fullerton",
-      "heist": 0.017479,
+      "heist": 0.0699177836533792,
+      "payday": -0.09444119511764329,
       "ORpct": 25.3536,
       "DRpct": 28.8783,
       "DefTOpct": 19.6695,
-      "OffTOpct": 15.384
+      "OffTOpct": 15.384,
+      "eFGpct": 50.7392
     },
     {
       "team": "California",
-      "heist": -0.242697,
+      "heist": -0.9707886527351065,
+      "payday": -0.527950633299544,
       "ORpct": 25.7353,
       "DRpct": 30.5463,
       "DefTOpct": 15.7374,
-      "OffTOpct": 15.2009
+      "OffTOpct": 15.2009,
+      "eFGpct": 52.7536
     },
     {
       "team": "Campbell",
-      "heist": 0.043004,
+      "heist": 0.17201598906550808,
+      "payday": -0.07855145946677317,
       "ORpct": 32.5581,
       "DRpct": 31.2242,
       "DefTOpct": 17.335,
-      "OffTOpct": 18.1925
+      "OffTOpct": 18.1925,
+      "eFGpct": 50.4532
     },
     {
       "team": "Canisius",
-      "heist": -0.447151,
+      "heist": -1.7886052103604717,
+      "payday": -3.32352814422756,
       "ORpct": 29.7041,
       "DRpct": 30.4799,
       "DefTOpct": 16.6289,
-      "OffTOpct": 19.5938
+      "OffTOpct": 19.5938,
+      "eFGpct": 46.1923
     },
     {
       "team": "Central Arkansas",
-      "heist": -0.066155,
+      "heist": -0.26461932907940156,
+      "payday": 0.37016817827214266,
       "ORpct": 28.2139,
       "DRpct": 26.99,
       "DefTOpct": 19.0755,
-      "OffTOpct": 15.6988
+      "OffTOpct": 15.6988,
+      "eFGpct": 53.3904
     },
     {
       "team": "Central Connecticut",
-      "heist": -0.462639,
+      "heist": -1.850557167011722,
+      "payday": -1.5306717168615371,
       "ORpct": 27.3504,
       "DRpct": 30.7792,
       "DefTOpct": 14.1293,
-      "OffTOpct": 16.4727
+      "OffTOpct": 16.4727,
+      "eFGpct": 52.3457
     },
     {
       "team": "Central Michigan",
-      "heist": -0.0268,
+      "heist": -0.10719848332857845,
+      "payday": -0.25666690823174515,
       "ORpct": 28.836,
       "DRpct": 34.5157,
       "DefTOpct": 16.0013,
-      "OffTOpct": 17.8604
+      "OffTOpct": 17.8604,
+      "eFGpct": 50.7886
     },
     {
       "team": "Charleston",
-      "heist": -0.234914,
+      "heist": -0.9396562752853439,
+      "payday": -1.1689730345932599,
       "ORpct": 29.7921,
       "DRpct": 31.3824,
       "DefTOpct": 14.1784,
-      "OffTOpct": 16.2937
+      "OffTOpct": 16.2937,
+      "eFGpct": 50.5237
     },
     {
       "team": "Charleston Southern",
-      "heist": -0.803638,
+      "heist": -3.214552278134376,
+      "payday": -2.5948964672234434,
       "ORpct": 30.8126,
       "DRpct": 29.6178,
       "DefTOpct": 12.716,
-      "OffTOpct": 18.899
+      "OffTOpct": 18.899,
+      "eFGpct": 53.3402
     },
     {
       "team": "Charlotte",
-      "heist": -0.085448,
+      "heist": -0.3417912457967758,
+      "payday": 0.20998293088256237,
       "ORpct": 35.0267,
       "DRpct": 31.9641,
       "DefTOpct": 14.6353,
-      "OffTOpct": 18.4937
+      "OffTOpct": 18.4937,
+      "eFGpct": 53.115
     },
     {
       "team": "Chattanooga",
-      "heist": -0.633549,
+      "heist": -2.534197900147422,
+      "payday": -2.3407917294092133,
       "ORpct": 20.9396,
       "DRpct": 31.6121,
       "DefTOpct": 13.932,
-      "OffTOpct": 15.0285
+      "OffTOpct": 15.0285,
+      "eFGpct": 51.9261
     },
     {
       "team": "Chicago St.",
-      "heist": 0.681899,
+      "heist": 2.7275973540762726,
+      "payday": 0.8531758205864299,
       "ORpct": 28.6192,
       "DRpct": 35.2713,
       "DefTOpct": 20.0271,
-      "OffTOpct": 16.1896
+      "OffTOpct": 16.1896,
+      "eFGpct": 45.066
     },
     {
       "team": "Cincinnati",
-      "heist": -0.275812,
+      "heist": -1.1032489411330877,
+      "payday": -1.5404004553374677,
       "ORpct": 30.5494,
       "DRpct": 26.0967,
       "DefTOpct": 18.8064,
-      "OffTOpct": 17.7204
+      "OffTOpct": 17.7204,
+      "eFGpct": 49.8342
     },
     {
       "team": "Clemson",
-      "heist": -0.212301,
+      "heist": -0.8492028569584626,
+      "payday": -0.07289480221911382,
       "ORpct": 29.2232,
       "DRpct": 25.0863,
       "DefTOpct": 17.7616,
-      "OffTOpct": 14.9318
+      "OffTOpct": 14.9318,
+      "eFGpct": 53.8599
     },
     {
       "team": "Cleveland St.",
-      "heist": 0.020754,
+      "heist": 0.08301777065365923,
+      "payday": 0.8641788196697766,
       "ORpct": 28.8538,
       "DRpct": 38.1068,
       "DefTOpct": 14.5805,
-      "OffTOpct": 18.5626
+      "OffTOpct": 18.5626,
+      "eFGpct": 53.876
     },
     {
       "team": "Coastal Carolina",
-      "heist": -0.847927,
+      "heist": -3.3917095443825622,
+      "payday": -4.31783791049854,
       "ORpct": 26.3211,
       "DRpct": 27.5629,
       "DefTOpct": 12.641,
-      "OffTOpct": 15.596
+      "OffTOpct": 15.596,
+      "eFGpct": 48.212
     },
     {
       "team": "Colgate",
-      "heist": -0.132852,
+      "heist": -0.5314078278174795,
+      "payday": 0.09255840658151548,
       "ORpct": 27.3183,
       "DRpct": 29.8329,
       "DefTOpct": 16.2702,
-      "OffTOpct": 15.1167
+      "OffTOpct": 15.1167,
+      "eFGpct": 53.3545
     },
     {
       "team": "Colorado",
-      "heist": 0.063084,
+      "heist": 0.2523375517354747,
+      "payday": 0.8052270128138206,
       "ORpct": 30.5263,
       "DRpct": 29.8021,
       "DefTOpct": 15.5118,
-      "OffTOpct": 14.4242
+      "OffTOpct": 14.4242,
+      "eFGpct": 53.1187
     },
     {
       "team": "Colorado St.",
-      "heist": -0.622606,
+      "heist": -2.4904224388341634,
+      "payday": -0.5559970355992252,
       "ORpct": 31.3901,
       "DRpct": 27.7333,
       "DefTOpct": 15.1867,
-      "OffTOpct": 18.728
+      "OffTOpct": 18.728,
+      "eFGpct": 57.702
     },
     {
       "team": "Columbia",
-      "heist": -0.544811,
+      "heist": -2.1792431854969405,
+      "payday": -1.2709095721721662,
       "ORpct": 36.5672,
       "DRpct": 27.7778,
       "DefTOpct": 14.2096,
-      "OffTOpct": 19.8206
+      "OffTOpct": 19.8206,
+      "eFGpct": 54.2979
     },
     {
       "team": "Connecticut",
-      "heist": 0.386664,
+      "heist": 1.5466556936249445,
+      "payday": 3.0548615995087554,
       "ORpct": 35.2509,
       "DRpct": 28.9444,
       "DefTOpct": 18.6585,
-      "OffTOpct": 16.4599
+      "OffTOpct": 16.4599,
+      "eFGpct": 56.288
     },
     {
       "team": "Coppin St.",
-      "heist": -0.295092,
+      "heist": -1.1803668228531714,
+      "payday": -2.937683494447036,
       "ORpct": 30.1734,
       "DRpct": 35.7513,
       "DefTOpct": 17.2967,
-      "OffTOpct": 22.6832
+      "OffTOpct": 22.6832,
+      "eFGpct": 45.4545
     },
     {
       "team": "Cornell",
-      "heist": -0.160144,
+      "heist": -0.6405754947244926,
+      "payday": 1.5672453003757028,
       "ORpct": 29.6923,
       "DRpct": 30.3406,
       "DefTOpct": 15.6098,
-      "OffTOpct": 16.2542
+      "OffTOpct": 16.2542,
+      "eFGpct": 58.609
     },
     {
       "team": "Creighton",
-      "heist": -0.322213,
+      "heist": -1.288852084612612,
+      "payday": -0.31703768900909135,
       "ORpct": 28.6905,
       "DRpct": 31.5904,
       "DefTOpct": 14.2777,
-      "OffTOpct": 16.6768
+      "OffTOpct": 16.6768,
+      "eFGpct": 54.5085
     },
     {
       "team": "CSUN",
-      "heist": -0.551123,
+      "heist": -2.2044912476918044,
+      "payday": -1.93952601848743,
       "ORpct": 32.1016,
       "DRpct": 26.0417,
       "DefTOpct": 15.9638,
-      "OffTOpct": 18.0962
+      "OffTOpct": 18.0962,
+      "eFGpct": 52.1635
     },
     {
       "team": "Dartmouth",
-      "heist": -0.812846,
+      "heist": -3.251385958004333,
+      "payday": -2.9323143640372082,
       "ORpct": 25.4237,
       "DRpct": 30.7801,
       "DefTOpct": 13.7271,
-      "OffTOpct": 17.9741
+      "OffTOpct": 17.9741,
+      "eFGpct": 52.343
     },
     {
       "team": "Davidson",
-      "heist": 0.199465,
+      "heist": 0.7978618728674223,
+      "payday": 1.5879451970756149,
       "ORpct": 29.726,
       "DRpct": 31.4246,
       "DefTOpct": 18.0339,
-      "OffTOpct": 16.2864
+      "OffTOpct": 16.2864,
+      "eFGpct": 53.9056
     },
     {
       "team": "Dayton",
-      "heist": 0.39322,
+      "heist": 1.5728792261042037,
+      "payday": 1.5967320253714021,
       "ORpct": 26.8323,
       "DRpct": 31.1971,
       "DefTOpct": 22.4711,
-      "OffTOpct": 17.163
+      "OffTOpct": 17.163,
+      "eFGpct": 51.3636
     },
     {
       "team": "Delaware",
-      "heist": -1.082263,
+      "heist": -4.329053966885852,
+      "payday": -3.7774003614928935,
       "ORpct": 22.0144,
       "DRpct": 30.397,
       "DefTOpct": 14.2673,
-      "OffTOpct": 18.6881
+      "OffTOpct": 18.6881,
+      "eFGpct": 53.1146
     },
     {
       "team": "Delaware St.",
-      "heist": -0.249091,
+      "heist": -0.9963643321912758,
+      "payday": -3.678884769817354,
       "ORpct": 26.1765,
       "DRpct": 30.8642,
       "DefTOpct": 20.2647,
-      "OffTOpct": 19.7952
+      "OffTOpct": 19.7952,
+      "eFGpct": 42.3851
     },
     {
       "team": "Denver",
-      "heist": 0.010923,
+      "heist": 0.04369346822272124,
+      "payday": 0.7902505580479564,
       "ORpct": 29.927,
       "DRpct": 33.6879,
       "DefTOpct": 12.7248,
-      "OffTOpct": 14.5767
+      "OffTOpct": 14.5767,
+      "eFGpct": 53.7612
     },
     {
       "team": "DePaul",
-      "heist": 0.023306,
+      "heist": 0.09322483543923937,
+      "payday": -0.01564120877567078,
       "ORpct": 30.0358,
       "DRpct": 31.0795,
       "DefTOpct": 18.1689,
-      "OffTOpct": 17.7573
+      "OffTOpct": 17.7573,
+      "eFGpct": 50.9233
     },
     {
       "team": "Detroit Mercy",
-      "heist": -0.029194,
+      "heist": -0.11677477254902952,
+      "payday": -0.8227399697362501,
       "ORpct": 34.4743,
       "DRpct": 31.3376,
       "DefTOpct": 13.9562,
-      "OffTOpct": 16.7345
+      "OffTOpct": 16.7345,
+      "eFGpct": 48.9424
     },
     {
       "team": "Drake",
-      "heist": -0.293413,
+      "heist": -1.173651522589774,
+      "payday": -0.9784066397342782,
       "ORpct": 26.6298,
       "DRpct": 29.49,
       "DefTOpct": 14.7683,
-      "OffTOpct": 14.4787
+      "OffTOpct": 14.4787,
+      "eFGpct": 51.9322
     },
     {
       "team": "Drexel",
-      "heist": -0.179897,
+      "heist": -0.7195866358417782,
+      "payday": -0.857902216754852,
       "ORpct": 31.0465,
       "DRpct": 31.2281,
       "DefTOpct": 16.7651,
-      "OffTOpct": 18.723
+      "OffTOpct": 18.723,
+      "eFGpct": 50.8256
     },
     {
       "team": "Duke",
-      "heist": 0.279887,
+      "heist": 1.1195468648004991,
+      "payday": 2.954772242166799,
       "ORpct": 37.0323,
       "DRpct": 25.1685,
       "DefTOpct": 19.2365,
-      "OffTOpct": 16.2442
+      "OffTOpct": 16.2442,
+      "eFGpct": 57.3729
     },
     {
       "team": "Duquesne",
-      "heist": -0.158399,
+      "heist": -0.6335957342293665,
+      "payday": 0.2776918756117023,
       "ORpct": 30.092,
       "DRpct": 29.3967,
       "DefTOpct": 17.8737,
-      "OffTOpct": 17.8737
+      "OffTOpct": 17.8737,
+      "eFGpct": 54.3077
     },
     {
       "team": "East Carolina",
-      "heist": 0.227576,
+      "heist": 0.9103041162199161,
+      "payday": -0.9074790554932106,
       "ORpct": 32.5175,
       "DRpct": 32.5926,
       "DefTOpct": 16.6495,
-      "OffTOpct": 16.9624
+      "OffTOpct": 16.9624,
+      "eFGpct": 45.2539
     },
     {
       "team": "East Tennessee St.",
-      "heist": 0.100182,
+      "heist": 0.4007270076927161,
+      "payday": 1.547369768546347,
       "ORpct": 28.8564,
       "DRpct": 26.8414,
       "DefTOpct": 19.4137,
-      "OffTOpct": 14.8859
+      "OffTOpct": 14.8859,
+      "eFGpct": 55.0885
     },
     {
       "team": "East Texas A&M",
-      "heist": -0.447837,
+      "heist": -1.79134946302095,
+      "payday": -2.556424733355665,
       "ORpct": 25.4651,
       "DRpct": 32.6531,
       "DefTOpct": 17.5108,
-      "OffTOpct": 19.7221
+      "OffTOpct": 19.7221,
+      "eFGpct": 48.7463
     },
     {
       "team": "Eastern Illinois",
-      "heist": 0.105752,
+      "heist": 0.42300716007854855,
+      "payday": -1.3223729541637568,
       "ORpct": 26.5487,
       "DRpct": 35.2332,
       "DefTOpct": 19.4646,
-      "OffTOpct": 19.2712
+      "OffTOpct": 19.2712,
+      "eFGpct": 45.4941
     },
     {
       "team": "Eastern Kentucky",
-      "heist": -0.040316,
+      "heist": -0.16126473618588405,
+      "payday": -0.06787244749937553,
       "ORpct": 33.0726,
       "DRpct": 31.7343,
       "DefTOpct": 15.0589,
-      "OffTOpct": 17.3895
+      "OffTOpct": 17.3895,
+      "eFGpct": 51.5943
     },
     {
       "team": "Eastern Michigan",
-      "heist": -0.367652,
+      "heist": -1.4706075486597352,
+      "payday": -1.847021277350501,
       "ORpct": 28.8095,
       "DRpct": 29.2453,
       "DefTOpct": 16.3708,
-      "OffTOpct": 17.4581
+      "OffTOpct": 17.4581,
+      "eFGpct": 50.0357
     },
     {
       "team": "Eastern Washington",
-      "heist": 0.006819,
+      "heist": 0.027275002791462888,
+      "payday": 0.27120054252263437,
       "ORpct": 31.3358,
       "DRpct": 32.3963,
       "DefTOpct": 16.6988,
-      "OffTOpct": 18.0705
+      "OffTOpct": 18.0705,
+      "eFGpct": 52.0937
     },
     {
       "team": "Elon",
-      "heist": 0.447845,
+      "heist": 1.7913818383459443,
+      "payday": 2.512558672388318,
       "ORpct": 33.1375,
       "DRpct": 33.5656,
       "DefTOpct": 16.2557,
-      "OffTOpct": 15.7776
+      "OffTOpct": 15.7776,
+      "eFGpct": 53.677
     },
     {
       "team": "Evansville",
-      "heist": -0.890011,
+      "heist": -3.560044993861742,
+      "payday": -4.2456637864724405,
       "ORpct": 23.2274,
       "DRpct": 30.303,
       "DefTOpct": 16.2246,
-      "OffTOpct": 19.4573
+      "OffTOpct": 19.4573,
+      "eFGpct": 49.0099
     },
     {
       "team": "Fairfield",
-      "heist": 0.339355,
+      "heist": 1.3574217659244563,
+      "payday": 0.7017950808006296,
       "ORpct": 35.6334,
       "DRpct": 29.0739,
       "DefTOpct": 16.0991,
-      "OffTOpct": 14.7922
+      "OffTOpct": 14.7922,
+      "eFGpct": 49.1094
     },
     {
       "team": "Fairleigh Dickinson",
-      "heist": -0.329605,
+      "heist": -1.3184183058406052,
+      "payday": -2.5123656418267917,
       "ORpct": 30.9724,
       "DRpct": 28.5521,
       "DefTOpct": 16.4206,
-      "OffTOpct": 17.8166
+      "OffTOpct": 17.8166,
+      "eFGpct": 47.3235
     },
     {
       "team": "FIU",
-      "heist": 0.814038,
+      "heist": 3.256152992052626,
+      "payday": 2.9395124785844415,
       "ORpct": 32.1883,
       "DRpct": 35.8134,
       "DefTOpct": 19.677,
-      "OffTOpct": 16.9405
+      "OffTOpct": 16.9405,
+      "eFGpct": 50.234
     },
     {
       "team": "Florida",
-      "heist": 0.099706,
+      "heist": 0.3988247697938815,
+      "payday": 0.8236976675589167,
       "ORpct": 42.7015,
       "DRpct": 23.8248,
       "DefTOpct": 15.4438,
-      "OffTOpct": 16.1901
+      "OffTOpct": 16.1901,
+      "eFGpct": 52.694
     },
     {
       "team": "Florida A&M",
-      "heist": -0.347381,
+      "heist": -1.3895257099442877,
+      "payday": -1.9525837899503418,
       "ORpct": 29.5292,
       "DRpct": 32.3263,
       "DefTOpct": 19.5467,
-      "OffTOpct": 22.5701
+      "OffTOpct": 22.5701,
+      "eFGpct": 49.4165
     },
     {
       "team": "Florida Atlantic",
-      "heist": -0.260896,
+      "heist": -1.043582363322905,
+      "payday": -0.6077073356757519,
       "ORpct": 33.134,
       "DRpct": 28.1959,
       "DefTOpct": 16.2883,
-      "OffTOpct": 17.9838
+      "OffTOpct": 17.9838,
+      "eFGpct": 52.7305
     },
     {
       "team": "Florida Gulf Coast",
-      "heist": -0.089364,
+      "heist": -0.3574563334436086,
+      "payday": 0.09038539437669962,
       "ORpct": 31.3817,
       "DRpct": 29.7719,
       "DefTOpct": 16.3629,
-      "OffTOpct": 16.8338
+      "OffTOpct": 16.8338,
+      "eFGpct": 52.7702
     },
     {
       "team": "Florida St.",
-      "heist": 0.712585,
+      "heist": 2.8503394947871654,
+      "payday": 2.3852757277859564,
       "ORpct": 31.8841,
       "DRpct": 32.9466,
       "DefTOpct": 19.6922,
-      "OffTOpct": 15.7311
+      "OffTOpct": 15.7311,
+      "eFGpct": 49.7416
     },
     {
       "team": "Fordham",
-      "heist": -0.038831,
+      "heist": -0.1553243899421635,
+      "payday": -0.9554256189700893,
       "ORpct": 36.051,
       "DRpct": 26.9333,
       "DefTOpct": 16.6265,
-      "OffTOpct": 17.1196
+      "OffTOpct": 17.1196,
+      "eFGpct": 48.6301
     },
     {
       "team": "Fresno St.",
-      "heist": -0.169836,
+      "heist": -0.6793458403975692,
+      "payday": -1.0549758557268687,
       "ORpct": 28.3733,
       "DRpct": 30.3813,
       "DefTOpct": 19.3318,
-      "OffTOpct": 19.0839
+      "OffTOpct": 19.0839,
+      "eFGpct": 50.0383
     },
     {
       "team": "Furman",
-      "heist": -0.701647,
+      "heist": -2.806586819290448,
+      "payday": -1.8578919678501733,
       "ORpct": 30.8387,
       "DRpct": 28.7209,
       "DefTOpct": 13.8937,
-      "OffTOpct": 18.5676
+      "OffTOpct": 18.5676,
+      "eFGpct": 54.4318
     },
     {
       "team": "Gardner Webb",
-      "heist": -0.692848,
+      "heist": -2.771392151974125,
+      "payday": -4.047147105768724,
       "ORpct": 23.962,
       "DRpct": 36.6751,
       "DefTOpct": 14.5585,
-      "OffTOpct": 20.9202
+      "OffTOpct": 20.9202,
+      "eFGpct": 47.0521
     },
     {
       "team": "George Mason",
-      "heist": -0.060089,
+      "heist": -0.240356917747941,
+      "payday": 0.36941204767988123,
       "ORpct": 31.593,
       "DRpct": 28.223,
       "DefTOpct": 16.5312,
-      "OffTOpct": 15.8344
+      "OffTOpct": 15.8344,
+      "eFGpct": 53.3074
     },
     {
       "team": "George Washington",
-      "heist": 0.210313,
+      "heist": 0.8412529718587476,
+      "payday": 1.9468110668786012,
       "ORpct": 36.5362,
       "DRpct": 29.2014,
       "DefTOpct": 17.7466,
-      "OffTOpct": 17.8641
+      "OffTOpct": 17.8641,
+      "eFGpct": 54.9522
     },
     {
       "team": "Georgetown",
-      "heist": 0.316384,
+      "heist": 1.2655364522769494,
+      "payday": 0.6962689510223564,
       "ORpct": 32.4675,
       "DRpct": 30.7958,
       "DefTOpct": 16.3332,
-      "OffTOpct": 14.7487
+      "OffTOpct": 14.7487,
+      "eFGpct": 49.3959
     },
     {
       "team": "Georgia",
-      "heist": 1.290867,
+      "heist": 5.163468785249417,
+      "payday": 5.7673297576446485,
       "ORpct": 36.0478,
       "DRpct": 35.3422,
       "DefTOpct": 19.4972,
-      "OffTOpct": 14.5412
+      "OffTOpct": 14.5412,
+      "eFGpct": 53.2878
     },
     {
       "team": "Georgia Southern",
-      "heist": 0.816529,
+      "heist": 3.2661163392555164,
+      "payday": 2.7254543756944334,
       "ORpct": 29.0598,
       "DRpct": 35.8295,
       "DefTOpct": 18.9594,
-      "OffTOpct": 14.7207
+      "OffTOpct": 14.7207,
+      "eFGpct": 49.4908
     },
     {
       "team": "Georgia St.",
-      "heist": 0.061161,
+      "heist": 0.24464217467379673,
+      "payday": -1.7083918375354061,
       "ORpct": 27.525,
       "DRpct": 33.3333,
       "DefTOpct": 16.8514,
-      "OffTOpct": 16.4903
+      "OffTOpct": 16.4903,
+      "eFGpct": 44.8052
     },
     {
       "team": "Georgia Tech",
-      "heist": -0.439812,
+      "heist": -1.7592466504714122,
+      "payday": -2.0463471987766475,
       "ORpct": 30.838,
       "DRpct": 29.4845,
       "DefTOpct": 15.2162,
-      "OffTOpct": 18.1595
+      "OffTOpct": 18.1595,
+      "eFGpct": 50.332
     },
     {
       "team": "Gonzaga",
-      "heist": 0.598637,
+      "heist": 2.3945463644926965,
+      "payday": 3.9751553278473284,
       "ORpct": 36.1632,
       "DRpct": 24.0286,
       "DefTOpct": 20.7758,
-      "OffTOpct": 13.8861
+      "OffTOpct": 13.8861,
+      "eFGpct": 56.5282
     },
     {
       "team": "Grambling St.",
-      "heist": -0.001562,
+      "heist": -0.006248041765206214,
+      "payday": -0.5720189757147967,
       "ORpct": 30.1187,
       "DRpct": 33.2386,
       "DefTOpct": 20.5142,
-      "OffTOpct": 21.5538
+      "OffTOpct": 21.5538,
+      "eFGpct": 49.4075
     },
     {
       "team": "Grand Canyon",
-      "heist": -0.207733,
+      "heist": -0.8309331931353718,
+      "payday": -1.2181079091354974,
       "ORpct": 31.9359,
       "DRpct": 26.5233,
       "DefTOpct": 18.1084,
-      "OffTOpct": 17.5088
+      "OffTOpct": 17.5088,
+      "eFGpct": 50
     },
     {
       "team": "Green Bay",
-      "heist": -0.715903,
+      "heist": -2.8636117250256796,
+      "payday": -1.8606597947146815,
       "ORpct": 26.0108,
       "DRpct": 29.4045,
       "DefTOpct": 13.5424,
-      "OffTOpct": 16.4094
+      "OffTOpct": 16.4094,
+      "eFGpct": 54.6118
     },
     {
       "team": "Hampton",
-      "heist": 0.153503,
+      "heist": 0.6140114182722722,
+      "payday": -1.0786489010006488,
       "ORpct": 33.7278,
       "DRpct": 29.9738,
       "DefTOpct": 17.9013,
-      "OffTOpct": 17.5735
+      "OffTOpct": 17.5735,
+      "eFGpct": 45.669
     },
     {
       "team": "Harvard",
-      "heist": -0.403682,
+      "heist": -1.6147283992057613,
+      "payday": -0.7305090431568635,
       "ORpct": 26.1146,
       "DRpct": 28.866,
       "DefTOpct": 17.2509,
-      "OffTOpct": 16.956
+      "OffTOpct": 16.956,
+      "eFGpct": 54.2179
     },
     {
       "team": "Hawaii",
-      "heist": -0.5555,
+      "heist": -2.2219998993969674,
+      "payday": -1.7291850817571484,
       "ORpct": 32.4476,
       "DRpct": 25.9352,
       "DefTOpct": 17.118,
-      "OffTOpct": 19.2823
+      "OffTOpct": 19.2823,
+      "eFGpct": 52.9194
     },
     {
       "team": "High Point",
-      "heist": 1.426797,
+      "heist": 5.707186590962699,
+      "payday": 6.789142856673789,
       "ORpct": 31.7386,
       "DRpct": 31.8681,
       "DefTOpct": 23.3816,
-      "OffTOpct": 12.5363
+      "OffTOpct": 12.5363,
+      "eFGpct": 54.8739
     },
     {
       "team": "Hofstra",
-      "heist": 0.116708,
+      "heist": 0.46683346184786234,
+      "payday": 0.46256300856706933,
       "ORpct": 35.0356,
       "DRpct": 30.6488,
       "DefTOpct": 15.1949,
-      "OffTOpct": 16.508
+      "OffTOpct": 16.508,
+      "eFGpct": 51.2703
     },
     {
       "team": "Holy Cross",
-      "heist": -0.931376,
+      "heist": -3.72550384943121,
+      "payday": -4.261885532325824,
       "ORpct": 22.2785,
       "DRpct": 27.4839,
       "DefTOpct": 14.4654,
-      "OffTOpct": 15.8612
+      "OffTOpct": 15.8612,
+      "eFGpct": 49.505
     },
     {
       "team": "Houston",
-      "heist": 1.677438,
+      "heist": 6.709750658938132,
+      "payday": 7.1142168664834555,
       "ORpct": 37.2526,
       "DRpct": 31.5085,
       "DefTOpct": 22.5587,
-      "OffTOpct": 12.2756
+      "OffTOpct": 12.2756,
+      "eFGpct": 52.6263
     },
     {
       "team": "Houston Christian",
-      "heist": -0.027279,
+      "heist": -0.10911796544870356,
+      "payday": -0.37255639880198527,
       "ORpct": 31.0847,
       "DRpct": 32.6733,
       "DefTOpct": 17.6538,
-      "OffTOpct": 19.2709
+      "OffTOpct": 19.2709,
+      "eFGpct": 50.4105
     },
     {
       "team": "Howard",
-      "heist": 0.487288,
+      "heist": 1.9491531933645396,
+      "payday": 1.0861740384897653,
       "ORpct": 34.7765,
       "DRpct": 32.7824,
       "DefTOpct": 21.3255,
-      "OffTOpct": 20.3655
+      "OffTOpct": 20.3655,
+      "eFGpct": 48.4215
     },
     {
       "team": "Idaho",
-      "heist": -0.554232,
+      "heist": -2.2169291979123305,
+      "payday": -2.1961509664478056,
       "ORpct": 27.1574,
       "DRpct": 25.776,
       "DefTOpct": 15.6952,
-      "OffTOpct": 15.2393
+      "OffTOpct": 15.2393,
+      "eFGpct": 51.3534
     },
     {
       "team": "Idaho St.",
-      "heist": -0.195333,
+      "heist": -0.7813318297681834,
+      "payday": -0.299699998940053,
       "ORpct": 33.0986,
       "DRpct": 29.7721,
       "DefTOpct": 15.1778,
-      "OffTOpct": 17.4675
+      "OffTOpct": 17.4675,
+      "eFGpct": 52.8823
     },
     {
       "team": "Illinois",
-      "heist": -0.0988,
+      "heist": -0.39519992147698724,
+      "payday": 1.0029243999424462,
       "ORpct": 38.79,
       "DRpct": 26.7913,
       "DefTOpct": 11.2536,
-      "OffTOpct": 13.9926
+      "OffTOpct": 13.9926,
+      "eFGpct": 55.9228
     },
     {
       "team": "Illinois Chicago",
-      "heist": 0.905678,
+      "heist": 3.6227136903900763,
+      "payday": 2.6550485161163992,
       "ORpct": 36.6667,
       "DRpct": 34.058,
       "DefTOpct": 20.2704,
-      "OffTOpct": 17.8134
+      "OffTOpct": 17.8134,
+      "eFGpct": 48.0742
     },
     {
       "team": "Illinois St.",
-      "heist": -0.566809,
+      "heist": -2.267235696120003,
+      "payday": -1.4458038374531705,
       "ORpct": 28.8256,
       "DRpct": 24.2081,
       "DefTOpct": 16.6124,
-      "OffTOpct": 15.9712
+      "OffTOpct": 15.9712,
+      "eFGpct": 54.0096
     },
     {
       "team": "Incarnate Word",
-      "heist": 0.037521,
+      "heist": 0.15008445592951236,
+      "payday": -0.33324586095817377,
       "ORpct": 32.4742,
       "DRpct": 32.0532,
       "DefTOpct": 16.2358,
-      "OffTOpct": 17.7429
+      "OffTOpct": 17.7429,
+      "eFGpct": 49.681
     },
     {
       "team": "Indiana",
-      "heist": -0.151009,
+      "heist": -0.6040353814243327,
+      "payday": 0.8900938267746863,
       "ORpct": 28.5354,
       "DRpct": 28.9562,
       "DefTOpct": 15.7078,
-      "OffTOpct": 14.7804
+      "OffTOpct": 14.7804,
+      "eFGpct": 56.2413
     },
     {
       "team": "Indiana St.",
-      "heist": -0.691247,
+      "heist": -2.764989139105463,
+      "payday": -2.3298978248197764,
       "ORpct": 25.5114,
       "DRpct": 32.0269,
       "DefTOpct": 15.0426,
-      "OffTOpct": 19.0539
+      "OffTOpct": 19.0539,
+      "eFGpct": 52.7279
     },
     {
       "team": "Iona",
-      "heist": -0.052391,
+      "heist": -0.2095640589190442,
+      "payday": -0.05272113077538318,
       "ORpct": 26.4278,
       "DRpct": 32.7253,
       "DefTOpct": 16.9427,
-      "OffTOpct": 16.5421
+      "OffTOpct": 16.5421,
+      "eFGpct": 51.8048
     },
     {
       "team": "Iowa",
-      "heist": 0.725278,
+      "heist": 2.901112787385107,
+      "payday": 4.950080912680462,
       "ORpct": 31.4869,
       "DRpct": 29.6348,
       "DefTOpct": 21.8012,
-      "OffTOpct": 15.1632
+      "OffTOpct": 15.1632,
+      "eFGpct": 58.082
     },
     {
       "team": "Iowa St.",
-      "heist": 0.963709,
+      "heist": 3.8548345592618567,
+      "payday": 5.970870462605744,
       "ORpct": 37.6123,
       "DRpct": 28.2927,
       "DefTOpct": 22.4385,
-      "OffTOpct": 15.9844
+      "OffTOpct": 15.9844,
+      "eFGpct": 58.3045
     },
     {
       "team": "IU Indy",
-      "heist": 0.900738,
+      "heist": 3.6029533786529973,
+      "payday": 3.7572040241395013,
       "ORpct": 28.999,
       "DRpct": 37.037,
       "DefTOpct": 19.9351,
-      "OffTOpct": 15.6936
+      "OffTOpct": 15.6936,
+      "eFGpct": 51.7962
     },
     {
       "team": "Jackson St.",
-      "heist": -0.183869,
+      "heist": -0.7354770220956899,
+      "payday": -2.373247263244394,
       "ORpct": 26.9441,
       "DRpct": 37.7828,
       "DefTOpct": 15.2508,
-      "OffTOpct": 19.6579
+      "OffTOpct": 19.6579,
+      "eFGpct": 45.8511
     },
     {
       "team": "Jacksonville",
-      "heist": -0.483686,
+      "heist": -1.934743177820653,
+      "payday": -2.536082641252163,
       "ORpct": 30.3861,
       "DRpct": 29.3405,
       "DefTOpct": 15.379,
-      "OffTOpct": 18.3414
+      "OffTOpct": 18.3414,
+      "eFGpct": 49.2895
     },
     {
       "team": "Jacksonville St.",
-      "heist": -0.346547,
+      "heist": -1.3861897199000512,
+      "payday": -1.8413063557749605,
       "ORpct": 30.6931,
       "DRpct": 29.2818,
       "DefTOpct": 16.3512,
-      "OffTOpct": 18.2323
+      "OffTOpct": 18.2323,
+      "eFGpct": 49.7746
     },
     {
       "team": "James Madison",
-      "heist": -0.551399,
+      "heist": -2.205594960756721,
+      "payday": -1.7354776877778229,
       "ORpct": 30.7167,
       "DRpct": 30.6941,
       "DefTOpct": 12.899,
-      "OffTOpct": 17.6918
+      "OffTOpct": 17.6918,
+      "eFGpct": 52.8441
     },
     {
       "team": "Kansas",
-      "heist": -0.333465,
+      "heist": -1.3338609184142673,
+      "payday": -0.5492937305579306,
       "ORpct": 28.6439,
       "DRpct": 29.6333,
       "DefTOpct": 13.8817,
-      "OffTOpct": 15.0941
+      "OffTOpct": 15.0941,
+      "eFGpct": 53.8873
     },
     {
       "team": "Kansas City",
-      "heist": -0.027404,
+      "heist": -0.10961697991941022,
+      "payday": -1.666604459193926,
       "ORpct": 28.5714,
       "DRpct": 35.9008,
       "DefTOpct": 16.4519,
-      "OffTOpct": 19.0562
+      "OffTOpct": 19.0562,
+      "eFGpct": 46.1191
     },
     {
       "team": "Kansas St.",
-      "heist": 0.285326,
+      "heist": 1.1413059818647588,
+      "payday": 1.916468609383502,
       "ORpct": 31.4185,
       "DRpct": 33.7237,
       "DefTOpct": 17.145,
-      "OffTOpct": 17.145
+      "OffTOpct": 17.145,
+      "eFGpct": 53.8561
     },
     {
       "team": "Kennesaw St.",
-      "heist": 0.173123,
+      "heist": 0.6924917396514512,
+      "payday": 0.24762366311878925,
       "ORpct": 36.2319,
       "DRpct": 30.6533,
       "DefTOpct": 15.6403,
-      "OffTOpct": 17.0563
+      "OffTOpct": 17.0563,
+      "eFGpct": 49.8086
     },
     {
       "team": "Kent St.",
-      "heist": -0.047815,
+      "heist": -0.1912604268386554,
+      "payday": 0.000005603566319123399,
       "ORpct": 36.6313,
       "DRpct": 29.9882,
       "DefTOpct": 16.0242,
-      "OffTOpct": 18.9483
+      "OffTOpct": 18.9483,
+      "eFGpct": 51.919
     },
     {
       "team": "Kentucky",
-      "heist": 0.244224,
+      "heist": 0.9768974994534114,
+      "payday": 1.7900099393600666,
       "ORpct": 33.9713,
       "DRpct": 28.9444,
       "DefTOpct": 16.0296,
-      "OffTOpct": 14.5834
+      "OffTOpct": 14.5834,
+      "eFGpct": 53.982
     },
     {
       "team": "La Salle",
-      "heist": 0.065712,
+      "heist": 0.262846001339222,
+      "payday": -1.5148472176527603,
       "ORpct": 33.1781,
       "DRpct": 31.8182,
       "DefTOpct": 17.1466,
-      "OffTOpct": 18.5386
+      "OffTOpct": 18.5386,
+      "eFGpct": 45.3869
     },
     {
       "team": "Lafayette",
-      "heist": -0.29653,
+      "heist": -1.1861186175711824,
+      "payday": -2.198244453697258,
       "ORpct": 26.6085,
       "DRpct": 30.0236,
       "DefTOpct": 15.6081,
-      "OffTOpct": 15.6081
+      "OffTOpct": 15.6081,
+      "eFGpct": 47.9267
     },
     {
       "team": "Lamar",
-      "heist": 0.106652,
+      "heist": 0.4266080513161414,
+      "payday": -0.27890500354715647,
       "ORpct": 35.9036,
       "DRpct": 28.5714,
       "DefTOpct": 17.3207,
-      "OffTOpct": 17.5831
+      "OffTOpct": 17.5831,
+      "eFGpct": 48.9439
     },
     {
       "team": "Le Moyne",
-      "heist": -0.800631,
+      "heist": -3.2025245450896627,
+      "payday": -2.7735220807661336,
       "ORpct": 26.2639,
       "DRpct": 30.6538,
       "DefTOpct": 15.413,
-      "OffTOpct": 19.7425
+      "OffTOpct": 19.7425,
+      "eFGpct": 52.7077
     },
     {
       "team": "Lehigh",
-      "heist": -0.460373,
+      "heist": -1.8414928483134647,
+      "payday": -1.4839891568129113,
       "ORpct": 21.6687,
       "DRpct": 33.3731,
       "DefTOpct": 16.9224,
-      "OffTOpct": 17.8724
+      "OffTOpct": 17.8724,
+      "eFGpct": 52.4705
     },
     {
       "team": "Liberty",
-      "heist": -0.046687,
+      "heist": -0.18674805014214013,
+      "payday": 2.450969666543754,
       "ORpct": 19.281,
       "DRpct": 32.1678,
       "DefTOpct": 17.8162,
-      "OffTOpct": 13.3622
+      "OffTOpct": 13.3622,
+      "eFGpct": 60.0352
     },
     {
       "team": "Lindenwood",
-      "heist": 0.245402,
+      "heist": 0.9816094811610785,
+      "payday": 0.28134127725528457,
       "ORpct": 33.7169,
       "DRpct": 32.3632,
       "DefTOpct": 18.8424,
-      "OffTOpct": 19.2571
+      "OffTOpct": 19.2571,
+      "eFGpct": 48.9613
     },
     {
       "team": "Lipscomb",
-      "heist": -0.123251,
+      "heist": -0.49300227828830184,
+      "payday": 0.3107658869239512,
       "ORpct": 25.8907,
       "DRpct": 30.1998,
       "DefTOpct": 18.0282,
-      "OffTOpct": 16.1673
+      "OffTOpct": 16.1673,
+      "eFGpct": 53.951
     },
     {
       "team": "Little Rock",
-      "heist": 0.441249,
+      "heist": 1.7649968540721561,
+      "payday": 1.1949456394560989,
       "ORpct": 31.4793,
       "DRpct": 35.0063,
       "DefTOpct": 19.6967,
-      "OffTOpct": 19.0812
+      "OffTOpct": 19.0812,
+      "eFGpct": 49.3933
     },
     {
       "team": "LIU",
-      "heist": 0.324423,
+      "heist": 1.2976904045507731,
+      "payday": 1.4866354376929445,
       "ORpct": 35.6401,
       "DRpct": 32.3896,
       "DefTOpct": 18.8679,
-      "OffTOpct": 19.618
+      "OffTOpct": 19.618,
+      "eFGpct": 51.9113
     },
     {
       "team": "Long Beach St.",
-      "heist": -0.423941,
+      "heist": -1.6957639425960038,
+      "payday": -1.8596707790431035,
       "ORpct": 26.4484,
       "DRpct": 28.7088,
       "DefTOpct": 17.8435,
-      "OffTOpct": 17.7205
+      "OffTOpct": 17.7205,
+      "eFGpct": 50.7407
     },
     {
       "team": "Longwood",
-      "heist": -0.051685,
+      "heist": -0.20674139168027716,
+      "payday": -0.6159203674446407,
       "ORpct": 33.7349,
       "DRpct": 28.0941,
       "DefTOpct": 19.556,
-      "OffTOpct": 19.4967
+      "OffTOpct": 19.4967,
+      "eFGpct": 49.927
     },
     {
       "team": "Louisiana",
-      "heist": -0.131944,
+      "heist": -0.5277745559922239,
+      "payday": -1.5540072326246865,
       "ORpct": 27.8802,
       "DRpct": 31.5723,
       "DefTOpct": 17.8516,
-      "OffTOpct": 17.973
+      "OffTOpct": 17.973,
+      "eFGpct": 47.8799
     },
     {
       "team": "Louisiana Monroe",
-      "heist": -0.191538,
+      "heist": -0.766151070645852,
+      "payday": -1.9356827211402146,
       "ORpct": 24.6085,
       "DRpct": 35.6977,
       "DefTOpct": 16.0994,
-      "OffTOpct": 17.9525
+      "OffTOpct": 17.9525,
+      "eFGpct": 47.4045
     },
     {
       "team": "Louisiana Tech",
-      "heist": 0.26279,
+      "heist": 1.0511597176640226,
+      "payday": -0.6781542726682297,
       "ORpct": 35.9296,
       "DRpct": 30.7383,
       "DefTOpct": 17.4165,
-      "OffTOpct": 17.852
+      "OffTOpct": 17.852,
+      "eFGpct": 45.5474
     },
     {
       "team": "Louisville",
-      "heist": -0.000091,
+      "heist": -0.0003641339310589409,
+      "payday": 1.5734626945647323,
       "ORpct": 33.7237,
       "DRpct": 26.6451,
       "DefTOpct": 17.1526,
-      "OffTOpct": 15.9357
+      "OffTOpct": 15.9357,
+      "eFGpct": 56.5057
     },
     {
       "team": "Loyola Chicago",
-      "heist": -0.695533,
+      "heist": -2.7821333066251945,
+      "payday": -3.332893115420552,
       "ORpct": 32.907,
       "DRpct": 30.8982,
       "DefTOpct": 12.6525,
-      "OffTOpct": 19.8565
+      "OffTOpct": 19.8565,
+      "eFGpct": 49.4573
     },
     {
       "team": "Loyola Marymount",
-      "heist": -0.297185,
+      "heist": -1.1887413735759502,
+      "payday": -1.0861856671246084,
       "ORpct": 26.7637,
       "DRpct": 32.4607,
       "DefTOpct": 16.5694,
-      "OffTOpct": 18.1711
+      "OffTOpct": 18.1711,
+      "eFGpct": 51.6247
     },
     {
       "team": "Loyola MD",
-      "heist": -0.331136,
+      "heist": -1.3245432683609182,
+      "payday": -1.585057848019499,
       "ORpct": 27.9258,
       "DRpct": 29.8507,
       "DefTOpct": 16.0674,
-      "OffTOpct": 16.8468
+      "OffTOpct": 16.8468,
+      "eFGpct": 50.4202
     },
     {
       "team": "LSU",
-      "heist": 0.129874,
+      "heist": 0.5194953494849835,
+      "payday": 1.1170866149884884,
       "ORpct": 33.9196,
       "DRpct": 30.9813,
       "DefTOpct": 14.9447,
-      "OffTOpct": 15.8378
+      "OffTOpct": 15.8378,
+      "eFGpct": 53.267
     },
     {
       "team": "Maine",
-      "heist": -0.244225,
+      "heist": -0.9769015741832155,
+      "payday": -1.5824911754595983,
       "ORpct": 20.8955,
       "DRpct": 36.0195,
       "DefTOpct": 19.0605,
-      "OffTOpct": 19.4307
+      "OffTOpct": 19.4307,
+      "eFGpct": 49.2754
     },
     {
       "team": "Manhattan",
-      "heist": 0.52838,
+      "heist": 2.113520891263091,
+      "payday": 1.159510415171881,
       "ORpct": 28.2418,
       "DRpct": 37.6682,
       "DefTOpct": 16.263,
-      "OffTOpct": 15.401
+      "OffTOpct": 15.401,
+      "eFGpct": 48.1195
     },
     {
       "team": "Marist",
-      "heist": -0.135047,
+      "heist": -0.5401895038744084,
+      "payday": -0.8504095963428919,
       "ORpct": 28.1955,
       "DRpct": 27.6817,
       "DefTOpct": 19.6874,
-      "OffTOpct": 17.2576
+      "OffTOpct": 17.2576,
+      "eFGpct": 50.2553
     },
     {
       "team": "Marquette",
-      "heist": 0.642976,
+      "heist": 2.5719051632403302,
+      "payday": 2.1945570070801255,
       "ORpct": 30.5408,
       "DRpct": 34.2075,
       "DefTOpct": 19.2188,
-      "OffTOpct": 16.025
+      "OffTOpct": 16.025,
+      "eFGpct": 50.0326
     },
     {
       "team": "Marshall",
-      "heist": 0.253078,
+      "heist": 1.0123112431617831,
+      "payday": 1.9034333053559007,
       "ORpct": 32.9384,
       "DRpct": 32.8664,
       "DefTOpct": 16.9143,
-      "OffTOpct": 17.3874
+      "OffTOpct": 17.3874,
+      "eFGpct": 54.2408
     },
     {
       "team": "Maryland",
-      "heist": -0.086264,
+      "heist": -0.34505513508736224,
+      "payday": -1.1521193559036973,
       "ORpct": 32.9885,
       "DRpct": 31.3676,
       "DefTOpct": 16.1588,
-      "OffTOpct": 18.4759
+      "OffTOpct": 18.4759,
+      "eFGpct": 48.607
     },
     {
       "team": "Maryland Eastern Shore",
-      "heist": -0.582054,
+      "heist": -2.328214275519476,
+      "payday": -3.5350325963266633,
       "ORpct": 30.4521,
       "DRpct": 32.8496,
       "DefTOpct": 17.0556,
-      "OffTOpct": 23.0052
+      "OffTOpct": 23.0052,
+      "eFGpct": 47.2808
     },
     {
       "team": "Massachusetts",
-      "heist": -0.179833,
+      "heist": -0.7193335759528239,
+      "payday": -0.2823734067282566,
       "ORpct": 33.4107,
       "DRpct": 26.5509,
       "DefTOpct": 17.9463,
-      "OffTOpct": 17.8892
+      "OffTOpct": 17.8892,
+      "eFGpct": 52.7341
     },
     {
       "team": "McNeese",
-      "heist": 1.925332,
+      "heist": 7.701328989887561,
+      "payday": 7.6867195487997355,
       "ORpct": 36.2113,
       "DRpct": 36.6925,
       "DefTOpct": 24.5279,
-      "OffTOpct": 14.964
+      "OffTOpct": 14.964,
+      "eFGpct": 51.236
     },
     {
       "team": "Memphis",
-      "heist": 0.602611,
+      "heist": 2.410444965189889,
+      "payday": 1.847899313150947,
       "ORpct": 35.4214,
       "DRpct": 34.7238,
       "DefTOpct": 20.0711,
-      "OffTOpct": 19.8966
+      "OffTOpct": 19.8966,
+      "eFGpct": 49.4182
     },
     {
       "team": "Mercer",
-      "heist": 0.570063,
+      "heist": 2.280250057068815,
+      "payday": 2.365744926497475,
       "ORpct": 33.7709,
       "DRpct": 32.1812,
       "DefTOpct": 17.3726,
-      "OffTOpct": 15.2088
+      "OffTOpct": 15.2088,
+      "eFGpct": 51.5681
     },
     {
       "team": "Mercyhurst",
-      "heist": 0.400305,
+      "heist": 1.6012199431959577,
+      "payday": 0.7963260055344508,
       "ORpct": 26.8949,
       "DRpct": 32.0203,
       "DefTOpct": 19.605,
-      "OffTOpct": 15.0758
+      "OffTOpct": 15.0758,
+      "eFGpct": 48.6142
     },
     {
       "team": "Merrimack",
-      "heist": 0.918031,
+      "heist": 3.672125155571025,
+      "payday": 3.2301809327330635,
       "ORpct": 25.0591,
       "DRpct": 40.374,
       "DefTOpct": 19.6163,
-      "OffTOpct": 15.5023
+      "OffTOpct": 15.5023,
+      "eFGpct": 49.8183
     },
     {
       "team": "Miami FL",
-      "heist": 0.231645,
+      "heist": 0.926580413631489,
+      "payday": 2.472977274475972,
       "ORpct": 36.6286,
       "DRpct": 25.5814,
       "DefTOpct": 18.6367,
-      "OffTOpct": 16.1597
+      "OffTOpct": 16.1597,
+      "eFGpct": 56.4147
     },
     {
       "team": "Miami OH",
-      "heist": -0.086169,
+      "heist": -0.3446757214408862,
+      "payday": 2.2995528447094946,
       "ORpct": 26.1868,
       "DRpct": 28.2552,
       "DefTOpct": 18.5467,
-      "OffTOpct": 15.2044
+      "OffTOpct": 15.2044,
+      "eFGpct": 60.0568
     },
     {
       "team": "Michigan",
-      "heist": 0.134375,
+      "heist": 0.5374982428162367,
+      "payday": 2.7161106437910245,
       "ORpct": 36.8146,
       "DRpct": 27.8054,
       "DefTOpct": 16.567,
-      "OffTOpct": 16.6233
+      "OffTOpct": 16.6233,
+      "eFGpct": 58.5121
     },
     {
       "team": "Michigan St.",
-      "heist": -0.409527,
+      "heist": -1.6381092433875115,
+      "payday": -0.9792376215816845,
       "ORpct": 39.3524,
       "DRpct": 22.0944,
       "DefTOpct": 15.6236,
-      "OffTOpct": 17.6534
+      "OffTOpct": 17.6534,
+      "eFGpct": 53.4703
     },
     {
       "team": "Middle Tennessee",
-      "heist": -0.549528,
+      "heist": -2.198113151405,
+      "payday": -2.1285638346000137,
       "ORpct": 29.8667,
       "DRpct": 28.4354,
       "DefTOpct": 14.4524,
-      "OffTOpct": 17.1753
+      "OffTOpct": 17.1753,
+      "eFGpct": 51.5152
     },
     {
       "team": "Milwaukee",
-      "heist": 0.175772,
+      "heist": 0.7030875098372703,
+      "payday": 0.17532667391878143,
       "ORpct": 33.3671,
       "DRpct": 29.8957,
       "DefTOpct": 15.8698,
-      "OffTOpct": 15.3169
+      "OffTOpct": 15.3169,
+      "eFGpct": 49.5336
     },
     {
       "team": "Minnesota",
-      "heist": -0.094905,
+      "heist": -0.3796188250840625,
+      "payday": 0.23955470068135137,
       "ORpct": 28.8462,
       "DRpct": 29.7634,
       "DefTOpct": 17.2394,
-      "OffTOpct": 16.4063
+      "OffTOpct": 16.4063,
+      "eFGpct": 53.3386
     },
     {
       "team": "Mississippi",
-      "heist": 0.415103,
+      "heist": 1.66041016244577,
+      "payday": 1.2838155768254356,
       "ORpct": 29.8824,
       "DRpct": 32.5231,
       "DefTOpct": 16.9075,
-      "OffTOpct": 14.3252
+      "OffTOpct": 14.3252,
+      "eFGpct": 50.0351
     },
     {
       "team": "Mississippi St.",
-      "heist": -0.410033,
+      "heist": -1.6401313516563458,
+      "payday": -1.9875175431512748,
       "ORpct": 31.2771,
       "DRpct": 29.5671,
       "DefTOpct": 13.0453,
-      "OffTOpct": 16.22
+      "OffTOpct": 16.22,
+      "eFGpct": 50.132
     },
     {
       "team": "Mississippi Valley St.",
-      "heist": -0.533063,
+      "heist": -2.1322512327743985,
+      "payday": -4.106505791386373,
       "ORpct": 26.408,
       "DRpct": 36,
       "DefTOpct": 16.6545,
-      "OffTOpct": 22.3084
+      "OffTOpct": 22.3084,
+      "eFGpct": 44.7348
     },
     {
       "team": "Missouri",
-      "heist": 0.133909,
+      "heist": 0.5356358966259748,
+      "payday": 1.897920403169135,
       "ORpct": 36.7296,
       "DRpct": 30.0585,
       "DefTOpct": 16.5221,
-      "OffTOpct": 18.0296
+      "OffTOpct": 18.0296,
+      "eFGpct": 55.8039
     },
     {
       "team": "Missouri St.",
-      "heist": 0.371536,
+      "heist": 1.4861445731693421,
+      "payday": 1.13755266881062,
       "ORpct": 32.9268,
       "DRpct": 32.9496,
       "DefTOpct": 18.2726,
-      "OffTOpct": 17.7147
+      "OffTOpct": 17.7147,
+      "eFGpct": 50.128
     },
     {
       "team": "Monmouth",
-      "heist": 0.596245,
+      "heist": 2.384981169026042,
+      "payday": 1.6842608227963252,
       "ORpct": 31.2057,
       "DRpct": 33.177,
       "DefTOpct": 19.9272,
-      "OffTOpct": 16.6974
+      "OffTOpct": 16.6974,
+      "eFGpct": 48.9598
     },
     {
       "team": "Montana",
-      "heist": -1.131351,
+      "heist": -4.525405341843745,
+      "payday": -2.939250099315662,
       "ORpct": 22.6115,
       "DRpct": 30.203,
       "DefTOpct": 15.3358,
-      "OffTOpct": 20.2245
+      "OffTOpct": 20.2245,
+      "eFGpct": 56.5466
     },
     {
       "team": "Montana St.",
-      "heist": -0.15013,
+      "heist": -0.6005219704565006,
+      "payday": -0.33037217593781176,
       "ORpct": 28.1709,
       "DRpct": 29.2958,
       "DefTOpct": 16.2019,
-      "OffTOpct": 15.2646
+      "OffTOpct": 15.2646,
+      "eFGpct": 52.1807
     },
     {
       "team": "Morehead St.",
-      "heist": 0.488836,
+      "heist": 1.9553446855149126,
+      "payday": 1.0904363900580685,
       "ORpct": 36.0799,
       "DRpct": 36.6983,
       "DefTOpct": 15.9347,
-      "OffTOpct": 18.6865
+      "OffTOpct": 18.6865,
+      "eFGpct": 48.4151
     },
     {
       "team": "Morgan St.",
-      "heist": 0.066156,
+      "heist": 0.2646249337453015,
+      "payday": -1.4290903842834377,
       "ORpct": 30.2041,
       "DRpct": 34.4932,
       "DefTOpct": 16.7694,
-      "OffTOpct": 18.4748
+      "OffTOpct": 18.4748,
+      "eFGpct": 45.6655
     },
     {
       "team": "Mount St. Mary's",
-      "heist": -1.062488,
+      "heist": -4.2499534352106405,
+      "payday": -4.481289763565409,
       "ORpct": 31.0469,
       "DRpct": 29.1892,
       "DefTOpct": 14.686,
-      "OffTOpct": 22.6117
+      "OffTOpct": 22.6117,
+      "eFGpct": 50.517
     },
     {
       "team": "Murray St.",
-      "heist": 0.158088,
+      "heist": 0.6323525000686302,
+      "payday": 1.7102093420428215,
       "ORpct": 33.7909,
       "DRpct": 31.5684,
       "DefTOpct": 15.6922,
-      "OffTOpct": 16.6123
+      "OffTOpct": 16.6123,
+      "eFGpct": 54.8603
     },
     {
       "team": "N.C. State",
-      "heist": 0.26514,
+      "heist": 1.0605610717135723,
+      "payday": 2.6499717389739,
       "ORpct": 27.6224,
       "DRpct": 28.1111,
       "DefTOpct": 19.1322,
-      "OffTOpct": 13.5216
+      "OffTOpct": 13.5216,
+      "eFGpct": 56.5574
     },
     {
       "team": "Navy",
-      "heist": -0.263945,
+      "heist": -1.0557797981659658,
+      "payday": -0.6612305789253459,
       "ORpct": 30.9896,
       "DRpct": 26.4085,
       "DefTOpct": 18.0814,
-      "OffTOpct": 17.3908
+      "OffTOpct": 17.3908,
+      "eFGpct": 52.5934
     },
     {
       "team": "Nebraska",
-      "heist": 0.120923,
+      "heist": 0.4836919223319227,
+      "payday": 1.984362122817022,
       "ORpct": 25.4027,
       "DRpct": 27.8523,
       "DefTOpct": 18.9368,
-      "OffTOpct": 13.2315
+      "OffTOpct": 13.2315,
+      "eFGpct": 56.263
     },
     {
       "team": "Nebraska Omaha",
-      "heist": -0.635443,
+      "heist": -2.5417710595194363,
+      "payday": -2.0808172043053714,
       "ORpct": 27.0235,
       "DRpct": 29.1718,
       "DefTOpct": 14.2241,
-      "OffTOpct": 16.7305
+      "OffTOpct": 16.7305,
+      "eFGpct": 52.8137
     },
     {
       "team": "Nevada",
-      "heist": 0.331464,
+      "heist": 1.3258570917988415,
+      "payday": 1.0153054282928144,
       "ORpct": 32.1176,
       "DRpct": 28.3088,
       "DefTOpct": 17.1842,
-      "OffTOpct": 13.586
+      "OffTOpct": 13.586,
+      "eFGpct": 50.2542
     },
     {
       "team": "New Hampshire",
-      "heist": -0.588032,
+      "heist": -2.352127694805442,
+      "payday": -3.674423165142485,
       "ORpct": 25.599,
       "DRpct": 28.7324,
       "DefTOpct": 15.9775,
-      "OffTOpct": 16.9417
+      "OffTOpct": 16.9417,
+      "eFGpct": 46.8977
     },
     {
       "team": "New Haven",
-      "heist": -1.011632,
+      "heist": -4.04652698358849,
+      "payday": -4.902995288998778,
       "ORpct": 22.1113,
       "DRpct": 27.9137,
       "DefTOpct": 17.0565,
-      "OffTOpct": 19.0631
+      "OffTOpct": 19.0631,
+      "eFGpct": 48.4431
     },
     {
       "team": "New Mexico",
-      "heist": 0.15354,
+      "heist": 0.6141608513714529,
+      "payday": 1.3320822606815845,
       "ORpct": 28.9505,
       "DRpct": 28.238,
       "DefTOpct": 19.5396,
-      "OffTOpct": 15.5375
+      "OffTOpct": 15.5375,
+      "eFGpct": 53.6662
     },
     {
       "team": "New Mexico St.",
-      "heist": 0.099338,
+      "heist": 0.3973519187076396,
+      "payday": 0.010177202707514044,
       "ORpct": 33.1135,
       "DRpct": 30.4348,
       "DefTOpct": 15.2216,
-      "OffTOpct": 15.5739
+      "OffTOpct": 15.5739,
+      "eFGpct": 50
     },
     {
       "team": "New Orleans",
-      "heist": -0.199247,
+      "heist": -0.7969861137880376,
+      "payday": -1.0762796713002079,
       "ORpct": 34.565,
       "DRpct": 34.8361,
       "DefTOpct": 14.5738,
-      "OffTOpct": 21.0199
+      "OffTOpct": 21.0199,
+      "eFGpct": 50.3579
     },
     {
       "team": "Niagara",
-      "heist": -0.424405,
+      "heist": -1.6976190150147685,
+      "payday": -2.220225428440539,
       "ORpct": 24.8322,
       "DRpct": 32.7801,
       "DefTOpct": 16.7836,
-      "OffTOpct": 18.6408
+      "OffTOpct": 18.6408,
+      "eFGpct": 49.5507
     },
     {
       "team": "Nicholls",
-      "heist": 0.639017,
+      "heist": 2.5560693250842634,
+      "payday": 2.3433914032967023,
       "ORpct": 27.0953,
       "DRpct": 35.1049,
       "DefTOpct": 21.6351,
-      "OffTOpct": 17.1278
+      "OffTOpct": 17.1278,
+      "eFGpct": 50.5789
     },
     {
       "team": "NJIT",
-      "heist": -0.281959,
+      "heist": -1.1278366605896644,
+      "payday": -2.3143387196419254,
       "ORpct": 26.1589,
       "DRpct": 32.4703,
       "DefTOpct": 15.5262,
-      "OffTOpct": 16.8055
+      "OffTOpct": 16.8055,
+      "eFGpct": 47.3482
     },
     {
       "team": "Norfolk St.",
-      "heist": 0.080618,
+      "heist": 0.3224728755743105,
+      "payday": -0.700233090931556,
       "ORpct": 31.3752,
       "DRpct": 32.7143,
       "DefTOpct": 18.6815,
-      "OffTOpct": 19.5057
+      "OffTOpct": 19.5057,
+      "eFGpct": 47.8916
     },
     {
       "team": "North Alabama",
-      "heist": -0.114917,
+      "heist": -0.45966937959841536,
+      "payday": -1.3973424463852204,
       "ORpct": 30.1423,
       "DRpct": 33.3791,
       "DefTOpct": 14.5355,
-      "OffTOpct": 17.1409
+      "OffTOpct": 17.1409,
+      "eFGpct": 48.1737
     },
     {
       "team": "North Carolina",
-      "heist": -0.036831,
+      "heist": -0.14732564986926344,
+      "payday": 0.9402070378368734,
       "ORpct": 32.6481,
       "DRpct": 28.2051,
       "DefTOpct": 13.7882,
-      "OffTOpct": 13.6683
+      "OffTOpct": 13.6683,
+      "eFGpct": 54.8924
     },
     {
       "team": "North Carolina A&T",
-      "heist": -0.737941,
+      "heist": -2.9517656825824834,
+      "payday": -3.556993569999727,
       "ORpct": 31.9001,
       "DRpct": 27.1895,
       "DefTOpct": 14.4085,
-      "OffTOpct": 18.8471
+      "OffTOpct": 18.8471,
+      "eFGpct": 49.2766
     },
     {
       "team": "North Carolina Central",
-      "heist": 0.584668,
+      "heist": 2.3386733144128677,
+      "payday": 0.8870952822555291,
       "ORpct": 28.3892,
       "DRpct": 38.3701,
       "DefTOpct": 19.4513,
-      "OffTOpct": 18.3798
+      "OffTOpct": 18.3798,
+      "eFGpct": 46.4688
     },
     {
       "team": "North Dakota",
-      "heist": 0.704733,
+      "heist": 2.8189308098772514,
+      "payday": 2.1513675674018655,
       "ORpct": 28.754,
       "DRpct": 32.327,
       "DefTOpct": 19.7903,
-      "OffTOpct": 13.9159
+      "OffTOpct": 13.9159,
+      "eFGpct": 49.0698
     },
     {
       "team": "North Dakota St.",
-      "heist": 0.45332,
+      "heist": 1.813281639145156,
+      "payday": 2.2616357949325767,
       "ORpct": 34.3826,
       "DRpct": 28.1541,
       "DefTOpct": 19.4295,
-      "OffTOpct": 15.6689
+      "OffTOpct": 15.6689,
+      "eFGpct": 52.7719
     },
     {
       "team": "North Florida",
-      "heist": -0.465585,
+      "heist": -1.8623392842522746,
+      "payday": -1.0099206049859395,
       "ORpct": 25.0298,
       "DRpct": 38.0137,
       "DefTOpct": 12.2016,
-      "OffTOpct": 18.3595
+      "OffTOpct": 18.3595,
+      "eFGpct": 54.1124
     },
     {
       "team": "North Texas",
-      "heist": 0.918445,
+      "heist": 3.6737796013818866,
+      "payday": 2.122820686426339,
       "ORpct": 34.3373,
       "DRpct": 34.0996,
       "DefTOpct": 22.1669,
-      "OffTOpct": 18.3006
+      "OffTOpct": 18.3006,
+      "eFGpct": 46.1391
     },
     {
       "team": "Northeastern",
-      "heist": 0.055753,
+      "heist": 0.2230109306582837,
+      "payday": 0.6368214128980094,
       "ORpct": 27.327,
       "DRpct": 32.4607,
       "DefTOpct": 17.7036,
-      "OffTOpct": 16.6342
+      "OffTOpct": 16.6342,
+      "eFGpct": 52.6573
     },
     {
       "team": "Northern Arizona",
-      "heist": -0.127911,
+      "heist": -0.5116432749594003,
+      "payday": -0.35968348391410376,
       "ORpct": 23.765,
       "DRpct": 33.1063,
       "DefTOpct": 16.8788,
-      "OffTOpct": 16.0183
+      "OffTOpct": 16.0183,
+      "eFGpct": 51.7886
     },
     {
       "team": "Northern Colorado",
-      "heist": -1.083879,
+      "heist": -4.335517756498502,
+      "payday": -2.8654425199321727,
       "ORpct": 28.4016,
       "DRpct": 24.5721,
       "DefTOpct": 12.433,
-      "OffTOpct": 16.3752
+      "OffTOpct": 16.3752,
+      "eFGpct": 56.1615
     },
     {
       "team": "Northern Illinois",
-      "heist": -0.474258,
+      "heist": -1.897030158264155,
+      "payday": -2.849051208130106,
       "ORpct": 32.6232,
       "DRpct": 30.8148,
       "DefTOpct": 17.2773,
-      "OffTOpct": 22.0765
+      "OffTOpct": 22.0765,
+      "eFGpct": 48.1261
     },
     {
       "team": "Northern Iowa",
-      "heist": -0.635403,
+      "heist": -2.541611703199738,
+      "payday": -2.3386201151943666,
       "ORpct": 21.7073,
       "DRpct": 25.1476,
       "DefTOpct": 17.6657,
-      "OffTOpct": 14.5555
+      "OffTOpct": 14.5555,
+      "eFGpct": 51.9579
     },
     {
       "team": "Northern Kentucky",
-      "heist": 0.589184,
+      "heist": 2.3567342357687195,
+      "payday": 2.8360752121556407,
       "ORpct": 31.9026,
       "DRpct": 33.2071,
       "DefTOpct": 19.2947,
-      "OffTOpct": 16.5467
+      "OffTOpct": 16.5467,
+      "eFGpct": 52.8747
     },
     {
       "team": "Northwestern",
-      "heist": 0.588107,
+      "heist": 2.3524279144213915,
+      "payday": 2.3066206529829008,
       "ORpct": 27.8375,
       "DRpct": 34.2197,
       "DefTOpct": 16.2121,
-      "OffTOpct": 12.3975
+      "OffTOpct": 12.3975,
+      "eFGpct": 51.1325
     },
     {
       "team": "Northwestern St.",
-      "heist": -0.297289,
+      "heist": -1.1891558758988006,
+      "payday": -1.774308644133876,
       "ORpct": 25.5968,
       "DRpct": 33.2432,
       "DefTOpct": 16.9343,
-      "OffTOpct": 18.4382
+      "OffTOpct": 18.4382,
+      "eFGpct": 49.3432
     },
     {
       "team": "Notre Dame",
-      "heist": -0.63553,
+      "heist": -2.542121408749257,
+      "payday": -2.2022211250600936,
       "ORpct": 31.7768,
       "DRpct": 26.3398,
       "DefTOpct": 14.0499,
-      "OffTOpct": 17.0732
+      "OffTOpct": 17.0732,
+      "eFGpct": 52.4121
     },
     {
       "team": "Oakland",
-      "heist": 0.383839,
+      "heist": 1.5353578445158846,
+      "payday": 1.9612555982151445,
       "ORpct": 30.7345,
       "DRpct": 34.5652,
       "DefTOpct": 15.0643,
-      "OffTOpct": 14.6738
+      "OffTOpct": 14.6738,
+      "eFGpct": 52.6974
     },
     {
       "team": "Ohio",
-      "heist": 0.173122,
+      "heist": 0.692487899998852,
+      "payday": 0.6804405987465896,
       "ORpct": 29.1202,
       "DRpct": 33.3333,
       "DefTOpct": 17.0628,
-      "OffTOpct": 16.5735
+      "OffTOpct": 16.5735,
+      "eFGpct": 51.2445
     },
     {
       "team": "Ohio St.",
-      "heist": 0.235708,
+      "heist": 0.9428313545743493,
+      "payday": 2.2846187424330147,
       "ORpct": 32.8859,
       "DRpct": 31.1991,
       "DefTOpct": 15.9564,
-      "OffTOpct": 15.5317
+      "OffTOpct": 15.5317,
+      "eFGpct": 55.7359
     },
     {
       "team": "Oklahoma",
-      "heist": 0.346599,
+      "heist": 1.3863973411792834,
+      "payday": 2.2669995586367993,
       "ORpct": 33.3333,
       "DRpct": 31.5068,
       "DefTOpct": 15.294,
-      "OffTOpct": 14.4608
+      "OffTOpct": 14.4608,
+      "eFGpct": 54.2059
     },
     {
       "team": "Oklahoma St.",
-      "heist": -0.004296,
+      "heist": -0.0171855582248005,
+      "payday": 0.4357201636234408,
       "ORpct": 30.4795,
       "DRpct": 30.131,
       "DefTOpct": 17.1148,
-      "OffTOpct": 16.6179
+      "OffTOpct": 16.6179,
+      "eFGpct": 52.787
     },
     {
       "team": "Old Dominion",
-      "heist": -0.477553,
+      "heist": -1.910211733827392,
+      "payday": -2.557398428904662,
       "ORpct": 25.5365,
       "DRpct": 29.8324,
       "DefTOpct": 14.4728,
-      "OffTOpct": 15.3773
+      "OffTOpct": 15.3773,
+      "eFGpct": 49.1374
     },
     {
       "team": "Oral Roberts",
-      "heist": -0.447561,
+      "heist": -1.790244263607862,
+      "payday": -2.825760929291537,
       "ORpct": 27.4699,
       "DRpct": 33.2481,
       "DefTOpct": 14.6403,
-      "OffTOpct": 18.5028
+      "OffTOpct": 18.5028,
+      "eFGpct": 47.8491
     },
     {
       "team": "Oregon",
-      "heist": 0.032339,
+      "heist": 0.1293572396982947,
+      "payday": -0.41027986792856375,
       "ORpct": 34.1578,
       "DRpct": 31.4746,
       "DefTOpct": 15.7689,
-      "OffTOpct": 17.8176
+      "OffTOpct": 17.8176,
+      "eFGpct": 49.4942
     },
     {
       "team": "Oregon St.",
-      "heist": -0.394151,
+      "heist": -1.576603569519434,
+      "payday": -1.814450747338692,
       "ORpct": 25.848,
       "DRpct": 32.8025,
       "DefTOpct": 15.3545,
-      "OffTOpct": 17.619
+      "OffTOpct": 17.619,
+      "eFGpct": 50.4954
     },
     {
       "team": "Pacific",
-      "heist": -0.814904,
+      "heist": -3.2596144785167205,
+      "payday": -2.630493821625007,
       "ORpct": 35.4037,
       "DRpct": 23.7826,
       "DefTOpct": 15.8064,
-      "OffTOpct": 20.2369
+      "OffTOpct": 20.2369,
+      "eFGpct": 53.3716
     },
     {
       "team": "Penn",
-      "heist": 0.062445,
+      "heist": 0.24978110660547215,
+      "payday": 0.05515873495322593,
       "ORpct": 31.2155,
       "DRpct": 30.7803,
       "DefTOpct": 16.0736,
-      "OffTOpct": 15.9281
+      "OffTOpct": 15.9281,
+      "eFGpct": 50.6388
     },
     {
       "team": "Penn St.",
-      "heist": 0.307769,
+      "heist": 1.2310745323376957,
+      "payday": 1.7689830110834048,
       "ORpct": 27.2397,
       "DRpct": 31.6754,
       "DefTOpct": 18.1913,
-      "OffTOpct": 14.4824
+      "OffTOpct": 14.4824,
+      "eFGpct": 53.069
     },
     {
       "team": "Pepperdine",
-      "heist": -0.179648,
+      "heist": -0.7185933517263663,
+      "payday": -2.286311675488648,
       "ORpct": 27.23,
       "DRpct": 34.0741,
       "DefTOpct": 16.9728,
-      "OffTOpct": 18.8853
+      "OffTOpct": 18.8853,
+      "eFGpct": 46.0835
     },
     {
       "team": "Pittsburgh",
-      "heist": -0.043222,
+      "heist": -0.17288659975670667,
+      "payday": -0.46670899727759335,
       "ORpct": 34.2252,
       "DRpct": 28.3715,
       "DefTOpct": 16.7984,
-      "OffTOpct": 17.3501
+      "OffTOpct": 17.3501,
+      "eFGpct": 50.3097
     },
     {
       "team": "Portland",
-      "heist": -0.218068,
+      "heist": -0.872271139011042,
+      "payday": -1.026773415120548,
       "ORpct": 28.5185,
       "DRpct": 32.417,
       "DefTOpct": 17.775,
-      "OffTOpct": 19.4733
+      "OffTOpct": 19.4733,
+      "eFGpct": 50.7719
     },
     {
       "team": "Portland St.",
-      "heist": -0.242277,
+      "heist": -0.9691081497965348,
+      "payday": -0.6964263582638783,
       "ORpct": 31.7507,
       "DRpct": 27.802,
       "DefTOpct": 18.0839,
-      "OffTOpct": 18.5162
+      "OffTOpct": 18.5162,
+      "eFGpct": 52.1891
     },
     {
       "team": "Prairie View A&M",
-      "heist": 0.592873,
+      "heist": 2.3714939550859606,
+      "payday": 1.1449320861341492,
       "ORpct": 25.2618,
       "DRpct": 37,
       "DefTOpct": 19.9409,
-      "OffTOpct": 16.2972
+      "OffTOpct": 16.2972,
+      "eFGpct": 47.2153
     },
     {
       "team": "Presbyterian",
-      "heist": -0.300726,
+      "heist": -1.2029041117065558,
+      "payday": -1.4444588565819787,
       "ORpct": 34.4043,
       "DRpct": 30.5304,
       "DefTOpct": 15.5272,
-      "OffTOpct": 19.7858
+      "OffTOpct": 19.7858,
+      "eFGpct": 50.4831
     },
     {
       "team": "Princeton",
-      "heist": -0.620244,
+      "heist": -2.480977437273372,
+      "payday": -3.1410351171716404,
       "ORpct": 27.3203,
       "DRpct": 28.4153,
       "DefTOpct": 14.5223,
-      "OffTOpct": 16.5278
+      "OffTOpct": 16.5278,
+      "eFGpct": 49.0947
     },
     {
       "team": "Providence",
-      "heist": -0.137217,
+      "heist": -0.5488678233959152,
+      "payday": 0.7406820546388821,
       "ORpct": 32.5986,
       "DRpct": 31.3492,
       "DefTOpct": 13.4304,
-      "OffTOpct": 16.2018
+      "OffTOpct": 16.2018,
+      "eFGpct": 55.5626
     },
     {
       "team": "Purdue",
-      "heist": 0.251101,
+      "heist": 1.0044037796274228,
+      "payday": 2.989288266212134,
       "ORpct": 35.9684,
       "DRpct": 26.1185,
       "DefTOpct": 16.5579,
-      "OffTOpct": 14.1393
+      "OffTOpct": 14.1393,
+      "eFGpct": 57.8694
     },
     {
       "team": "Purdue Fort Wayne",
-      "heist": 0.515596,
+      "heist": 2.0623833859145426,
+      "payday": 2.3891715422099473,
       "ORpct": 22.18,
       "DRpct": 36.0054,
       "DefTOpct": 19.6694,
-      "OffTOpct": 14.4832
+      "OffTOpct": 14.4832,
+      "eFGpct": 52.3686
     },
     {
       "team": "Queens",
-      "heist": 0.265813,
+      "heist": 1.0632536919410147,
+      "payday": 2.508280243762029,
       "ORpct": 32.0377,
       "DRpct": 32.7037,
       "DefTOpct": 14.8846,
-      "OffTOpct": 14.8846
+      "OffTOpct": 14.8846,
+      "eFGpct": 56.0784
     },
     {
       "team": "Quinnipiac",
-      "heist": 0.524445,
+      "heist": 2.097781694247333,
+      "payday": 1.4966833733885836,
       "ORpct": 33.0347,
       "DRpct": 32.7314,
       "DefTOpct": 18.0691,
-      "OffTOpct": 16.2058
+      "OffTOpct": 16.2058,
+      "eFGpct": 49.2903
     },
     {
       "team": "Radford",
-      "heist": 0.219163,
+      "heist": 0.8766536834514262,
+      "payday": 0.9138597526851415,
       "ORpct": 29.5954,
       "DRpct": 32.5871,
       "DefTOpct": 18.4018,
-      "OffTOpct": 17.1632
+      "OffTOpct": 17.1632,
+      "eFGpct": 51.4079
     },
     {
       "team": "Rhode Island",
-      "heist": 0.449854,
+      "heist": 1.7994164981671041,
+      "payday": 1.9653324156108132,
       "ORpct": 32.9114,
       "DRpct": 31.3237,
       "DefTOpct": 21.5791,
-      "OffTOpct": 19.0071
+      "OffTOpct": 19.0071,
+      "eFGpct": 51.8349
     },
     {
       "team": "Rice",
-      "heist": 0.462157,
+      "heist": 1.8486260672759407,
+      "payday": 1.0010800370577282,
       "ORpct": 35.5482,
       "DRpct": 35.1648,
       "DefTOpct": 16.3116,
-      "OffTOpct": 17.9682
+      "OffTOpct": 17.9682,
+      "eFGpct": 48.4727
     },
     {
       "team": "Richmond",
-      "heist": 0.089993,
+      "heist": 0.3599728053832525,
+      "payday": 0.993494314227814,
       "ORpct": 26.9608,
       "DRpct": 31.1927,
       "DefTOpct": 17.5055,
-      "OffTOpct": 15.1594
+      "OffTOpct": 15.1594,
+      "eFGpct": 53.3862
     },
     {
       "team": "Rider",
-      "heist": -0.086654,
+      "heist": -0.34661554502013847,
+      "payday": -2.888549862727853,
       "ORpct": 34.0071,
       "DRpct": 33.7856,
       "DefTOpct": 13.4514,
-      "OffTOpct": 18.121
+      "OffTOpct": 18.121,
+      "eFGpct": 42.8515
     },
     {
       "team": "Robert Morris",
-      "heist": -0.121487,
+      "heist": -0.485947846812368,
+      "payday": 0.4247369065968053,
       "ORpct": 37.5729,
       "DRpct": 28.436,
       "DefTOpct": 15.7212,
-      "OffTOpct": 18.713
+      "OffTOpct": 18.713,
+      "eFGpct": 54.3057
     },
     {
       "team": "Rutgers",
-      "heist": 0.429052,
+      "heist": 1.7162069242787443,
+      "payday": 0.34797379383115534,
       "ORpct": 32.5056,
       "DRpct": 33.6218,
       "DefTOpct": 16.428,
-      "OffTOpct": 15.8081
+      "OffTOpct": 15.8081,
+      "eFGpct": 46.7453
     },
     {
       "team": "Sacramento St.",
-      "heist": 0.201036,
+      "heist": 0.8041429559108322,
+      "payday": -0.4577764427717341,
       "ORpct": 26.7166,
       "DRpct": 33.3333,
       "DefTOpct": 16.7708,
-      "OffTOpct": 14.8857
+      "OffTOpct": 14.8857,
+      "eFGpct": 47.098
     },
     {
       "team": "Sacred Heart",
-      "heist": -0.460622,
+      "heist": -1.84248788343772,
+      "payday": -1.611553899813926,
       "ORpct": 28.8155,
       "DRpct": 30.257,
       "DefTOpct": 15.3658,
-      "OffTOpct": 17.9653
+      "OffTOpct": 17.9653,
+      "eFGpct": 52.0506
     },
     {
       "team": "Saint Francis",
-      "heist": 0.151795,
+      "heist": 0.6071794793355983,
+      "payday": -0.3965063667439185,
       "ORpct": 27.0809,
       "DRpct": 34.072,
       "DefTOpct": 19.239,
-      "OffTOpct": 18.1941
+      "OffTOpct": 18.1941,
+      "eFGpct": 47.9547
     },
     {
       "team": "Saint Joseph's",
-      "heist": -0.036947,
+      "heist": -0.14778660754722706,
+      "payday": -0.9511734041289909,
       "ORpct": 32.533,
       "DRpct": 31.8807,
       "DefTOpct": 15.6261,
-      "OffTOpct": 17.7054
+      "OffTOpct": 17.7054,
+      "eFGpct": 48.6192
     },
     {
       "team": "Saint Louis",
-      "heist": -0.302649,
+      "heist": -1.2105977480638452,
+      "payday": 1.735842747396463,
       "ORpct": 32.6116,
       "DRpct": 26.3874,
       "DefTOpct": 16.1046,
-      "OffTOpct": 16.7011
+      "OffTOpct": 16.7011,
+      "eFGpct": 61.0594
     },
     {
       "team": "Saint Mary's",
-      "heist": -0.319088,
+      "heist": -1.2763530832620185,
+      "payday": -0.6757475355990296,
       "ORpct": 37,
       "DRpct": 24.377,
       "DefTOpct": 15.1172,
-      "OffTOpct": 16.7969
+      "OffTOpct": 16.7969,
+      "eFGpct": 53.277
     },
     {
       "team": "Saint Peter's",
-      "heist": 1.038553,
+      "heist": 4.154212538736351,
+      "payday": 2.422456979854914,
       "ORpct": 37.2796,
       "DRpct": 33.6232,
       "DefTOpct": 20.4342,
-      "OffTOpct": 16.9086
+      "OffTOpct": 16.9086,
+      "eFGpct": 45.5393
     },
     {
       "team": "Sam Houston St.",
-      "heist": 0.291254,
+      "heist": 1.1650155421296953,
+      "payday": 1.5319840796110298,
       "ORpct": 34.8624,
       "DRpct": 31.385,
       "DefTOpct": 17.0541,
-      "OffTOpct": 17.1879
+      "OffTOpct": 17.1879,
+      "eFGpct": 52.5019
     },
     {
       "team": "Samford",
-      "heist": -0.612736,
+      "heist": -2.450942907650361,
+      "payday": -2.249217318151975,
       "ORpct": 25.5491,
       "DRpct": 26.6745,
       "DefTOpct": 12.9299,
-      "OffTOpct": 12.9903
+      "OffTOpct": 12.9903,
+      "eFGpct": 51.9537
     },
     {
       "team": "San Diego",
-      "heist": 0.560685,
+      "heist": 2.2427407165692483,
+      "payday": 2.0845308734035752,
       "ORpct": 28.6511,
       "DRpct": 36.2745,
       "DefTOpct": 19.7527,
-      "OffTOpct": 17.5958
+      "OffTOpct": 17.5958,
+      "eFGpct": 50.7596
     },
     {
       "team": "San Diego St.",
-      "heist": 0.352507,
+      "heist": 1.4100289778003887,
+      "payday": 2.120444824533403,
       "ORpct": 29.5105,
       "DRpct": 30.4403,
       "DefTOpct": 21.59,
-      "OffTOpct": 17.526
+      "OffTOpct": 17.526,
+      "eFGpct": 53.6413
     },
     {
       "team": "San Francisco",
-      "heist": -0.344261,
+      "heist": -1.3770424394432514,
+      "payday": -1.5602708245326466,
       "ORpct": 32.0132,
       "DRpct": 28.4632,
       "DefTOpct": 13.5398,
-      "OffTOpct": 15.7773
+      "OffTOpct": 15.7773,
+      "eFGpct": 50.6766
     },
     {
       "team": "San Jose St.",
-      "heist": 0.540209,
+      "heist": 2.160837194214895,
+      "payday": 1.0922839960632682,
       "ORpct": 29.7129,
       "DRpct": 36.1233,
       "DefTOpct": 17.8402,
-      "OffTOpct": 16.4526
+      "OffTOpct": 16.4526,
+      "eFGpct": 47.7395
     },
     {
       "team": "Santa Clara",
-      "heist": 0.973315,
+      "heist": 3.8932619838348748,
+      "payday": 5.033002038543286,
       "ORpct": 37.1303,
       "DRpct": 31.0668,
       "DefTOpct": 20.9885,
-      "OffTOpct": 16.1786
+      "OffTOpct": 16.1786,
+      "eFGpct": 55.0656
     },
     {
       "team": "Seattle",
-      "heist": 0.181216,
+      "heist": 0.7248632531403387,
+      "payday": 0.2609750561813292,
       "ORpct": 24.7299,
       "DRpct": 32.9312,
       "DefTOpct": 20.8171,
-      "OffTOpct": 17.4672
+      "OffTOpct": 17.4672,
+      "eFGpct": 49.7455
     },
     {
       "team": "Seton Hall",
-      "heist": 1.118524,
+      "heist": 4.474094706557104,
+      "payday": 3.46489272412573,
       "ORpct": 36.4045,
       "DRpct": 31.4727,
       "DefTOpct": 22.5369,
-      "OffTOpct": 16.3198
+      "OffTOpct": 16.3198,
+      "eFGpct": 47.9364
     },
     {
       "team": "Siena",
-      "heist": 0.25314,
+      "heist": 1.012558900708112,
+      "payday": 1.1525218487586597,
       "ORpct": 32.8698,
       "DRpct": 28.5539,
       "DefTOpct": 18.4202,
-      "OffTOpct": 15.8773
+      "OffTOpct": 15.8773,
+      "eFGpct": 51.7488
     },
     {
       "team": "SIUE",
-      "heist": 0.064037,
+      "heist": 0.25614924232743386,
+      "payday": -0.3630649143098177,
       "ORpct": 30.5942,
       "DRpct": 32.6062,
       "DefTOpct": 16.9426,
-      "OffTOpct": 17.5993
+      "OffTOpct": 17.5993,
+      "eFGpct": 49.2302
     },
     {
       "team": "SMU",
-      "heist": 0.489307,
+      "heist": 1.9572272938500745,
+      "payday": 3.488944600577866,
       "ORpct": 35.0665,
       "DRpct": 31.3466,
       "DefTOpct": 17.5986,
-      "OffTOpct": 16.1608
+      "OffTOpct": 16.1608,
+      "eFGpct": 56.366
     },
     {
       "team": "South Alabama",
-      "heist": 0.328059,
+      "heist": 1.3122369306927764,
+      "payday": 1.5431407714949745,
       "ORpct": 24.6719,
       "DRpct": 31.4961,
       "DefTOpct": 18.6593,
-      "OffTOpct": 13.3466
+      "OffTOpct": 13.3466,
+      "eFGpct": 52.0505
     },
     {
       "team": "South Carolina",
-      "heist": -0.034684,
+      "heist": -0.1387365322349856,
+      "payday": -0.21305890290220098,
       "ORpct": 27.7094,
       "DRpct": 31.8236,
       "DefTOpct": 14.7765,
-      "OffTOpct": 14.4749
+      "OffTOpct": 14.4749,
+      "eFGpct": 51.0379
     },
     {
       "team": "South Carolina St.",
-      "heist": 0.300352,
+      "heist": 1.2014090723288309,
+      "payday": -0.40983548581640816,
       "ORpct": 30.5665,
       "DRpct": 39.039,
       "DefTOpct": 17.8004,
-      "OffTOpct": 20.6997
+      "OffTOpct": 20.6997,
+      "eFGpct": 45.9391
     },
     {
       "team": "South Dakota",
-      "heist": -0.125767,
+      "heist": -0.5030667880152634,
+      "payday": -0.8057511750850357,
       "ORpct": 30.3241,
       "DRpct": 30.4678,
       "DefTOpct": 16.5282,
-      "OffTOpct": 17.2098
+      "OffTOpct": 17.2098,
+      "eFGpct": 50.2803
     },
     {
       "team": "South Dakota St.",
-      "heist": -0.532053,
+      "heist": -2.128212693175438,
+      "payday": -1.9613020626190982,
       "ORpct": 29.0123,
       "DRpct": 26.799,
       "DefTOpct": 15.1717,
-      "OffTOpct": 16.1832
+      "OffTOpct": 16.1832,
+      "eFGpct": 51.8382
     },
     {
       "team": "South Florida",
-      "heist": 0.883423,
+      "heist": 3.5336938554376323,
+      "payday": 3.609060736810424,
       "ORpct": 37.963,
       "DRpct": 32.2513,
       "DefTOpct": 18.3966,
-      "OffTOpct": 15.7449
+      "OffTOpct": 15.7449,
+      "eFGpct": 51.5345
     },
     {
       "team": "Southeast Missouri",
-      "heist": -0.073582,
+      "heist": -0.294328024070293,
+      "payday": -0.2863604917835791,
       "ORpct": 29.5958,
       "DRpct": 27.8779,
       "DefTOpct": 19.0213,
-      "OffTOpct": 16.9833
+      "OffTOpct": 16.9833,
+      "eFGpct": 51.3109
     },
     {
       "team": "Southeastern Louisiana",
-      "heist": -0.002531,
+      "heist": -0.010124785111165102,
+      "payday": -1.4814162225915344,
       "ORpct": 28.3175,
       "DRpct": 31.9896,
       "DefTOpct": 19.3861,
-      "OffTOpct": 18.8159
+      "OffTOpct": 18.8159,
+      "eFGpct": 46.4034
     },
     {
       "team": "Southern",
-      "heist": 0.433067,
+      "heist": 1.7322684806969941,
+      "payday": 0.7347317702228245,
       "ORpct": 31.7676,
       "DRpct": 32.5352,
       "DefTOpct": 18.9367,
-      "OffTOpct": 16.9709
+      "OffTOpct": 16.9709,
+      "eFGpct": 47.9751
     },
     {
       "team": "Southern Illinois",
-      "heist": -0.093741,
+      "heist": -0.37496409693966953,
+      "payday": -0.7121318719139449,
       "ORpct": 30.3333,
       "DRpct": 28.074,
       "DefTOpct": 18.6203,
-      "OffTOpct": 17.2783
+      "OffTOpct": 17.2783,
+      "eFGpct": 50.1659
     },
     {
       "team": "Southern Indiana",
-      "heist": 0.093881,
+      "heist": 0.37552260553053934,
+      "payday": -2.0007769075134947,
       "ORpct": 30.1985,
       "DRpct": 33.7662,
       "DefTOpct": 16.8319,
-      "OffTOpct": 17.8257
+      "OffTOpct": 17.8257,
+      "eFGpct": 43.401
     },
     {
       "team": "Southern Miss",
-      "heist": -0.355403,
+      "heist": -1.4216103882071711,
+      "payday": -2.2716884154393515,
       "ORpct": 31.1266,
       "DRpct": 27.7193,
       "DefTOpct": 17.5026,
-      "OffTOpct": 18.5355
+      "OffTOpct": 18.5355,
+      "eFGpct": 48.4643
     },
     {
       "team": "Southern Utah",
-      "heist": -0.535294,
+      "heist": -2.141176678792058,
+      "payday": -2.7157191738257485,
       "ORpct": 27.5731,
       "DRpct": 34.3672,
       "DefTOpct": 14.8719,
-      "OffTOpct": 20.2105
+      "OffTOpct": 20.2105,
+      "eFGpct": 49.3784
     },
     {
       "team": "St. Bonaventure",
-      "heist": 0.374857,
+      "heist": 1.4994275859265587,
+      "payday": 1.9550160188967425,
       "ORpct": 34.8505,
       "DRpct": 30.3401,
       "DefTOpct": 18.2314,
-      "OffTOpct": 16.888
+      "OffTOpct": 16.888,
+      "eFGpct": 52.7959
     },
     {
       "team": "St. John's",
-      "heist": 1.007348,
+      "heist": 4.0293915847841575,
+      "payday": 4.3106942232929395,
       "ORpct": 37.4429,
       "DRpct": 31.386,
       "DefTOpct": 19.8355,
-      "OffTOpct": 15.2226
+      "OffTOpct": 15.2226,
+      "eFGpct": 52.2177
     },
     {
       "team": "St. Thomas",
-      "heist": -0.318686,
+      "heist": -1.2747433631588267,
+      "payday": 1.1372046197816676,
       "ORpct": 21.123,
       "DRpct": 28.4672,
       "DefTOpct": 17.8667,
-      "OffTOpct": 14.0803
+      "OffTOpct": 14.0803,
+      "eFGpct": 59.2862
     },
     {
       "team": "Stanford",
-      "heist": 0.289798,
+      "heist": 1.1591934882764918,
+      "payday": 0.9451289966955689,
       "ORpct": 32.6966,
       "DRpct": 28.6608,
       "DefTOpct": 18.8927,
-      "OffTOpct": 15.995
+      "OffTOpct": 15.995,
+      "eFGpct": 50.5743
     },
     {
       "team": "Stephen F. Austin",
-      "heist": 0.383119,
+      "heist": 1.5324763515249447,
+      "payday": 1.9032127417056357,
       "ORpct": 34.2857,
       "DRpct": 28.8199,
       "DefTOpct": 17.2547,
-      "OffTOpct": 14.6502
+      "OffTOpct": 14.6502,
+      "eFGpct": 52.5144
     },
     {
       "team": "Stetson",
-      "heist": -0.530654,
+      "heist": -2.1226166358841416,
+      "payday": -2.2180088388461536,
       "ORpct": 26.4671,
       "DRpct": 31.9899,
       "DefTOpct": 15.2544,
-      "OffTOpct": 18.4021
+      "OffTOpct": 18.4021,
+      "eFGpct": 50.968
     },
     {
       "team": "Stonehill",
-      "heist": -1.449589,
+      "heist": -5.798354472159044,
+      "payday": -7.205230699891226,
       "ORpct": 28.6564,
       "DRpct": 26.1682,
       "DefTOpct": 13.0498,
-      "OffTOpct": 21.066
+      "OffTOpct": 21.066,
+      "eFGpct": 46.6171
     },
     {
       "team": "Stony Brook",
-      "heist": -0.098786,
+      "heist": -0.3951425103973639,
+      "payday": -0.6638860803513391,
       "ORpct": 28.4235,
       "DRpct": 31.8605,
       "DefTOpct": 16.5469,
-      "OffTOpct": 16.9807
+      "OffTOpct": 16.9807,
+      "eFGpct": 50.3929
     },
     {
       "team": "Syracuse",
-      "heist": 0.416863,
+      "heist": 1.6674523391028009,
+      "payday": 2.2712831686764385,
       "ORpct": 29.9429,
       "DRpct": 32.9335,
       "DefTOpct": 18.7157,
-      "OffTOpct": 16.2546
+      "OffTOpct": 16.2546,
+      "eFGpct": 53.2877
     },
     {
       "team": "Tarleton St.",
-      "heist": 0.779298,
+      "heist": 3.117190000864208,
+      "payday": 2.284805809908203,
       "ORpct": 31.4327,
       "DRpct": 34.3402,
       "DefTOpct": 24.3439,
-      "OffTOpct": 20.1132
+      "OffTOpct": 20.1132,
+      "eFGpct": 48.523
     },
     {
       "team": "TCU",
-      "heist": 0.440291,
+      "heist": 1.7611639524308398,
+      "payday": 1.8550988119060565,
       "ORpct": 33.0166,
       "DRpct": 29.2534,
       "DefTOpct": 19.8231,
-      "OffTOpct": 16.1761
+      "OffTOpct": 16.1761,
+      "eFGpct": 51.5961
     },
     {
       "team": "Temple",
-      "heist": 0.320356,
+      "heist": 1.2814251996867145,
+      "payday": 0.894250483686589,
       "ORpct": 30.5838,
       "DRpct": 31.0167,
       "DefTOpct": 15.9747,
-      "OffTOpct": 13.5983
+      "OffTOpct": 13.5983,
+      "eFGpct": 50
     },
     {
       "team": "Tennessee",
-      "heist": 0.417875,
+      "heist": 1.6715014687379963,
+      "payday": 2.123352191830417,
       "ORpct": 44.7462,
       "DRpct": 27.9299,
       "DefTOpct": 16.6035,
-      "OffTOpct": 18.4017
+      "OffTOpct": 18.4017,
+      "eFGpct": 52.7835
     },
     {
       "team": "Tennessee Martin",
-      "heist": 0.153956,
+      "heist": 0.6158233194663354,
+      "payday": 0.3005392329699189,
       "ORpct": 38.3562,
       "DRpct": 31.4924,
       "DefTOpct": 19.049,
-      "OffTOpct": 21.9194
+      "OffTOpct": 21.9194,
+      "eFGpct": 50.2385
     },
     {
       "team": "Tennessee St.",
-      "heist": 0.589574,
+      "heist": 2.358295668298903,
+      "payday": 1.8292386910518355,
       "ORpct": 33.7756,
       "DRpct": 31.1914,
       "DefTOpct": 19.652,
-      "OffTOpct": 16.472
+      "OffTOpct": 16.472,
+      "eFGpct": 49.5293
     },
     {
       "team": "Tennessee Tech",
-      "heist": -0.268336,
+      "heist": -1.0733445404036617,
+      "payday": -1.6100879371574153,
       "ORpct": 32.1519,
       "DRpct": 32.4155,
       "DefTOpct": 15.5711,
-      "OffTOpct": 19.6854
+      "OffTOpct": 19.6854,
+      "eFGpct": 49.5038
     },
     {
       "team": "Texas",
-      "heist": 0.033963,
+      "heist": 0.13585192414704161,
+      "payday": 1.2501212946078057,
       "ORpct": 37.4836,
       "DRpct": 27.4056,
       "DefTOpct": 14.4144,
-      "OffTOpct": 15.5474
+      "OffTOpct": 15.5474,
+      "eFGpct": 54.9811
     },
     {
       "team": "Texas A&M",
-      "heist": 0.722093,
+      "heist": 2.888370964705193,
+      "payday": 4.261145173163361,
       "ORpct": 32.809,
       "DRpct": 31.7932,
       "DefTOpct": 19.1622,
-      "OffTOpct": 14.873
+      "OffTOpct": 14.873,
+      "eFGpct": 55.8387
     },
     {
       "team": "Texas A&M Corpus Chris",
-      "heist": -0.013603,
+      "heist": -0.054411082741338546,
+      "payday": -1.2030236150488771,
       "ORpct": 30.8101,
       "DRpct": 29.0133,
       "DefTOpct": 20.0289,
-      "OffTOpct": 18.7683
+      "OffTOpct": 18.7683,
+      "eFGpct": 47.4739
     },
     {
       "team": "Texas Southern",
-      "heist": -0.361476,
+      "heist": -1.4459038013410597,
+      "payday": -2.0954114936811328,
       "ORpct": 27.6748,
       "DRpct": 32.5109,
       "DefTOpct": 16.1966,
-      "OffTOpct": 18.8381
+      "OffTOpct": 18.8381,
+      "eFGpct": 49.1297
     },
     {
       "team": "Texas St.",
-      "heist": -0.116065,
+      "heist": -0.4642605503300996,
+      "payday": -1.0829924218218347,
       "ORpct": 33.3333,
       "DRpct": 28.0285,
       "DefTOpct": 18.7446,
-      "OffTOpct": 19.0357
+      "OffTOpct": 19.0357,
+      "eFGpct": 49.2318
     },
     {
       "team": "Texas Tech",
-      "heist": 0.129855,
+      "heist": 0.5194208710257738,
+      "payday": 1.9118481991637806,
       "ORpct": 33.7995,
       "DRpct": 28.9352,
       "DefTOpct": 15.8835,
-      "OffTOpct": 15.2819
+      "OffTOpct": 15.2819,
+      "eFGpct": 55.9039
     },
     {
       "team": "The Citadel",
-      "heist": -0.505034,
+      "heist": -2.020136395002551,
+      "payday": -2.7553702719583666,
       "ORpct": 28.3272,
       "DRpct": 30.8609,
       "DefTOpct": 14.053,
-      "OffTOpct": 17.2859
+      "OffTOpct": 17.2859,
+      "eFGpct": 48.8453
     },
     {
       "team": "Toledo",
-      "heist": 0.741953,
+      "heist": 2.9678134608305555,
+      "payday": 3.527364485481363,
       "ORpct": 29.798,
       "DRpct": 35.4798,
       "DefTOpct": 18.6684,
-      "OffTOpct": 15.1952
+      "OffTOpct": 15.1952,
+      "eFGpct": 53.1408
     },
     {
       "team": "Towson",
-      "heist": -0.036944,
+      "heist": -0.14777680981405866,
+      "payday": -1.7970917516335887,
       "ORpct": 36.044,
       "DRpct": 26.799,
       "DefTOpct": 15.8985,
-      "OffTOpct": 16.3509
+      "OffTOpct": 16.3509,
+      "eFGpct": 45.8128
     },
     {
       "team": "Troy",
-      "heist": 0.343949,
+      "heist": 1.375794091721741,
+      "payday": 1.5694715478543042,
       "ORpct": 33.4083,
       "DRpct": 31.3212,
       "DefTOpct": 17.5869,
-      "OffTOpct": 16.4804
+      "OffTOpct": 16.4804,
+      "eFGpct": 51.927
     },
     {
       "team": "Tulane",
-      "heist": 0.12561,
+      "heist": 0.5024411876529331,
+      "payday": 0.15192014271214094,
       "ORpct": 22.1649,
       "DRpct": 35.4878,
       "DefTOpct": 17.8026,
-      "OffTOpct": 15.5852
+      "OffTOpct": 15.5852,
+      "eFGpct": 50.1216
     },
     {
       "team": "Tulsa",
-      "heist": -0.075783,
+      "heist": -0.3031324409813716,
+      "payday": 1.4791621416643772,
       "ORpct": 32.5613,
       "DRpct": 28.8599,
       "DefTOpct": 15.3482,
-      "OffTOpct": 15.7885
+      "OffTOpct": 15.7885,
+      "eFGpct": 57.1973
     },
     {
       "team": "UAB",
-      "heist": 0.368787,
+      "heist": 1.4751496828506394,
+      "payday": 0.5462481771479367,
       "ORpct": 33.1942,
       "DRpct": 27.2216,
       "DefTOpct": 16.6385,
-      "OffTOpct": 12.6084
+      "OffTOpct": 12.6084,
+      "eFGpct": 48.2028
     },
     {
       "team": "UC Davis",
-      "heist": -0.102041,
+      "heist": -0.40816313564580176,
+      "payday": -0.05108144364757744,
       "ORpct": 26.6667,
       "DRpct": 30.8767,
       "DefTOpct": 19.6164,
-      "OffTOpct": 18.272
+      "OffTOpct": 18.272,
+      "eFGpct": 52.4691
     },
     {
       "team": "UC Irvine",
-      "heist": 0.264914,
+      "heist": 1.0596573487782883,
+      "payday": 0.16792194210202904,
       "ORpct": 30.2924,
       "DRpct": 32.516,
       "DefTOpct": 18.7476,
-      "OffTOpct": 17.4085
+      "OffTOpct": 17.4085,
+      "eFGpct": 48.3261
     },
     {
       "team": "UC Riverside",
-      "heist": -0.702038,
+      "heist": -2.8081500354738926,
+      "payday": -3.3719918288414132,
       "ORpct": 28.024,
       "DRpct": 31.068,
       "DefTOpct": 15.5055,
-      "OffTOpct": 20.1808
+      "OffTOpct": 20.1808,
+      "eFGpct": 49.4139
     },
     {
       "team": "UC San Diego",
-      "heist": -0.500449,
+      "heist": -2.001795288472863,
+      "payday": -1.4596969575254704,
       "ORpct": 26.3473,
       "DRpct": 27.9652,
       "DefTOpct": 16.6852,
-      "OffTOpct": 16.7448
+      "OffTOpct": 16.7448,
+      "eFGpct": 53.0829
     },
     {
       "team": "UC Santa Barbara",
-      "heist": -0.28022,
+      "heist": -1.1208787845146486,
+      "payday": 0.34633288400017226,
       "ORpct": 32.8276,
       "DRpct": 26.014,
       "DefTOpct": 18.4283,
-      "OffTOpct": 18.4927
+      "OffTOpct": 18.4927,
+      "eFGpct": 56.152
     },
     {
       "team": "UCF",
-      "heist": 0.060637,
+      "heist": 0.24254917429475037,
+      "payday": 1.038661062821913,
       "ORpct": 36.1179,
       "DRpct": 27.0166,
       "DefTOpct": 16.2143,
-      "OffTOpct": 16.0307
+      "OffTOpct": 16.0307,
+      "eFGpct": 53.9256
     },
     {
       "team": "UCLA",
-      "heist": 0.746165,
+      "heist": 2.9846607622497805,
+      "payday": 3.745173978473428,
       "ORpct": 31.4694,
       "DRpct": 31.8804,
       "DefTOpct": 18.9258,
-      "OffTOpct": 13.8542
+      "OffTOpct": 13.8542,
+      "eFGpct": 53.8075
     },
     {
       "team": "UMass Lowell",
-      "heist": -0.548643,
+      "heist": -2.1945709470145323,
+      "payday": -2.5360190026552765,
       "ORpct": 32.419,
       "DRpct": 29.8851,
       "DefTOpct": 14.5027,
-      "OffTOpct": 19.4411
+      "OffTOpct": 19.4411,
+      "eFGpct": 50.1517
     },
     {
       "team": "UMBC",
-      "heist": -0.765463,
+      "heist": -3.061850397249351,
+      "payday": -2.6074676771429623,
       "ORpct": 23.4949,
       "DRpct": 26.2162,
       "DefTOpct": 14.8884,
-      "OffTOpct": 14.6767
+      "OffTOpct": 14.6767,
+      "eFGpct": 52.7919
     },
     {
       "team": "UNC Asheville",
-      "heist": -0.273623,
+      "heist": -1.094490726518512,
+      "payday": -0.9473839297499861,
       "ORpct": 29.5833,
       "DRpct": 31.3907,
       "DefTOpct": 15.515,
-      "OffTOpct": 17.7219
+      "OffTOpct": 17.7219,
+      "eFGpct": 51.7725
     },
     {
       "team": "UNC Greensboro",
-      "heist": -0.434889,
+      "heist": -1.7395560523909182,
+      "payday": -1.8968917537303396,
       "ORpct": 28.6203,
       "DRpct": 29.6875,
       "DefTOpct": 13.3448,
-      "OffTOpct": 15.4487
+      "OffTOpct": 15.4487,
+      "eFGpct": 50.7625
     },
     {
       "team": "UNC Wilmington",
-      "heist": -0.033567,
+      "heist": -0.134266133326992,
+      "payday": -0.17603425667177425,
       "ORpct": 34.878,
       "DRpct": 26.9231,
       "DefTOpct": 15.0912,
-      "OffTOpct": 15.0912
+      "OffTOpct": 15.0912,
+      "eFGpct": 51.1459
     },
     {
       "team": "UNLV",
-      "heist": 0.196746,
+      "heist": 0.7869825968635378,
+      "payday": 0.9937118947466699,
       "ORpct": 32.2304,
       "DRpct": 31.677,
       "DefTOpct": 17.9261,
-      "OffTOpct": 17.6243
+      "OffTOpct": 17.6243,
+      "eFGpct": 51.9703
     },
     {
       "team": "USC",
-      "heist": 0.14872,
+      "heist": 0.5948802990032213,
+      "payday": 0.7911198949713456,
       "ORpct": 33.2918,
       "DRpct": 31.3131,
       "DefTOpct": 17.0236,
-      "OffTOpct": 17.4806
+      "OffTOpct": 17.4806,
+      "eFGpct": 51.9355
     },
     {
       "team": "USC Upstate",
-      "heist": -0.214995,
+      "heist": -0.8599781814563493,
+      "payday": -1.6884739484266205,
       "ORpct": 28.5219,
       "DRpct": 32.1645,
       "DefTOpct": 16.1138,
-      "OffTOpct": 17.7744
+      "OffTOpct": 17.7744,
+      "eFGpct": 48.5359
     },
     {
       "team": "UT Arlington",
-      "heist": -0.269941,
+      "heist": -1.0797642698504948,
+      "payday": -1.77219534014163,
       "ORpct": 34.9719,
       "DRpct": 29.6149,
       "DefTOpct": 17.9423,
-      "OffTOpct": 21.4107
+      "OffTOpct": 21.4107,
+      "eFGpct": 48.9873
     },
     {
       "team": "UT Rio Grande Valley",
-      "heist": -0.203365,
+      "heist": -0.8134590812501599,
+      "payday": 0.09882324170353973,
       "ORpct": 29.1275,
       "DRpct": 31.4251,
       "DefTOpct": 17.1588,
-      "OffTOpct": 18.4441
+      "OffTOpct": 18.4441,
+      "eFGpct": 54.311
     },
     {
       "team": "Utah",
-      "heist": -0.179836,
+      "heist": -0.7193453616239937,
+      "payday": -0.35822453153205863,
       "ORpct": 28.8095,
       "DRpct": 32.5608,
       "DefTOpct": 14.11,
-      "OffTOpct": 16.0747
+      "OffTOpct": 16.0747,
+      "eFGpct": 52.4825
     },
     {
       "team": "Utah St.",
-      "heist": 0.899355,
+      "heist": 3.5974212754845856,
+      "payday": 5.557437934253549,
       "ORpct": 35.4533,
       "DRpct": 31.2578,
       "DefTOpct": 21.0325,
-      "OffTOpct": 16.106
+      "OffTOpct": 16.106,
+      "eFGpct": 57.7869
     },
     {
       "team": "Utah Tech",
-      "heist": 0.194566,
+      "heist": 0.7782658081264803,
+      "payday": 1.2351805252468364,
       "ORpct": 29.3367,
       "DRpct": 34.3672,
       "DefTOpct": 17.7774,
-      "OffTOpct": 17.8393
+      "OffTOpct": 17.8393,
+      "eFGpct": 52.8003
     },
     {
       "team": "Utah Valley",
-      "heist": 0.30329,
+      "heist": 1.2131614721118824,
+      "payday": 2.5871112506122476,
       "ORpct": 35.0072,
       "DRpct": 31.3253,
       "DefTOpct": 21.3392,
-      "OffTOpct": 21.0168
+      "OffTOpct": 21.0168,
+      "eFGpct": 55.8426
     },
     {
       "team": "UTEP",
-      "heist": 0.157151,
+      "heist": 0.6286042419578847,
+      "payday": -0.41490027144842434,
       "ORpct": 27.6215,
       "DRpct": 33.4716,
       "DefTOpct": 18.6644,
-      "OffTOpct": 17.5022
+      "OffTOpct": 17.5022,
+      "eFGpct": 47.8226
     },
     {
       "team": "UTSA",
-      "heist": 0.193792,
+      "heist": 0.7751672917991117,
+      "payday": -1.4083688771458802,
       "ORpct": 30.1136,
       "DRpct": 38.8957,
       "DefTOpct": 14.8869,
-      "OffTOpct": 18.5924
+      "OffTOpct": 18.5924,
+      "eFGpct": 44.0405
     },
     {
       "team": "Valparaiso",
-      "heist": 0.178677,
+      "heist": 0.7147081674268898,
+      "payday": -0.7054610446286194,
       "ORpct": 32.3718,
       "DRpct": 30.1354,
       "DefTOpct": 16.895,
-      "OffTOpct": 15.8872
+      "OffTOpct": 15.8872,
+      "eFGpct": 46.573
     },
     {
       "team": "Vanderbilt",
-      "heist": 0.471629,
+      "heist": 1.8865141700317873,
+      "payday": 3.496030099295877,
       "ORpct": 30.7598,
       "DRpct": 29.0951,
       "DefTOpct": 18.3764,
-      "OffTOpct": 13.3803
+      "OffTOpct": 13.3803,
+      "eFGpct": 56.6241
     },
     {
       "team": "VCU",
-      "heist": 0.377974,
+      "heist": 1.511895415806715,
+      "payday": 2.5546961562660995,
       "ORpct": 33.912,
       "DRpct": 30.43,
       "DefTOpct": 17.4577,
-      "OffTOpct": 15.7517
+      "OffTOpct": 15.7517,
+      "eFGpct": 54.744
     },
     {
       "team": "Vermont",
-      "heist": -0.910228,
+      "heist": -3.6409100842250517,
+      "payday": -2.981767177024871,
       "ORpct": 26.7516,
       "DRpct": 22.5282,
       "DefTOpct": 14.4106,
-      "OffTOpct": 14.6011
+      "OffTOpct": 14.6011,
+      "eFGpct": 53.4712
     },
     {
       "team": "Villanova",
-      "heist": 0.773711,
+      "heist": 3.0948454592796306,
+      "payday": 4.048785161677407,
       "ORpct": 34.9941,
       "DRpct": 32.1078,
       "DefTOpct": 18.9734,
-      "OffTOpct": 15.5808
+      "OffTOpct": 15.5808,
+      "eFGpct": 54.4492
     },
     {
       "team": "Virginia",
-      "heist": 0.466893,
+      "heist": 1.8675713475730804,
+      "payday": 2.858888148748467,
       "ORpct": 39.8137,
       "DRpct": 28.9105,
       "DefTOpct": 16.1621,
-      "OffTOpct": 15.7948
+      "OffTOpct": 15.7948,
+      "eFGpct": 54.5732
     },
     {
       "team": "Virginia Tech",
-      "heist": 0.600203,
+      "heist": 2.400810840450895,
+      "payday": 2.587223876579101,
       "ORpct": 31.7821,
       "DRpct": 32.5556,
       "DefTOpct": 18.1384,
-      "OffTOpct": 14.9176
+      "OffTOpct": 14.9176,
+      "eFGpct": 51.9029
     },
     {
       "team": "VMI",
-      "heist": 0.448189,
+      "heist": 1.792756702315383,
+      "payday": 0.6497507348244858,
       "ORpct": 26.2258,
       "DRpct": 38.8041,
       "DefTOpct": 16.73,
-      "OffTOpct": 16.2172
+      "OffTOpct": 16.2172,
+      "eFGpct": 47.4925
     },
     {
       "team": "Wagner",
-      "heist": -0.355519,
+      "heist": -1.4220766642828457,
+      "payday": -1.6768038221952168,
       "ORpct": 31.6619,
       "DRpct": 30.6548,
       "DefTOpct": 15.2074,
-      "OffTOpct": 18.6534
+      "OffTOpct": 18.6534,
+      "eFGpct": 50.4394
     },
     {
       "team": "Wake Forest",
-      "heist": 0.61673,
+      "heist": 2.4669207530637522,
+      "payday": 2.943307732934379,
       "ORpct": 30.012,
       "DRpct": 33.2117,
       "DefTOpct": 19.6493,
-      "OffTOpct": 15.7079
+      "OffTOpct": 15.7079,
+      "eFGpct": 52.8649
     },
     {
       "team": "Washington",
-      "heist": -0.00579,
+      "heist": -0.02316117928214978,
+      "payday": -0.2144678405589642,
       "ORpct": 35.2874,
       "DRpct": 28.3937,
       "DefTOpct": 14.6843,
-      "OffTOpct": 15.671
+      "OffTOpct": 15.671,
+      "eFGpct": 50.6498
     },
     {
       "team": "Washington St.",
-      "heist": -0.847914,
+      "heist": -3.3916574615418305,
+      "payday": -2.2296418616748293,
       "ORpct": 29.7136,
       "DRpct": 27.2936,
       "DefTOpct": 14.5926,
-      "OffTOpct": 18.8813
+      "OffTOpct": 18.8813,
+      "eFGpct": 55.1395
     },
     {
       "team": "Weber St.",
-      "heist": -0.008043,
+      "heist": -0.032170041621941925,
+      "payday": 0.09492192160760549,
       "ORpct": 32.2468,
       "DRpct": 28.202,
       "DefTOpct": 16.6989,
-      "OffTOpct": 15.8786
+      "OffTOpct": 15.8786,
+      "eFGpct": 51.7061
     },
     {
       "team": "West Georgia",
-      "heist": -0.036142,
+      "heist": -0.14456917866868624,
+      "payday": -0.8968036070039962,
       "ORpct": 31.7714,
       "DRpct": 29.909,
       "DefTOpct": 15.213,
-      "OffTOpct": 15.6441
+      "OffTOpct": 15.6441,
+      "eFGpct": 48.7889
     },
     {
       "team": "West Virginia",
-      "heist": -0.307611,
+      "heist": -1.2304437219088298,
+      "payday": -1.063683805460465,
       "ORpct": 30.4833,
       "DRpct": 26.2963,
       "DefTOpct": 17.8701,
-      "OffTOpct": 17.225
+      "OffTOpct": 17.225,
+      "eFGpct": 51.8377
     },
     {
       "team": "Western Carolina",
-      "heist": -0.337434,
+      "heist": -1.3497346073175431,
+      "payday": -1.6929309466107887,
       "ORpct": 34.126,
       "DRpct": 27.86,
       "DefTOpct": 14.784,
-      "OffTOpct": 17.5073
+      "OffTOpct": 17.5073,
+      "eFGpct": 50.1459
     },
     {
       "team": "Western Illinois",
-      "heist": -0.176032,
+      "heist": -0.7041264254863591,
+      "payday": -2.923261266734864,
       "ORpct": 27.867,
       "DRpct": 33.9332,
       "DefTOpct": 15.1323,
-      "OffTOpct": 17.4083
+      "OffTOpct": 17.4083,
+      "eFGpct": 43.9224
     },
     {
       "team": "Western Kentucky",
-      "heist": 0.53378,
+      "heist": 2.135118317561092,
+      "payday": 0.24830808439576746,
       "ORpct": 33.5845,
       "DRpct": 30.2071,
       "DefTOpct": 17.9153,
-      "OffTOpct": 14.6001
+      "OffTOpct": 14.6001,
+      "eFGpct": 45.0249
     },
     {
       "team": "Western Michigan",
-      "heist": -0.447482,
+      "heist": -1.7899289836538301,
+      "payday": -2.0855599504704077,
       "ORpct": 31.465,
       "DRpct": 30.3069,
       "DefTOpct": 13.5495,
-      "OffTOpct": 17.5617
+      "OffTOpct": 17.5617,
+      "eFGpct": 50.3037
     },
     {
       "team": "Wichita St.",
-      "heist": 0.602745,
+      "heist": 2.4109812007718636,
+      "payday": 1.8710426649290572,
       "ORpct": 38.3442,
       "DRpct": 29.6591,
       "DefTOpct": 16.9015,
-      "OffTOpct": 15.132
+      "OffTOpct": 15.132,
+      "eFGpct": 49.4932
     },
     {
       "team": "William & Mary",
-      "heist": 0.105268,
+      "heist": 0.42107157702467907,
+      "payday": 1.4708654520940685,
       "ORpct": 26.8482,
       "DRpct": 31.8976,
       "DefTOpct": 19.3992,
-      "OffTOpct": 17.1654
+      "OffTOpct": 17.1654,
+      "eFGpct": 54.7672
     },
     {
       "team": "Winthrop",
-      "heist": 0.373731,
+      "heist": 1.4949245583474315,
+      "payday": 1.4356133128344488,
       "ORpct": 33.9806,
       "DRpct": 28.9872,
       "DefTOpct": 17.1989,
-      "OffTOpct": 14.6336
+      "OffTOpct": 14.6336,
+      "eFGpct": 51.0877
     },
     {
       "team": "Wisconsin",
-      "heist": -0.233803,
+      "heist": -0.9352116126446897,
+      "payday": -0.18874495128423985,
       "ORpct": 29.8595,
       "DRpct": 26.0613,
       "DefTOpct": 14.6324,
-      "OffTOpct": 13.2221
+      "OffTOpct": 13.2221,
+      "eFGpct": 53.7609
     },
     {
       "team": "Wofford",
-      "heist": 0.083246,
+      "heist": 0.3329844352329834,
+      "payday": 0.5759755474947157,
       "ORpct": 29.8021,
       "DRpct": 29.9145,
       "DefTOpct": 15.2602,
-      "OffTOpct": 13.7463
+      "OffTOpct": 13.7463,
+      "eFGpct": 52.0906
     },
     {
       "team": "Wright St.",
-      "heist": 0.208403,
+      "heist": 0.8336129734571802,
+      "payday": 1.5237427012568618,
       "ORpct": 32.9616,
       "DRpct": 30.2239,
       "DefTOpct": 17.062,
-      "OffTOpct": 16.1512
+      "OffTOpct": 16.1512,
+      "eFGpct": 53.574
     },
     {
       "team": "Wyoming",
-      "heist": -0.157253,
+      "heist": -0.6290110340964216,
+      "payday": -0.43738328983230756,
       "ORpct": 34.6887,
       "DRpct": 26.6578,
       "DefTOpct": 16.7987,
-      "OffTOpct": 17.3714
+      "OffTOpct": 17.3714,
+      "eFGpct": 51.9202
     },
     {
       "team": "Xavier",
-      "heist": -0.101682,
+      "heist": -0.40672784270315354,
+      "payday": -0.496845051886068,
       "ORpct": 25.9783,
       "DRpct": 29.1018,
       "DefTOpct": 16.7386,
-      "OffTOpct": 14.1412
+      "OffTOpct": 14.1412,
+      "eFGpct": 50.9855
     },
     {
       "team": "Yale",
-      "heist": 0.34029,
+      "heist": 1.3611595405641415,
+      "payday": 3.0356935360083144,
       "ORpct": 34.6154,
       "DRpct": 29.2035,
       "DefTOpct": 15.9552,
-      "OffTOpct": 14.2323
+      "OffTOpct": 14.2323,
+      "eFGpct": 56.8398
     },
     {
       "team": "Youngstown St.",
-      "heist": 0.033398,
+      "heist": 0.13359133508194043,
+      "payday": 1.0540423626878426,
       "ORpct": 32.7742,
       "DRpct": 31.4094,
       "DefTOpct": 18.3496,
-      "OffTOpct": 19.4216
+      "OffTOpct": 19.4216,
+      "eFGpct": 54.3381
     }
   ]
 }
