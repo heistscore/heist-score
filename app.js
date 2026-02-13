@@ -18,11 +18,34 @@ function fmt(n) {
   return x.toFixed(2);
 }
 
-function render(rowsEl, teams, metricKey) {
+function percentileRank(sortedDescValues, value) {
+  // sortedDescValues: array of numbers sorted HIGH -> LOW
+  // returns percentile where best is 100 and worst is ~0
+  if (!Number.isFinite(value) || sortedDescValues.length === 0) return null;
+
+  // Find first index where value would fit (descending)
+  // We'll do a simple linear scan; 365 items is tiny.
+  let idx = 0;
+  while (idx < sortedDescValues.length && sortedDescValues[idx] > value) idx++;
+
+  // idx = number of teams strictly better than value
+  const better = idx;
+  const n = sortedDescValues.length;
+
+  // percentile = proportion you are better than
+  // best team => better=0 => ~100
+  // worst team => better=n-1 => ~0
+  const pct = (1 - (better / (n - 1))) * 100;
+  return Math.max(0, Math.min(100, pct));
+}
+
+function render(rowsEl, teams, metricKey, pctMap) {
   rowsEl.innerHTML = "";
 
   teams.forEach((t, i) => {
     const val = Number(t[metricKey]);
+    const pct = pctMap.get(t.team); // 0..100
+
     const row = document.createElement("div");
     row.className = `row ${bandClass(val)}`;
 
@@ -30,6 +53,7 @@ function render(rowsEl, teams, metricKey) {
       <div>${i + 1}</div>
       <div>${t.team}</div>
       <div class="score">${fmt(val)}</div>
+      <div class="pct">${pct == null ? "--" : `${Math.round(pct)}th`}</div>
       <div class="band">${band(val)}</div>
     `;
 
@@ -60,6 +84,26 @@ async function main() {
 
   const data = payload.teams || [];
 
+  function computePctMap(metric) {
+    const vals = data
+      .map(t => Number(t[metric]))
+      .filter(Number.isFinite)
+      .sort((a, b) => b - a);
+
+    const map = new Map();
+    data.forEach(t => {
+      const v = Number(t[metric]);
+      if (!Number.isFinite(v)) return;
+      map.set(t.team, percentileRank(vals, v));
+    });
+
+    return map;
+  }
+
+  // Precompute percentile maps for both metrics
+  const pctHeist = computePctMap("heist");
+  const pctPayday = computePctMap("payday");
+
   function sortedByMetric(list) {
     return [...list].sort((a, b) => Number(b[metricKey]) - Number(a[metricKey]));
   }
@@ -75,7 +119,9 @@ async function main() {
     if (limit !== "all") view = list.slice(0, limit);
 
     if (colLabelEl) colLabelEl.textContent = metricKey === "payday" ? "Payday" : "Heist";
-    render(rowsEl, view, metricKey);
+
+    const pctMap = metricKey === "payday" ? pctPayday : pctHeist;
+    render(rowsEl, view, metricKey, pctMap);
   }
 
   // Metric toggle
@@ -123,6 +169,7 @@ main().catch(err => {
       <div></div>
       <div>Failed to load data.json</div>
       <div class="score">--</div>
+      <div class="pct">--</div>
       <div class="band">Error</div>
     </div>`;
   }
