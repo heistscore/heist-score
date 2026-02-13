@@ -12,48 +12,53 @@ function bandClass(score) {
   return "neutral";
 }
 
-function fmt(n) {
-  const x = Number(n);
-  if (!Number.isFinite(x)) return "--";
-  return x.toFixed(2);
+function pctLabelFromRank(rankIndex, total) {
+  // rankIndex: 0 = best
+  if (total <= 1) return "—";
+  const pct = Math.round(((total - rankIndex) / total) * 100);
+  const mod10 = pct % 10;
+  const mod100 = pct % 100;
+  let suf = "th";
+  if (mod10 === 1 && mod100 !== 11) suf = "st";
+  else if (mod10 === 2 && mod100 !== 12) suf = "nd";
+  else if (mod10 === 3 && mod100 !== 13) suf = "rd";
+  return `${pct}${suf}`;
 }
 
-function percentileRank(sortedDescValues, value) {
-  // sortedDescValues: array of numbers sorted HIGH -> LOW
-  // returns percentile where best is 100 and worst is ~0
-  if (!Number.isFinite(value) || sortedDescValues.length === 0) return null;
-
-  // Find first index where value would fit (descending)
-  // We'll do a simple linear scan; 365 items is tiny.
-  let idx = 0;
-  while (idx < sortedDescValues.length && sortedDescValues[idx] > value) idx++;
-
-  // idx = number of teams strictly better than value
-  const better = idx;
-  const n = sortedDescValues.length;
-
-  // percentile = proportion you are better than
-  // best team => better=0 => ~100
-  // worst team => better=n-1 => ~0
-  const pct = (1 - (better / (n - 1))) * 100;
-  return Math.max(0, Math.min(100, pct));
+function setActive(btn, on) {
+  if (!btn) return;
+  btn.classList.toggle("active", !!on);
 }
 
-function render(rowsEl, teams, metricKey, pctMap) {
+async function loadTeamColors() {
+  // cache-bust so Mac/Safari doesn't hang onto old JSON
+  const res = await fetch(`./data/team_colors.json?ts=${Date.now()}`);
+  if (!res.ok) return {};
+  return await res.json();
+}
+
+function render(rowsEl, teamsToShow, fullSorted, metricKey, teamColors) {
   rowsEl.innerHTML = "";
 
-  teams.forEach((t, i) => {
-    const val = Number(t[metricKey]);
-    const pct = pctMap.get(t.team); // 0..100
+  const total = fullSorted.length;
 
+  teamsToShow.forEach((t) => {
+    const rankIndex = fullSorted.findIndex(x => x.team === t.team);
+    const pct = rankIndex >= 0 ? pctLabelFromRank(rankIndex, total) : "—";
+
+    const val = Number(t[metricKey]);
     const row = document.createElement("div");
     row.className = `row ${bandClass(val)}`;
 
+    // apply team color if we have it
+    const color = teamColors[t.team] || "transparent";
+    row.style.setProperty("--team", color);
+
     row.innerHTML = `
-      <div>${i + 1}</div>
-      <div>${t.team}</div>
-      <div class="score">${fmt(val)}</div>
-      <div class="pct">${pct == null ? "--" : `${Math.round(pct)}th`}</div>
+      <div>${rankIndex >= 0 ? rankIndex + 1 : ""}</div>
+      <div class="teamcell"><span class="teamname">${t.team}</span></div>
+      <div class="score">${Number.isFinite(val) ? val.toFixed(2) : "--"}</div>
+      <div class="pct">${pct}</div>
       <div class="band">${band(val)}</div>
     `;
 
@@ -63,102 +68,95 @@ function render(rowsEl, teams, metricKey, pctMap) {
 
 async function main() {
   const rowsEl = document.getElementById("rows");
-  const metaEl = document.getElementById("meta");
-  const colLabelEl = document.getElementById("colLabel");
+  const meta = document.getElementById("meta");
 
+  // Controls
   const btnHeist = document.getElementById("btnHeist");
   const btnPayday = document.getElementById("btnPayday");
+  const btn25 = document.getElementById("btn25");
+  const btn50 = document.getElementById("btn50");
+  const btn100 = document.getElementById("btn100");
+  const btnAll = document.getElementById("btnAll");
   const searchEl = document.getElementById("search");
 
-  const limitButtons = Array.from(document.querySelectorAll("[data-limit]"));
-
-  // Defaults
-  let metricKey = "heist";
-  let limit = 25;
-  let query = "";
+  const teamColors = await loadTeamColors();
 
   const res = await fetch(`./data/data.json?ts=${Date.now()}`);
   const payload = await res.json();
 
-  if (metaEl) metaEl.textContent = `Updated: ${payload.updated_at}`;
+  if (meta) meta.textContent = `Updated: ${payload.updated_at}`;
 
   const data = payload.teams || [];
 
-  function computePctMap(metric) {
-    const vals = data
-      .map(t => Number(t[metric]))
-      .filter(Number.isFinite)
-      .sort((a, b) => b - a);
+  let metricKey = "heist";     // "heist" or "payday"
+  let limit = 25;              // 25 / 50 / 100 / Infinity
+  let query = "";
 
-    const map = new Map();
-    data.forEach(t => {
-      const v = Number(t[metric]);
-      if (!Number.isFinite(v)) return;
-      map.set(t.team, percentileRank(vals, v));
-    });
-
-    return map;
+  function getSorted() {
+    return [...data].sort((a, b) => Number(b[metricKey]) - Number(a[metricKey]));
   }
 
-  // Precompute percentile maps for both metrics
-  const pctHeist = computePctMap("heist");
-  const pctPayday = computePctMap("payday");
-
-  function sortedByMetric(list) {
-    return [...list].sort((a, b) => Number(b[metricKey]) - Number(a[metricKey]));
+  function getFiltered(sorted) {
+    if (!query) return sorted;
+    const q = query.toLowerCase();
+    return sorted.filter(t => String(t.team).toLowerCase().includes(q));
   }
 
-  function applyFiltersAndRender() {
-    let list = sortedByMetric(data);
-
-    if (query) {
-      list = list.filter(t => String(t.team).toLowerCase().includes(query));
-    }
-
-    let view = list;
-    if (limit !== "all") view = list.slice(0, limit);
-
-    if (colLabelEl) colLabelEl.textContent = metricKey === "payday" ? "Payday" : "Heist";
-
-    const pctMap = metricKey === "payday" ? pctPayday : pctHeist;
-    render(rowsEl, view, metricKey, pctMap);
+  function rerender() {
+    const sorted = getSorted();
+    const filtered = getFiltered(sorted);
+    const sliced = Number.isFinite(limit) ? filtered.slice(0, limit) : filtered;
+    render(rowsEl, sliced, sorted, metricKey, teamColors);
   }
 
   // Metric toggle
   btnHeist?.addEventListener("click", () => {
     metricKey = "heist";
-    btnHeist.classList.add("active");
-    btnPayday?.classList.remove("active");
-    applyFiltersAndRender();
+    setActive(btnHeist, true);
+    setActive(btnPayday, false);
+    rerender();
   });
 
   btnPayday?.addEventListener("click", () => {
     metricKey = "payday";
-    btnPayday.classList.add("active");
-    btnHeist?.classList.remove("active");
-    applyFiltersAndRender();
+    setActive(btnHeist, false);
+    setActive(btnPayday, true);
+    rerender();
   });
 
-  // Limit toggle
-  limitButtons.forEach(btn => {
-    btn.addEventListener("click", () => {
-      limitButtons.forEach(b => b.classList.remove("active"));
-      btn.classList.add("active");
+  // Range toggle
+  btn25?.addEventListener("click", () => {
+    limit = 25;
+    setActive(btn25, true); setActive(btn50, false); setActive(btn100, false); setActive(btnAll, false);
+    rerender();
+  });
 
-      const v = btn.getAttribute("data-limit");
-      limit = (v === "all") ? "all" : Number(v);
-      applyFiltersAndRender();
-    });
+  btn50?.addEventListener("click", () => {
+    limit = 50;
+    setActive(btn25, false); setActive(btn50, true); setActive(btn100, false); setActive(btnAll, false);
+    rerender();
+  });
+
+  btn100?.addEventListener("click", () => {
+    limit = 100;
+    setActive(btn25, false); setActive(btn50, false); setActive(btn100, true); setActive(btnAll, false);
+    rerender();
+  });
+
+  btnAll?.addEventListener("click", () => {
+    limit = Infinity;
+    setActive(btn25, false); setActive(btn50, false); setActive(btn100, false); setActive(btnAll, true);
+    rerender();
   });
 
   // Search
   searchEl?.addEventListener("input", () => {
-    query = searchEl.value.trim().toLowerCase();
-    applyFiltersAndRender();
+    query = searchEl.value.trim();
+    rerender();
   });
 
   // Initial render
-  applyFiltersAndRender();
+  rerender();
 }
 
 main().catch(err => {
@@ -167,7 +165,7 @@ main().catch(err => {
   if (rowsEl) {
     rowsEl.innerHTML = `<div class="row below">
       <div></div>
-      <div>Failed to load data.json</div>
+      <div>Failed to load data.json / team colors</div>
       <div class="score">--</div>
       <div class="pct">--</div>
       <div class="band">Error</div>
