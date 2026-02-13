@@ -20,7 +20,7 @@ function bandClass(score) {
   return "neutral";
 }
 
-const sorted = [...data].sort((a,b) => b.heist - a.heist);
+const sorted = [...data].sort((a, b) => b.heist - a.heist);
 
 const rows = document.getElementById("rows");
 
@@ -29,7 +29,7 @@ sorted.forEach((t, i) => {
   row.className = `row ${bandClass(t.heist)}`;
 
   row.innerHTML = `
-    <div>${i+1}</div>
+    <div>${i + 1}</div>
     <div>${t.team}</div>
     <div class="score">${t.heist.toFixed(2)}</div>
     <div class="band">${band(t.heist)}</div>
