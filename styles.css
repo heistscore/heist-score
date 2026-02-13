@@ -228,3 +228,13 @@ body{
   .select{ min-width: 160px; }
   .search{ min-width: 180px; }
 }
+/* Force header alignment to match numeric columns */
+.thead > div.right { 
+  text-align: right !important; 
+}
+
+.thead > div:nth-child(3),
+.thead > div:nth-child(4),
+.thead > div:nth-child(5) {
+  text-align: right !important;
+}
