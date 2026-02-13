@@ -13,7 +13,6 @@ function bandClass(score) {
 }
 
 function pctLabelFromRank(rankIndex, total) {
-  // rankIndex: 0 = best
   if (total <= 1) return "—";
   const pct = Math.round(((total - rankIndex) / total) * 100);
   const mod10 = pct % 10;
@@ -30,14 +29,72 @@ function setActive(btn, on) {
   btn.classList.toggle("active", !!on);
 }
 
-async function loadTeamColors() {
-  // cache-bust so Mac/Safari doesn't hang onto old JSON
-  const res = await fetch(`./data/team_colors.json?ts=${Date.now()}`);
-  if (!res.ok) return {};
-  return await res.json();
+/**
+ * Stable team-color generation (for teams not in manual overrides).
+ * Produces a nice, readable color that will be the same every time.
+ */
+function hashString(str) {
+  // FNV-1a-ish
+  let h = 2166136261;
+  for (let i = 0; i < str.length; i++) {
+    h ^= str.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  return h >>> 0;
 }
 
-function render(rowsEl, teamsToShow, fullSorted, metricKey, teamColors) {
+function hslToHex(h, s, l) {
+  // h: 0-360, s/l: 0-100
+  s /= 100;
+  l /= 100;
+
+  const c = (1 - Math.abs(2 * l - 1)) * s;
+  const x = c * (1 - Math.abs(((h / 60) % 2) - 1));
+  const m = l - c / 2;
+
+  let r = 0, g = 0, b = 0;
+  if (0 <= h && h < 60) { r = c; g = x; b = 0; }
+  else if (60 <= h && h < 120) { r = x; g = c; b = 0; }
+  else if (120 <= h && h < 180) { r = 0; g = c; b = x; }
+  else if (180 <= h && h < 240) { r = 0; g = x; b = c; }
+  else if (240 <= h && h < 300) { r = x; g = 0; b = c; }
+  else { r = c; g = 0; b = x; }
+
+  const toHex = (v) => {
+    const n = Math.round((v + m) * 255);
+    return n.toString(16).padStart(2, "0");
+  };
+
+  return `#${toHex(r)}${toHex(g)}${toHex(b)}`;
+}
+
+function autoTeamColor(teamName) {
+  const h = hashString(teamName);
+  // Keep hues broad, avoid too-dark colors
+  const hue = h % 360;
+  const sat = 70;   // punchy
+  const light = 42; // readable on dark bg
+  return hslToHex(hue, sat, light);
+}
+
+async function loadTeamColors() {
+  const res = await fetch(`./data/team_colors.json?ts=${Date.now()}`);
+  if (!res.ok) return { manual: {} };
+  const json = await res.json();
+
+  // Support both formats:
+  // - old flat map { "Kentucky": "#0033A0", ... }
+  // - new hybrid { manual: { ... } }
+  if (json && json.manual && typeof json.manual === "object") return json;
+  return { manual: json || {} };
+}
+
+function getTeamColor(teamName, colorData) {
+  const manual = (colorData && colorData.manual) ? colorData.manual : {};
+  return manual[teamName] || autoTeamColor(teamName);
+}
+
+function render(rowsEl, teamsToShow, fullSorted, metricKey, colorData) {
   rowsEl.innerHTML = "";
 
   const total = fullSorted.length;
@@ -50,8 +107,8 @@ function render(rowsEl, teamsToShow, fullSorted, metricKey, teamColors) {
     const row = document.createElement("div");
     row.className = `row ${bandClass(val)}`;
 
-    // apply team color if we have it
-    const color = teamColors[t.team] || "transparent";
+    // apply team color (manual override or auto)
+    const color = getTeamColor(t.team, colorData);
     row.style.setProperty("--team", color);
 
     row.innerHTML = `
@@ -79,7 +136,7 @@ async function main() {
   const btnAll = document.getElementById("btnAll");
   const searchEl = document.getElementById("search");
 
-  const teamColors = await loadTeamColors();
+  const colorData = await loadTeamColors();
 
   const res = await fetch(`./data/data.json?ts=${Date.now()}`);
   const payload = await res.json();
@@ -88,8 +145,8 @@ async function main() {
 
   const data = payload.teams || [];
 
-  let metricKey = "heist";     // "heist" or "payday"
-  let limit = 25;              // 25 / 50 / 100 / Infinity
+  let metricKey = "heist"; // "heist" or "payday"
+  let limit = 25;          // 25 / 50 / 100 / Infinity
   let query = "";
 
   function getSorted() {
@@ -106,7 +163,7 @@ async function main() {
     const sorted = getSorted();
     const filtered = getFiltered(sorted);
     const sliced = Number.isFinite(limit) ? filtered.slice(0, limit) : filtered;
-    render(rowsEl, sliced, sorted, metricKey, teamColors);
+    render(rowsEl, sliced, sorted, metricKey, colorData);
   }
 
   // Metric toggle
@@ -155,7 +212,6 @@ async function main() {
     rerender();
   });
 
-  // Initial render
   rerender();
 }
 
