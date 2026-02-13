@@ -1,16 +1,13 @@
 /* ===============================
    Base
 ================================= */
-
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
 body {
   margin: 0;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Helvetica, Arial, sans-serif;
-  background: linear-gradient(180deg, #0b1220 0%, #111827 100%);
+  background: radial-gradient(1200px 600px at 50% 0%, #1f3b8a 0%, #0b1220 55%, #070b14 100%);
   color: #f3f4f6;
 }
 
@@ -20,142 +17,127 @@ body {
   padding: 0 20px;
 }
 
-h1 {
-  margin: 0 0 6px 0;
-  font-size: 34px;
-  font-weight: 700;
-}
-
-.subtitle {
-  margin: 0 0 6px 0;
-  opacity: 0.8;
-}
-
-.updated {
-  font-size: 13px;
-  opacity: 0.6;
-  margin-bottom: 20px;
-}
+h1 { margin: 0 0 6px; font-size: 34px; font-weight: 750; }
+.subtitle { margin: 0 0 6px; opacity: 0.85; }
+.updated { margin: 0 0 18px; font-size: 13px; opacity: 0.7; }
 
 /* ===============================
    Controls
 ================================= */
-
 .controls {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 }
 
 .pill {
   padding: 8px 14px;
   border-radius: 999px;
-  border: 1px solid #374151;
-  background: #1f2937;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(10, 18, 32, 0.55);
   color: #f3f4f6;
   cursor: pointer;
   font-size: 14px;
+  backdrop-filter: blur(8px);
 }
 
 .pill.active {
-  background: #2563eb;
-  border-color: #2563eb;
+  background: rgba(37, 99, 235, 0.85);
+  border-color: rgba(37, 99, 235, 1);
 }
 
-.select {
+.select, .search {
   padding: 8px 12px;
-  border-radius: 8px;
-  border: 1px solid #374151;
-  background: #1f2937;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(10, 18, 32, 0.55);
   color: #f3f4f6;
+  backdrop-filter: blur(8px);
 }
 
-.search {
-  padding: 8px 12px;
-  border-radius: 8px;
-  border: 1px solid #374151;
-  background: #1f2937;
-  color: #f3f4f6;
-  min-width: 200px;
-}
+.search { min-width: 220px; }
 
 /* ===============================
-   Table Layout
+   Table
 ================================= */
-
 .table {
-  border-radius: 12px;
+  border-radius: 14px;
   overflow: hidden;
-  background: #111827;
-  border: 1px solid #1f2937;
+  background: rgba(10, 18, 32, 0.55);
+  border: 1px solid rgba(255,255,255,0.10);
+  backdrop-filter: blur(10px);
 }
 
-/* Header row */
 .thead {
   display: grid;
   grid-template-columns: 64px 1fr 120px 90px 110px;
-  column-gap: 16px;
+  column-gap: 22px;            /* bigger gap */
   padding: 14px 16px;
-  background: #1f2937;
-  font-weight: 600;
-  font-size: 14px;
-  letter-spacing: 0.5px;
+  background: rgba(17, 24, 39, 0.70);
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
-/* Data rows container */
-.rows {
-  display: flex;
-  flex-direction: column;
-}
+.rows { display: flex; flex-direction: column; }
 
-/* Individual row */
 .row {
   display: grid;
   grid-template-columns: 64px 1fr 120px 90px 110px;
-  column-gap: 16px;
+  column-gap: 22px;            /* bigger gap */
   align-items: center;
   padding: 12px 16px;
-  border-top: 1px solid #1f2937;
+  border-top: 1px solid rgba(255,255,255,0.08);
   position: relative;
 }
 
-/* Ensure no column text wraps */
+/* keep each cell from wrapping */
 .thead > div,
 .row > div {
   white-space: nowrap;
 }
 
-/* Right align numeric columns */
-.right,
-.score,
-.pct {
-  text-align: right;
-}
+/* numeric alignment */
+.right, .score, .pct { text-align: right; }
+
+/* FORCE visible separation between PCT and BAND */
+.pct { padding-right: 10px; }
+.band { padding-left: 10px; text-align: left; }
 
 /* ===============================
-   Color bar on left
+   Team color bar (THIS IS THE FIX)
+   app.js sets: --team
 ================================= */
-
 .row::before {
   content: "";
   position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
+  left: 0; top: 0; bottom: 0;
   width: 6px;
-  background: var(--team-color, #6b7280);
+  background: var(--team, #6b7280);  /* <- use --team */
 }
+
+/* ===============================
+   Band shading (restore)
+================================= */
+.row.elite   { background: rgba(16, 185, 129, 0.18); }  /* green */
+.row.strong  { background: rgba(59, 130, 246, 0.16); }  /* blue */
+.row.neutral { background: rgba(148, 163, 184, 0.10); } /* gray */
+.row.below   { background: rgba(239, 68, 68, 0.12); }   /* red */
+
+/* nice hover */
+.row:hover { filter: brightness(1.06); }
 
 /* ===============================
    Responsive
 ================================= */
-
 @media (max-width: 768px) {
-  .thead,
-  .row {
+  .thead, .row {
     grid-template-columns: 50px 1fr 90px 70px 90px;
-    column-gap: 10px;
+    column-gap: 12px;
   }
+  .pct { padding-right: 6px; }
+  .band { padding-left: 6px; }
 }
