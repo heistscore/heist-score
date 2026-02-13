@@ -12,6 +12,7 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -21,19 +22,30 @@ jobs:
         with:
           node-version: "20"
 
-      # Keep your fetch step exactly as you already had it (if you have one)
-      # If you fetch KenPom into data/raw.json elsewhere, leave it there.
+      - name: Debug: list data folder
+        run: |
+          echo "=== data/ contents ==="
+          ls -la data || true
+          echo "=== scripts/ contents ==="
+          ls -la scripts || true
 
-      - name: Compute Heist + Payday into data/data.json
-        run: node scripts/compute_heist.js
-
-      - name: Build team_colors.json from primary colors CSV
+      - name: Build team color map JSON (from CSV)
         run: node scripts/build_team_colors.js
 
-      - name: Commit & push updated data
+      - name: Compute Heist/Payday
+        run: node scripts/compute_heist.js
+
+      - name: Commit and push if changed
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add data/raw.json data/data.json data/team_colors.json
-          git commit -m "Daily update data + colors" || echo "No changes to commit"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data/data.json data/team_colors_full.json || true
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update data + team colors"
           git push
