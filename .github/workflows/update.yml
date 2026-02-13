@@ -3,6 +3,8 @@ name: Update data.json
 on:
   workflow_dispatch:
   schedule:
+    # 3:00 AM Central = 09:00 UTC (standard time) / 08:00 UTC (daylight)
+    # We'll pick 09:00 UTC; if DST flips it by 1 hour, we can adjust later.
     - cron: "0 9 * * *"
 
 permissions:
@@ -11,6 +13,7 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -18,23 +21,25 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "18"
+          node-version: "20"
 
-      - name: Fetch KenPom Four Factors into data/raw.json
-        env:
-          KENPOM_API_KEY: ${{ secrets.KENPOM_API_KEY }}
-          SEASON: "2026"
-        run: |
-          node scripts/fetch_kp.js
+      # ---- Your existing KenPom fetch step(s) should be here ----
+      # Example (keep whatever you already have):
+      # - name: Fetch KenPom -> data/raw.json
+      #   env:
+      #     KENPOM_API_KEY: ${{ secrets.KENPOM_API_KEY }}
+      #   run: node scripts/fetch_kenpom.js
 
-      - name: Compute Heist + Payday into data/data.json
-        run: |
-          node scripts/compute_heist.js
+      - name: Compute Heist/Payday -> data/data.json
+        run: node scripts/compute_heist.js
 
-      - name: Commit & push updated data
+      - name: Build team colors map -> data/team_colors.json
+        run: node scripts/build_team_colors.js
+
+      - name: Commit & push if changed
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add data/raw.json data/data.json
-          git commit -m "Daily update data" || echo "No changes to commit"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/data.json data/raw.json data/team_colors.json
+          git commit -m "Update data + colors" || echo "No changes to commit"
           git push
