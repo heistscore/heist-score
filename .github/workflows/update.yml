@@ -3,57 +3,44 @@ name: Update data.json
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 9 * * *" # 3:00 AM Central (09:00 UTC)
-
-permissions:
-  contents: write
+    # GitHub Actions cron is UTC.
+    # 3:00 AM Central (CST) = 09:00 UTC (standard time).
+    # If you want 3:00 AM during DST too, it will shift by 1 hour.
+    - cron: "0 9 * * *"
 
 jobs:
   update:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Setup Node
+      - name: Set up Node
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: "20"
 
-      - name: Install dependencies (only if package.json exists)
-        run: |
-          if [ -f package.json ]; then
-            npm install
-          else
-            echo "No package.json found, skipping npm install"
-          fi
+      # 1) Convert your CSV → JSON color map
+      - name: Build team_primary_colors.json from CSV
+        run: node scripts/convert_colors.js
 
-      - name: Compute Heist + Payday
+      # 2) Your existing pipeline (keep these if you already had them)
+      # If you don’t have one of these scripts, delete that line.
+      - name: Build raw.json (KenPom)
+        env:
+          KENPOM_API_KEY: ${{ secrets.KENPOM_API_KEY }}
+        run: node scripts/fetch_kenpom.js
+
+      - name: Compute Heist + Payday into data.json
         run: node scripts/compute_heist.js
 
-      - name: Convert team color CSV to JSON (only if script exists)
+      # 3) Commit any changes back to the repo
+      - name: Commit and push if changed
         run: |
-          if [ -f scripts/convert_colors.js ]; then
-            node scripts/convert_colors.js
-          else
-            echo "scripts/convert_colors.js not found, skipping"
-          fi
-
-      - name: Commit updated outputs (if changed)
-        run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-
-          git add data/data.json data/team_primary_colors.json || true
-
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
-            exit 0
-          fi
-
-          git commit -m "Auto update data"
-          git pull --rebase
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/*.json
+          git add data/team_primary_colors.json || true
+          git commit -m "Update data files" || exit 0
           git push
