@@ -3,10 +3,13 @@ name: Update data.json
 on:
   workflow_dispatch:
   schedule:
-    # GitHub Actions cron is UTC.
-    # 3:00 AM Central (CST) = 09:00 UTC (standard time).
-    # If you want 3:00 AM during DST too, it will shift by 1 hour.
+    # 3:00 AM Central is 09:00 UTC during Standard Time.
+    # When DST hits, 3:00 AM Central becomes 08:00 UTC.
+    # If you want DST-perfect scheduling later, we can handle that separately.
     - cron: "0 9 * * *"
+
+permissions:
+  contents: write
 
 jobs:
   update:
@@ -16,31 +19,36 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Set up Node
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: "20"
 
-      # 1) Convert your CSV → JSON color map
-      - name: Build team_primary_colors.json from CSV
-        run: node scripts/convert_colors.js
+      - name: Debug list
+        run: |
+          ls -la
+          ls -la data || true
+          ls -la scripts || true
 
-      # 2) Your existing pipeline (keep these if you already had them)
-      # If you don’t have one of these scripts, delete that line.
+      # If you fetch KenPom here, keep YOUR correct file name:
       - name: Build raw.json (KenPom)
         env:
           KENPOM_API_KEY: ${{ secrets.KENPOM_API_KEY }}
         run: node scripts/fetch_kp.js
 
-      - name: Compute Heist + Payday into data.json
+      - name: Convert CSV team colors -> JSON
+        run: node scripts/convert_team_colors.js
+
+      - name: Compute heist + payday
         run: node scripts/compute_heist.js
 
-      # 3) Commit any changes back to the repo
-      - name: Commit and push if changed
+      - name: Commit updated data files
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/*.json
-          git add data/team_primary_colors.json || true
-          git commit -m "Update data files" || exit 0
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/raw.json data/data.json data/team_primary_colors.json || true
+
+          git diff --staged --quiet && echo "No changes to commit" && exit 0
+          git commit -m "Update data + colors"
           git push
