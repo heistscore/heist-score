@@ -1,12 +1,29 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Heist Score</title>
-  </head>
-  <body style="font-family: system-ui; padding: 24px;">
-    <h1>Heist Score</h1>
-    <p>If you can see this, GitHub Pages is working.</p>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Heist Score</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="wrap">
+  <h1>Heist Score</h1>
+  <p class="sub">Possession Control Leaderboard</p>
+
+  <div class="table">
+    <div class="row head">
+      <div>Rank</div>
+      <div>Team</div>
+      <div class="score">Heist</div>
+      <div class="band">Band</div>
+    </div>
+    <div id="rows"></div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+
+</body>
 </html>
