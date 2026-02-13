@@ -15,7 +15,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Update timestamp in data/data.json
+      - name: Compute Heist into data/data.json
+        run: |
+          node scripts/compute_heist.js
+
         run: |
           node -e "
           const fs = require('fs');
