@@ -4,8 +4,9 @@
  * Fetches KenPom data needed for Heist/Payday and writes data/raw.json
  * Adds conference fields via `teams` + `conferences` endpoints.
  *
- * Required env:
+ * Required env (either works):
  *   KENPOM_API_KEY  (GitHub Secret)
+ *   KP_API_KEY      (GitHub Secret)  <-- allowed for backwards compatibility
  *
  * Optional env:
  *   KP_SEASON   (ending year, e.g. 2026). If omitted, defaults to current year.
@@ -32,10 +33,12 @@ function qs(params) {
 }
 
 async function kpFetch(endpoint, params = {}) {
-  const apiKey = process.env.KENPOM_API_KEY;
-
+  // ✅ Accept either secret name
+  const apiKey = process.env.KENPOM_API_KEY || process.env.KP_API_KEY;
   if (!apiKey) {
-    throw new Error("Missing KENPOM_API_KEY env var (set as GitHub Secret).");
+    throw new Error(
+      "Missing KENPOM_API_KEY (or KP_API_KEY) env var (set as GitHub Secret)."
+    );
   }
 
   const url = `${BASE_URL}?${qs({ endpoint, ...params })}`;
@@ -49,9 +52,7 @@ async function kpFetch(endpoint, params = {}) {
 
   if (!res.ok) {
     const text = await res.text().catch(() => "");
-    throw new Error(
-      `KenPom fetch failed (${res.status}) ${endpoint} ${url}\n${text}`
-    );
+    throw new Error(`KenPom fetch failed (${res.status}) ${endpoint} ${url}\n${text}`);
   }
 
   return await res.json();
@@ -76,11 +77,11 @@ async function main() {
   const ffPayload = await kpFetch("four-factors", { y });
   const ffRows = safeArray(ffPayload);
 
-  // 2) Teams endpoint (for conf + id)
+  // 2) Teams (TeamName + ConfShort + TeamID)
   const teamsPayload = await kpFetch("teams", { y });
   const teamRows = safeArray(teamsPayload);
 
-  // 3) Conferences endpoint (for conf long names)
+  // 3) Conferences (ConfShort => ConfLong)
   const confPayload = await kpFetch("conferences", { y });
   const confRows = safeArray(confPayload);
 
@@ -95,7 +96,6 @@ async function main() {
   teamRows.forEach((t) => {
     const name = t.TeamName ?? t.team ?? t.name;
     if (!name) return;
-
     const confShort = t.ConfShort ?? t.confShort ?? "";
     const teamId = t.TeamID ?? t.team_id ?? t.id ?? null;
 
@@ -103,9 +103,7 @@ async function main() {
       team: String(name),
       team_id: teamId,
       confShort: confShort ? String(confShort) : "",
-      confLong: confShort
-        ? confLongByShort[String(confShort)] || ""
-        : "",
+      confLong: confShort ? (confLongByShort[String(confShort)] || "") : "",
     };
   });
 
@@ -130,13 +128,11 @@ async function main() {
 
       return {
         team: String(team),
-
         ORpct,
         DRpct,
         DefTOpct,
         OffTOpct,
         eFGpct,
-
         confShort: info.confShort || null,
         confLong: info.confLong || null,
         team_id: info.team_id ?? null,
@@ -152,10 +148,7 @@ async function main() {
 
   const outPath = path.join("data", "raw.json");
   fs.writeFileSync(outPath, JSON.stringify(out, null, 2));
-
-  console.log(
-    `Wrote ${outPath} with ${teams.length} teams (with confShort/confLong)`
-  );
+  console.log(`Wrote ${outPath} with ${teams.length} teams (with confShort/confLong)`);
 }
 
 main().catch((err) => {
