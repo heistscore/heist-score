@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-03-24T09:45:59.797Z",
+  "updated_at": "2026-03-25T09:43:48.244Z",
   "teams": [
     {
       "team": "Abilene Christian",
@@ -2171,11 +2171,11 @@
     },
     {
       "team": "New Mexico",
-      "ORpct": 30.7756,
-      "DRpct": 27.8607,
-      "DefTOpct": 19.1313,
-      "OffTOpct": 14.9632,
-      "eFGpct": 53.9864,
+      "ORpct": 30.5443,
+      "DRpct": 27.5862,
+      "DefTOpct": 18.965,
+      "OffTOpct": 14.9213,
+      "eFGpct": 53.9461,
       "confShort": "MWC",
       "confLong": "Mountain West Conference",
       "team_id": 190
@@ -2809,11 +2809,11 @@
     },
     {
       "team": "Saint Joseph's",
-      "ORpct": 31.822,
-      "DRpct": 30.8661,
-      "DefTOpct": 15.0969,
-      "OffTOpct": 16.873,
-      "eFGpct": 49.2382,
+      "ORpct": 31.4123,
+      "DRpct": 30.6452,
+      "DefTOpct": 15.0481,
+      "OffTOpct": 16.7679,
+      "eFGpct": 49.1642,
       "confShort": "A10",
       "confLong": "Atlantic 10 Conference",
       "team_id": 245
@@ -3425,11 +3425,11 @@
     },
     {
       "team": "Tulsa",
-      "ORpct": 33.3032,
-      "DRpct": 28.6777,
-      "DefTOpct": 15.4637,
-      "OffTOpct": 15.5508,
-      "eFGpct": 55.9969,
+      "ORpct": 33.0427,
+      "DRpct": 28.777,
+      "DefTOpct": 15.3959,
+      "OffTOpct": 15.4381,
+      "eFGpct": 55.7258,
       "confShort": "Amer",
       "confLong": "American Athletic Conference",
       "team_id": 300
@@ -3909,11 +3909,11 @@
     },
     {
       "team": "Wichita St.",
-      "ORpct": 38.2083,
-      "DRpct": 28.8491,
-      "DefTOpct": 15.8308,
-      "OffTOpct": 14.9797,
-      "eFGpct": 49.7184,
+      "ORpct": 38.0104,
+      "DRpct": 28.7651,
+      "DefTOpct": 15.7119,
+      "OffTOpct": 14.9284,
+      "eFGpct": 49.4077,
       "confShort": "Amer",
       "confLong": "American Athletic Conference",
       "team_id": 342
