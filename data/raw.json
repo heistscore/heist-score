@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-03-25T09:43:48.244Z",
+  "updated_at": "2026-03-26T09:53:45.639Z",
   "teams": [
     {
       "team": "Abilene Christian",
@@ -180,11 +180,11 @@
     },
     {
       "team": "Auburn",
-      "ORpct": 37.329,
-      "DRpct": 30.9444,
-      "DefTOpct": 15.9107,
-      "OffTOpct": 14.6395,
-      "eFGpct": 52.4774,
+      "ORpct": 37.2257,
+      "DRpct": 30.9465,
+      "DefTOpct": 15.981,
+      "OffTOpct": 14.5427,
+      "eFGpct": 52.5231,
       "confShort": "SEC",
       "confLong": "Southeastern Conference",
       "team_id": 18
@@ -719,11 +719,11 @@
     },
     {
       "team": "Dayton",
-      "ORpct": 26.9066,
-      "DRpct": 29.1667,
-      "DefTOpct": 20.8985,
-      "OffTOpct": 17.1246,
-      "eFGpct": 52.1807,
+      "ORpct": 26.9357,
+      "DRpct": 28.766,
+      "DefTOpct": 20.9729,
+      "OffTOpct": 16.897,
+      "eFGpct": 51.5586,
       "confShort": "A10",
       "confLong": "Atlantic 10 Conference",
       "team_id": 65
@@ -1324,11 +1324,11 @@
     },
     {
       "team": "Illinois St.",
-      "ORpct": 28.2491,
-      "DRpct": 25.1968,
-      "DefTOpct": 16.2781,
-      "OffTOpct": 16.3673,
-      "eFGpct": 53.4103,
+      "ORpct": 27.8269,
+      "DRpct": 25.2941,
+      "DefTOpct": 16.0516,
+      "OffTOpct": 16.5722,
+      "eFGpct": 53.5971,
       "confShort": "MVC",
       "confLong": "Missouri Valley Conference",
       "team_id": 120
@@ -2138,11 +2138,11 @@
     },
     {
       "team": "Nevada",
-      "ORpct": 32.194,
-      "DRpct": 26.7319,
-      "DefTOpct": 17.1759,
-      "OffTOpct": 14.7164,
-      "eFGpct": 49.9267,
+      "ORpct": 32.1678,
+      "DRpct": 26.9048,
+      "DefTOpct": 17.014,
+      "OffTOpct": 14.8173,
+      "eFGpct": 50,
       "confShort": "MWC",
       "confLong": "Mountain West Conference",
       "team_id": 188
