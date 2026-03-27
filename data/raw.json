@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-03-26T09:53:45.639Z",
+  "updated_at": "2026-03-27T09:45:05.673Z",
   "teams": [
     {
       "team": "Abilene Christian",
@@ -114,11 +114,11 @@
     },
     {
       "team": "Arizona",
-      "ORpct": 38.8477,
-      "DRpct": 26.6304,
-      "DefTOpct": 16.421,
-      "OffTOpct": 15.1758,
-      "eFGpct": 54.897,
+      "ORpct": 38.5484,
+      "DRpct": 26.6445,
+      "DefTOpct": 16.2653,
+      "OffTOpct": 15.1709,
+      "eFGpct": 55.2385,
       "confShort": "B12",
       "confLong": "Big 12 Conference",
       "team_id": 11
@@ -136,11 +136,11 @@
     },
     {
       "team": "Arkansas",
-      "ORpct": 32.1399,
-      "DRpct": 31.0083,
-      "DefTOpct": 15.5801,
-      "OffTOpct": 12.2226,
-      "eFGpct": 56.5461,
+      "ORpct": 32.0127,
+      "DRpct": 30.878,
+      "DefTOpct": 15.5634,
+      "OffTOpct": 12.1944,
+      "eFGpct": 56.4097,
       "confShort": "SEC",
       "confLong": "Southeastern Conference",
       "team_id": 13
@@ -1247,11 +1247,11 @@
     },
     {
       "team": "Houston",
-      "ORpct": 35.9314,
-      "DRpct": 30.1118,
-      "DefTOpct": 20.717,
-      "OffTOpct": 12.9162,
-      "eFGpct": 52.1768,
+      "ORpct": 35.6226,
+      "DRpct": 30.2253,
+      "DefTOpct": 20.5876,
+      "OffTOpct": 12.81,
+      "eFGpct": 51.8761,
       "confShort": "B12",
       "confLong": "Big 12 Conference",
       "team_id": 113
@@ -1302,11 +1302,11 @@
     },
     {
       "team": "Illinois",
-      "ORpct": 39.2394,
-      "DRpct": 26.7913,
-      "DefTOpct": 11.7233,
-      "OffTOpct": 13.0793,
-      "eFGpct": 55.2694,
+      "ORpct": 39.094,
+      "DRpct": 26.7722,
+      "DefTOpct": 11.6442,
+      "OffTOpct": 13.1371,
+      "eFGpct": 55.1915,
       "confShort": "B10",
       "confLong": "Big Ten Conference",
       "team_id": 118
@@ -1379,11 +1379,11 @@
     },
     {
       "team": "Iowa",
-      "ORpct": 30.7692,
-      "DRpct": 28.2306,
-      "DefTOpct": 20.5419,
-      "OffTOpct": 15.2597,
-      "eFGpct": 56.32,
+      "ORpct": 30.2944,
+      "DRpct": 28.4342,
+      "DefTOpct": 20.4355,
+      "OffTOpct": 15.0739,
+      "eFGpct": 56.5387,
       "confShort": "B10",
       "confLong": "Big Ten Conference",
       "team_id": 125
@@ -2116,11 +2116,11 @@
     },
     {
       "team": "Nebraska",
-      "ORpct": 26.4368,
-      "DRpct": 27.7099,
-      "DefTOpct": 19.2224,
-      "OffTOpct": 14.3841,
-      "eFGpct": 55.6222,
+      "ORpct": 26.6724,
+      "DRpct": 27.3743,
+      "DefTOpct": 18.9411,
+      "OffTOpct": 14.4394,
+      "eFGpct": 55.5367,
       "confShort": "B10",
       "confLong": "Big Ten Conference",
       "team_id": 186
@@ -2655,11 +2655,11 @@
     },
     {
       "team": "Purdue",
-      "ORpct": 36.4437,
-      "DRpct": 26.705,
-      "DefTOpct": 15.5817,
-      "OffTOpct": 13.7679,
-      "eFGpct": 58.1822,
+      "ORpct": 36.5039,
+      "DRpct": 26.9816,
+      "DefTOpct": 15.4821,
+      "OffTOpct": 13.5921,
+      "eFGpct": 58.0026,
       "confShort": "B10",
       "confLong": "Big Ten Conference",
       "team_id": 234
@@ -3304,11 +3304,11 @@
     },
     {
       "team": "Texas",
-      "ORpct": 35.3819,
-      "DRpct": 26.6267,
-      "DefTOpct": 13.1516,
-      "OffTOpct": 15.1159,
-      "eFGpct": 53.854,
+      "ORpct": 35.4398,
+      "DRpct": 26.9391,
+      "DefTOpct": 12.9853,
+      "OffTOpct": 15.0246,
+      "eFGpct": 54.068,
       "confShort": "SEC",
       "confLong": "Southeastern Conference",
       "team_id": 289
