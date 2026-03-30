@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-03-29T09:28:38.268Z",
+  "updated_at": "2026-03-30T10:07:47.649Z",
   "teams": [
     {
       "team": "Abilene Christian",
@@ -642,11 +642,11 @@
     },
     {
       "team": "Connecticut",
-      "ORpct": 35.7737,
-      "DRpct": 28.3941,
-      "DefTOpct": 17.9279,
-      "OffTOpct": 16.95,
-      "eFGpct": 55.2546,
+      "ORpct": 35.7546,
+      "DRpct": 28.6149,
+      "DefTOpct": 17.9973,
+      "OffTOpct": 16.726,
+      "eFGpct": 55.036,
       "confShort": "BE",
       "confLong": "Big East Conference",
       "team_id": 59
@@ -807,11 +807,11 @@
     },
     {
       "team": "Duke",
-      "ORpct": 38.3847,
-      "DRpct": 24.9637,
-      "DefTOpct": 17.5237,
-      "OffTOpct": 15.8278,
-      "eFGpct": 56.6047,
+      "ORpct": 38.4176,
+      "DRpct": 25.2297,
+      "DefTOpct": 17.2875,
+      "OffTOpct": 15.9486,
+      "eFGpct": 56.6424,
       "confShort": "ACC",
       "confLong": "Atlantic Coast Conference",
       "team_id": 73
@@ -1907,11 +1907,11 @@
     },
     {
       "team": "Michigan",
-      "ORpct": 35.1399,
-      "DRpct": 27.027,
-      "DefTOpct": 15.109,
-      "OffTOpct": 16.3933,
-      "eFGpct": 58.7747,
+      "ORpct": 34.8936,
+      "DRpct": 27.332,
+      "DefTOpct": 15.0216,
+      "OffTOpct": 16.3438,
+      "eFGpct": 58.8222,
       "confShort": "B10",
       "confLong": "Big Ten Conference",
       "team_id": 168
@@ -3260,11 +3260,11 @@
     },
     {
       "team": "Tennessee",
-      "ORpct": 45.0158,
-      "DRpct": 27.8738,
-      "DefTOpct": 16.1986,
-      "OffTOpct": 17.5075,
-      "eFGpct": 52.0091,
+      "ORpct": 44.6469,
+      "DRpct": 27.8267,
+      "DefTOpct": 16.1509,
+      "OffTOpct": 17.3414,
+      "eFGpct": 51.4342,
       "confShort": "SEC",
       "confLong": "Southeastern Conference",
       "team_id": 285
