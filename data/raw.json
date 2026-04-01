@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-03-31T09:56:00.888Z",
+  "updated_at": "2026-04-01T09:59:46.800Z",
   "teams": [
     {
       "team": "Abilene Christian",
@@ -961,11 +961,11 @@
     },
     {
       "team": "Florida",
-      "ORpct": 43.3022,
+      "ORpct": 43.3463,
       "DRpct": 24.8347,
       "DefTOpct": 15.2674,
       "OffTOpct": 16.3381,
-      "eFGpct": 54.1741,
+      "eFGpct": 54.1499,
       "confShort": "SEC",
       "confLong": "Southeastern Conference",
       "team_id": 86
@@ -1512,7 +1512,7 @@
     {
       "team": "Kentucky",
       "ORpct": 33.2278,
-      "DRpct": 29.9242,
+      "DRpct": 29.9773,
       "DefTOpct": 15.5352,
       "OffTOpct": 15.416,
       "eFGpct": 53.3487,
