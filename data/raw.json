@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-04-01T09:59:46.800Z",
+  "updated_at": "2026-04-02T09:52:12.072Z",
   "teams": [
     {
       "team": "Abilene Christian",
@@ -213,11 +213,11 @@
     },
     {
       "team": "Baylor",
-      "ORpct": 37.4528,
-      "DRpct": 32.246,
-      "DefTOpct": 16.0766,
-      "OffTOpct": 16.4473,
-      "eFGpct": 53.834,
+      "ORpct": 37.0302,
+      "DRpct": 31.6787,
+      "DefTOpct": 16.0063,
+      "OffTOpct": 16.2318,
+      "eFGpct": 53.7712,
       "confShort": "B12",
       "confLong": "Big 12 Conference",
       "team_id": 21
@@ -609,11 +609,11 @@
     },
     {
       "team": "Colorado",
-      "ORpct": 29,
-      "DRpct": 29.6564,
-      "DefTOpct": 15.4375,
-      "OffTOpct": 14.4644,
-      "eFGpct": 53.1804,
+      "ORpct": 29.0237,
+      "DRpct": 29.5139,
+      "DefTOpct": 15.2757,
+      "OffTOpct": 14.593,
+      "eFGpct": 52.907,
       "confShort": "B12",
       "confLong": "Big 12 Conference",
       "team_id": 56
@@ -1951,11 +1951,11 @@
     },
     {
       "team": "Minnesota",
-      "ORpct": 27.1912,
-      "DRpct": 29.7561,
-      "DefTOpct": 17.1149,
-      "OffTOpct": 16.6245,
-      "eFGpct": 54.2014,
+      "ORpct": 26.7565,
+      "DRpct": 29.5455,
+      "DefTOpct": 16.8682,
+      "OffTOpct": 16.5346,
+      "eFGpct": 53.8506,
       "confShort": "B10",
       "confLong": "Big Ten Conference",
       "team_id": 172
@@ -2468,11 +2468,11 @@
     },
     {
       "team": "Oklahoma",
-      "ORpct": 33.5616,
-      "DRpct": 33.035,
-      "DefTOpct": 15.3219,
-      "OffTOpct": 14.4256,
-      "eFGpct": 55.0876,
+      "ORpct": 33.2784,
+      "DRpct": 32.9384,
+      "DefTOpct": 15.4169,
+      "OffTOpct": 14.3039,
+      "eFGpct": 54.7059,
       "confShort": "SEC",
       "confLong": "Southeastern Conference",
       "team_id": 217
