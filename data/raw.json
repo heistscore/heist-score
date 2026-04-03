@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-04-02T09:52:12.072Z",
+  "updated_at": "2026-04-03T09:44:20.147Z",
   "teams": [
     {
       "team": "Abilene Christian",
@@ -180,11 +180,11 @@
     },
     {
       "team": "Auburn",
-      "ORpct": 37.2257,
-      "DRpct": 30.9465,
-      "DefTOpct": 15.981,
-      "OffTOpct": 14.5427,
-      "eFGpct": 52.5231,
+      "ORpct": 37.1055,
+      "DRpct": 31.0289,
+      "DefTOpct": 16.282,
+      "OffTOpct": 14.5292,
+      "eFGpct": 53.0009,
       "confShort": "SEC",
       "confLong": "Southeastern Conference",
       "team_id": 18
@@ -675,11 +675,11 @@
     },
     {
       "team": "Creighton",
-      "ORpct": 27.5204,
-      "DRpct": 29.7182,
-      "DefTOpct": 14.0385,
-      "OffTOpct": 16.5373,
-      "eFGpct": 53.12,
+      "ORpct": 27.4009,
+      "DRpct": 29.6296,
+      "DefTOpct": 13.9312,
+      "OffTOpct": 16.5681,
+      "eFGpct": 53.1026,
       "confShort": "BE",
       "confLong": "Big East Conference",
       "team_id": 62
@@ -1324,11 +1324,11 @@
     },
     {
       "team": "Illinois St.",
-      "ORpct": 27.8269,
-      "DRpct": 25.2941,
-      "DefTOpct": 16.0516,
-      "OffTOpct": 16.5722,
-      "eFGpct": 53.5971,
+      "ORpct": 27.9931,
+      "DRpct": 25.3916,
+      "DefTOpct": 15.996,
+      "OffTOpct": 16.8824,
+      "eFGpct": 53.65,
       "confShort": "MVC",
       "confLong": "Missouri Valley Conference",
       "team_id": 120
@@ -2171,11 +2171,11 @@
     },
     {
       "team": "New Mexico",
-      "ORpct": 30.5443,
-      "DRpct": 27.5862,
-      "DefTOpct": 18.965,
-      "OffTOpct": 14.9213,
-      "eFGpct": 53.9461,
+      "ORpct": 30.6363,
+      "DRpct": 27.7127,
+      "DefTOpct": 18.9857,
+      "OffTOpct": 14.8977,
+      "eFGpct": 53.5256,
       "confShort": "MWC",
       "confLong": "Mountain West Conference",
       "team_id": 190
@@ -2765,11 +2765,11 @@
     },
     {
       "team": "Rutgers",
-      "ORpct": 29.78,
-      "DRpct": 33.0882,
-      "DefTOpct": 17.0751,
-      "OffTOpct": 15.0927,
-      "eFGpct": 47.5157,
+      "ORpct": 29.69,
+      "DRpct": 32.7986,
+      "DefTOpct": 17.0881,
+      "OffTOpct": 14.9521,
+      "eFGpct": 47.218,
       "confShort": "B10",
       "confLong": "Big Ten Conference",
       "team_id": 242
@@ -3161,11 +3161,11 @@
     },
     {
       "team": "Stanford",
-      "ORpct": 32.316,
-      "DRpct": 30.0584,
-      "DefTOpct": 18.3047,
-      "OffTOpct": 15.5452,
-      "eFGpct": 51.7048,
+      "ORpct": 32.4698,
+      "DRpct": 29.7753,
+      "DefTOpct": 17.9737,
+      "OffTOpct": 15.4823,
+      "eFGpct": 51.4645,
       "confShort": "ACC",
       "confLong": "Atlantic Coast Conference",
       "team_id": 278
@@ -3425,11 +3425,11 @@
     },
     {
       "team": "Tulsa",
-      "ORpct": 33.0427,
-      "DRpct": 28.777,
-      "DefTOpct": 15.3959,
-      "OffTOpct": 15.4381,
-      "eFGpct": 55.7258,
+      "ORpct": 33.0229,
+      "DRpct": 28.925,
+      "DefTOpct": 15.3574,
+      "OffTOpct": 15.5622,
+      "eFGpct": 55.6125,
       "confShort": "Amer",
       "confLong": "American Athletic Conference",
       "team_id": 300
@@ -3854,11 +3854,11 @@
     },
     {
       "team": "West Virginia",
-      "ORpct": 30.9898,
-      "DRpct": 29.0055,
-      "DefTOpct": 18.1046,
-      "OffTOpct": 17.5252,
-      "eFGpct": 51.1409,
+      "ORpct": 30.6869,
+      "DRpct": 29.292,
+      "DefTOpct": 17.951,
+      "OffTOpct": 17.205,
+      "eFGpct": 50.9626,
       "confShort": "B12",
       "confLong": "Big 12 Conference",
       "team_id": 337
