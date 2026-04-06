@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-04-05T09:31:25.965Z",
+  "updated_at": "2026-04-06T10:01:05.878Z",
   "teams": [
     {
       "team": "Abilene Christian",
@@ -180,11 +180,11 @@
     },
     {
       "team": "Auburn",
-      "ORpct": 37.1055,
-      "DRpct": 31.0289,
-      "DefTOpct": 16.282,
-      "OffTOpct": 14.5292,
-      "eFGpct": 53.0009,
+      "ORpct": 36.9955,
+      "DRpct": 30.8294,
+      "DefTOpct": 16.308,
+      "OffTOpct": 14.5715,
+      "eFGpct": 53.0004,
       "confShort": "SEC",
       "confLong": "Southeastern Conference",
       "team_id": 18
@@ -2468,11 +2468,11 @@
     },
     {
       "team": "Oklahoma",
-      "ORpct": 32.9317,
-      "DRpct": 32.925,
-      "DefTOpct": 15.465,
-      "OffTOpct": 14.223,
-      "eFGpct": 54.7597,
+      "ORpct": 32.7573,
+      "DRpct": 32.8859,
+      "DefTOpct": 15.4609,
+      "OffTOpct": 14.3704,
+      "eFGpct": 54.8998,
       "confShort": "SEC",
       "confLong": "Southeastern Conference",
       "team_id": 217
@@ -3425,11 +3425,11 @@
     },
     {
       "team": "Tulsa",
-      "ORpct": 33.0229,
-      "DRpct": 28.925,
-      "DefTOpct": 15.3574,
-      "OffTOpct": 15.5622,
-      "eFGpct": 55.6125,
+      "ORpct": 32.7572,
+      "DRpct": 29.0541,
+      "DefTOpct": 15.3751,
+      "OffTOpct": 15.6128,
+      "eFGpct": 55.4003,
       "confShort": "Amer",
       "confLong": "American Athletic Conference",
       "team_id": 300
@@ -3854,11 +3854,11 @@
     },
     {
       "team": "West Virginia",
-      "ORpct": 30.4762,
-      "DRpct": 28.6942,
-      "DefTOpct": 17.7191,
-      "OffTOpct": 16.8603,
-      "eFGpct": 51.3535,
+      "ORpct": 30.5042,
+      "DRpct": 28.6074,
+      "DefTOpct": 17.775,
+      "OffTOpct": 16.8118,
+      "eFGpct": 51.5947,
       "confShort": "B12",
       "confLong": "Big 12 Conference",
       "team_id": 337
