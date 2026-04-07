@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-04-06T10:01:05.878Z",
+  "updated_at": "2026-04-07T09:59:37.566Z",
   "teams": [
     {
       "team": "Abilene Christian",
@@ -642,11 +642,11 @@
     },
     {
       "team": "Connecticut",
-      "ORpct": 35.363,
-      "DRpct": 28.677,
-      "DefTOpct": 17.8645,
-      "OffTOpct": 16.4694,
-      "eFGpct": 54.7682,
+      "ORpct": 35.7143,
+      "DRpct": 28.7977,
+      "DefTOpct": 17.8005,
+      "OffTOpct": 16.4778,
+      "eFGpct": 54.2693,
       "confShort": "BE",
       "confLong": "Big East Conference",
       "team_id": 59
@@ -1907,11 +1907,11 @@
     },
     {
       "team": "Michigan",
-      "ORpct": 34.736,
-      "DRpct": 27.6582,
-      "DefTOpct": 15.103,
-      "OffTOpct": 16.3526,
-      "eFGpct": 58.7548,
+      "ORpct": 34.6955,
+      "DRpct": 28.1768,
+      "DefTOpct": 15.1419,
+      "OffTOpct": 16.3281,
+      "eFGpct": 58.3264,
       "confShort": "B10",
       "confLong": "Big Ten Conference",
       "team_id": 168
@@ -2612,7 +2612,7 @@
     {
       "team": "Prairie View A&M",
       "ORpct": 26.7327,
-      "DRpct": 35.2389,
+      "DRpct": 35.2089,
       "DefTOpct": 18.997,
       "OffTOpct": 15.7892,
       "eFGpct": 47.4182,
@@ -3337,7 +3337,7 @@
     },
     {
       "team": "Texas Southern",
-      "ORpct": 28.6585,
+      "ORpct": 28.6294,
       "DRpct": 31.1558,
       "DefTOpct": 16.4023,
       "OffTOpct": 18.5396,
