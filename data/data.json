@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-06-04T11:43:55.754Z",
+  "updated_at": "2026-06-06T10:49:31.549Z",
   "teams": [
     {
       "team": "Abilene Christian",
@@ -260,7 +260,7 @@
     {
       "team": "Austin Peay",
       "confShort": "ASun",
-      "confLong": "ASUN Conference",
+      "confLong": "Atlantic Sun Conference",
       "heist": 0.25568724131624965,
       "payday": 0.5303040702524291,
       "heist_raw": 0.12507120585852344,
@@ -305,7 +305,7 @@
     {
       "team": "Bellarmine",
       "confShort": "ASun",
-      "confLong": "ASUN Conference",
+      "confLong": "Atlantic Sun Conference",
       "heist": -0.4632266882282446,
       "payday": 1.1179957516119499,
       "heist_raw": -0.22659058068094637,
@@ -635,7 +635,7 @@
     {
       "team": "Central Arkansas",
       "confShort": "ASun",
-      "confLong": "ASUN Conference",
+      "confLong": "Atlantic Sun Conference",
       "heist": 0.1673294191705551,
       "payday": 0.6454731870639875,
       "heist_raw": 0.08185035797457851,
@@ -1190,7 +1190,7 @@
     {
       "team": "Eastern Kentucky",
       "confShort": "ASun",
-      "confLong": "ASUN Conference",
+      "confLong": "Atlantic Sun Conference",
       "heist": -0.037677770762015415,
       "payday": 0.12037241724673536,
       "heist_raw": -0.01843034560116468,
@@ -1355,7 +1355,7 @@
     {
       "team": "Florida Gulf Coast",
       "confShort": "ASun",
-      "confLong": "ASUN Conference",
+      "confLong": "Atlantic Sun Conference",
       "heist": -0.1529560934371987,
       "payday": 0.0032781959142481935,
       "heist_raw": -0.07481954496876358,
@@ -1940,7 +1940,7 @@
     {
       "team": "Jacksonville",
       "confShort": "ASun",
-      "confLong": "ASUN Conference",
+      "confLong": "Atlantic Sun Conference",
       "heist": -0.6260383052342193,
       "payday": -0.7582775917258623,
       "heist_raw": -0.306231024067511,
@@ -2180,7 +2180,7 @@
     {
       "team": "Lipscomb",
       "confShort": "ASun",
-      "confLong": "ASUN Conference",
+      "confLong": "Atlantic Sun Conference",
       "heist": -0.22576763237148476,
       "payday": 0.32451758883783277,
       "heist_raw": -0.11043581947681576,
@@ -3065,7 +3065,7 @@
     {
       "team": "North Alabama",
       "confShort": "ASun",
-      "confLong": "ASUN Conference",
+      "confLong": "Atlantic Sun Conference",
       "heist": -0.3417422662211158,
       "payday": -0.8853632272374615,
       "heist_raw": -0.16716562433490617,
@@ -3155,7 +3155,7 @@
     {
       "team": "North Florida",
       "confShort": "ASun",
-      "confLong": "ASUN Conference",
+      "confLong": "Atlantic Sun Conference",
       "heist": -0.6976373083172386,
       "payday": -0.2808369317047532,
       "heist_raw": -0.34125417816687975,
@@ -3650,7 +3650,7 @@
     {
       "team": "Queens",
       "confShort": "ASun",
-      "confLong": "ASUN Conference",
+      "confLong": "Atlantic Sun Conference",
       "heist": 0.6459346378898655,
       "payday": 1.5003038553805352,
       "heist_raw": 0.31596345461270636,
@@ -4340,7 +4340,7 @@
     {
       "team": "Stetson",
       "confShort": "ASun",
-      "confLong": "ASUN Conference",
+      "confLong": "Atlantic Sun Conference",
       "heist": -1.012365129051518,
       "payday": -0.507923825900798,
       "heist_raw": -0.49520549718390927,
@@ -5240,7 +5240,7 @@
     {
       "team": "West Georgia",
       "confShort": "ASun",
-      "confLong": "ASUN Conference",
+      "confLong": "Atlantic Sun Conference",
       "heist": -0.3872300451619378,
       "payday": -0.6356792355811842,
       "heist_raw": -0.18941629016659656,
