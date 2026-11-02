@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-11-01T15:36:28.562Z",
+  "updated_at": "2026-11-02T18:58:33.548Z",
   "teams": [
     {
       "team": "Abilene Christian",
@@ -710,7 +710,7 @@
     {
       "team": "Charlotte",
       "confShort": "Amer",
-      "confLong": "American Athletic Conference",
+      "confLong": "American Conference",
       "heist": -0.2998966541997859,
       "payday": 0.12808272065928558,
       "heist_raw": -0.14669654997494466,
@@ -1130,7 +1130,7 @@
     {
       "team": "East Carolina",
       "confShort": "Amer",
-      "confLong": "American Athletic Conference",
+      "confLong": "American Conference",
       "heist": 0.5466153371848448,
       "payday": -0.4369096722876284,
       "heist_raw": 0.2673807226771767,
@@ -1340,7 +1340,7 @@
     {
       "team": "Florida Atlantic",
       "confShort": "Amer",
-      "confLong": "American Athletic Conference",
+      "confLong": "American Conference",
       "heist": -0.7774847436780868,
       "payday": -0.4813781830165048,
       "heist_raw": -0.38031211071713905,
@@ -2510,7 +2510,7 @@
     {
       "team": "Memphis",
       "confShort": "Amer",
-      "confLong": "American Athletic Conference",
+      "confLong": "American Conference",
       "heist": 1.4272068125960695,
       "payday": 0.7297537181377757,
       "heist_raw": 0.6981282137582674,
@@ -3170,7 +3170,7 @@
     {
       "team": "North Texas",
       "confShort": "Amer",
-      "confLong": "American Athletic Conference",
+      "confLong": "American Conference",
       "heist": 1.866302602351219,
       "payday": 0.597228922701775,
       "heist_raw": 0.9129149963500193,
@@ -3710,7 +3710,7 @@
     {
       "team": "Rice",
       "confShort": "Amer",
-      "confLong": "American Athletic Conference",
+      "confLong": "American Conference",
       "heist": 0.7979528319320925,
       "payday": 0.1670518798478659,
       "heist_raw": 0.39032421951993956,
@@ -4145,7 +4145,7 @@
     {
       "team": "South Florida",
       "confShort": "Amer",
-      "confLong": "American Athletic Conference",
+      "confLong": "American Conference",
       "heist": 2.2933752823905795,
       "payday": 1.8112017457803822,
       "heist_raw": 1.1218205905704548,
@@ -4430,7 +4430,7 @@
     {
       "team": "Temple",
       "confShort": "Amer",
-      "confLong": "American Athletic Conference",
+      "confLong": "American Conference",
       "heist": 0.40098518895305363,
       "payday": 0.13531707626619233,
       "heist_raw": 0.19614471514335705,
@@ -4655,7 +4655,7 @@
     {
       "team": "Tulane",
       "confShort": "Amer",
-      "confLong": "American Athletic Conference",
+      "confLong": "American Conference",
       "heist": 0.3836105968529702,
       "payday": -0.022747173202202823,
       "heist_raw": 0.18764581166240601,
@@ -4670,7 +4670,7 @@
     {
       "team": "Tulsa",
       "confShort": "Amer",
-      "confLong": "American Athletic Conference",
+      "confLong": "American Conference",
       "heist": 0.016832301449377158,
       "payday": 0.7777805945684417,
       "heist_raw": 0.008233638208968774,
@@ -4685,7 +4685,7 @@
     {
       "team": "UAB",
       "confShort": "Amer",
-      "confLong": "American Athletic Conference",
+      "confLong": "American Conference",
       "heist": 0.7336098396367896,
       "payday": 0.08036380062083562,
       "heist_raw": 0.35885039394502255,
@@ -5030,7 +5030,7 @@
     {
       "team": "UTSA",
       "confShort": "Amer",
-      "confLong": "American Athletic Conference",
+      "confLong": "American Conference",
       "heist": 0.7162123127794502,
       "payday": -0.5980733876690727,
       "heist_raw": 0.3503402717668408,
@@ -5330,7 +5330,7 @@
     {
       "team": "Wichita St.",
       "confShort": "Amer",
-      "confLong": "American Athletic Conference",
+      "confLong": "American Conference",
       "heist": 0.9129724430419619,
       "payday": 0.4259734486686975,
       "heist_raw": 0.446586868312403,

@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updated_at": "2026-11-01T15:36:28.323Z",
+  "updated_at": "2026-11-02T18:58:33.458Z",
   "teams": [
     {
       "team": "Abilene Christian",
@@ -527,7 +527,7 @@
       "OffTOpct": 18.0867,
       "eFGpct": 53.3333,
       "confShort": "Amer",
-      "confLong": "American Athletic Conference",
+      "confLong": "American Conference",
       "team_id": 47
     },
     {
@@ -835,7 +835,7 @@
       "OffTOpct": 17.0836,
       "eFGpct": 46.4146,
       "confShort": "Amer",
-      "confLong": "American Athletic Conference",
+      "confLong": "American Conference",
       "team_id": 75
     },
     {
@@ -989,7 +989,7 @@
       "OffTOpct": 17.6141,
       "eFGpct": 52.2181,
       "confShort": "Amer",
-      "confLong": "American Athletic Conference",
+      "confLong": "American Conference",
       "team_id": 88
     },
     {
@@ -1847,7 +1847,7 @@
       "OffTOpct": 18.8875,
       "eFGpct": 48.7029,
       "confShort": "Amer",
-      "confLong": "American Athletic Conference",
+      "confLong": "American Conference",
       "team_id": 164
     },
     {
@@ -2331,7 +2331,7 @@
       "OffTOpct": 16.7411,
       "eFGpct": 45.9821,
       "confShort": "Amer",
-      "confLong": "American Athletic Conference",
+      "confLong": "American Conference",
       "team_id": 204
     },
     {
@@ -2727,7 +2727,7 @@
       "OffTOpct": 17.8762,
       "eFGpct": 48.5328,
       "confShort": "Amer",
-      "confLong": "American Athletic Conference",
+      "confLong": "American Conference",
       "team_id": 238
     },
     {
@@ -3046,7 +3046,7 @@
       "OffTOpct": 15.1129,
       "eFGpct": 50.5963,
       "confShort": "Amer",
-      "confLong": "American Athletic Conference",
+      "confLong": "American Conference",
       "team_id": 267
     },
     {
@@ -3255,7 +3255,7 @@
       "OffTOpct": 13.7152,
       "eFGpct": 50.1732,
       "confShort": "Amer",
-      "confLong": "American Athletic Conference",
+      "confLong": "American Conference",
       "team_id": 284
     },
     {
@@ -3420,7 +3420,7 @@
       "OffTOpct": 15.4282,
       "eFGpct": 49.3979,
       "confShort": "Amer",
-      "confLong": "American Athletic Conference",
+      "confLong": "American Conference",
       "team_id": 299
     },
     {
@@ -3431,7 +3431,7 @@
       "OffTOpct": 15.6128,
       "eFGpct": 55.4003,
       "confShort": "Amer",
-      "confLong": "American Athletic Conference",
+      "confLong": "American Conference",
       "team_id": 300
     },
     {
@@ -3442,7 +3442,7 @@
       "OffTOpct": 12.5444,
       "eFGpct": 48.3578,
       "confShort": "Amer",
-      "confLong": "American Athletic Conference",
+      "confLong": "American Conference",
       "team_id": 301
     },
     {
@@ -3695,7 +3695,7 @@
       "OffTOpct": 17.4422,
       "eFGpct": 44.7691,
       "confShort": "Amer",
-      "confLong": "American Athletic Conference",
+      "confLong": "American Conference",
       "team_id": 323
     },
     {
@@ -3915,7 +3915,7 @@
       "OffTOpct": 14.9284,
       "eFGpct": 49.4077,
       "confShort": "Amer",
-      "confLong": "American Athletic Conference",
+      "confLong": "American Conference",
       "team_id": 342
     },
     {
